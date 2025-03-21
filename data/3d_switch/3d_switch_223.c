@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int value_1 = 25;
+    int value_1 = 3;
     int value_2 = 3;
-    int value_3 = 1;
+    int value_3 = 3;
     switch (value_1) {
         case 1:
             switch (value_2) {

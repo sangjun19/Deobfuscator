@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int value_1 = 24;
+    int value_1 = 3;
     int value_2 = 2;
     int value_3 = 3;
     switch (value_1) {
@@ -30,19 +30,6 @@ int main() {
                             break;
                         case 3:
                             printf("1-2-3\n");
-                            break;
-                    }
-                    break;
-                case 3:
-                    switch (value_3) {
-                        case 1:
-                            printf("1-3-1\n");
-                            break;
-                        case 2:
-                            printf("1-3-2\n");
-                            break;
-                        case 3:
-                            printf("1-3-3\n");
                             break;
                     }
                     break;
@@ -76,19 +63,6 @@ int main() {
                             break;
                     }
                     break;
-                case 3:
-                    switch (value_3) {
-                        case 1:
-                            printf("2-3-1\n");
-                            break;
-                        case 2:
-                            printf("2-3-2\n");
-                            break;
-                        case 3:
-                            printf("2-3-3\n");
-                            break;
-                    }
-                    break;
             }
             break;
         case 3:
@@ -116,19 +90,6 @@ int main() {
                             break;
                         case 3:
                             printf("3-2-3\n");
-                            break;
-                    }
-                    break;
-                case 3:
-                    switch (value_3) {
-                        case 1:
-                            printf("3-3-1\n");
-                            break;
-                        case 2:
-                            printf("3-3-2\n");
-                            break;
-                        case 3:
-                            printf("3-3-3\n");
                             break;
                     }
                     break;

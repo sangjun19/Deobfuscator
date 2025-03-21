@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int value_1 = 31;
-    int value_2 = 1;
+    int value_1 = 3;
+    int value_2 = 8;
     int value_3 = 3;
     switch (value_1) {
         case 1:
@@ -43,6 +43,71 @@ int main() {
                             break;
                         case 3:
                             printf("1-3-3\n");
+                            break;
+                    }
+                    break;
+                case 4:
+                    switch (value_3) {
+                        case 1:
+                            printf("1-4-1\n");
+                            break;
+                        case 2:
+                            printf("1-4-2\n");
+                            break;
+                        case 3:
+                            printf("1-4-3\n");
+                            break;
+                    }
+                    break;
+                case 5:
+                    switch (value_3) {
+                        case 1:
+                            printf("1-5-1\n");
+                            break;
+                        case 2:
+                            printf("1-5-2\n");
+                            break;
+                        case 3:
+                            printf("1-5-3\n");
+                            break;
+                    }
+                    break;
+                case 6:
+                    switch (value_3) {
+                        case 1:
+                            printf("1-6-1\n");
+                            break;
+                        case 2:
+                            printf("1-6-2\n");
+                            break;
+                        case 3:
+                            printf("1-6-3\n");
+                            break;
+                    }
+                    break;
+                case 7:
+                    switch (value_3) {
+                        case 1:
+                            printf("1-7-1\n");
+                            break;
+                        case 2:
+                            printf("1-7-2\n");
+                            break;
+                        case 3:
+                            printf("1-7-3\n");
+                            break;
+                    }
+                    break;
+                case 8:
+                    switch (value_3) {
+                        case 1:
+                            printf("1-8-1\n");
+                            break;
+                        case 2:
+                            printf("1-8-2\n");
+                            break;
+                        case 3:
+                            printf("1-8-3\n");
                             break;
                     }
                     break;
@@ -89,6 +154,71 @@ int main() {
                             break;
                     }
                     break;
+                case 4:
+                    switch (value_3) {
+                        case 1:
+                            printf("2-4-1\n");
+                            break;
+                        case 2:
+                            printf("2-4-2\n");
+                            break;
+                        case 3:
+                            printf("2-4-3\n");
+                            break;
+                    }
+                    break;
+                case 5:
+                    switch (value_3) {
+                        case 1:
+                            printf("2-5-1\n");
+                            break;
+                        case 2:
+                            printf("2-5-2\n");
+                            break;
+                        case 3:
+                            printf("2-5-3\n");
+                            break;
+                    }
+                    break;
+                case 6:
+                    switch (value_3) {
+                        case 1:
+                            printf("2-6-1\n");
+                            break;
+                        case 2:
+                            printf("2-6-2\n");
+                            break;
+                        case 3:
+                            printf("2-6-3\n");
+                            break;
+                    }
+                    break;
+                case 7:
+                    switch (value_3) {
+                        case 1:
+                            printf("2-7-1\n");
+                            break;
+                        case 2:
+                            printf("2-7-2\n");
+                            break;
+                        case 3:
+                            printf("2-7-3\n");
+                            break;
+                    }
+                    break;
+                case 8:
+                    switch (value_3) {
+                        case 1:
+                            printf("2-8-1\n");
+                            break;
+                        case 2:
+                            printf("2-8-2\n");
+                            break;
+                        case 3:
+                            printf("2-8-3\n");
+                            break;
+                    }
+                    break;
             }
             break;
         case 3:
@@ -129,6 +259,71 @@ int main() {
                             break;
                         case 3:
                             printf("3-3-3\n");
+                            break;
+                    }
+                    break;
+                case 4:
+                    switch (value_3) {
+                        case 1:
+                            printf("3-4-1\n");
+                            break;
+                        case 2:
+                            printf("3-4-2\n");
+                            break;
+                        case 3:
+                            printf("3-4-3\n");
+                            break;
+                    }
+                    break;
+                case 5:
+                    switch (value_3) {
+                        case 1:
+                            printf("3-5-1\n");
+                            break;
+                        case 2:
+                            printf("3-5-2\n");
+                            break;
+                        case 3:
+                            printf("3-5-3\n");
+                            break;
+                    }
+                    break;
+                case 6:
+                    switch (value_3) {
+                        case 1:
+                            printf("3-6-1\n");
+                            break;
+                        case 2:
+                            printf("3-6-2\n");
+                            break;
+                        case 3:
+                            printf("3-6-3\n");
+                            break;
+                    }
+                    break;
+                case 7:
+                    switch (value_3) {
+                        case 1:
+                            printf("3-7-1\n");
+                            break;
+                        case 2:
+                            printf("3-7-2\n");
+                            break;
+                        case 3:
+                            printf("3-7-3\n");
+                            break;
+                    }
+                    break;
+                case 8:
+                    switch (value_3) {
+                        case 1:
+                            printf("3-8-1\n");
+                            break;
+                        case 2:
+                            printf("3-8-2\n");
+                            break;
+                        case 3:
+                            printf("3-8-3\n");
                             break;
                     }
                     break;

@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int value_1 = 15;
-    int value_2 = 3;
-    int value_3 = 1;
+    int value_1 = 2;
+    int value_2 = 4;
+    int value_3 = 3;
     switch (value_1) {
         case 1:
             switch (value_2) {
@@ -43,6 +43,19 @@ int main() {
                             break;
                         case 3:
                             printf("1-3-3\n");
+                            break;
+                    }
+                    break;
+                case 4:
+                    switch (value_3) {
+                        case 1:
+                            printf("1-4-1\n");
+                            break;
+                        case 2:
+                            printf("1-4-2\n");
+                            break;
+                        case 3:
+                            printf("1-4-3\n");
                             break;
                     }
                     break;
@@ -89,46 +102,16 @@ int main() {
                             break;
                     }
                     break;
-            }
-            break;
-        case 3:
-            switch (value_2) {
-                case 1:
+                case 4:
                     switch (value_3) {
                         case 1:
-                            printf("3-1-1\n");
+                            printf("2-4-1\n");
                             break;
                         case 2:
-                            printf("3-1-2\n");
+                            printf("2-4-2\n");
                             break;
                         case 3:
-                            printf("3-1-3\n");
-                            break;
-                    }
-                    break;
-                case 2:
-                    switch (value_3) {
-                        case 1:
-                            printf("3-2-1\n");
-                            break;
-                        case 2:
-                            printf("3-2-2\n");
-                            break;
-                        case 3:
-                            printf("3-2-3\n");
-                            break;
-                    }
-                    break;
-                case 3:
-                    switch (value_3) {
-                        case 1:
-                            printf("3-3-1\n");
-                            break;
-                        case 2:
-                            printf("3-3-2\n");
-                            break;
-                        case 3:
-                            printf("3-3-3\n");
+                            printf("2-4-3\n");
                             break;
                     }
                     break;
