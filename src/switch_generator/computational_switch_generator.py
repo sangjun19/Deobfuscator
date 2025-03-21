@@ -1,29 +1,29 @@
 import os
 
 def generate_computational_switch(num_cases=5):
-    """ 연산을 수행하는 switch-case 구조 생성 """
+    """ computational switch-case generator """
     switch_code = "    switch (value) {\n"
     for i in range(1, num_cases + 1):
         switch_code += f"        case {i}: {{\n"
         switch_code += f"            int result;\n"
         if i % 5 == 1:
             switch_code += f"            result = value * 10;\n"
-            switch_code += f"            printf(\"{i} 선택됨, 결과: %d\\n\", result);\n"
+            switch_code += f"            printf(\"{i} selected, result: %d\\n\", result);\n"
         elif i % 5 == 2:
             switch_code += f"            result = value + 5;\n"
-            switch_code += f"            printf(\"{i} 선택됨, 결과: %d\\n\", result);\n"
+            switch_code += f"            printf(\"{i} selected, result: %d\\n\", result);\n"
         elif i % 5 == 3:
             switch_code += f"            result = value - 3;\n"
-            switch_code += f"            printf(\"{i} 선택됨, 결과: %d\\n\", result);\n"
+            switch_code += f"            printf(\"{i} selected, result: %d\\n\", result);\n"
         elif i % 5 == 4:
             switch_code += f"            result = value / 2;\n"
-            switch_code += f"            printf(\"{i} 선택됨, 결과: %d\\n\", result);\n"
+            switch_code += f"            printf(\"{i} selected, result: %d\\n\", result);\n"
         else:
             switch_code += f"            result = value * value;\n"
-            switch_code += f"            printf(\"{i} 선택됨, 제곱 값: %d\\n\", result);\n"
+            switch_code += f"            printf(\"{i} selected, square: %d\\n\", result);\n"
         switch_code += "            break;\n        }\n"
     switch_code += "        default:\n"
-    switch_code += "            printf(\"기본값 실행됨\\n\");\n"
+    switch_code += "            printf(\"default\\n\");\n"
     switch_code += "            break;\n"
     switch_code += "    }\n"
     return switch_code

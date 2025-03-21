@@ -1,5 +1,5 @@
 def generate_3d_switch(num_cases):
-    """ 3중 중첩 switch-case 구조 생성 """
+    """ 3 nested switch-case generator """
     switch_code = "    switch (value_1) {\n"
     for i in range(1, num_cases + 1):
         switch_code += f"        case {i}:\n"
@@ -12,18 +12,9 @@ def generate_3d_switch(num_cases):
                 switch_code += f"                            printf(\"{i}-{j}-{k}\\n\");\n"
                 switch_code += f"                            break;\n"
             switch_code += "                    }\n"
-            # switch_code += "                    default:\n"
-            # switch_code += f"                        printf(\"{i}-{j}-기본값 실행됨\\n\");\n"
             switch_code += "                    break;\n"
-            # switch_code += "                }\n"
-            # switch_code += "                default:\n"
-            # switch_code += f"                    printf(\"{i}-기본값 실행됨\\n\");\n"
-            # switch_code += "                    break;\n"
         switch_code += "            }\n"
         switch_code += "            break;\n"
-    # switch_code += "        default:\n"
-    # switch_code += "            printf(\"\\n\");\n"
-    # switch_code += "        break;\n"
     switch_code += "    }\n"
     return switch_code
 
