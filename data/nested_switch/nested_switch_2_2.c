@@ -6,25 +6,25 @@ int main() {
         case 1:
             switch (sub_value) {
                 case 1:
-                    printf("1-1 Ïã§ÌñâÎê®\n");
+                    printf("1-1 Ω««‡µ \n");
                     break;
                 case 2:
-                    printf("1-2 Ïã§ÌñâÎê®\n");
+                    printf("1-2 Ω««‡µ \n");
                     break;
             }
             break;
         case 2:
             switch (sub_value) {
                 case 1:
-                    printf("2-1 Ïã§ÌñâÎê®\n");
+                    printf("2-1 Ω««‡µ \n");
                     break;
                 case 2:
-                    printf("2-2 Ïã§ÌñâÎê®\n");
+                    printf("2-2 Ω««‡µ \n");
                     break;
             }
             break;
         default:
-            printf("Í∏∞Î≥∏Í∞í Ïã§ÌñâÎê®\n");
+            printf("±‚∫ª∞™ Ω««‡µ \n");
             break;
     }
     return 0;

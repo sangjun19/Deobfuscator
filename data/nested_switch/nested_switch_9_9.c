@@ -6,284 +6,284 @@ int main() {
         case 1:
             switch (sub_value) {
                 case 1:
-                    printf("1-1 Ïã§ÌñâÎê®\n");
+                    printf("1-1 Ω««‡µ \n");
                     break;
                 case 2:
-                    printf("1-2 Ïã§ÌñâÎê®\n");
+                    printf("1-2 Ω««‡µ \n");
                     break;
                 case 3:
-                    printf("1-3 Ïã§ÌñâÎê®\n");
+                    printf("1-3 Ω««‡µ \n");
                     break;
                 case 4:
-                    printf("1-4 Ïã§ÌñâÎê®\n");
+                    printf("1-4 Ω««‡µ \n");
                     break;
                 case 5:
-                    printf("1-5 Ïã§ÌñâÎê®\n");
+                    printf("1-5 Ω««‡µ \n");
                     break;
                 case 6:
-                    printf("1-6 Ïã§ÌñâÎê®\n");
+                    printf("1-6 Ω««‡µ \n");
                     break;
                 case 7:
-                    printf("1-7 Ïã§ÌñâÎê®\n");
+                    printf("1-7 Ω««‡µ \n");
                     break;
                 case 8:
-                    printf("1-8 Ïã§ÌñâÎê®\n");
+                    printf("1-8 Ω««‡µ \n");
                     break;
                 case 9:
-                    printf("1-9 Ïã§ÌñâÎê®\n");
+                    printf("1-9 Ω««‡µ \n");
                     break;
             }
             break;
         case 2:
             switch (sub_value) {
                 case 1:
-                    printf("2-1 Ïã§ÌñâÎê®\n");
+                    printf("2-1 Ω««‡µ \n");
                     break;
                 case 2:
-                    printf("2-2 Ïã§ÌñâÎê®\n");
+                    printf("2-2 Ω««‡µ \n");
                     break;
                 case 3:
-                    printf("2-3 Ïã§ÌñâÎê®\n");
+                    printf("2-3 Ω««‡µ \n");
                     break;
                 case 4:
-                    printf("2-4 Ïã§ÌñâÎê®\n");
+                    printf("2-4 Ω««‡µ \n");
                     break;
                 case 5:
-                    printf("2-5 Ïã§ÌñâÎê®\n");
+                    printf("2-5 Ω««‡µ \n");
                     break;
                 case 6:
-                    printf("2-6 Ïã§ÌñâÎê®\n");
+                    printf("2-6 Ω««‡µ \n");
                     break;
                 case 7:
-                    printf("2-7 Ïã§ÌñâÎê®\n");
+                    printf("2-7 Ω««‡µ \n");
                     break;
                 case 8:
-                    printf("2-8 Ïã§ÌñâÎê®\n");
+                    printf("2-8 Ω««‡µ \n");
                     break;
                 case 9:
-                    printf("2-9 Ïã§ÌñâÎê®\n");
+                    printf("2-9 Ω««‡µ \n");
                     break;
             }
             break;
         case 3:
             switch (sub_value) {
                 case 1:
-                    printf("3-1 Ïã§ÌñâÎê®\n");
+                    printf("3-1 Ω««‡µ \n");
                     break;
                 case 2:
-                    printf("3-2 Ïã§ÌñâÎê®\n");
+                    printf("3-2 Ω««‡µ \n");
                     break;
                 case 3:
-                    printf("3-3 Ïã§ÌñâÎê®\n");
+                    printf("3-3 Ω««‡µ \n");
                     break;
                 case 4:
-                    printf("3-4 Ïã§ÌñâÎê®\n");
+                    printf("3-4 Ω««‡µ \n");
                     break;
                 case 5:
-                    printf("3-5 Ïã§ÌñâÎê®\n");
+                    printf("3-5 Ω««‡µ \n");
                     break;
                 case 6:
-                    printf("3-6 Ïã§ÌñâÎê®\n");
+                    printf("3-6 Ω««‡µ \n");
                     break;
                 case 7:
-                    printf("3-7 Ïã§ÌñâÎê®\n");
+                    printf("3-7 Ω««‡µ \n");
                     break;
                 case 8:
-                    printf("3-8 Ïã§ÌñâÎê®\n");
+                    printf("3-8 Ω««‡µ \n");
                     break;
                 case 9:
-                    printf("3-9 Ïã§ÌñâÎê®\n");
+                    printf("3-9 Ω««‡µ \n");
                     break;
             }
             break;
         case 4:
             switch (sub_value) {
                 case 1:
-                    printf("4-1 Ïã§ÌñâÎê®\n");
+                    printf("4-1 Ω««‡µ \n");
                     break;
                 case 2:
-                    printf("4-2 Ïã§ÌñâÎê®\n");
+                    printf("4-2 Ω««‡µ \n");
                     break;
                 case 3:
-                    printf("4-3 Ïã§ÌñâÎê®\n");
+                    printf("4-3 Ω««‡µ \n");
                     break;
                 case 4:
-                    printf("4-4 Ïã§ÌñâÎê®\n");
+                    printf("4-4 Ω««‡µ \n");
                     break;
                 case 5:
-                    printf("4-5 Ïã§ÌñâÎê®\n");
+                    printf("4-5 Ω««‡µ \n");
                     break;
                 case 6:
-                    printf("4-6 Ïã§ÌñâÎê®\n");
+                    printf("4-6 Ω««‡µ \n");
                     break;
                 case 7:
-                    printf("4-7 Ïã§ÌñâÎê®\n");
+                    printf("4-7 Ω««‡µ \n");
                     break;
                 case 8:
-                    printf("4-8 Ïã§ÌñâÎê®\n");
+                    printf("4-8 Ω««‡µ \n");
                     break;
                 case 9:
-                    printf("4-9 Ïã§ÌñâÎê®\n");
+                    printf("4-9 Ω««‡µ \n");
                     break;
             }
             break;
         case 5:
             switch (sub_value) {
                 case 1:
-                    printf("5-1 Ïã§ÌñâÎê®\n");
+                    printf("5-1 Ω««‡µ \n");
                     break;
                 case 2:
-                    printf("5-2 Ïã§ÌñâÎê®\n");
+                    printf("5-2 Ω««‡µ \n");
                     break;
                 case 3:
-                    printf("5-3 Ïã§ÌñâÎê®\n");
+                    printf("5-3 Ω««‡µ \n");
                     break;
                 case 4:
-                    printf("5-4 Ïã§ÌñâÎê®\n");
+                    printf("5-4 Ω««‡µ \n");
                     break;
                 case 5:
-                    printf("5-5 Ïã§ÌñâÎê®\n");
+                    printf("5-5 Ω««‡µ \n");
                     break;
                 case 6:
-                    printf("5-6 Ïã§ÌñâÎê®\n");
+                    printf("5-6 Ω««‡µ \n");
                     break;
                 case 7:
-                    printf("5-7 Ïã§ÌñâÎê®\n");
+                    printf("5-7 Ω««‡µ \n");
                     break;
                 case 8:
-                    printf("5-8 Ïã§ÌñâÎê®\n");
+                    printf("5-8 Ω««‡µ \n");
                     break;
                 case 9:
-                    printf("5-9 Ïã§ÌñâÎê®\n");
+                    printf("5-9 Ω««‡µ \n");
                     break;
             }
             break;
         case 6:
             switch (sub_value) {
                 case 1:
-                    printf("6-1 Ïã§ÌñâÎê®\n");
+                    printf("6-1 Ω««‡µ \n");
                     break;
                 case 2:
-                    printf("6-2 Ïã§ÌñâÎê®\n");
+                    printf("6-2 Ω««‡µ \n");
                     break;
                 case 3:
-                    printf("6-3 Ïã§ÌñâÎê®\n");
+                    printf("6-3 Ω««‡µ \n");
                     break;
                 case 4:
-                    printf("6-4 Ïã§ÌñâÎê®\n");
+                    printf("6-4 Ω««‡µ \n");
                     break;
                 case 5:
-                    printf("6-5 Ïã§ÌñâÎê®\n");
+                    printf("6-5 Ω««‡µ \n");
                     break;
                 case 6:
-                    printf("6-6 Ïã§ÌñâÎê®\n");
+                    printf("6-6 Ω««‡µ \n");
                     break;
                 case 7:
-                    printf("6-7 Ïã§ÌñâÎê®\n");
+                    printf("6-7 Ω««‡µ \n");
                     break;
                 case 8:
-                    printf("6-8 Ïã§ÌñâÎê®\n");
+                    printf("6-8 Ω««‡µ \n");
                     break;
                 case 9:
-                    printf("6-9 Ïã§ÌñâÎê®\n");
+                    printf("6-9 Ω««‡µ \n");
                     break;
             }
             break;
         case 7:
             switch (sub_value) {
                 case 1:
-                    printf("7-1 Ïã§ÌñâÎê®\n");
+                    printf("7-1 Ω««‡µ \n");
                     break;
                 case 2:
-                    printf("7-2 Ïã§ÌñâÎê®\n");
+                    printf("7-2 Ω««‡µ \n");
                     break;
                 case 3:
-                    printf("7-3 Ïã§ÌñâÎê®\n");
+                    printf("7-3 Ω««‡µ \n");
                     break;
                 case 4:
-                    printf("7-4 Ïã§ÌñâÎê®\n");
+                    printf("7-4 Ω««‡µ \n");
                     break;
                 case 5:
-                    printf("7-5 Ïã§ÌñâÎê®\n");
+                    printf("7-5 Ω««‡µ \n");
                     break;
                 case 6:
-                    printf("7-6 Ïã§ÌñâÎê®\n");
+                    printf("7-6 Ω««‡µ \n");
                     break;
                 case 7:
-                    printf("7-7 Ïã§ÌñâÎê®\n");
+                    printf("7-7 Ω««‡µ \n");
                     break;
                 case 8:
-                    printf("7-8 Ïã§ÌñâÎê®\n");
+                    printf("7-8 Ω««‡µ \n");
                     break;
                 case 9:
-                    printf("7-9 Ïã§ÌñâÎê®\n");
+                    printf("7-9 Ω««‡µ \n");
                     break;
             }
             break;
         case 8:
             switch (sub_value) {
                 case 1:
-                    printf("8-1 Ïã§ÌñâÎê®\n");
+                    printf("8-1 Ω««‡µ \n");
                     break;
                 case 2:
-                    printf("8-2 Ïã§ÌñâÎê®\n");
+                    printf("8-2 Ω««‡µ \n");
                     break;
                 case 3:
-                    printf("8-3 Ïã§ÌñâÎê®\n");
+                    printf("8-3 Ω««‡µ \n");
                     break;
                 case 4:
-                    printf("8-4 Ïã§ÌñâÎê®\n");
+                    printf("8-4 Ω««‡µ \n");
                     break;
                 case 5:
-                    printf("8-5 Ïã§ÌñâÎê®\n");
+                    printf("8-5 Ω««‡µ \n");
                     break;
                 case 6:
-                    printf("8-6 Ïã§ÌñâÎê®\n");
+                    printf("8-6 Ω««‡µ \n");
                     break;
                 case 7:
-                    printf("8-7 Ïã§ÌñâÎê®\n");
+                    printf("8-7 Ω««‡µ \n");
                     break;
                 case 8:
-                    printf("8-8 Ïã§ÌñâÎê®\n");
+                    printf("8-8 Ω««‡µ \n");
                     break;
                 case 9:
-                    printf("8-9 Ïã§ÌñâÎê®\n");
+                    printf("8-9 Ω««‡µ \n");
                     break;
             }
             break;
         case 9:
             switch (sub_value) {
                 case 1:
-                    printf("9-1 Ïã§ÌñâÎê®\n");
+                    printf("9-1 Ω««‡µ \n");
                     break;
                 case 2:
-                    printf("9-2 Ïã§ÌñâÎê®\n");
+                    printf("9-2 Ω««‡µ \n");
                     break;
                 case 3:
-                    printf("9-3 Ïã§ÌñâÎê®\n");
+                    printf("9-3 Ω««‡µ \n");
                     break;
                 case 4:
-                    printf("9-4 Ïã§ÌñâÎê®\n");
+                    printf("9-4 Ω««‡µ \n");
                     break;
                 case 5:
-                    printf("9-5 Ïã§ÌñâÎê®\n");
+                    printf("9-5 Ω««‡µ \n");
                     break;
                 case 6:
-                    printf("9-6 Ïã§ÌñâÎê®\n");
+                    printf("9-6 Ω««‡µ \n");
                     break;
                 case 7:
-                    printf("9-7 Ïã§ÌñâÎê®\n");
+                    printf("9-7 Ω««‡µ \n");
                     break;
                 case 8:
-                    printf("9-8 Ïã§ÌñâÎê®\n");
+                    printf("9-8 Ω««‡µ \n");
                     break;
                 case 9:
-                    printf("9-9 Ïã§ÌñâÎê®\n");
+                    printf("9-9 Ω««‡µ \n");
                     break;
             }
             break;
         default:
-            printf("Í∏∞Î≥∏Í∞í Ïã§ÌñâÎê®\n");
+            printf("±‚∫ª∞™ Ω««‡µ \n");
             break;
     }
     return 0;

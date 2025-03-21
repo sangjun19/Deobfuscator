@@ -32,12 +32,9 @@ def generate_computational_switch(num_cases=5):
 num_files = 10  # 생성할 파일 개수
 switch_cases = 10  # 각 switch 문의 case 개수
 
-# 저장할 폴더 생성
-os.makedirs("./data/computational_switch", exist_ok=True)
-
 for i in range(1, num_files + 1):
     for j in range(1, switch_cases + 1):
-        filename = f"./data/switch/computational_switch_{i}_{j}.c"
+        filename = f"./data/computational_switch/computational_switch_{i}_{j}.c"
         with open(filename, "w") as f:
             f.write("#include <stdio.h>\n\n")
             f.write("int main() {\n")

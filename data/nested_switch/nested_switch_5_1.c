@@ -6,12 +6,12 @@ int main() {
         case 1:
             switch (sub_value) {
                 case 1:
-                    printf("1-1 ì‹¤í–‰ë¨\n");
+                    printf("1-1 ½ÇÇàµÊ\n");
                     break;
             }
             break;
         default:
-            printf("ê¸°ë³¸ê°’ ì‹¤í–‰ë¨\n");
+            printf("±âº»°ª ½ÇÇàµÊ\n");
             break;
     }
     return 0;

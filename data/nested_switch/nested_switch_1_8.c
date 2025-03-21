@@ -4,31 +4,31 @@ int main() {
     int value = 1, sub_value = 8;
     switch (value) {
         case 1:
-            printf("Case 1 ì‹¤í–‰ë¨\n");
+            printf("Case 1 ½ÇÇàµÊ\n");
             break;
         case 2:
-            printf("Case 2 ì‹¤í–‰ë¨\n");
+            printf("Case 2 ½ÇÇàµÊ\n");
             break;
         case 3:
-            printf("Case 3 ì‹¤í–‰ë¨\n");
+            printf("Case 3 ½ÇÇàµÊ\n");
             break;
         case 4:
-            printf("Case 4 ì‹¤í–‰ë¨\n");
+            printf("Case 4 ½ÇÇàµÊ\n");
             break;
         case 5:
-            printf("Case 5 ì‹¤í–‰ë¨\n");
+            printf("Case 5 ½ÇÇàµÊ\n");
             break;
         case 6:
-            printf("Case 6 ì‹¤í–‰ë¨\n");
+            printf("Case 6 ½ÇÇàµÊ\n");
             break;
         case 7:
-            printf("Case 7 ì‹¤í–‰ë¨\n");
+            printf("Case 7 ½ÇÇàµÊ\n");
             break;
         case 8:
-            printf("Case 8 ì‹¤í–‰ë¨\n");
+            printf("Case 8 ½ÇÇàµÊ\n");
             break;
         default:
-            printf("ê¸°ë³¸ê°’ ì‹¤í–‰ë¨\n");
+            printf("±âº»°ª ½ÇÇàµÊ\n");
             break;
     }
     return 0;
