@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int value = 1, sub_value = 2;
+    switch (value) {
+        case 1:
+            printf("Case 1 실행됨\n");
+            break;
+        case 2:
+            printf("Case 2 실행됨\n");
+            break;
+        default:
+            printf("기본값 실행됨\n");
+            break;
+    }
+    return 0;
+}
