@@ -8,7 +8,7 @@ from urllib3.util.retry import Retry
 load_dotenv()
 api_url = "https://api.github.com/search/code"
 github_token = os.getenv('GITHUB_TOKEN')  # 실제 토큰으로 교체하세요
-LANGUAGE = "c"  # 여기서 언어를 변경할 수 있습니다
+LANGUAGE = "opencl"  # 여기서 언어를 변경할 수 있습니다
 query = f"switch language:{LANGUAGE}"
 
 headers = {
@@ -51,7 +51,6 @@ def search_github_code():
                 break
 
             for item in data["items"]:
-                cnt += 1
                 file_url = item["url"]
                 file_content = get_file_content(file_url)
                 if file_content and "switch" in file_content:
@@ -60,6 +59,7 @@ def search_github_code():
                         "file": item["path"],
                         "code": file_content
                     }
+                    cnt += 1
                     results.append(result)
                     save_to_file(result)
                     print(f"{cnt} : Repository: {result['repo']}")
@@ -71,12 +71,14 @@ def search_github_code():
             
         except requests.exceptions.RequestException as e:
             print(f"Error occurred: {e}")
-            if page == 100:
-                break
             page += 1
             continue
+            # if page == 100:
+            #     break
+            # page += 1
+            # continue
         
-        if page == 100: break
+        if page >= 100: break
 
     return results
 
@@ -88,18 +90,13 @@ def get_file_content(file_url):
     return None
 
 def save_to_file(result):
-    directory = f"./data/github_switch_codes_{LANGUAGE}"
+    directory = f"./data/github_api/github_switch_codes_{LANGUAGE}"
     if not os.path.exists(directory):
         os.makedirs(directory)
 
     repo_name = result["repo"].replace("/", "_")
     file_name = os.path.basename(result["file"])
     save_name = f"{repo_name}_{file_name}"
-    
-    # counter = 1
-    # while os.path.exists(os.path.join(directory, save_name)):
-    #     save_name = f"{repo_name}_{file_name}_{counter}"
-    #     counter += 1
 
     with open(os.path.join(directory, save_name), "w") as f:
         f.write(f"// Repository: {result['repo']}\n")

@@ -1,0 +1,15 @@
+// Repository: Dracau/SmashPluginsPlayground
+// File: target/aarch64-skyline-switch/release/deps/miniz_oxide-6a69bb61e299cd1b.d
+
+C:\Users\supre\Documents\SmashPluginsPlayground\target\aarch64-skyline-switch\release\deps\libminiz_oxide-6a69bb61e299cd1b.rmeta: C:\Users\supre\.cargo\registry\src\index.crates.io-6f17d22bba15001f\miniz_oxide-0.7.1\src\lib.rs C:\Users\supre\.cargo\registry\src\index.crates.io-6f17d22bba15001f\miniz_oxide-0.7.1\src\inflate\mod.rs C:\Users\supre\.cargo\registry\src\index.crates.io-6f17d22bba15001f\miniz_oxide-0.7.1\src\inflate\core.rs C:\Users\supre\.cargo\registry\src\index.crates.io-6f17d22bba15001f\miniz_oxide-0.7.1\src\inflate\output_buffer.rs C:\Users\supre\.cargo\registry\src\index.crates.io-6f17d22bba15001f\miniz_oxide-0.7.1\src\inflate\stream.rs C:\Users\supre\.cargo\registry\src\index.crates.io-6f17d22bba15001f\miniz_oxide-0.7.1\src\shared.rs
+
+C:\Users\supre\Documents\SmashPluginsPlayground\target\aarch64-skyline-switch\release\deps\libminiz_oxide-6a69bb61e299cd1b.rlib: C:\Users\supre\.cargo\registry\src\index.crates.io-6f17d22bba15001f\miniz_oxide-0.7.1\src\lib.rs C:\Users\supre\.cargo\registry\src\index.crates.io-6f17d22bba15001f\miniz_oxide-0.7.1\src\inflate\mod.rs C:\Users\supre\.cargo\registry\src\index.crates.io-6f17d22bba15001f\miniz_oxide-0.7.1\src\inflate\core.rs C:\Users\supre\.cargo\registry\src\index.crates.io-6f17d22bba15001f\miniz_oxide-0.7.1\src\inflate\output_buffer.rs C:\Users\supre\.cargo\registry\src\index.crates.io-6f17d22bba15001f\miniz_oxide-0.7.1\src\inflate\stream.rs C:\Users\supre\.cargo\registry\src\index.crates.io-6f17d22bba15001f\miniz_oxide-0.7.1\src\shared.rs
+
+C:\Users\supre\Documents\SmashPluginsPlayground\target\aarch64-skyline-switch\release\deps\miniz_oxide-6a69bb61e299cd1b.d: C:\Users\supre\.cargo\registry\src\index.crates.io-6f17d22bba15001f\miniz_oxide-0.7.1\src\lib.rs C:\Users\supre\.cargo\registry\src\index.crates.io-6f17d22bba15001f\miniz_oxide-0.7.1\src\inflate\mod.rs C:\Users\supre\.cargo\registry\src\index.crates.io-6f17d22bba15001f\miniz_oxide-0.7.1\src\inflate\core.rs C:\Users\supre\.cargo\registry\src\index.crates.io-6f17d22bba15001f\miniz_oxide-0.7.1\src\inflate\output_buffer.rs C:\Users\supre\.cargo\registry\src\index.crates.io-6f17d22bba15001f\miniz_oxide-0.7.1\src\inflate\stream.rs C:\Users\supre\.cargo\registry\src\index.crates.io-6f17d22bba15001f\miniz_oxide-0.7.1\src\shared.rs
+
+C:\Users\supre\.cargo\registry\src\index.crates.io-6f17d22bba15001f\miniz_oxide-0.7.1\src\lib.rs:
+C:\Users\supre\.cargo\registry\src\index.crates.io-6f17d22bba15001f\miniz_oxide-0.7.1\src\inflate\mod.rs:
+C:\Users\supre\.cargo\registry\src\index.crates.io-6f17d22bba15001f\miniz_oxide-0.7.1\src\inflate\core.rs:
+C:\Users\supre\.cargo\registry\src\index.crates.io-6f17d22bba15001f\miniz_oxide-0.7.1\src\inflate\output_buffer.rs:
+C:\Users\supre\.cargo\registry\src\index.crates.io-6f17d22bba15001f\miniz_oxide-0.7.1\src\inflate\stream.rs:
+C:\Users\supre\.cargo\registry\src\index.crates.io-6f17d22bba15001f\miniz_oxide-0.7.1\src\shared.rs:
