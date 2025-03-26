@@ -2,11 +2,14 @@ import requests
 import base64
 import os
 from dotenv import load_dotenv
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 load_dotenv()
 api_url = "https://api.github.com/search/code"
 github_token = os.getenv('GITHUB_TOKEN')  # 실제 토큰으로 교체하세요
-query = "switch language:c"
+LANGUAGE = "c"  # 여기서 언어를 변경할 수 있습니다
+query = f"switch language:{LANGUAGE}"
 
 headers = {
     "Authorization": f"token {github_token}",
@@ -15,15 +18,29 @@ headers = {
 
 params = {
     "q": query,
-    "per_page": 10
+    "per_page": 100
 }
+
+def requests_retry_session(retries=3, backoff_factor=0.3, status_forcelist=(500, 502, 504)):
+    session = requests.Session()
+    retry = Retry(
+        total=retries,
+        read=retries,
+        connect=retries,
+        backoff_factor=backoff_factor,
+        status_forcelist=status_forcelist,
+    )
+    adapter = HTTPAdapter(max_retries=retry)
+    session.mount('http://', adapter)
+    session.mount('https://', adapter)
+    return session
 
 def search_github_code():
     results = []
     page = 1
+    cnt = 0
 
     while True:
-        if page == 2: break
         params["page"] = page
         try:
             response = requests.get(api_url, headers=headers, params=params)
@@ -34,6 +51,7 @@ def search_github_code():
                 break
 
             for item in data["items"]:
+                cnt += 1
                 file_url = item["url"]
                 file_content = get_file_content(file_url)
                 if file_content and "switch" in file_content:
@@ -44,14 +62,21 @@ def search_github_code():
                     }
                     results.append(result)
                     save_to_file(result)
+                    print(f"{cnt} : Repository: {result['repo']}")
 
-            if len(data["items"]) < 100:
-                break
+            # if len(data["items"]) < 100:
+            #     break
 
             page += 1
+            
         except requests.exceptions.RequestException as e:
             print(f"Error occurred: {e}")
-            break
+            if page == 100:
+                break
+            page += 1
+            continue
+        
+        if page == 100: break
 
     return results
 
@@ -63,7 +88,7 @@ def get_file_content(file_url):
     return None
 
 def save_to_file(result):
-    directory = "./data/github_switch_codes"
+    directory = f"./data/github_switch_codes_{LANGUAGE}"
     if not os.path.exists(directory):
         os.makedirs(directory)
 
@@ -83,10 +108,10 @@ def save_to_file(result):
 
 if __name__ == "__main__":
     results = search_github_code()
-    for result in results:
-        print(f"Repository: {result['repo']}")
-        print(f"File: {result['file']}")
-        print("Code saved to file")
-        print("-" * 50)
+    # for result in results:
+    #     print(f"Repository: {result['repo']}")
+    #     print(f"File: {result['file']}")
+    #     print("Code saved to file")
+    #     print("-" * 50)
     
-    print(f"Total {len(results)} files saved in 'github_switch_codes' directory.")
+    print(f"Total {len(results)} files saved in 'github_switch_codes_{LANGUAGE}' directory.")
