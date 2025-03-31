@@ -1,6 +1,3 @@
-// Repository: ariaR1225/NU_MECHE_333
-// File: embedded_computing_code/EXTRA_Bootloader/common/hex 2.c
-
 #ifndef  HEX_FILE_H
 #include "hex.h"
 #endif

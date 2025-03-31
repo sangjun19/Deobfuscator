@@ -1,6 +1,3 @@
-// Repository: x414e54/gt-n8000-kernel
-// File: drivers/media/video/exynos/fimc-is/fimc-is-video.c
-
 /*
  * Samsung Exynos4 SoC series FIMC-IS slave interface driver
  *

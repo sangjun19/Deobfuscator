@@ -1,6 +1,3 @@
-// Repository: barracudanetworks/lua-opendkim
-// File: src/opendkim.c
-
 /* ==========================================================================
  * opendkim.c - Lua bindings to OpenDKIM's libopendkim API.
  * --------------------------------------------------------------------------

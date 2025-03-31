@@ -1,6 +1,3 @@
-// Repository: jounikor/owswan
-// File: open-watcom-v2/bld/wv/c/dbgsys.c
-
 /****************************************************************************
 *
 *                            Open Watcom Project

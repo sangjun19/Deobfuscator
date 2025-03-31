@@ -1,6 +1,3 @@
-// Repository: chrisbmr/wine
-// File: dlls/msxml3/stylesheet.c
-
 /*
  *    XSLTemplate/XSLProcessor support
  *

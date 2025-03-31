@@ -1,6 +1,3 @@
-// Repository: n00d1es/vlcmediaplayer
-// File: vlc/modules/codec/theora.c
-
 /*****************************************************************************
  * theora.c: theora decoder module making use of libtheora.
  *****************************************************************************

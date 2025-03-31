@@ -1,6 +1,3 @@
-// Repository: maxangelo987/.C
-// File: DOTS.C
-
 #include <graphics.h>
 #include <stdlib.h>
 #include <stdio.h>

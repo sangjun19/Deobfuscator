@@ -1,6 +1,3 @@
-// Repository: obazl/tools_obazl
-// File: watch/watch.c
-
 #include <errno.h>
 #include <fcntl.h>
 /* #include <getopt.h> */

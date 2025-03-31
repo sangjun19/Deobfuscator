@@ -1,6 +1,3 @@
-// Repository: adityak74/android_kernel_mediatek_sprout
-// File: drivers/misc/mediatek/combo/drv_wlan/mt6628/wlan/mgmt/p2p_func.c
-
 /*
 * Copyright (C) 2011-2014 MediaTek Inc.
 * 

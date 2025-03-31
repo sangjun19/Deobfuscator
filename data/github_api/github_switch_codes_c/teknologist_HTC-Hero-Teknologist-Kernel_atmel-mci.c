@@ -1,6 +1,3 @@
-// Repository: teknologist/HTC-Hero-Teknologist-Kernel
-// File: kernel-hero/drivers/mmc/host/atmel-mci.c
-
 /*
  * Atmel MultiMedia Card Interface driver
  *

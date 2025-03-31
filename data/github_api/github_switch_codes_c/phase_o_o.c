@@ -1,6 +1,3 @@
-// Repository: phase/o
-// File: o.c
-
 #include "libregexp/regexp9.h"
 #include <stdlib.h>
 #include <string.h>

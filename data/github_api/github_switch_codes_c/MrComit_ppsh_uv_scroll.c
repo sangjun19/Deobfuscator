@@ -1,6 +1,3 @@
-// Repository: MrComit/ppsh
-// File: src/game/uv_scroll.c
-
 #include <ultra64.h>
 #include "game/level_update.h"
 #include "game/area.h"

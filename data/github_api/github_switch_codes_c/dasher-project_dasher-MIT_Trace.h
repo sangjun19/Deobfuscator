@@ -1,6 +1,3 @@
-// Repository: dasher-project/dasher-MIT
-// File: Src/Common/Trace.h
-
 // Trace.h
 //
 // Copyright (c) 2005 David Ward

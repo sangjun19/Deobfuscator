@@ -1,6 +1,3 @@
-// Repository: thicklizard/komodo3.4
-// File: arch/arm/mm/mmu.c
-
 /*
  *  linux/arch/arm/mm/mmu.c
  *

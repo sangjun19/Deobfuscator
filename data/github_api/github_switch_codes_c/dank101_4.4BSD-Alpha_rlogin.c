@@ -1,6 +1,3 @@
-// Repository: dank101/4.4BSD-Alpha
-// File: usr.bin/rlogin/rlogin.c
-
 /*
  * Copyright (c) 1983, 1990 The Regents of the University of California.
  * All rights reserved.

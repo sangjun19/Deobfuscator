@@ -1,6 +1,3 @@
-// Repository: oridb/mc
-// File: 6/isel.c
-
 #include <stdlib.h>
 #include <stdio.h>
 #include <inttypes.h>

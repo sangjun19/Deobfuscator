@@ -1,6 +1,3 @@
-// Repository: das-labor/nixie-clock
-// File: can/can.c
-
 #include <avr/io.h>
 #include <avr/interrupt.h>
 #include <util/delay.h>

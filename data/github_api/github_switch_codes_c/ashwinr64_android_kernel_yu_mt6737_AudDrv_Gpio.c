@@ -1,6 +1,3 @@
-// Repository: ashwinr64/android_kernel_yu_mt6737
-// File: sound/soc/mediatek/mt_soc_audio_8163/AudDrv_Gpio.c
-
 /*
  * Copyright (C) 2015 MediaTek Inc.
  *

@@ -1,6 +1,3 @@
-// Repository: siemens-mobile-dev/freia
-// File: siemens_source/SEC.C
-
 
 /********************************************************************
 *                                                                   *

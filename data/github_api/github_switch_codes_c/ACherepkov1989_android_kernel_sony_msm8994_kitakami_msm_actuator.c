@@ -1,6 +1,3 @@
-// Repository: ACherepkov1989/android_kernel_sony_msm8994_kitakami
-// File: drivers/media/platform/msm/camera_v2/sensor/actuator/msm_actuator.c
-
 /* Copyright (c) 2011-2018 The Linux Foundation. All rights reserved.
  *
  * This program is free software; you can redistribute it and/or modify

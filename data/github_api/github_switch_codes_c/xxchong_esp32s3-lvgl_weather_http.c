@@ -1,6 +1,3 @@
-// Repository: xxchong/esp32s3-lvgl
-// File: main/src/weather_http.c
-
 #include "sys.h"
 static const char *TAG = "WEATHER_HTTP";
 static EventGroupHandle_t update_weather_event_group = NULL; //更新天气完成事件组

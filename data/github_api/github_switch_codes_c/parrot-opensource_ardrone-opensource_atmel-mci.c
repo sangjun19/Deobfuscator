@@ -1,6 +1,3 @@
-// Repository: parrot-opensource/ardrone-opensource
-// File: sources/linux-2.6.27/linux-2.6.27/drivers/mmc/host/atmel-mci.c
-
 /*
  * Atmel MultiMedia Card Interface driver
  *

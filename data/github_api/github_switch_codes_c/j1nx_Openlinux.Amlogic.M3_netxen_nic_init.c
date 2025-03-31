@@ -1,6 +1,3 @@
-// Repository: j1nx/Openlinux.Amlogic.M3
-// File: drivers/net/netxen/netxen_nic_init.c
-
 /*
  * Copyright (C) 2003 - 2009 NetXen, Inc.
  * Copyright (C) 2009 - QLogic Corporation.

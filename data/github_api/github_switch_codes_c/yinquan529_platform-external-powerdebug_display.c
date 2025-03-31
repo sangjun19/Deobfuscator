@@ -1,6 +1,3 @@
-// Repository: yinquan529/platform-external-powerdebug
-// File: display.c
-
 /*******************************************************************************
  * Copyright (C) 2010, Linaro Limited.
  *

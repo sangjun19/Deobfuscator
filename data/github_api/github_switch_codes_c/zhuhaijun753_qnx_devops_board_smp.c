@@ -1,6 +1,3 @@
-// Repository: zhuhaijun753/qnx_devops
-// File: source/src/hardware/startup/boards/s32g/board_smp.c
-
 /*
  * $QNXLicenseC:
  * Copyright 2018, QNX Software Systems.

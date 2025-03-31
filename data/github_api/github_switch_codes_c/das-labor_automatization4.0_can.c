@@ -1,6 +1,3 @@
-// Repository: das-labor/automatization4.0
-// File: src/PowerCommander/avr_interface/can/can.c
-
 #include <avr/io.h>
 #include <avr/interrupt.h>
 #include <util/delay.h>

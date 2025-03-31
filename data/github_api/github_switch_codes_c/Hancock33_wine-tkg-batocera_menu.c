@@ -1,6 +1,3 @@
-// Repository: Hancock33/wine-tkg-batocera
-// File: dlls/user32/menu.c
-
 /*
  * Menu functions
  *

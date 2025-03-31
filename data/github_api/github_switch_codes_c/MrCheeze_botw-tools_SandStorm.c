@@ -1,6 +1,3 @@
-// Repository: MrCheeze/botw-tools
-// File: event/SandStorm.c
-
 -------- EventFlow: SandStorm --------
 
 Actor: Npc_SmallOasis007

@@ -1,6 +1,3 @@
-// Repository: wookey-project/driver-stm32f4xx-can
-// File: can.c
-
 #define _LIBCAN_
 #include "api/libcan.h"
 #include "can_regs.h"

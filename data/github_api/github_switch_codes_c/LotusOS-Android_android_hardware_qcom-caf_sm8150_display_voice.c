@@ -1,6 +1,3 @@
-// Repository: LotusOS-Android/android_hardware_qcom-caf_sm8150_display
-// File: hal/voice.c
-
 /*
  * Copyright (c) 2013-2019, The Linux Foundation. All rights reserved.
  * Not a contribution.

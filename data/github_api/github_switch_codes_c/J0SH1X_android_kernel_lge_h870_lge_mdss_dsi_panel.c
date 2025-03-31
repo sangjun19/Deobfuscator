@@ -1,6 +1,3 @@
-// Repository: J0SH1X/android_kernel_lge_h870
-// File: drivers/video/msm/mdss/lge/lge_mdss_dsi_panel.c
-
 /*
  * Copyright(c) 2016, LG Electronics. All rights reserved.
  *

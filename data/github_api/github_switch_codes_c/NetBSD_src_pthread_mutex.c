@@ -1,6 +1,3 @@
-// Repository: NetBSD/src
-// File: lib/libpthread/pthread_mutex.c
-
 /*	$NetBSD: pthread_mutex.c,v 1.83 2022/04/10 10:38:33 riastradh Exp $	*/
 
 /*-

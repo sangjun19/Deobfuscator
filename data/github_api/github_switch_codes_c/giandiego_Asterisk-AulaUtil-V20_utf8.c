@@ -1,6 +1,3 @@
-// Repository: giandiego/Asterisk-AulaUtil-V20
-// File: main/utf8.c
-
 /*
  * Asterisk -- An open source telephony toolkit.
  *

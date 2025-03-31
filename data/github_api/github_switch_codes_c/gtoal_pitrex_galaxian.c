@@ -1,6 +1,3 @@
-// Repository: gtoal/pitrex
-// File: xmame-0.37b16.1/src/drivers/galaxian.c
-
 /***************************************************************************
 
 Galaxian/Moon Cresta memory map.

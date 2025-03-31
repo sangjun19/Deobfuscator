@@ -1,6 +1,3 @@
-// Repository: axze-az/sbs
-// File: q.c
-
 /* 
  *  q.c - simple batch system queue implementation
  *  Copyright (C) 2008-2011  Axel Zeuner

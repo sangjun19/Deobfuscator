@@ -1,6 +1,3 @@
-// Repository: ndwns/freebsd-ports
-// File: ports-mgmt/pkg_cleanup/files/pkg_cleanup.c
-
 #include <sys/param.h>
 #include <sys/stat.h>
 #include <sys/types.h>

@@ -1,6 +1,3 @@
-// Repository: Arceveti/SM64-v2
-// File: src/game/behaviors/spiny.inc.c
-
 
 /**
  * Behavior for bhvSpiny.

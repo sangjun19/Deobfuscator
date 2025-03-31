@@ -1,6 +1,3 @@
-// Repository: dumbbell/mesa
-// File: src/gallium/drivers/radeon/radeon_llvm_emit.c
-
 /*
  * Copyright 2011 Advanced Micro Devices, Inc.
  *

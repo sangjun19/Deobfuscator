@@ -1,6 +1,3 @@
-// Repository: omnirom/android_kernel_nokia_sdm660
-// File: drivers/gpu/msm/kgsl_drawobj.c
-
 /* Copyright (c) 2016-2017,2019, The Linux Foundation. All rights reserved.
  *
  * This program is free software; you can redistribute it and/or modify

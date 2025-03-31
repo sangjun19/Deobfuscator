@@ -1,6 +1,3 @@
-// Repository: madhus2003r/SSCD-18CSL66
-// File: 3.c
-
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>

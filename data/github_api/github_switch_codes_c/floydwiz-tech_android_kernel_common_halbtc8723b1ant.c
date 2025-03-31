@@ -1,6 +1,3 @@
-// Repository: floydwiz-tech/android_kernel_common
-// File: drivers/staging/rtl8812au/hal/btc/halbtc8723b1ant.c
-
 /* ************************************************************
  * Description:
  *

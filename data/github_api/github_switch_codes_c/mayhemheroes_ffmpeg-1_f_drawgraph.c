@@ -1,6 +1,3 @@
-// Repository: mayhemheroes/ffmpeg-1
-// File: libavfilter/f_drawgraph.c
-
 /*
  * Copyright (c) 2015 Paul B Mahol
  *

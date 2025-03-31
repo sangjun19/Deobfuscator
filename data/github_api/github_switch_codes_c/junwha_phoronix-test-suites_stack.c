@@ -1,6 +1,3 @@
-// Repository: junwha/phoronix-test-suites
-// File: build-gdb-1.1.0/gdb-10.2/gdb/stack.c
-
 /* Print and select stack frames for GDB, the GNU debugger.
 
    Copyright (C) 1986-2021 Free Software Foundation, Inc.

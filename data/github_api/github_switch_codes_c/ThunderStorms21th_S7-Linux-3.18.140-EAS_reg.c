@@ -1,6 +1,3 @@
-// Repository: ThunderStorms21th/S7-Linux-3.18.140-EAS
-// File: net/wireless/reg.c
-
 /*
  * Copyright 2002-2005, Instant802 Networks, Inc.
  * Copyright 2005-2006, Devicescape Software, Inc.

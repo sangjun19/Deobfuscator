@@ -1,6 +1,3 @@
-// Repository: mariusae/hummingbird
-// File: u.c
-
 #include <sys/types.h>
 #include <sys/uio.h>
 #include <unistd.h>

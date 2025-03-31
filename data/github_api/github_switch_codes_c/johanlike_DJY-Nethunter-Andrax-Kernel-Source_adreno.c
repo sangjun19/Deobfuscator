@@ -1,6 +1,3 @@
-// Repository: johanlike/DJY-Nethunter-Andrax-Kernel-Source
-// File: drivers/gpu/msm/adreno.c
-
 /* Copyright (c) 2002,2007-2018, The Linux Foundation. All rights reserved.
  *
  * This program is free software; you can redistribute it and/or modify

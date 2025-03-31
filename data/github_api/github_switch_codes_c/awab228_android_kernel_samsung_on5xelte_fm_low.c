@@ -1,6 +1,3 @@
-// Repository: awab228/android_kernel_samsung_on5xelte
-// File: drivers/media/radio/s610/fm_low.c
-
 /****************************************************************************
  FILE
  */

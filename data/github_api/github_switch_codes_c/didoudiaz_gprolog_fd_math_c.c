@@ -1,6 +1,3 @@
-// Repository: didoudiaz/gprolog
-// File: src/BipsFD/fd_math_c.c
-
 /*-------------------------------------------------------------------------*
  * GNU Prolog                                                              *
  *                                                                         *

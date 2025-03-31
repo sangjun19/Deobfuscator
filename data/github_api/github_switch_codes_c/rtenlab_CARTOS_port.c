@@ -1,6 +1,3 @@
-// Repository: rtenlab/CARTOS
-// File: CARTOS/Source/portable/IAR/AMapollo2/port.c
-
 /*
  * FreeRTOS Kernel V10.1.1
  * Copyright (C) 2018 Amazon.com, Inc. or its affiliates.  All Rights Reserved.

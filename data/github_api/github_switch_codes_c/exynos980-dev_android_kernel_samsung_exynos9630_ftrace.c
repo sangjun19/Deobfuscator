@@ -1,6 +1,3 @@
-// Repository: exynos980-dev/android_kernel_samsung_exynos9630
-// File: kernel/trace/ftrace.c
-
 // SPDX-License-Identifier: GPL-2.0
 /*
  * Infrastructure for profiling code inserted by 'gcc -pg'.

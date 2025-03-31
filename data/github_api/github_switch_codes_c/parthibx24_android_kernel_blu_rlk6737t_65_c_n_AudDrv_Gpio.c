@@ -1,6 +1,3 @@
-// Repository: parthibx24/android_kernel_blu_rlk6737t_65_c_n
-// File: sound/soc/mediatek/mt_soc_audio_8163/AudDrv_Gpio.c
-
 /*
  * Copyright (C) 2015 MediaTek Inc.
  *

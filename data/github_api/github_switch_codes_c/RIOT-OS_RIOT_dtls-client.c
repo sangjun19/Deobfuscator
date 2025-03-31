@@ -1,6 +1,3 @@
-// Repository: RIOT-OS/RIOT
-// File: examples/networking/dtls/dtls-echo/dtls-client.c
-
 /*
  * Copyright (C) 2015 Freie Universität Berlin
  * Copyright (C) 2018 Inria

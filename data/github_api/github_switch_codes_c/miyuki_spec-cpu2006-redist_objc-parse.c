@@ -1,6 +1,3 @@
-// Repository: miyuki/spec-cpu2006-redist
-// File: original/403.gcc/gcc-3.2.2/gcc/objc/objc-parse.c
-
 /* A Bison parser, made from objc-parse.y
    by GNU bison 1.33.  */
 

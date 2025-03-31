@@ -1,6 +1,3 @@
-// Repository: gyluq/RoboticArm
-// File: User/Bluetooth.c
-
 #include "include.h"
 
 static bool fUartRxComplete = FALSE;

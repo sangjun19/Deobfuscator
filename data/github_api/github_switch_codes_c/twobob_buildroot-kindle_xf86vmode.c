@@ -1,6 +1,3 @@
-// Repository: twobob/buildroot-kindle
-// File: output/build/xserver_xorg-server-1.9.4/hw/xfree86/dixmods/extmod/xf86vmode.c
-
 
 /*
 

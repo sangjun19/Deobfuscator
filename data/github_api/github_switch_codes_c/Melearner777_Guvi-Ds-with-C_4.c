@@ -1,6 +1,3 @@
-// Repository: Melearner777/Guvi-Ds-with-C
-// File: 4.c
-
 /*Complex Menu Navigation using Switch Statement
 Problem Statement:
 Write a C program that simulates a menu-driven application for a library management system using the switch statement. The menu should offer the following options:

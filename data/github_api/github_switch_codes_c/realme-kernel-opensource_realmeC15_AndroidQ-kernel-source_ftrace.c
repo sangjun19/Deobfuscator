@@ -1,6 +1,3 @@
-// Repository: realme-kernel-opensource/realmeC15_AndroidQ-kernel-source
-// File: kernel/trace/ftrace.c
-
 // SPDX-License-Identifier: GPL-2.0
 /*
  * Infrastructure for profiling code inserted by 'gcc -pg'.

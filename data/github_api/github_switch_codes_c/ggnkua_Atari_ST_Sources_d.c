@@ -1,6 +1,3 @@
-// Repository: ggnkua/Atari_ST_Sources
-// File: C/Iverson Software Inc/j7-src/d.c
-
 /* ----------------------------------------------------------------------- */
 /* J-Source Version 7 - COPYRIGHT 1993 Iverson Software Inc.               */
 /* 33 Major Street, Toronto, Ontario, Canada, M5S 2K9, (416) 925 6096      */

@@ -1,6 +1,3 @@
-// Repository: android-la64/prebuilts-ndk-r23
-// File: toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/perf_event.h
-
 /****************************************************************************
  ****************************************************************************
  ***

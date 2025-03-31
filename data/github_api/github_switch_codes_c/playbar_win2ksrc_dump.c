@@ -1,6 +1,3 @@
-// Repository: playbar/win2ksrc
-// File: private/shell/lib/dump.c
-
 //
 // Debug dump functions for common ADTs
 //

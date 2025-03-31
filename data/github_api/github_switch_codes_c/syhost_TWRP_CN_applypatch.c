@@ -1,6 +1,3 @@
-// Repository: syhost/TWRP_CN
-// File: applypatch/applypatch.c
-
 /*
  * Copyright (C) 2008 The Android Open Source Project
  *

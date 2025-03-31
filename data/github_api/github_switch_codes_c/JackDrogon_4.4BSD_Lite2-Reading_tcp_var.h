@@ -1,6 +1,3 @@
-// Repository: JackDrogon/4.4BSD_Lite2-Reading
-// File: usr/src/sys/netinet/tcp_var.h
-
 /*
  * Copyright (c) 1982, 1986, 1993, 1994, 1995
  *	The Regents of the University of California.  All rights reserved.

@@ -1,6 +1,3 @@
-// Repository: ajpaul25/asterisk
-// File: main/cel.c
-
 /*
  * Asterisk -- An open source telephony toolkit.
  *

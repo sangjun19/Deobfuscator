@@ -1,6 +1,3 @@
-// Repository: Suitret/alx-low_level_programming
-// File: 0x10-variadic_functions/3-print_all.c
-
 #include <stdarg.h>
 #include <stdio.h>
 #include "variadic_functions.h"

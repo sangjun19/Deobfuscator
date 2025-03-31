@@ -1,6 +1,3 @@
-// Repository: rtenlab/MII
-// File: r10cnn_a4bp/src/r10_FreeRTOS/Source/portable/IAR/AMapollo2/port.c
-
 /*
  * FreeRTOS Kernel V10.1.1
  * Copyright (C) 2018 Amazon.com, Inc. or its affiliates.  All Rights Reserved.

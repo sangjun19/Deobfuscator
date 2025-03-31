@@ -1,6 +1,3 @@
-// Repository: StepMania-AMX/StepMania-AMX
-// File: src/lua-5.0/src/ltm.c
-
 /*
 ** $Id$
 ** Tag methods

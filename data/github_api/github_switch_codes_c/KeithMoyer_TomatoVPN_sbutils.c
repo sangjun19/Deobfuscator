@@ -1,6 +1,3 @@
-// Repository: KeithMoyer/TomatoVPN
-// File: release/src/shared/sbutils.c
-
 /*
  * Misc utility routines for accessing chip-specific features
  * of the SiliconBackplane-based Broadcom chips.

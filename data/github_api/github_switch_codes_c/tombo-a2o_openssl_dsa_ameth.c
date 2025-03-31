@@ -1,6 +1,3 @@
-// Repository: tombo-a2o/openssl
-// File: crypto/dsa/dsa_ameth.c
-
 /*
  * Written by Dr Stephen N Henson (steve@openssl.org) for the OpenSSL project
  * 2006.

@@ -1,6 +1,3 @@
-// Repository: OpenIKEv2/libopenikev2_impl
-// File: libeapserver/eap_server/eap_frm_kerb.c
-
 /*
  * hostapd / EAP-FRM server
  * Copyright (c) 2008, Fernando Bernal Hidalgo <fbernal@um.es>

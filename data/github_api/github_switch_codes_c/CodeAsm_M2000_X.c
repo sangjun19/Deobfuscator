@@ -1,6 +1,3 @@
-// Repository: CodeAsm/M2000
-// File: X.c
-
 /*** M2000: Portable P2000 emulator *****************************************/
 /***                                                                      ***/
 /***                                  X.c                                 ***/

@@ -1,6 +1,3 @@
-// Repository: Zildj1an/popcorn-kernel
-// File: fs/afs/cmservice.c
-
 // SPDX-License-Identifier: GPL-2.0-or-later
 /* AFS Cache Manager Service
  *

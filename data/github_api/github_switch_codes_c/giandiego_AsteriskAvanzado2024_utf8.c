@@ -1,6 +1,3 @@
-// Repository: giandiego/AsteriskAvanzado2024
-// File: main/utf8.c
-
 /*
  * Asterisk -- An open source telephony toolkit.
  *

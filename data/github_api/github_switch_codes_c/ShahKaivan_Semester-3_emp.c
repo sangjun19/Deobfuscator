@@ -1,6 +1,3 @@
-// Repository: ShahKaivan/Semester-3
-// File: DSA/emp.c
-
 #include<stdio.h>
 #include<conio.h>
 

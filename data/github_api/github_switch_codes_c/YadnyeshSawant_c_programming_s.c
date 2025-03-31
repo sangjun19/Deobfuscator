@@ -1,6 +1,3 @@
-// Repository: YadnyeshSawant/c_programming
-// File: s.c
-
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>

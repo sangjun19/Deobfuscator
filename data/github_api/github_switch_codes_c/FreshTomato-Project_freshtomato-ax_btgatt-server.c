@@ -1,6 +1,3 @@
-// Repository: FreshTomato-Project/freshtomato-ax
-// File: release/src/router/bluez-5.56/tools/btgatt-server.c
-
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
  *  BlueZ - Bluetooth protocol stack for Linux

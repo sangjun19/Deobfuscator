@@ -1,6 +1,3 @@
-// Repository: tanaypatankar/libvirt
-// File: src/interface/interface_backend_netcf.c
-
 /*
  * interface_backend_netcf.c: backend driver methods to handle physical
  *                            interface configuration using the netcf library.

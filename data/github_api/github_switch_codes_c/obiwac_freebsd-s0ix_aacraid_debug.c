@@ -1,6 +1,3 @@
-// Repository: obiwac/freebsd-s0ix
-// File: sys/dev/aacraid/aacraid_debug.c
-
 /*-
  * SPDX-License-Identifier: BSD-2-Clause
  *

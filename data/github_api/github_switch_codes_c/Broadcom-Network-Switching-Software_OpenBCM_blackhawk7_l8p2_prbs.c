@@ -1,6 +1,3 @@
-// Repository: Broadcom-Network-Switching-Software/OpenBCM
-// File: sdk-6.5.22/libs/phymod/chip/blackhawk7_l8p2/tier1/blackhawk7_l8p2_prbs.c
-
 /***********************************************************************************
  *                                                                                 *
  * Copyright: (c) 2020 Broadcom.                                                   *

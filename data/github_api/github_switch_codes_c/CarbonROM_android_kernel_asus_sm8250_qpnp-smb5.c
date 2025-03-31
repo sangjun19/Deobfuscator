@@ -1,6 +1,3 @@
-// Repository: CarbonROM/android_kernel_asus_sm8250
-// File: drivers/power/supply/qcom/qpnp-smb5.c
-
 // SPDX-License-Identifier: GPL-2.0-only
 /*
  * Copyright (c) 2018-2020 The Linux Foundation. All rights reserved.

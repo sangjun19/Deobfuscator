@@ -1,6 +1,3 @@
-// Repository: wereHamster/xorg-server
-// File: hw/xfree86/dixmods/extmod/xf86vmode.c
-
 
 /*
 

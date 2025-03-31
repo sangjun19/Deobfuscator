@@ -1,6 +1,3 @@
-// Repository: WireSeed/FlipperZero-Unleashed
-// File: applications/main/nfc/scenes/nfc_scene_mf_classic_write_success.c
-
 #include "../nfc_i.h"
 #include <dolphin/dolphin.h>
 

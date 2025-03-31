@@ -1,6 +1,3 @@
-// Repository: jmpfbmx/android_kernel_zte_P637F02
-// File: sound/soc/mediatek/mt_soc_audio_8163/AudDrv_Gpio.c
-
 /*
  * Copyright (C) 2015 MediaTek Inc.
  *

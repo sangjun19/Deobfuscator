@@ -1,6 +1,3 @@
-// Repository: Melearner777/Guvi-Ds-with-C
-// File: 8.c
-
 /*Enumeration (enum) in C
 Problem Statement:
 Create a C program that uses an enumeration to represent the days of the week. The program should take a list of integers from the user, convert them to the corresponding days of the week using the enum, and then print the days in reverse order.

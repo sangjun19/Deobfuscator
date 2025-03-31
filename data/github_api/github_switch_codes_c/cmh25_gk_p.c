@@ -1,6 +1,3 @@
-// Repository: cmh25/gk
-// File: p.c
-
 #include "p.h"
 #include <stdio.h>
 #include <stdlib.h>

@@ -1,6 +1,3 @@
-// Repository: aifred0729-TW/NTUST-Data_Structure
-// File: Homework01/Prefix_Converter/main.c
-
 #pragma warning(disable:4996)
 
 #include <stdio.h>

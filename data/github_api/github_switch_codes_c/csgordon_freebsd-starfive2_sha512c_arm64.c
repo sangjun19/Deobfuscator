@@ -1,6 +1,3 @@
-// Repository: csgordon/freebsd-starfive2
-// File: sys/crypto/sha2/sha512c_arm64.c
-
 /*-
  * Copyright (c) 2021 The FreeBSD Foundation
  *

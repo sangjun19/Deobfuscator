@@ -1,6 +1,3 @@
-// Repository: evopen/DHH-OP3T
-// File: drivers/power/oem_external_fg.h
-
 #ifndef	__OEM_EXTERNAL_FG_H__
 #define __OEM_EXTERNAL_FG_H__
 

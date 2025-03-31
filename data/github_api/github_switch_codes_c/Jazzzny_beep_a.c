@@ -1,6 +1,3 @@
-// Repository: Jazzzny/beep
-// File: a.c
-
 // morsebeeper
 
 // include speech synthesis

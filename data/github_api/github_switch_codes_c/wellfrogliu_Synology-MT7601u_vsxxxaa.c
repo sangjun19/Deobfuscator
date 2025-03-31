@@ -1,6 +1,3 @@
-// Repository: wellfrogliu/Synology-MT7601u
-// File: kernel/linux-4.4.x/drivers/input/mouse/vsxxxaa.c
-
 /*
  * Driver for	DEC VSXXX-AA mouse (hockey-puck mouse, ball or two rollers)
  *		DEC VSXXX-GA mouse (rectangular mouse, with ball)

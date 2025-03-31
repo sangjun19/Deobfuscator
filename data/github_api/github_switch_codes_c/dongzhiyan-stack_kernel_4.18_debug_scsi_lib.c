@@ -1,6 +1,3 @@
-// Repository: dongzhiyan-stack/kernel_4.18_debug
-// File: linux-4.18.0-240.el8/drivers/scsi/scsi_lib.c
-
 // SPDX-License-Identifier: GPL-2.0
 /*
  * Copyright (C) 1999 Eric Youngdale

@@ -1,6 +1,3 @@
-// Repository: Zelex/libretro-mame
-// File: src/mame/drivers/simpl156.c
-
 /*
 
   "Simple" 156 based Data East Hardware

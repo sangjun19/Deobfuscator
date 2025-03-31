@@ -1,6 +1,3 @@
-// Repository: ornladios/ADIOS
-// File: src/mxml/mxml-2.9/mxml-string.c
-
 /*
  * "$Id: mxml-string.c 454 2014-01-05 03:25:07Z msweet $"
  *

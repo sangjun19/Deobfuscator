@@ -1,6 +1,3 @@
-// Repository: Huawei-Kiwi/android_kernel_huawei_msm8939
-// File: drivers/soc/qcom/smem.c
-
 /* Copyright (c) 2013-2014, The Linux Foundation. All rights reserved.
  *
  * This program is free software; you can redistribute it and/or modify

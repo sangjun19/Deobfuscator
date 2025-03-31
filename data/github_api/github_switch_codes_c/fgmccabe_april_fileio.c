@@ -1,6 +1,3 @@
-// Repository: fgmccabe/april
-// File: April/Engine/fileio.c
-
 /* 
    File and directory handling functions
    (c) 1994-1999 Imperial College and F.G. McCabe

@@ -1,6 +1,3 @@
-// Repository: Mahad-Khan-14/PF-Theory-24k-0961
-// File: Assignment Folder/Assign-3/Prob5/prob5.c
-
 // M.Mahad Khan
 // 24K-0961
 // BCS-1C

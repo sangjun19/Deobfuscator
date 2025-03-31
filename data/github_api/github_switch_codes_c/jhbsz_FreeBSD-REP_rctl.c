@@ -1,6 +1,3 @@
-// Repository: jhbsz/FreeBSD-REP
-// File: usr.bin/rctl/rctl.c
-
 /*-
  * Copyright (c) 2010 The FreeBSD Foundation
  * All rights reserved.

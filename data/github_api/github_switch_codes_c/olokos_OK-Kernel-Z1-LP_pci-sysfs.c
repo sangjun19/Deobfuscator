@@ -1,6 +1,3 @@
-// Repository: olokos/OK-Kernel-Z1-LP
-// File: arch/alpha/kernel/pci-sysfs.c
-
 /*
  * arch/alpha/kernel/pci-sysfs.c
  *

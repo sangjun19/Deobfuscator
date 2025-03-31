@@ -1,6 +1,3 @@
-// Repository: false-schemers/skint
-// File: i.c
-
 /* i.c -- instructions */
 
 #include "n.h"

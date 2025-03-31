@@ -1,6 +1,3 @@
-// Repository: getiot/nanopi-r6s
-// File: kernel/drivers/media/i2c/gc2093.c
-
 // SPDX-License-Identifier: GPL-2.0
 /*
  * gc2093 sensor driver

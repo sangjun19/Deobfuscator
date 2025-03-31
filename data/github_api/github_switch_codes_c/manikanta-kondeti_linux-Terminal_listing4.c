@@ -1,6 +1,3 @@
-// Repository: manikanta-kondeti/linux-Terminal
-// File: listing4.c
-
 #include<unistd.h>
 #include<stdio.h>
 #include<stdlib.h>

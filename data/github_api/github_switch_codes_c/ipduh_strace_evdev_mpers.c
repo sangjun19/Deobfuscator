@@ -1,6 +1,3 @@
-// Repository: ipduh/strace
-// File: evdev_mpers.c
-
 /*
  * Copyright (c) 2015 Etienne Gemsa <etienne.gemsa@lse.epita.fr>
  * Copyright (c) 2015-2016 Dmitry V. Levin <ldv@altlinux.org>

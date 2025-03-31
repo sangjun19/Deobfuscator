@@ -1,5 +1,5 @@
 // Repository: SiteView/ECC8.1.3
-// File: ECC8.1/Server/kennel/monitor/db2mfcmonitor/include/cobol_a/sqlmonct.cbl
+// File: ECC8.1/Server/kennel/monitor/db2mfcmonitor/include/cobol_mf/sqlmonct.cbl
 
       *******************************************************************************
       *
@@ -32,29 +32,21 @@
       *****************************************************************************
       * Database System Monitor Version (version, server_version)                  *
       *****************************************************************************
-       77 SQLM-DBMON-VERSION1
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-DBMON-VERSION1 VALUE 1.
 
-       77 SQLM-DBMON-VERSION2
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-DBMON-VERSION2 VALUE 2.
 
-       77 SQLM-DBMON-VERSION5
-           PIC S9(4) COMP-5 VALUE 3.
+       78 SQLM-DBMON-VERSION5 VALUE 3.
 
-       77 SQLM-DBMON-VERSION5-2
-           PIC S9(4) COMP-5 VALUE 4.
+       78 SQLM-DBMON-VERSION5-2 VALUE 4.
 
-       77 SQLM-DBMON-VERSION6
-           PIC S9(4) COMP-5 VALUE 5.
+       78 SQLM-DBMON-VERSION6 VALUE 5.
 
-       77 SQLM-DBMON-VERSION7
-           PIC S9(4) COMP-5 VALUE 6.
+       78 SQLM-DBMON-VERSION7 VALUE 6.
 
-       77 SQLM-DBMON-VERSION8
-           PIC S9(4) COMP-5 VALUE 7.
+       78 SQLM-DBMON-VERSION8 VALUE 7.
 
-       77 SQLM-CURRENT-VERSION
-           PIC S9(4) COMP-5 VALUE 7.
+       78 SQLM-CURRENT-VERSION VALUE 7.
 
 
       *****************************************************************************
@@ -62,17 +54,13 @@
       * interpreted)                                                               *
       *****************************************************************************
 
-       77 SQLM-CLASS-DEFAULT
-           PIC S9(4) COMP-5 VALUE 0.
+       78 SQLM-CLASS-DEFAULT VALUE 0.
 
-       77 SQLM-CLASS-HEALTH
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-CLASS-HEALTH VALUE 1.
 
-       77 SQLM-CLASS-HEALTH-WITH-DETAIL
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-CLASS-HEALTH-WITH-DETAIL VALUE 2.
 
-       77 SQLM-CLASS-MAX
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-CLASS-MAX VALUE 2.
 
 
       *****************************************************************************
@@ -80,105 +68,77 @@
       *****************************************************************************
 
       * Database Manager snapshot *
-       77 SQLMA-DB2
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLMA-DB2 VALUE 1.
 
 
       * List of connections *
-       77 SQLMA-DBASE-APPLINFO
-           PIC S9(4) COMP-5 VALUE 7.
+       78 SQLMA-DBASE-APPLINFO VALUE 7.
 
-       77 SQLMA-APPLINFO-ALL
-           PIC S9(4) COMP-5 VALUE 11.
+       78 SQLMA-APPLINFO-ALL VALUE 11.
 
-       77 SQLMA-DCS-APPLINFO-ALL
-           PIC S9(4) COMP-5 VALUE 12.
+       78 SQLMA-DCS-APPLINFO-ALL VALUE 12.
 
 
       * Database snapshot *
-       77 SQLMA-DBASE
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLMA-DBASE VALUE 2.
 
-       77 SQLMA-DBASE-ALL
-           PIC S9(4) COMP-5 VALUE 9.
+       78 SQLMA-DBASE-ALL VALUE 9.
 
-       77 SQLMA-DCS-DBASE
-           PIC S9(4) COMP-5 VALUE 34.
+       78 SQLMA-DCS-DBASE VALUE 34.
 
-       77 SQLMA-DCS-DBASE-ALL
-           PIC S9(4) COMP-5 VALUE 35.
+       78 SQLMA-DCS-DBASE-ALL VALUE 35.
 
-       77 SQLMA-DBASE-REMOTE
-           PIC S9(4) COMP-5 VALUE 37.
+       78 SQLMA-DBASE-REMOTE VALUE 37.
 
-       77 SQLMA-DBASE-REMOTE-ALL
-           PIC S9(4) COMP-5 VALUE 38.
+       78 SQLMA-DBASE-REMOTE-ALL VALUE 38.
 
 
       * Application snapshot *
-       77 SQLMA-APPL-ALL
-           PIC S9(4) COMP-5 VALUE 10.
+       78 SQLMA-APPL-ALL VALUE 10.
 
-       77 SQLMA-APPL
-           PIC S9(4) COMP-5 VALUE 3.
+       78 SQLMA-APPL VALUE 3.
 
-       77 SQLMA-AGENT-ID
-           PIC S9(4) COMP-5 VALUE 4.
+       78 SQLMA-AGENT-ID VALUE 4.
 
-       77 SQLMA-DBASE-APPLS
-           PIC S9(4) COMP-5 VALUE 6.
+       78 SQLMA-DBASE-APPLS VALUE 6.
 
-       77 SQLMA-DCS-APPL-ALL
-           PIC S9(4) COMP-5 VALUE 30.
+       78 SQLMA-DCS-APPL-ALL VALUE 30.
 
-       77 SQLMA-DCS-APPL
-           PIC S9(4) COMP-5 VALUE 31.
+       78 SQLMA-DCS-APPL VALUE 31.
 
-       77 SQLMA-DCS-APPL-HANDLE
-           PIC S9(4) COMP-5 VALUE 32.
+       78 SQLMA-DCS-APPL-HANDLE VALUE 32.
 
-       77 SQLMA-DCS-DBASE-APPLS
-           PIC S9(4) COMP-5 VALUE 33.
+       78 SQLMA-DCS-DBASE-APPLS VALUE 33.
 
-       77 SQLMA-DBASE-APPLS-REMOTE
-           PIC S9(4) COMP-5 VALUE 39.
+       78 SQLMA-DBASE-APPLS-REMOTE VALUE 39.
 
-       77 SQLMA-APPL-REMOTE-ALL
-           PIC S9(4) COMP-5 VALUE 40.
+       78 SQLMA-APPL-REMOTE-ALL VALUE 40.
 
 
       * Table snapshot *
-       77 SQLMA-DBASE-TABLES
-           PIC S9(4) COMP-5 VALUE 5.
+       78 SQLMA-DBASE-TABLES VALUE 5.
 
 
       * Tablespace snapshot *
-       77 SQLMA-DBASE-TABLESPACES
-           PIC S9(4) COMP-5 VALUE 13.
+       78 SQLMA-DBASE-TABLESPACES VALUE 13.
 
 
       * Snapshot for locks *
-       77 SQLMA-APPL-LOCKS
-           PIC S9(4) COMP-5 VALUE 20.
+       78 SQLMA-APPL-LOCKS VALUE 20.
 
-       77 SQLMA-APPL-LOCKS-AGENT-ID
-           PIC S9(4) COMP-5 VALUE 21.
+       78 SQLMA-APPL-LOCKS-AGENT-ID VALUE 21.
 
-       77 SQLMA-DBASE-LOCKS
-           PIC S9(4) COMP-5 VALUE 8.
+       78 SQLMA-DBASE-LOCKS VALUE 8.
 
 
       * Bufferpool snapshot *
-       77 SQLMA-DBASE-BUFFERPOOLS
-           PIC S9(4) COMP-5 VALUE 22.
+       78 SQLMA-DBASE-BUFFERPOOLS VALUE 22.
 
-       77 SQLMA-BUFFERPOOLS-ALL
-           PIC S9(4) COMP-5 VALUE 23.
+       78 SQLMA-BUFFERPOOLS-ALL VALUE 23.
 
 
       * Dynamic sql snapshot *
-       77 SQLMA-DYNAMIC-SQL
-           PIC S9(4) COMP-5 VALUE 36.
+       78 SQLMA-DYNAMIC-SQL VALUE 36.
 
 
       *****************************************************************************
@@ -188,484 +148,344 @@
       * sqlmonss() output buffer.)                                                 *
       *****************************************************************************
 
-       77 SQLM-DB2-SS
-           PIC X(1) VALUE "1".
+       78 SQLM-DB2-SS VALUE "1".
 
-       77 SQLM-FCM-SS
-           PIC X(1) VALUE "E".
+       78 SQLM-FCM-SS VALUE "E".
 
-       77 SQLM-NODE-SS
-           PIC X(1) VALUE "G".
+       78 SQLM-NODE-SS VALUE "G".
 
-       77 SQLM-APPLINFO-SS
-           PIC X(1) VALUE "4".
+       78 SQLM-APPLINFO-SS VALUE "4".
 
-       77 SQLM-DCS-APPLINFO-SS
-           PIC X(1) VALUE "A".
+       78 SQLM-DCS-APPLINFO-SS VALUE "A".
 
-       77 SQLM-DBASE-SS
-           PIC X(1) VALUE "2".
+       78 SQLM-DBASE-SS VALUE "2".
 
-       77 SQLM-TABLE-HEADER-SS
-           PIC X(1) VALUE "5".
+       78 SQLM-TABLE-HEADER-SS VALUE "5".
 
-       77 SQLM-TABLE-SS
-           PIC X(1) VALUE "6".
+       78 SQLM-TABLE-SS VALUE "6".
 
-       77 SQLM-DBASE-LOCK-SS
-           PIC X(1) VALUE "7".
+       78 SQLM-DBASE-LOCK-SS VALUE "7".
 
-       77 SQLM-APPL-LOCK-SS
-           PIC X(1) VALUE "8".
+       78 SQLM-APPL-LOCK-SS VALUE "8".
 
-       77 SQLM-LOCK-SS
-           PIC X(1) VALUE "9".
+       78 SQLM-LOCK-SS VALUE "9".
 
-       77 SQLM-TABLESPACE-HEADER-SS
-           PIC X(1) VALUE "B".
+       78 SQLM-TABLESPACE-HEADER-SS VALUE "B".
 
-       77 SQLM-TABLESPACE-SS
-           PIC X(1) VALUE "C".
+       78 SQLM-TABLESPACE-SS VALUE "C".
 
-       77 SQLM-APPL-SS
-           PIC X(1) VALUE "3".
+       78 SQLM-APPL-SS VALUE "3".
 
-       77 SQLM-DBASE-ROLLFWD-SS
-           PIC X(1) VALUE "H".
+       78 SQLM-DBASE-ROLLFWD-SS VALUE "H".
 
-       77 SQLM-DBASE-ROLLFWD-TS-SS
-           PIC X(1) VALUE "I".
+       78 SQLM-DBASE-ROLLFWD-TS-SS VALUE "I".
 
-       77 SQLM-BUFFERPOOL-SS
-           PIC X(1) VALUE "J".
+       78 SQLM-BUFFERPOOL-SS VALUE "J".
 
-       77 SQLM-LOCK-WAIT-SS
-           PIC X(1) VALUE "K".
+       78 SQLM-LOCK-WAIT-SS VALUE "K".
 
-       77 SQLM-STMT-SS
-           PIC X(1) VALUE "L".
+       78 SQLM-STMT-SS VALUE "L".
 
-       77 SQLM-SUBSECTION-SS
-           PIC X(1) VALUE "M".
+       78 SQLM-SUBSECTION-SS VALUE "M".
 
-       77 SQLM-AGENT-SS
-           PIC X(1) VALUE "N".
+       78 SQLM-AGENT-SS VALUE "N".
 
-       77 SQLM-DCS-APPL-SS
-           PIC X(1) VALUE "O".
+       78 SQLM-DCS-APPL-SS VALUE "O".
 
-       77 SQLM-DCS-APPLID-SS
-           PIC X(1) VALUE "P".
+       78 SQLM-DCS-APPLID-SS VALUE "P".
 
-       77 SQLM-DCS-APPL-STATS-SS
-           PIC X(1) VALUE "Q".
+       78 SQLM-DCS-APPL-STATS-SS VALUE "Q".
 
-       77 SQLM-APPL-XID-SS
-           PIC X(1) VALUE "R".
+       78 SQLM-APPL-XID-SS VALUE "R".
 
-       77 SQLM-TPMON-INFO-SS
-           PIC X(1) VALUE "S".
+       78 SQLM-TPMON-INFO-SS VALUE "S".
 
-       77 SQLM-DCS-STMT-SS
-           PIC X(1) VALUE "T".
+       78 SQLM-DCS-STMT-SS VALUE "T".
 
-       77 SQLM-DCS-DBASE-SS
-           PIC X(1) VALUE "U".
+       78 SQLM-DCS-DBASE-SS VALUE "U".
 
-       77 SQLM-COLLECTED-SS
-           PIC X(1) VALUE "V".
+       78 SQLM-COLLECTED-SS VALUE "V".
 
-       77 SQLM-DBASE-REMOTE-SS
-           PIC X(1) VALUE "W".
+       78 SQLM-DBASE-REMOTE-SS VALUE "W".
 
-       77 SQLM-APPL-REMOTE-SS
-           PIC X(1) VALUE "X".
+       78 SQLM-APPL-REMOTE-SS VALUE "X".
 
 
       *****************************************************************************
       * stream type ids                                                            *
       *****************************************************************************
-       77 SQLM-STREAM-SNAPSHOT
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-STREAM-SNAPSHOT VALUE 1.
 
-       77 SQLM-STREAM-EVMON
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-STREAM-EVMON VALUE 2.
 
 
       *****************************************************************************
       * size constants                                                             *
       *****************************************************************************
 
-       77 SQLM-APPLID-SZ
-           PIC S9(4) COMP-5 VALUE 32.
+       78 SQLM-APPLID-SZ VALUE 32.
 
-       77 SQLM-SEQ-SZ
-           PIC S9(4) COMP-5 VALUE 4.
+       78 SQLM-SEQ-SZ VALUE 4.
 
-       77 SQLM-SH-IDENT-SZ
-           PIC S9(4) COMP-5 VALUE 8.
+       78 SQLM-SH-IDENT-SZ VALUE 8.
 
-       77 SQLM-IDENT-SZ
-           PIC S9(4) COMP-5 VALUE 20.
+       78 SQLM-IDENT-SZ VALUE 20.
 
-       77 SQLM-LG-IDENT-SZ
-           PIC S9(4) COMP-5 VALUE 32.
+       78 SQLM-LG-IDENT-SZ VALUE 32.
 
-       77 SQLM-OBJECT-SZ
-           PIC S9(4) COMP-5 VALUE 36.
+       78 SQLM-OBJECT-SZ VALUE 36.
 
-       77 SQLM-DBPATH-SZ
-           PIC S9(4) COMP-5 VALUE 256.
+       78 SQLM-DBPATH-SZ VALUE 256.
 
-       77 SQLM-COMM-ADDR-SZ
-           PIC S9(4) COMP-5 VALUE 32.
+       78 SQLM-COMM-ADDR-SZ VALUE 32.
 
-       77 SQLM-SERVERNAME-SZ
-           PIC S9(4) COMP-5 VALUE 128.
+       78 SQLM-SERVERNAME-SZ VALUE 128.
 
-       77 SQLM-MESSAGE-SZ
-           PIC S9(4) COMP-5 VALUE 128.
+       78 SQLM-MESSAGE-SZ VALUE 128.
 
-       77 SQLM-STORAGE-PATH-SZ
-           PIC S9(4) COMP-5 VALUE 190.
+       78 SQLM-STORAGE-PATH-SZ VALUE 190.
 
 
       *****************************************************************************
       * Information group state switches (sqlmon and sqlmonss functions)           *
       *****************************************************************************
 
-       77 SQLM-OFF
-           PIC S9(4) COMP-5 VALUE 0.
+       78 SQLM-OFF VALUE 0.
 
-       77 SQLM-ON
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-ON VALUE 1.
 
-       77 SQLM-HOLD
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-HOLD VALUE 2.
 
 
       *****************************************************************************
       * flag constant for sqlmrset()                                               *
       *****************************************************************************
-       77 SQLM-UDB-DBASE
-           PIC S9(4) COMP-5 VALUE 0.
+       78 SQLM-UDB-DBASE VALUE 0.
 
-       77 SQLM-UDB-ALL
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-UDB-ALL VALUE 1.
 
-       77 SQLM-DCS-DBASE
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-DCS-DBASE VALUE 2.
 
-       77 SQLM-DCS-ALL
-           PIC S9(4) COMP-5 VALUE 3.
+       78 SQLM-DCS-ALL VALUE 3.
 
-       77 SQLM-APM
-           PIC S9(4) COMP-5 VALUE 4.
+       78 SQLM-APM VALUE 4.
 
 
       *****************************************************************************
       * Monitor switches                                                           *
       *****************************************************************************
 
-       77 SQLM-UOW-SW
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-UOW-SW VALUE 1.
 
-       77 SQLM-STATEMENT-SW
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-STATEMENT-SW VALUE 2.
 
-       77 SQLM-TABLE-SW
-           PIC S9(4) COMP-5 VALUE 3.
+       78 SQLM-TABLE-SW VALUE 3.
 
-       77 SQLM-BUFFER-POOL-SW
-           PIC S9(4) COMP-5 VALUE 4.
+       78 SQLM-BUFFER-POOL-SW VALUE 4.
 
-       77 SQLM-LOCK-SW
-           PIC S9(4) COMP-5 VALUE 5.
+       78 SQLM-LOCK-SW VALUE 5.
 
-       77 SQLM-SORT-SW
-           PIC S9(4) COMP-5 VALUE 6.
+       78 SQLM-SORT-SW VALUE 6.
 
-       77 SQLM-TIMESTAMP-SW
-           PIC S9(4) COMP-5 VALUE 7.
+       78 SQLM-TIMESTAMP-SW VALUE 7.
 
 
-       77 SQLM-NUM-GROUPS
-           PIC S9(4) COMP-5 VALUE 7.
+       78 SQLM-NUM-GROUPS VALUE 7.
 
-       77 SQLM-NUM-GROUPS-PREV8
-           PIC S9(4) COMP-5 VALUE 6.
+       78 SQLM-NUM-GROUPS-PREV8 VALUE 6.
 
 
       *****************************************************************************
       * Statement Types (stmt_type)                                                *
       *****************************************************************************
-       77 SQLM-STATIC
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-STATIC VALUE 1.
 
-       77 SQLM-DYNAMIC
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-DYNAMIC VALUE 2.
 
-       77 SQLM-NON-STMT
-           PIC S9(4) COMP-5 VALUE 3.
+       78 SQLM-NON-STMT VALUE 3.
 
-       77 SQLM-STMT-TYPE-UNKNOWN
-           PIC S9(4) COMP-5 VALUE 4.
+       78 SQLM-STMT-TYPE-UNKNOWN VALUE 4.
 
 
       *****************************************************************************
       * Statement Operation Types (stmt_operation)                                 *
       *****************************************************************************
       * SQL operations *
-       77 SQLM-PREPARE
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-PREPARE VALUE 1.
 
-       77 SQLM-EXECUTE
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-EXECUTE VALUE 2.
 
-       77 SQLM-EXECUTE-IMMEDIATE
-           PIC S9(4) COMP-5 VALUE 3.
+       78 SQLM-EXECUTE-IMMEDIATE VALUE 3.
 
-       77 SQLM-OPEN
-           PIC S9(4) COMP-5 VALUE 4.
+       78 SQLM-OPEN VALUE 4.
 
-       77 SQLM-FETCH
-           PIC S9(4) COMP-5 VALUE 5.
+       78 SQLM-FETCH VALUE 5.
 
-       77 SQLM-CLOSE
-           PIC S9(4) COMP-5 VALUE 6.
+       78 SQLM-CLOSE VALUE 6.
 
-       77 SQLM-DESCRIBE
-           PIC S9(4) COMP-5 VALUE 7.
+       78 SQLM-DESCRIBE VALUE 7.
 
-       77 SQLM-STATIC-COMMIT
-           PIC S9(4) COMP-5 VALUE 8.
+       78 SQLM-STATIC-COMMIT VALUE 8.
 
-       77 SQLM-STATIC-ROLLBACK
-           PIC S9(4) COMP-5 VALUE 9.
+       78 SQLM-STATIC-ROLLBACK VALUE 9.
 
-       77 SQLM-FREE-LOCATOR
-           PIC S9(4) COMP-5 VALUE 10.
+       78 SQLM-FREE-LOCATOR VALUE 10.
 
-       77 SQLM-PREP-COMMIT
-           PIC S9(4) COMP-5 VALUE 11.
+       78 SQLM-PREP-COMMIT VALUE 11.
 
-       77 SQLM-CALL
-           PIC S9(4) COMP-5 VALUE 12.
+       78 SQLM-CALL VALUE 12.
 
-       77 SQLM-SELECT
-           PIC S9(4) COMP-5 VALUE 15.
+       78 SQLM-SELECT VALUE 15.
 
-       77 SQLM-PREP-OPEN
-           PIC S9(4) COMP-5 VALUE 16.
+       78 SQLM-PREP-OPEN VALUE 16.
 
-       77 SQLM-PREP-EXEC
-           PIC S9(4) COMP-5 VALUE 17.
+       78 SQLM-PREP-EXEC VALUE 17.
 
-       77 SQLM-COMPILE
-           PIC S9(4) COMP-5 VALUE 18.
+       78 SQLM-COMPILE VALUE 18.
 
-       77 SQLM-SET
-           PIC S9(4) COMP-5 VALUE 19.
+       78 SQLM-SET VALUE 19.
 
 
       * non-SQL operations *
-       77 SQLM-RUNSTATS
-           PIC S9(4) COMP-5 VALUE 20.
+       78 SQLM-RUNSTATS VALUE 20.
 
-       77 SQLM-REORG
-           PIC S9(4) COMP-5 VALUE 21.
+       78 SQLM-REORG VALUE 21.
 
-       77 SQLM-REBIND
-           PIC S9(4) COMP-5 VALUE 22.
+       78 SQLM-REBIND VALUE 22.
 
-       77 SQLM-REDIST
-           PIC S9(4) COMP-5 VALUE 23.
+       78 SQLM-REDIST VALUE 23.
 
-       77 SQLM-GETTA
-           PIC S9(4) COMP-5 VALUE 24.
+       78 SQLM-GETTA VALUE 24.
 
-       77 SQLM-GETAA
-           PIC S9(4) COMP-5 VALUE 25.
+       78 SQLM-GETAA VALUE 25.
 
 
       *****************************************************************************
       * Table Types (table_type)                                                   *
       *****************************************************************************
-       77 SQLM-USER-TABLE
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-USER-TABLE VALUE 1.
 
-       77 SQLM-DROPPED-TABLE
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-DROPPED-TABLE VALUE 2.
 
-       77 SQLM-TEMP-TABLE
-           PIC S9(4) COMP-5 VALUE 3.
+       78 SQLM-TEMP-TABLE VALUE 3.
 
-       77 SQLM-CATALOG-TABLE
-           PIC S9(4) COMP-5 VALUE 4.
+       78 SQLM-CATALOG-TABLE VALUE 4.
 
-       77 SQLM-REORG-TABLE
-           PIC S9(4) COMP-5 VALUE 5.
+       78 SQLM-REORG-TABLE VALUE 5.
 
 
       *****************************************************************************
       * lock modes (lock_mode)                                                     *
       *****************************************************************************
 
-       77 SQLM-LNON
-           PIC S9(4) COMP-5 VALUE 0.
+       78 SQLM-LNON VALUE 0.
 
-       77 SQLM-LOIS
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-LOIS VALUE 1.
 
-       77 SQLM-LOIX
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-LOIX VALUE 2.
 
-       77 SQLM-LOOS
-           PIC S9(4) COMP-5 VALUE 3.
+       78 SQLM-LOOS VALUE 3.
 
-       77 SQLM-LSIX
-           PIC S9(4) COMP-5 VALUE 4.
+       78 SQLM-LSIX VALUE 4.
 
-       77 SQLM-LOOX
-           PIC S9(4) COMP-5 VALUE 5.
+       78 SQLM-LOOX VALUE 5.
 
-       77 SQLM-LOIN
-           PIC S9(4) COMP-5 VALUE 6.
+       78 SQLM-LOIN VALUE 6.
 
-       77 SQLM-LOOZ
-           PIC S9(4) COMP-5 VALUE 7.
+       78 SQLM-LOOZ VALUE 7.
 
-       77 SQLM-LOOU
-           PIC S9(4) COMP-5 VALUE 8.
+       78 SQLM-LOOU VALUE 8.
 
-       77 SQLM-LONS
-           PIC S9(4) COMP-5 VALUE 9.
+       78 SQLM-LONS VALUE 9.
 
-       77 SQLM-LONX
-           PIC S9(4) COMP-5 VALUE 10.
+       78 SQLM-LONX VALUE 10.
 
-       77 SQLM-LOOW
-           PIC S9(4) COMP-5 VALUE 11.
+       78 SQLM-LOOW VALUE 11.
 
-       77 SQLM-LONW
-           PIC S9(4) COMP-5 VALUE 12.
+       78 SQLM-LONW VALUE 12.
 
 
       *****************************************************************************
       * subsection status (ss_status)                                              *
       *****************************************************************************
 
-       77 SQLM-SSEXEC
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-SSEXEC VALUE 1.
 
-       77 SQLM-SSTQ-WAIT-TO-RCV
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-SSTQ-WAIT-TO-RCV VALUE 2.
 
-       77 SQLM-SSTQ-WAIT-TO-SEND
-           PIC S9(4) COMP-5 VALUE 3.
+       78 SQLM-SSTQ-WAIT-TO-SEND VALUE 3.
 
-       77 SQLM-SSCOMPLETED
-           PIC S9(4) COMP-5 VALUE 4.
+       78 SQLM-SSCOMPLETED VALUE 4.
 
 
       *****************************************************************************
       * application status (appl_status)                                           *
       *****************************************************************************
 
-       77 SQLM-CONNECTPEND
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-CONNECTPEND VALUE 1.
 
-       77 SQLM-CONNECTED
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-CONNECTED VALUE 2.
 
-       77 SQLM-UOWEXEC
-           PIC S9(4) COMP-5 VALUE 3.
+       78 SQLM-UOWEXEC VALUE 3.
 
-       77 SQLM-UOWWAIT
-           PIC S9(4) COMP-5 VALUE 4.
+       78 SQLM-UOWWAIT VALUE 4.
 
-       77 SQLM-LOCKWAIT
-           PIC S9(4) COMP-5 VALUE 5.
+       78 SQLM-LOCKWAIT VALUE 5.
 
-       77 SQLM-COMMIT-ACT
-           PIC S9(4) COMP-5 VALUE 6.
+       78 SQLM-COMMIT-ACT VALUE 6.
 
-       77 SQLM-ROLLBACK-ACT
-           PIC S9(4) COMP-5 VALUE 7.
+       78 SQLM-ROLLBACK-ACT VALUE 7.
 
-       77 SQLM-RECOMP
-           PIC S9(4) COMP-5 VALUE 8.
+       78 SQLM-RECOMP VALUE 8.
 
-       77 SQLM-COMP
-           PIC S9(4) COMP-5 VALUE 9.
+       78 SQLM-COMP VALUE 9.
 
-       77 SQLM-INTR
-           PIC S9(4) COMP-5 VALUE 10.
+       78 SQLM-INTR VALUE 10.
 
-       77 SQLM-DISCONNECTPEND
-           PIC S9(4) COMP-5 VALUE 11.
+       78 SQLM-DISCONNECTPEND VALUE 11.
 
-       77 SQLM-TPREP
-           PIC S9(4) COMP-5 VALUE 12.
+       78 SQLM-TPREP VALUE 12.
 
-       77 SQLM-THCOMT
-           PIC S9(4) COMP-5 VALUE 13.
+       78 SQLM-THCOMT VALUE 13.
 
-       77 SQLM-THABRT
-           PIC S9(4) COMP-5 VALUE 14.
+       78 SQLM-THABRT VALUE 14.
 
-       77 SQLM-TEND
-           PIC S9(4) COMP-5 VALUE 15.
+       78 SQLM-TEND VALUE 15.
 
-       77 SQLM-CREATE-DB
-           PIC S9(4) COMP-5 VALUE 16.
+       78 SQLM-CREATE-DB VALUE 16.
 
-       77 SQLM-RESTART
-           PIC S9(4) COMP-5 VALUE 17.
+       78 SQLM-RESTART VALUE 17.
 
-       77 SQLM-RESTORE
-           PIC S9(4) COMP-5 VALUE 18.
+       78 SQLM-RESTORE VALUE 18.
 
-       77 SQLM-BACKUP
-           PIC S9(4) COMP-5 VALUE 19.
+       78 SQLM-BACKUP VALUE 19.
 
-       77 SQLM-LOAD
-           PIC S9(4) COMP-5 VALUE 20.
+       78 SQLM-LOAD VALUE 20.
 
-       77 SQLM-UNLOAD
-           PIC S9(4) COMP-5 VALUE 21.
+       78 SQLM-UNLOAD VALUE 21.
 
-       77 SQLM-IOERROR-WAIT
-           PIC S9(4) COMP-5 VALUE 22.
+       78 SQLM-IOERROR-WAIT VALUE 22.
 
-       77 SQLM-QUIESCE-TABLESPACE
-           PIC S9(4) COMP-5 VALUE 23.
+       78 SQLM-QUIESCE-TABLESPACE VALUE 23.
 
-       77 SQLM-WAITFOR-REMOTE
-           PIC S9(4) COMP-5 VALUE 24.
+       78 SQLM-WAITFOR-REMOTE VALUE 24.
 
-       77 SQLM-REMOTE-RQST
-           PIC S9(4) COMP-5 VALUE 25.
+       78 SQLM-REMOTE-RQST VALUE 25.
 
-       77 SQLM-DECOUPLED
-           PIC S9(4) COMP-5 VALUE 26.
+       78 SQLM-DECOUPLED VALUE 26.
 
-       77 SQLM-ROLLBACK-TO-SAVEPOINT
-           PIC S9(4) COMP-5 VALUE 27.
+       78 SQLM-ROLLBACK-TO-SAVEPOINT VALUE 27.
 
 
       *****************************************************************************
       * DCS application status (dcs_appl_status)                                   *
       *****************************************************************************
 
-       77 SQLM-DCS-CONNECTPEND-OUTBOUND
-           PIC S9(4) COMP-5 VALUE 101.
+       78 SQLM-DCS-CONNECTPEND-OUTBOUND VALUE 101.
 
-       77 SQLM-DCS-UOWWAIT-OUTBOUND
-           PIC S9(4) COMP-5 VALUE 102.
+       78 SQLM-DCS-UOWWAIT-OUTBOUND VALUE 102.
 
-       77 SQLM-DCS-UOWWAIT-INBOUND
-           PIC S9(4) COMP-5 VALUE 103.
+       78 SQLM-DCS-UOWWAIT-INBOUND VALUE 103.
 
       * or gateway waiting for request*
 
@@ -673,540 +493,391 @@
       * DCS transmission chain groupings (num_transmissions_group)                 *
       *****************************************************************************
 
-       77 SQLM-DCS-TRANS-GROUP-2
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-DCS-TRANS-GROUP-2 VALUE 1.
 
-       77 SQLM-DCS-TRANS-GROUP-3TO7
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-DCS-TRANS-GROUP-3TO7 VALUE 2.
 
-       77 SQLM-DCS-TRANS-GROUP-8TO15
-           PIC S9(4) COMP-5 VALUE 3.
+       78 SQLM-DCS-TRANS-GROUP-8TO15 VALUE 3.
 
-       77 SQLM-DCS-TRANS-GROUP-16TO64
-           PIC S9(4) COMP-5 VALUE 4.
+       78 SQLM-DCS-TRANS-GROUP-16TO64 VALUE 4.
 
-       77 SQLM-DCS-TRANS-GROUP-GT64
-           PIC S9(4) COMP-5 VALUE 5.
+       78 SQLM-DCS-TRANS-GROUP-GT64 VALUE 5.
 
 
       *****************************************************************************
       * Concentrator agent statuses                                                *
       *****************************************************************************
-       77 SQLM-AGENT-ASSOCIATED
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-AGENT-ASSOCIATED VALUE 1.
 
-       77 SQLM-AGENT-NOT-ASSOCIATED
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-AGENT-NOT-ASSOCIATED VALUE 2.
 
 
       *****************************************************************************
       * database status (db_status)                                                *
       *****************************************************************************
 
-       77 SQLM-DB-ACTIVE
-           PIC S9(4) COMP-5 VALUE 0.
+       78 SQLM-DB-ACTIVE VALUE 0.
 
-       77 SQLM-DB-QUIESCE-PEND
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-DB-QUIESCE-PEND VALUE 1.
 
-       77 SQLM-DB-QUIESCED
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-DB-QUIESCED VALUE 2.
 
-       77 SQLM-DB-ROLLFWD
-           PIC S9(4) COMP-5 VALUE 3.
+       78 SQLM-DB-ROLLFWD VALUE 3.
 
 
       *****************************************************************************
       * rollforward types (rf_type)                                                *
       *****************************************************************************
-       77 SQLM-ROLLFWD-TYP-DB
-           PIC S9(4) COMP-5 VALUE 0.
+       78 SQLM-ROLLFWD-TYP-DB VALUE 0.
 
-       77 SQLM-ROLLFWD-TYP-TSPACE
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-ROLLFWD-TYP-TSPACE VALUE 1.
 
-       77 SQLM-NO-ROLLFWD
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-NO-ROLLFWD VALUE 2.
 
 
       *****************************************************************************
       * Rollforward status (rf_status)                                             *
       *****************************************************************************
-       77 SQLM-ROLLFWD-STATUS-REDO
-           PIC S9(4) COMP-5 VALUE 0.
+       78 SQLM-ROLLFWD-STATUS-REDO VALUE 0.
 
-       77 SQLM-ROLLFWD-STATUS-UNDO
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-ROLLFWD-STATUS-UNDO VALUE 1.
 
-       77 SQLM-ROLLFWD-STATUS-SUCCESS
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-ROLLFWD-STATUS-SUCCESS VALUE 2.
 
-       77 SQLM-ROLLFWD-STATUS-ERROR
-           PIC S9(4) COMP-5 VALUE 3.
+       78 SQLM-ROLLFWD-STATUS-ERROR VALUE 3.
 
-       77 SQLM-ROLLFWD-STATUS-USR-INTR
-           PIC S9(4) COMP-5 VALUE 4.
+       78 SQLM-ROLLFWD-STATUS-USR-INTR VALUE 4.
 
 
       *****************************************************************************
       * tablespace types                                                           *
       *****************************************************************************
-       77 SQLM-TABLESPACE-TYP-DMS
-           PIC S9(4) COMP-5 VALUE 0.
+       78 SQLM-TABLESPACE-TYP-DMS VALUE 0.
 
-       77 SQLM-TABLESPACE-TYP-SMS
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-TABLESPACE-TYP-SMS VALUE 1.
 
 
       *****************************************************************************
       * tablespace content type                                                    *
       *****************************************************************************
-       77 SQLM-TABLESPACE-CONTENT-ANY
-           PIC S9(4) COMP-5 VALUE 0.
+       78 SQLM-TABLESPACE-CONTENT-ANY VALUE 0.
 
-       77 SQLM-TABLESPACE-CONTENT-LONG
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-TABLESPACE-CONTENT-LONG VALUE 1.
 
       * The full name of the monitor element is SQLM_TABLESPACE_CONTENT_SYSTEMP
-       77 SQLM-TBSP-CONTENT-SYSTEMP
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-TBSP-CONTENT-SYSTEMP VALUE 2.
 
       * The full name of the monitor element is SQLM_TABLESPACE_CONTENT_USRTEMP
-       77 SQLM-TBSP-CONTENT-USRTEMP
-           PIC S9(4) COMP-5 VALUE 3.
+       78 SQLM-TBSP-CONTENT-USRTEMP VALUE 3.
 
 
       *****************************************************************************
       *  reorg table defines                                                       *
       *****************************************************************************
 
-       77 SQLM-REORG-STARTED
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-REORG-STARTED VALUE 1.
 
-       77 SQLM-REORG-PAUSED
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-REORG-PAUSED VALUE 2.
 
-       77 SQLM-REORG-STOPPED
-           PIC S9(4) COMP-5 VALUE 3.
+       78 SQLM-REORG-STOPPED VALUE 3.
 
-       77 SQLM-REORG-COMPLETED
-           PIC S9(4) COMP-5 VALUE 4.
+       78 SQLM-REORG-COMPLETED VALUE 4.
 
-       77 SQLM-REORG-TRUNCATE
-           PIC S9(4) COMP-5 VALUE 5.
+       78 SQLM-REORG-TRUNCATE VALUE 5.
 
 
-       77 SQLM-REORG-SORT
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-REORG-SORT VALUE 1.
 
-       77 SQLM-REORG-BUILD
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-REORG-BUILD VALUE 2.
 
-       77 SQLM-REORG-REPLACE
-           PIC S9(4) COMP-5 VALUE 3.
+       78 SQLM-REORG-REPLACE VALUE 3.
 
-       77 SQLM-REORG-INDEX-RECREATE
-           PIC S9(4) COMP-5 VALUE 4.
+       78 SQLM-REORG-INDEX-RECREATE VALUE 4.
 
 
-       77 SQLM-REORG-SUCCESS
-           PIC S9(4) COMP-5 VALUE 0.
+       78 SQLM-REORG-SUCCESS VALUE 0.
 
-       77 SQLM-REORG-FAIL
-           PIC S9(4) COMP-5 VALUE -1.
+       78 SQLM-REORG-FAIL VALUE -1.
 
 
       *****************************************************************************
       * rebalancer modes                                                           *
       *****************************************************************************
-       77 SQLM-TABLESPACE-NO-REBAL
-           PIC S9(4) COMP-5 VALUE 0.
+       78 SQLM-TABLESPACE-NO-REBAL VALUE 0.
 
-       77 SQLM-TABLESPACE-FWD-REBAL
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-TABLESPACE-FWD-REBAL VALUE 1.
 
-       77 SQLM-TABLESPACE-REV-REBAL
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-TABLESPACE-REV-REBAL VALUE 2.
 
 
       *****************************************************************************
       * Memory Heaps                                                               *
       *****************************************************************************
-       77 SQLM-HEAP-APPLICATION
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-HEAP-APPLICATION VALUE 1.
 
-       77 SQLM-HEAP-DATABASE
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-HEAP-DATABASE VALUE 2.
 
-       77 SQLM-HEAP-APPL-CONTROL
-           PIC S9(4) COMP-5 VALUE 3.
+       78 SQLM-HEAP-APPL-CONTROL VALUE 3.
 
-       77 SQLM-HEAP-LOCK-MGR
-           PIC S9(4) COMP-5 VALUE 4.
+       78 SQLM-HEAP-LOCK-MGR VALUE 4.
 
-       77 SQLM-HEAP-UTILITY
-           PIC S9(4) COMP-5 VALUE 5.
+       78 SQLM-HEAP-UTILITY VALUE 5.
 
-       77 SQLM-HEAP-STATISTICS
-           PIC S9(4) COMP-5 VALUE 6.
+       78 SQLM-HEAP-STATISTICS VALUE 6.
 
-       77 SQLM-HEAP-PACKAGE-CACHE
-           PIC S9(4) COMP-5 VALUE 7.
+       78 SQLM-HEAP-PACKAGE-CACHE VALUE 7.
 
-       77 SQLM-HEAP-CAT-CACHE
-           PIC S9(4) COMP-5 VALUE 8.
+       78 SQLM-HEAP-CAT-CACHE VALUE 8.
 
-       77 SQLM-HEAP-DFM
-           PIC S9(4) COMP-5 VALUE 9.
+       78 SQLM-HEAP-DFM VALUE 9.
 
-       77 SQLM-HEAP-QUERY
-           PIC S9(4) COMP-5 VALUE 10.
+       78 SQLM-HEAP-QUERY VALUE 10.
 
-       77 SQLM-HEAP-MONITOR
-           PIC S9(4) COMP-5 VALUE 11.
+       78 SQLM-HEAP-MONITOR VALUE 11.
 
-       77 SQLM-HEAP-STATEMENT
-           PIC S9(4) COMP-5 VALUE 12.
+       78 SQLM-HEAP-STATEMENT VALUE 12.
 
-       77 SQLM-HEAP-FCMBP
-           PIC S9(4) COMP-5 VALUE 13.
+       78 SQLM-HEAP-FCMBP VALUE 13.
 
-       77 SQLM-HEAP-IMPORT-POOL
-           PIC S9(4) COMP-5 VALUE 14.
+       78 SQLM-HEAP-IMPORT-POOL VALUE 14.
 
-       77 SQLM-HEAP-OTHER
-           PIC S9(4) COMP-5 VALUE 15.
+       78 SQLM-HEAP-OTHER VALUE 15.
 
-       77 SQLM-HEAP-BP
-           PIC S9(4) COMP-5 VALUE 16.
+       78 SQLM-HEAP-BP VALUE 16.
 
-       77 SQLM-HEAP-APP-GROUP
-           PIC S9(4) COMP-5 VALUE 17.
+       78 SQLM-HEAP-APP-GROUP VALUE 17.
 
-       77 SQLM-HEAP-SHARED-SORT
-           PIC S9(4) COMP-5 VALUE 18.
+       78 SQLM-HEAP-SHARED-SORT VALUE 18.
 
-       77 SQLM-HEAP-MIN
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-HEAP-MIN VALUE 1.
 
-       77 SQLM-HEAP-MAX
-           PIC S9(4) COMP-5 VALUE 18.
+       78 SQLM-HEAP-MAX VALUE 18.
 
 
       *****************************************************************************
       * database manager status  (db2_status)                                      *
       *****************************************************************************
 
-       77 SQLM-DB2-ACTIVE
-           PIC S9(4) COMP-5 VALUE 0.
+       78 SQLM-DB2-ACTIVE VALUE 0.
 
-       77 SQLM-DB2-QUIESCE-PEND
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-DB2-QUIESCE-PEND VALUE 1.
 
-       77 SQLM-DB2-QUIESCED
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-DB2-QUIESCED VALUE 2.
 
 
       *****************************************************************************
       * UOW completion status (uow_comp_status)                                    *
       *****************************************************************************
 
-       77 SQLM-UOWCOMMIT
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-UOWCOMMIT VALUE 1.
 
-       77 SQLM-UOWROLLBACK
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-UOWROLLBACK VALUE 2.
 
-       77 SQLM-UOWDEADLOCK
-           PIC S9(4) COMP-5 VALUE 3.
+       78 SQLM-UOWDEADLOCK VALUE 3.
 
-       77 SQLM-UOWABEND
-           PIC S9(4) COMP-5 VALUE 4.
+       78 SQLM-UOWABEND VALUE 4.
 
-       77 SQLM-APPL-END
-           PIC S9(4) COMP-5 VALUE 5.
+       78 SQLM-APPL-END VALUE 5.
 
-       77 SQLM-UOWLOCKTIMEOUT
-           PIC S9(4) COMP-5 VALUE 6.
+       78 SQLM-UOWLOCKTIMEOUT VALUE 6.
 
-       77 SQLM-UOWUNKNOWN
-           PIC S9(4) COMP-5 VALUE 7.
+       78 SQLM-UOWUNKNOWN VALUE 7.
 
 
       *****************************************************************************
       * lock attributes (lock_attributes)                                         *
       *****************************************************************************
 
-       77 SQLM-LOCKATTR-WAIT-FOR-AVAIL
-           PIC S9(4) COMP-5 VALUE   00000001 .
+       78 SQLM-LOCKATTR-WAIT-FOR-AVAIL VALUE   00000001 .
 
-       77 SQLM-LOCKATTR-ESCALATED
-           PIC S9(4) COMP-5 VALUE   00000002 .
+       78 SQLM-LOCKATTR-ESCALATED VALUE   00000002 .
 
-       77 SQLM-LOCKATTR-RR-IN-BLOCK
-           PIC S9(4) COMP-5 VALUE   00000004 .
+       78 SQLM-LOCKATTR-RR-IN-BLOCK VALUE   00000004 .
 
-       77 SQLM-LOCKATTR-INSERT
-           PIC S9(4) COMP-5 VALUE   00000008 .
+       78 SQLM-LOCKATTR-INSERT VALUE   00000008 .
 
-       77 SQLM-LOCKATTR-RR
-           PIC S9(4) COMP-5 VALUE   00000010 .
+       78 SQLM-LOCKATTR-RR VALUE   00000010 .
 
-       77 SQLM-LOCKATTR-UPDATE-DELETE
-           PIC S9(4) COMP-5 VALUE   00000020 .
+       78 SQLM-LOCKATTR-UPDATE-DELETE VALUE   00000020 .
 
-       77 SQLM-LOCKATTR-ALLOW-NEW
-           PIC S9(4) COMP-5 VALUE   00000040 .
+       78 SQLM-LOCKATTR-ALLOW-NEW VALUE   00000040 .
 
-       77 SQLM-LOCKATTR-NEW-REQUEST
-           PIC S9(4) COMP-5 VALUE   00000080 .
+       78 SQLM-LOCKATTR-NEW-REQUEST VALUE   00000080 .
 
-       77 SQLM-LOCKATTR-DELETE-IN-BLOCK
-           PIC S9(4) COMP-5 VALUE   00000000 .
+       78 SQLM-LOCKATTR-DELETE-IN-BLOCK VALUE   00000000 .
 
 
       *****************************************************************************
       * lock release flags (lock_release_flags)                                    *
       *****************************************************************************
 
-       77 SQLM-LOCKRELFLAGS-SQLCOMPILER
-           PIC S9(5) COMP-5 VALUE   80000000 .
+       78 SQLM-LOCKRELFLAGS-SQLCOMPILER VALUE   80000000 .
 
-       77 SQLM-LOCKRELFLAGS-UNTRACKED
-           PIC S9(5) COMP-5 VALUE   40000000 .
+       78 SQLM-LOCKRELFLAGS-UNTRACKED VALUE   40000000 .
 
 
       *****************************************************************************
       * lock object type (lock_object_type)                                        *
       *****************************************************************************
 
-       77 SQLM-TABLE-LOCK
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-TABLE-LOCK VALUE 1.
 
-       77 SQLM-ROW-LOCK
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-ROW-LOCK VALUE 2.
 
-       77 SQLM-INTERNAL-LOCK
-           PIC S9(4) COMP-5 VALUE 3.
+       78 SQLM-INTERNAL-LOCK VALUE 3.
 
-       77 SQLM-TABLESPACE-LOCK
-           PIC S9(4) COMP-5 VALUE 4.
+       78 SQLM-TABLESPACE-LOCK VALUE 4.
 
-       77 SQLM-EOT-LOCK
-           PIC S9(4) COMP-5 VALUE 5.
+       78 SQLM-EOT-LOCK VALUE 5.
 
-       77 SQLM-KEYVALUE-LOCK
-           PIC S9(4) COMP-5 VALUE 6.
+       78 SQLM-KEYVALUE-LOCK VALUE 6.
 
-       77 SQLM-SYSBOOT-LOCK
-           PIC S9(4) COMP-5 VALUE 7.
+       78 SQLM-SYSBOOT-LOCK VALUE 7.
 
-       77 SQLM-INTERNALP-LOCK
-           PIC S9(4) COMP-5 VALUE 8.
+       78 SQLM-INTERNALP-LOCK VALUE 8.
 
-       77 SQLM-INTERNALV-LOCK
-           PIC S9(4) COMP-5 VALUE 9.
+       78 SQLM-INTERNALV-LOCK VALUE 9.
 
-       77 SQLM-INTERNALS-LOCK
-           PIC S9(4) COMP-5 VALUE 10.
+       78 SQLM-INTERNALS-LOCK VALUE 10.
 
-       77 SQLM-INTERNALJ-LOCK
-           PIC S9(4) COMP-5 VALUE 11.
+       78 SQLM-INTERNALJ-LOCK VALUE 11.
 
-       77 SQLM-INTERNALL-LOCK
-           PIC S9(4) COMP-5 VALUE 12.
+       78 SQLM-INTERNALL-LOCK VALUE 12.
 
-       77 SQLM-INTERNALC-LOCK
-           PIC S9(4) COMP-5 VALUE 13.
+       78 SQLM-INTERNALC-LOCK VALUE 13.
 
-       77 SQLM-INTERNALB-LOCK
-           PIC S9(4) COMP-5 VALUE 14.
+       78 SQLM-INTERNALB-LOCK VALUE 14.
 
-       77 SQLM-INTERNALO-LOCK
-           PIC S9(4) COMP-5 VALUE 15.
+       78 SQLM-INTERNALO-LOCK VALUE 15.
 
-       77 SQLM-INTERNALT-LOCK
-           PIC S9(4) COMP-5 VALUE 16.
+       78 SQLM-INTERNALT-LOCK VALUE 16.
 
-       77 SQLM-INTERNALQ-LOCK
-           PIC S9(4) COMP-5 VALUE 17.
+       78 SQLM-INTERNALQ-LOCK VALUE 17.
 
-       77 SQLM-INPLACE-REORG-LOCK
-           PIC S9(4) COMP-5 VALUE 18.
+       78 SQLM-INPLACE-REORG-LOCK VALUE 18.
 
-       77 SQLM-BLOCK-LOCK
-           PIC S9(4) COMP-5 VALUE 19.
+       78 SQLM-BLOCK-LOCK VALUE 19.
 
 
       *****************************************************************************
       * lock status (lock_status)                                                  *
       *****************************************************************************
 
-       77 SQLM-LRBGRNT
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-LRBGRNT VALUE 1.
 
-       77 SQLM-LRBCONV
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-LRBCONV VALUE 2.
 
 
       *****************************************************************************
       * client communications protocols (client_protocol)                          *
       *****************************************************************************
-       77 SQLM-PROT-APPC
-           PIC S9(4) COMP-5 VALUE 0.
+       78 SQLM-PROT-APPC VALUE 0.
 
-       77 SQLM-PROT-NETBIOS
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-PROT-NETBIOS VALUE 1.
 
-       77 SQLM-PROT-APPN
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-PROT-APPN VALUE 2.
 
-       77 SQLM-PROT-TCPIP
-           PIC S9(4) COMP-5 VALUE 3.
+       78 SQLM-PROT-TCPIP VALUE 3.
 
-       77 SQLM-PROT-CPIC
-           PIC S9(4) COMP-5 VALUE 4.
+       78 SQLM-PROT-CPIC VALUE 4.
 
-       77 SQLM-PROT-IPXSPX
-           PIC S9(4) COMP-5 VALUE 5.
+       78 SQLM-PROT-IPXSPX VALUE 5.
 
-       77 SQLM-PROT-LOCAL
-           PIC S9(4) COMP-5 VALUE 6.
+       78 SQLM-PROT-LOCAL VALUE 6.
 
-       77 SQLM-PROT-NPIPE
-           PIC S9(4) COMP-5 VALUE 7.
+       78 SQLM-PROT-NPIPE VALUE 7.
 
 
       *****************************************************************************
       * Operating Systems (client_platform and server_platform)                    *
       *****************************************************************************
-       77 SQLM-PLATFORM-UNKNOWN
-           PIC S9(4) COMP-5 VALUE 0.
+       78 SQLM-PLATFORM-UNKNOWN VALUE 0.
 
-       77 SQLM-PLATFORM-OS2
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-PLATFORM-OS2 VALUE 1.
 
-       77 SQLM-PLATFORM-DOS
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-PLATFORM-DOS VALUE 2.
 
-       77 SQLM-PLATFORM-WINDOWS
-           PIC S9(4) COMP-5 VALUE 3.
+       78 SQLM-PLATFORM-WINDOWS VALUE 3.
 
-       77 SQLM-PLATFORM-AIX
-           PIC S9(4) COMP-5 VALUE 4.
+       78 SQLM-PLATFORM-AIX VALUE 4.
 
-       77 SQLM-PLATFORM-NT
-           PIC S9(4) COMP-5 VALUE 5.
+       78 SQLM-PLATFORM-NT VALUE 5.
 
-       77 SQLM-PLATFORM-HP
-           PIC S9(4) COMP-5 VALUE 6.
+       78 SQLM-PLATFORM-HP VALUE 6.
 
-       77 SQLM-PLATFORM-SUN
-           PIC S9(4) COMP-5 VALUE 7.
+       78 SQLM-PLATFORM-SUN VALUE 7.
 
-       77 SQLM-PLATFORM-MVS-DRDA
-           PIC S9(4) COMP-5 VALUE 8.
+       78 SQLM-PLATFORM-MVS-DRDA VALUE 8.
 
-       77 SQLM-PLATFORM-AS400-DRDA
-           PIC S9(4) COMP-5 VALUE 9.
+       78 SQLM-PLATFORM-AS400-DRDA VALUE 9.
 
-       77 SQLM-PLATFORM-VM-DRDA
-           PIC S9(4) COMP-5 VALUE 10.
+       78 SQLM-PLATFORM-VM-DRDA VALUE 10.
 
-       77 SQLM-PLATFORM-VSE-DRDA
-           PIC S9(4) COMP-5 VALUE 11.
+       78 SQLM-PLATFORM-VSE-DRDA VALUE 11.
 
-       77 SQLM-PLATFORM-UNKNOWN-DRDA
-           PIC S9(4) COMP-5 VALUE 12.
+       78 SQLM-PLATFORM-UNKNOWN-DRDA VALUE 12.
 
-       77 SQLM-PLATFORM-SNI
-           PIC S9(4) COMP-5 VALUE 13.
+       78 SQLM-PLATFORM-SNI VALUE 13.
 
-       77 SQLM-PLATFORM-MAC
-           PIC S9(4) COMP-5 VALUE 14.
+       78 SQLM-PLATFORM-MAC VALUE 14.
 
-       77 SQLM-PLATFORM-WINDOWS95
-           PIC S9(4) COMP-5 VALUE 15.
+       78 SQLM-PLATFORM-WINDOWS95 VALUE 15.
 
-       77 SQLM-PLATFORM-SCO
-           PIC S9(4) COMP-5 VALUE 16.
+       78 SQLM-PLATFORM-SCO VALUE 16.
 
-       77 SQLM-PLATFORM-SGI
-           PIC S9(4) COMP-5 VALUE 17.
+       78 SQLM-PLATFORM-SGI VALUE 17.
 
-       77 SQLM-PLATFORM-LINUX
-           PIC S9(4) COMP-5 VALUE 18.
+       78 SQLM-PLATFORM-LINUX VALUE 18.
 
-       77 SQLM-PLATFORM-DYNIX
-           PIC S9(4) COMP-5 VALUE 19.
+       78 SQLM-PLATFORM-DYNIX VALUE 19.
 
-       77 SQLM-PLATFORM-AIX64
-           PIC S9(4) COMP-5 VALUE 20.
+       78 SQLM-PLATFORM-AIX64 VALUE 20.
 
-       77 SQLM-PLATFORM-SUN64
-           PIC S9(4) COMP-5 VALUE 21.
+       78 SQLM-PLATFORM-SUN64 VALUE 21.
 
-       77 SQLM-PLATFORM-HP64
-           PIC S9(4) COMP-5 VALUE 22.
+       78 SQLM-PLATFORM-HP64 VALUE 22.
 
-       77 SQLM-PLATFORM-NT64
-           PIC S9(4) COMP-5 VALUE 23.
+       78 SQLM-PLATFORM-NT64 VALUE 23.
 
-       77 SQLM-PLATFORM-LINUX390
-           PIC S9(4) COMP-5 VALUE 24.
+       78 SQLM-PLATFORM-LINUX390 VALUE 24.
 
-       77 SQLM-PLATFORM-LINUXZ64
-           PIC S9(4) COMP-5 VALUE 25.
+       78 SQLM-PLATFORM-LINUXZ64 VALUE 25.
 
-       77 SQLM-PLATFORM-LINUXIA64
-           PIC S9(4) COMP-5 VALUE 26.
+       78 SQLM-PLATFORM-LINUXIA64 VALUE 26.
 
-       77 SQLM-PLATFORM-LINUXPPC
-           PIC S9(4) COMP-5 VALUE 27.
+       78 SQLM-PLATFORM-LINUXPPC VALUE 27.
 
-       77 SQLM-PLATFORM-LINUXPPC64
-           PIC S9(4) COMP-5 VALUE 28.
+       78 SQLM-PLATFORM-LINUXPPC64 VALUE 28.
 
-       77 SQLM-PLATFORM-OS390
-           PIC S9(4) COMP-5 VALUE 29.
+       78 SQLM-PLATFORM-OS390 VALUE 29.
 
-       77 SQLM-PLATFORM-LINUXX8664
-           PIC S9(4) COMP-5 VALUE 30.
+       78 SQLM-PLATFORM-LINUXX8664 VALUE 30.
 
-       77 SQLM-PLATFORM-HPIA
-           PIC S9(4) COMP-5 VALUE 31.
+       78 SQLM-PLATFORM-HPIA VALUE 31.
 
-       77 SQLM-PLATFORM-HPIA64
-           PIC S9(4) COMP-5 VALUE 32.
+       78 SQLM-PLATFORM-HPIA64 VALUE 32.
 
 
       *****************************************************************************
       * Operating System Application Priority Type (appl_priority_type)            *
       *****************************************************************************
-       77 SQLM-FIXED-PRIORITY
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-FIXED-PRIORITY VALUE 1.
 
-       77 SQLM-DYNAMIC-PRIORITY
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-DYNAMIC-PRIORITY VALUE 2.
 
 
       *****************************************************************************
       * Isolation levels                                                           *
       *****************************************************************************
-       77 SQLM-ISOLATION-LEVEL-NONE
-           PIC S9(4) COMP-5 VALUE 0.
+       78 SQLM-ISOLATION-LEVEL-NONE VALUE 0.
 
-       77 SQLM-ISOLATION-LEVEL-UR
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-ISOLATION-LEVEL-UR VALUE 1.
 
-       77 SQLM-ISOLATION-LEVEL-CS
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-ISOLATION-LEVEL-CS VALUE 2.
 
-       77 SQLM-ISOLATION-LEVEL-RS
-           PIC S9(4) COMP-5 VALUE 3.
+       78 SQLM-ISOLATION-LEVEL-RS VALUE 3.
 
-       77 SQLM-ISOLATION-LEVEL-RR
-           PIC S9(4) COMP-5 VALUE 4.
+       78 SQLM-ISOLATION-LEVEL-RR VALUE 4.
 
 
       *****************************************************************************
@@ -1214,289 +885,215 @@
       *                                                                            *
       * Used to read the records in a trace produced by an Event Monitor           *
       *****************************************************************************
-       77 SQLM-EVENT-DB
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-EVENT-DB VALUE 1.
 
-       77 SQLM-EVENT-CONN
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-EVENT-CONN VALUE 2.
 
-       77 SQLM-EVENT-TABLE
-           PIC S9(4) COMP-5 VALUE 3.
+       78 SQLM-EVENT-TABLE VALUE 3.
 
-       77 SQLM-EVENT-STMT
-           PIC S9(4) COMP-5 VALUE 4.
+       78 SQLM-EVENT-STMT VALUE 4.
 
-       77 SQLM-EVENT-STMTTEXT
-           PIC S9(4) COMP-5 VALUE 5.
+       78 SQLM-EVENT-STMTTEXT VALUE 5.
 
-       77 SQLM-EVENT-XACT
-           PIC S9(4) COMP-5 VALUE 6.
+       78 SQLM-EVENT-XACT VALUE 6.
 
-       77 SQLM-EVENT-DEADLOCK
-           PIC S9(4) COMP-5 VALUE 7.
+       78 SQLM-EVENT-DEADLOCK VALUE 7.
 
-       77 SQLM-EVENT-DLCONN
-           PIC S9(4) COMP-5 VALUE 8.
+       78 SQLM-EVENT-DLCONN VALUE 8.
 
-       77 SQLM-EVENT-TABLESPACE
-           PIC S9(4) COMP-5 VALUE 9.
+       78 SQLM-EVENT-TABLESPACE VALUE 9.
 
-       77 SQLM-EVENT-DBHEADER
-           PIC S9(4) COMP-5 VALUE 10.
+       78 SQLM-EVENT-DBHEADER VALUE 10.
 
-       77 SQLM-EVENT-START
-           PIC S9(4) COMP-5 VALUE 11.
+       78 SQLM-EVENT-START VALUE 11.
 
-       77 SQLM-EVENT-CONNHEADER
-           PIC S9(4) COMP-5 VALUE 12.
+       78 SQLM-EVENT-CONNHEADER VALUE 12.
 
-       77 SQLM-EVENT-OVERFLOW
-           PIC S9(4) COMP-5 VALUE 13.
+       78 SQLM-EVENT-OVERFLOW VALUE 13.
 
-       77 SQLM-EVENT-BUFFERPOOL
-           PIC S9(4) COMP-5 VALUE 14.
+       78 SQLM-EVENT-BUFFERPOOL VALUE 14.
 
-       77 SQLM-EVENT-SUBSECTION
-           PIC S9(4) COMP-5 VALUE 15.
+       78 SQLM-EVENT-SUBSECTION VALUE 15.
 
-       77 SQLM-EVENT-LOG-HEADER
-           PIC S9(4) COMP-5 VALUE 16.
+       78 SQLM-EVENT-LOG-HEADER VALUE 16.
 
-       77 SQLM-EVENT-DBMEMUSE
-           PIC S9(4) COMP-5 VALUE 17.
+       78 SQLM-EVENT-DBMEMUSE VALUE 17.
 
-       77 SQLM-EVENT-CONNMEMUSE
-           PIC S9(4) COMP-5 VALUE 18.
+       78 SQLM-EVENT-CONNMEMUSE VALUE 18.
 
-       77 SQLM-EVENT-STMT-HISTORY
-           PIC S9(4) COMP-5 VALUE 19.
+       78 SQLM-EVENT-STMT-HISTORY VALUE 19.
 
-       77 SQLM-EVENT-DATA-VALUE
-           PIC S9(4) COMP-5 VALUE 20.
+       78 SQLM-EVENT-DATA-VALUE VALUE 20.
 
-       77 SQLM-EVENT-MAX
-           PIC S9(4) COMP-5 VALUE 20.
+       78 SQLM-EVENT-MAX VALUE 20.
 
       * the list                            *
 
       *****************************************************************************
       * Event Monitor Byte Order Identifiers (byte_order)                          *
       *****************************************************************************
-       77 SQLM-LITTLE-ENDIAN
-           PIC S9(4) COMP-5 VALUE 0.
+       78 SQLM-LITTLE-ENDIAN VALUE 0.
 
-       77 SQLM-BIG-ENDIAN
-           PIC S9(4) COMP-5 VALUE -1.
+       78 SQLM-BIG-ENDIAN VALUE -1.
 
 
       *****************************************************************************
       * Database Monitor Error Constants (sqlcode)                                 *
       *****************************************************************************
-       77 SQLM-RC-INV-PTR
-           PIC S9(4) COMP-5 VALUE -1601.
+       78 SQLM-RC-INV-PTR VALUE -1601.
 
-       77 SQLM-RC-INV-OBJ-TYPE
-           PIC S9(4) COMP-5 VALUE -1602.
+       78 SQLM-RC-INV-OBJ-TYPE VALUE -1602.
 
-       77 SQLM-RC-NOT-SPECIFIED
-           PIC S9(4) COMP-5 VALUE -1603.
+       78 SQLM-RC-NOT-SPECIFIED VALUE -1603.
 
-       77 SQLM-RC-NOT-NULL-TERM
-           PIC S9(4) COMP-5 VALUE -1604.
+       78 SQLM-RC-NOT-NULL-TERM VALUE -1604.
 
-       77 SQLM-RC-DBNOACT
-           PIC S9(4) COMP-5 VALUE 1605.
+       78 SQLM-RC-DBNOACT VALUE 1605.
 
-       77 SQLM-RC-BUFFER-FULL
-           PIC S9(4) COMP-5 VALUE 1606.
+       78 SQLM-RC-BUFFER-FULL VALUE 1606.
 
-       77 SQLM-RC-NOMEM
-           PIC S9(4) COMP-5 VALUE -1607.
+       78 SQLM-RC-NOMEM VALUE -1607.
 
-       77 SQLM-RC-DUPLICATE-DB
-           PIC S9(4) COMP-5 VALUE 1608.
+       78 SQLM-RC-DUPLICATE-DB VALUE 1608.
 
-       77 SQLM-RC-REMOTE-DB
-           PIC S9(4) COMP-5 VALUE -1609.
+       78 SQLM-RC-REMOTE-DB VALUE -1609.
 
-       77 SQLM-RC-INV-VALUE
-           PIC S9(4) COMP-5 VALUE -1610.
+       78 SQLM-RC-INV-VALUE VALUE -1610.
 
-       77 SQLM-RC-NO-DATA
-           PIC S9(4) COMP-5 VALUE 1611.
+       78 SQLM-RC-NO-DATA VALUE 1611.
 
-       77 SQLM-RC-TOO-MANY-OBJECTS
-           PIC S9(4) COMP-5 VALUE -1623.
+       78 SQLM-RC-TOO-MANY-OBJECTS VALUE -1623.
 
-       77 SQLM-RC-MULTIPLE-NODES
-           PIC S9(4) COMP-5 VALUE -1624.
+       78 SQLM-RC-MULTIPLE-NODES VALUE -1624.
 
 
       *****************************************************************************
       * FCM Connection Status (connection_status)                                  *
       *****************************************************************************
-       77 SQLM-FCM-CONNECT-INACTIVE
-           PIC S9(4) COMP-5 VALUE 0.
+       78 SQLM-FCM-CONNECT-INACTIVE VALUE 0.
 
-       77 SQLM-FCM-CONNECT-ACTIVE
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-FCM-CONNECT-ACTIVE VALUE 1.
 
-       77 SQLM-FCM-CONNECT-CONGESTED
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-FCM-CONNECT-CONGESTED VALUE 2.
 
 
       *****************************************************************************
       * Database location relative to snapshot application (db_location)           *
       *****************************************************************************
-       77 SQLM-LOCAL
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-LOCAL VALUE 1.
 
-       77 SQLM-REMOTE
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-REMOTE VALUE 2.
 
 
       *****************************************************************************
       * Node location definitions                                                  *
       *****************************************************************************
-       77 SQLM-CURRENT-NODE
-           PIC S9(4) COMP-5 VALUE -1.
+       78 SQLM-CURRENT-NODE VALUE -1.
 
-       77 SQLM-ALL-NODES
-           PIC S9(4) COMP-5 VALUE -2.
+       78 SQLM-ALL-NODES VALUE -2.
 
 
       *****************************************************************************
       * Log space usage definitions                                                *
       *****************************************************************************
-       77 SQLM-LOGSPACE-INFINITE
-           PIC S9(18) COMP-5 VALUE -1.
+       78 SQLM-LOGSPACE-INFINITE
+                            VALUE -1.
 
 
       *****************************************************************************
       * Log file number definitions                                                *
       *****************************************************************************
-       77 SQLM-LOGFILE-NUM-UNKNOWN
-           PIC S9(4) COMP-5 VALUE -1.
+       78 SQLM-LOGFILE-NUM-UNKNOWN VALUE -1.
 
 
       *****************************************************************************
       * Utility types associated with SQLM_ELM_UTILITY_TYPE                        *
       *****************************************************************************
-       77 SQLM-UTILITY-REBALANCE
-           PIC S9(4) COMP-5 VALUE 0.
+       78 SQLM-UTILITY-REBALANCE VALUE 0.
 
-       77 SQLM-UTILITY-BACKUP
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-UTILITY-BACKUP VALUE 1.
 
-       77 SQLM-UTILITY-RUNSTATS
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-UTILITY-RUNSTATS VALUE 2.
 
-       77 SQLM-UTILITY-REORG
-           PIC S9(4) COMP-5 VALUE 3.
+       78 SQLM-UTILITY-REORG VALUE 3.
 
-       77 SQLM-UTILITY-RESTORE
-           PIC S9(4) COMP-5 VALUE 4.
+       78 SQLM-UTILITY-RESTORE VALUE 4.
 
-       77 SQLM-UTILITY-CRASH-RECOVERY
-           PIC S9(4) COMP-5 VALUE 5.
+       78 SQLM-UTILITY-CRASH-RECOVERY VALUE 5.
 
       * The full name of the monitor element is SQLM_UTILITY_ROLLFORWARD_RECOVERY
-       77 SQLM-UTL-ROLLFWD-RCVRY
-           PIC S9(4) COMP-5 VALUE 6.
+       78 SQLM-UTL-ROLLFWD-RCVRY VALUE 6.
 
-       77 SQLM-UTILITY-LOAD
-           PIC S9(4) COMP-5 VALUE 7.
+       78 SQLM-UTILITY-LOAD VALUE 7.
 
       * The full name of the monitor element is SQLM_UTILITY_RESTART_RECREATE_INDEX
-       77 SQLM-UTL-RESTART-INDEX
-           PIC S9(4) COMP-5 VALUE 8.
+       78 SQLM-UTL-RESTART-INDEX VALUE 8.
 
 
       *****************************************************************************
       * Utility priority of value 0                                                *
       *****************************************************************************
-       77 SQLM-UTILITY-UNTHROTTLED
-           PIC S9(4) COMP-5 VALUE 0.
+       78 SQLM-UTILITY-UNTHROTTLED VALUE 0.
 
 
       *****************************************************************************
       * Progress information work metric values                                    *
       *****************************************************************************
-       77 SQLM-WORK-METRIC-NOT-SUPPORT
-           PIC S9(4) COMP-5 VALUE 0.
+       78 SQLM-WORK-METRIC-NOT-SUPPORT VALUE 0.
 
-       77 SQLM-WORK-METRIC-BYTES
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-WORK-METRIC-BYTES VALUE 1.
 
-       77 SQLM-WORK-METRIC-EXTENTS
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-WORK-METRIC-EXTENTS VALUE 2.
 
-       77 SQLM-WORK-METRIC-ROWS
-           PIC S9(4) COMP-5 VALUE 3.
+       78 SQLM-WORK-METRIC-ROWS VALUE 3.
 
-       77 SQLM-WORK-METRIC-PAGES
-           PIC S9(4) COMP-5 VALUE 4.
+       78 SQLM-WORK-METRIC-PAGES VALUE 4.
 
-       77 SQLM-WORK-METRIC-INDEXES
-           PIC S9(4) COMP-5 VALUE 5.
+       78 SQLM-WORK-METRIC-INDEXES VALUE 5.
 
 
       *****************************************************************************
       * Current HADR roles of the database                                         *
       *****************************************************************************
-       77 SQLM-HADR-ROLE-STANDARD
-           PIC S9(4) COMP-5 VALUE 0.
+       78 SQLM-HADR-ROLE-STANDARD VALUE 0.
 
-       77 SQLM-HADR-ROLE-PRIMARY
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-HADR-ROLE-PRIMARY VALUE 1.
 
-       77 SQLM-HADR-ROLE-STANDBY
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-HADR-ROLE-STANDBY VALUE 2.
 
 
       *****************************************************************************
       * State of HADR subsystem                                                    *
       *****************************************************************************
-       77 SQLM-HADR-STATE-DISCONNECTED
-           PIC S9(4) COMP-5 VALUE 0.
+       78 SQLM-HADR-STATE-DISCONNECTED VALUE 0.
 
-       77 SQLM-HADR-STATE-LOCAL-CATCHUP
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-HADR-STATE-LOCAL-CATCHUP VALUE 1.
 
-       77 SQLM-HADR-STATE-REM-CATCH-PEND
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-HADR-STATE-REM-CATCH-PEND VALUE 2.
 
-       77 SQLM-HADR-STATE-REM-CATCHUP
-           PIC S9(4) COMP-5 VALUE 3.
+       78 SQLM-HADR-STATE-REM-CATCHUP VALUE 3.
 
-       77 SQLM-HADR-STATE-PEER
-           PIC S9(4) COMP-5 VALUE 4.
+       78 SQLM-HADR-STATE-PEER VALUE 4.
 
 
       *****************************************************************************
       * HADR synchronization mode                                                  *
       *****************************************************************************
-       77 SQLM-HADR-SYNCMODE-ASYNC
-           PIC S9(4) COMP-5 VALUE 0.
+       78 SQLM-HADR-SYNCMODE-ASYNC VALUE 0.
 
-       77 SQLM-HADR-SYNCMODE-NEARSYNC
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-HADR-SYNCMODE-NEARSYNC VALUE 1.
 
-       77 SQLM-HADR-SYNCMODE-SYNC
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-HADR-SYNCMODE-SYNC VALUE 2.
 
 
       *****************************************************************************
       * Status of HADR primary-standby connection                                  *
       *****************************************************************************
-       77 SQLM-HADR-CONN-CONNECTED
-           PIC S9(4) COMP-5 VALUE 0.
+       78 SQLM-HADR-CONN-CONNECTED VALUE 0.
 
-       77 SQLM-HADR-CONN-CONGESTED
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-HADR-CONN-CONGESTED VALUE 1.
 
-       77 SQLM-HADR-CONN-DISCONNECTED
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-HADR-CONN-DISCONNECTED VALUE 2.
 
 
       *****************************************************************************
@@ -1507,11 +1104,9 @@
       *****************************************************************************
       * Defines for snapshot output stream format                                  *
       *****************************************************************************
-       77 SQLM-STREAM-STATIC-FORMAT
-           PIC S9(4) COMP-5 VALUE 0.
+       78 SQLM-STREAM-STATIC-FORMAT VALUE 0.
 
-       77 SQLM-STREAM-DYNAMIC-FORMAT
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-STREAM-DYNAMIC-FORMAT VALUE 1.
 
 
       *****************************************************************************
@@ -1657,40 +1252,29 @@
       * Monitor data types (reside in the "type" field of the sqlm_header_data     *
       *****************************************************************************
       ****************Logical data elements****************************************
-       77 SQLM-TYPE-HEADER
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-TYPE-HEADER VALUE 1.
 
 
       ****************Base data elements*******************************************
-       77 SQLM-TYPE-STRING
-           PIC S9(4) COMP-5 VALUE 50.
+       78 SQLM-TYPE-STRING VALUE 50.
 
-       77 SQLM-TYPE-U8BIT
-           PIC S9(4) COMP-5 VALUE 51.
+       78 SQLM-TYPE-U8BIT VALUE 51.
 
-       77 SQLM-TYPE-8BIT
-           PIC S9(4) COMP-5 VALUE 52.
+       78 SQLM-TYPE-8BIT VALUE 52.
 
-       77 SQLM-TYPE-16BIT
-           PIC S9(4) COMP-5 VALUE 53.
+       78 SQLM-TYPE-16BIT VALUE 53.
 
-       77 SQLM-TYPE-U16BIT
-           PIC S9(4) COMP-5 VALUE 54.
+       78 SQLM-TYPE-U16BIT VALUE 54.
 
-       77 SQLM-TYPE-32BIT
-           PIC S9(4) COMP-5 VALUE 55.
+       78 SQLM-TYPE-32BIT VALUE 55.
 
-       77 SQLM-TYPE-U32BIT
-           PIC S9(4) COMP-5 VALUE 56.
+       78 SQLM-TYPE-U32BIT VALUE 56.
 
-       77 SQLM-TYPE-U64BIT
-           PIC S9(4) COMP-5 VALUE 57.
+       78 SQLM-TYPE-U64BIT VALUE 57.
 
-       77 SQLM-TYPE-64BIT
-           PIC S9(4) COMP-5 VALUE 58.
+       78 SQLM-TYPE-64BIT VALUE 58.
 
-       77 SQLM-TYPE-HANDLE
-           PIC S9(4) COMP-5 VALUE 59.
+       78 SQLM-TYPE-HANDLE VALUE 59.
 
 
       *****************************************************************************
@@ -1701,181 +1285,123 @@
       * information. They do not represent data elements, but rather groups of     *
       * data elements                                                              *
       *****************************************************************************
-       77 SQLM-ELM-DB2
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-ELM-DB2 VALUE 1.
 
-       77 SQLM-ELM-FCM
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-ELM-FCM VALUE 2.
 
-       77 SQLM-ELM-FCM-NODE
-           PIC S9(4) COMP-5 VALUE 3.
+       78 SQLM-ELM-FCM-NODE VALUE 3.
 
-       77 SQLM-ELM-APPL-INFO
-           PIC S9(4) COMP-5 VALUE 4.
+       78 SQLM-ELM-APPL-INFO VALUE 4.
 
-       77 SQLM-ELM-APPL
-           PIC S9(4) COMP-5 VALUE 5.
+       78 SQLM-ELM-APPL VALUE 5.
 
-       77 SQLM-ELM-DCS-APPL-INFO
-           PIC S9(4) COMP-5 VALUE 6.
+       78 SQLM-ELM-DCS-APPL-INFO VALUE 6.
 
-       77 SQLM-ELM-DCS-APPL
-           PIC S9(4) COMP-5 VALUE 7.
+       78 SQLM-ELM-DCS-APPL VALUE 7.
 
-       77 SQLM-ELM-DCS-STMT
-           PIC S9(4) COMP-5 VALUE 8.
+       78 SQLM-ELM-DCS-STMT VALUE 8.
 
-       77 SQLM-ELM-SUBSECTION
-           PIC S9(4) COMP-5 VALUE 9.
+       78 SQLM-ELM-SUBSECTION VALUE 9.
 
-       77 SQLM-ELM-AGENT
-           PIC S9(4) COMP-5 VALUE 10.
+       78 SQLM-ELM-AGENT VALUE 10.
 
-       77 SQLM-ELM-LOCK-WAIT
-           PIC S9(4) COMP-5 VALUE 11.
+       78 SQLM-ELM-LOCK-WAIT VALUE 11.
 
-       77 SQLM-ELM-DCS-DBASE
-           PIC S9(4) COMP-5 VALUE 12.
+       78 SQLM-ELM-DCS-DBASE VALUE 12.
 
-       77 SQLM-ELM-DBASE
-           PIC S9(4) COMP-5 VALUE 13.
+       78 SQLM-ELM-DBASE VALUE 13.
 
-       77 SQLM-ELM-ROLLFORWARD
-           PIC S9(4) COMP-5 VALUE 14.
+       78 SQLM-ELM-ROLLFORWARD VALUE 14.
 
-       77 SQLM-ELM-TABLE
-           PIC S9(4) COMP-5 VALUE 15.
+       78 SQLM-ELM-TABLE VALUE 15.
 
-       77 SQLM-ELM-LOCK
-           PIC S9(4) COMP-5 VALUE 16.
+       78 SQLM-ELM-LOCK VALUE 16.
 
-       77 SQLM-ELM-TABLESPACE
-           PIC S9(4) COMP-5 VALUE 17.
+       78 SQLM-ELM-TABLESPACE VALUE 17.
 
-       77 SQLM-ELM-BUFFERPOOL
-           PIC S9(4) COMP-5 VALUE 18.
+       78 SQLM-ELM-BUFFERPOOL VALUE 18.
 
-       77 SQLM-ELM-DYNSQL
-           PIC S9(4) COMP-5 VALUE 19.
+       78 SQLM-ELM-DYNSQL VALUE 19.
 
-       77 SQLM-ELM-COLLECTED
-           PIC S9(4) COMP-5 VALUE 20.
+       78 SQLM-ELM-COLLECTED VALUE 20.
 
-       77 SQLM-ELM-SWITCH-LIST
-           PIC S9(4) COMP-5 VALUE 21.
+       78 SQLM-ELM-SWITCH-LIST VALUE 21.
 
-       77 SQLM-ELM-UOW-SW
-           PIC S9(4) COMP-5 VALUE 22.
+       78 SQLM-ELM-UOW-SW VALUE 22.
 
-       77 SQLM-ELM-STATEMENT-SW
-           PIC S9(4) COMP-5 VALUE 23.
+       78 SQLM-ELM-STATEMENT-SW VALUE 23.
 
-       77 SQLM-ELM-TABLE-SW
-           PIC S9(4) COMP-5 VALUE 24.
+       78 SQLM-ELM-TABLE-SW VALUE 24.
 
-       77 SQLM-ELM-BUFFPOOL-SW
-           PIC S9(4) COMP-5 VALUE 25.
+       78 SQLM-ELM-BUFFPOOL-SW VALUE 25.
 
-       77 SQLM-ELM-LOCK-SW
-           PIC S9(4) COMP-5 VALUE 26.
+       78 SQLM-ELM-LOCK-SW VALUE 26.
 
-       77 SQLM-ELM-SORT-SW
-           PIC S9(4) COMP-5 VALUE 27.
+       78 SQLM-ELM-SORT-SW VALUE 27.
 
-       77 SQLM-ELM-TABLE-LIST
-           PIC S9(4) COMP-5 VALUE 28.
+       78 SQLM-ELM-TABLE-LIST VALUE 28.
 
-       77 SQLM-ELM-TABLESPACE-LIST
-           PIC S9(4) COMP-5 VALUE 29.
+       78 SQLM-ELM-TABLESPACE-LIST VALUE 29.
 
-       77 SQLM-ELM-DYNSQL-LIST
-           PIC S9(4) COMP-5 VALUE 30.
+       78 SQLM-ELM-DYNSQL-LIST VALUE 30.
 
-       77 SQLM-ELM-APPL-LOCK-LIST
-           PIC S9(4) COMP-5 VALUE 31.
+       78 SQLM-ELM-APPL-LOCK-LIST VALUE 31.
 
-       77 SQLM-ELM-DB-LOCK-LIST
-           PIC S9(4) COMP-5 VALUE 32.
+       78 SQLM-ELM-DB-LOCK-LIST VALUE 32.
 
-       77 SQLM-ELM-STMT
-           PIC S9(4) COMP-5 VALUE 33.
+       78 SQLM-ELM-STMT VALUE 33.
 
-       77 SQLM-ELM-DBASE-REMOTE
-           PIC S9(4) COMP-5 VALUE 34.
+       78 SQLM-ELM-DBASE-REMOTE VALUE 34.
 
-       77 SQLM-ELM-APPL-REMOTE
-           PIC S9(4) COMP-5 VALUE 35.
+       78 SQLM-ELM-APPL-REMOTE VALUE 35.
 
-       77 SQLM-ELM-APPL-ID-INFO
-           PIC S9(4) COMP-5 VALUE 36.
+       78 SQLM-ELM-APPL-ID-INFO VALUE 36.
 
-       77 SQLM-ELM-STMT-TRANSMISSIONS
-           PIC S9(4) COMP-5 VALUE 37.
+       78 SQLM-ELM-STMT-TRANSMISSIONS VALUE 37.
 
-       77 SQLM-ELM-TIMESTAMP-SW
-           PIC S9(4) COMP-5 VALUE 38.
+       78 SQLM-ELM-TIMESTAMP-SW VALUE 38.
 
-       77 SQLM-ELM-TABLE-REORG
-           PIC S9(4) COMP-5 VALUE 39.
+       78 SQLM-ELM-TABLE-REORG VALUE 39.
 
-       77 SQLM-ELM-MEMORY-POOL
-           PIC S9(4) COMP-5 VALUE 40.
+       78 SQLM-ELM-MEMORY-POOL VALUE 40.
 
-       77 SQLM-ELM-TABLESPACE-QUIESCER
-           PIC S9(4) COMP-5 VALUE 41.
+       78 SQLM-ELM-TABLESPACE-QUIESCER VALUE 41.
 
-       77 SQLM-ELM-TABLESPACE-CONTAINER
-           PIC S9(4) COMP-5 VALUE 42.
+       78 SQLM-ELM-TABLESPACE-CONTAINER VALUE 42.
 
-       77 SQLM-ELM-TABLESPACE-RANGE
-           PIC S9(4) COMP-5 VALUE 43.
+       78 SQLM-ELM-TABLESPACE-RANGE VALUE 43.
 
       * The full name of the monitor element is SQLM_ELM_TABLESPACE_RANGE_CONTAINER
-       77 SQLM-ELM-TBSP-RANGE-CONT
-           PIC S9(4) COMP-5 VALUE 44.
+       78 SQLM-ELM-TBSP-RANGE-CONT VALUE 44.
 
-       77 SQLM-ELM-TABLESPACE-NODEINFO
-           PIC S9(4) COMP-5 VALUE 45.
+       78 SQLM-ELM-TABLESPACE-NODEINFO VALUE 45.
 
-       77 SQLM-ELM-HEALTH-INDICATOR
-           PIC S9(4) COMP-5 VALUE 46.
+       78 SQLM-ELM-HEALTH-INDICATOR VALUE 46.
 
-       77 SQLM-ELM-HEALTH-INDICATOR-HIST
-           PIC S9(4) COMP-5 VALUE 47.
+       78 SQLM-ELM-HEALTH-INDICATOR-HIST VALUE 47.
 
-       77 SQLM-ELM-BUFFERPOOL-NODEINFO
-           PIC S9(4) COMP-5 VALUE 48.
+       78 SQLM-ELM-BUFFERPOOL-NODEINFO VALUE 48.
 
-       77 SQLM-ELM-UTILITY
-           PIC S9(4) COMP-5 VALUE 49.
+       78 SQLM-ELM-UTILITY VALUE 49.
 
-       77 SQLM-ELM-HI-OBJ-LIST
-           PIC S9(4) COMP-5 VALUE 50.
+       78 SQLM-ELM-HI-OBJ-LIST VALUE 50.
 
-       77 SQLM-ELM-HI-OBJ-LIST-HIST
-           PIC S9(4) COMP-5 VALUE 51.
+       78 SQLM-ELM-HI-OBJ-LIST-HIST VALUE 51.
 
-       77 SQLM-ELM-PROGRESS
-           PIC S9(4) COMP-5 VALUE 52.
+       78 SQLM-ELM-PROGRESS VALUE 52.
 
-       77 SQLM-ELM-PROGRESS-LIST
-           PIC S9(4) COMP-5 VALUE 53.
+       78 SQLM-ELM-PROGRESS-LIST VALUE 53.
 
-       77 SQLM-ELM-HADR
-           PIC S9(4) COMP-5 VALUE 54.
+       78 SQLM-ELM-HADR VALUE 54.
 
-       77 SQLM-ELM-DETAIL-LOG
-           PIC S9(4) COMP-5 VALUE 55.
+       78 SQLM-ELM-DETAIL-LOG VALUE 55.
 
-       77 SQLM-ELM-ROLLBACK-PROGRESS
-           PIC S9(4) COMP-5 VALUE 56.
+       78 SQLM-ELM-ROLLBACK-PROGRESS VALUE 56.
 
-       77 SQLM-ELM-DB-STORAGE-GROUP
-           PIC S9(4) COMP-5 VALUE 57.
+       78 SQLM-ELM-DB-STORAGE-GROUP VALUE 57.
 
 
-       77 SQLM-MAX-LOGICAL-ELEMENT
-           PIC S9(4) COMP-5 VALUE 57.
+       78 SQLM-MAX-LOGICAL-ELEMENT VALUE 57.
 
 
       *****************************************************************************
@@ -1883,2072 +1409,1445 @@
       * information. They do not represent data elements, but rather groups of     *
       * data elements                                                              *
       *****************************************************************************
-       77 SQLM-ELM-EVENT-DB
-           PIC S9(4) COMP-5 VALUE 100.
+       78 SQLM-ELM-EVENT-DB VALUE 100.
 
-       77 SQLM-ELM-EVENT-CONN
-           PIC S9(4) COMP-5 VALUE 101.
+       78 SQLM-ELM-EVENT-CONN VALUE 101.
 
-       77 SQLM-ELM-EVENT-TABLE
-           PIC S9(4) COMP-5 VALUE 102.
+       78 SQLM-ELM-EVENT-TABLE VALUE 102.
 
-       77 SQLM-ELM-EVENT-STMT
-           PIC S9(4) COMP-5 VALUE 103.
+       78 SQLM-ELM-EVENT-STMT VALUE 103.
 
-       77 SQLM-ELM-EVENT-XACT
-           PIC S9(4) COMP-5 VALUE 104.
+       78 SQLM-ELM-EVENT-XACT VALUE 104.
 
-       77 SQLM-ELM-EVENT-DEADLOCK
-           PIC S9(4) COMP-5 VALUE 105.
+       78 SQLM-ELM-EVENT-DEADLOCK VALUE 105.
 
-       77 SQLM-ELM-EVENT-DLCONN
-           PIC S9(4) COMP-5 VALUE 106.
+       78 SQLM-ELM-EVENT-DLCONN VALUE 106.
 
-       77 SQLM-ELM-EVENT-TABLESPACE
-           PIC S9(4) COMP-5 VALUE 107.
+       78 SQLM-ELM-EVENT-TABLESPACE VALUE 107.
 
-       77 SQLM-ELM-EVENT-DBHEADER
-           PIC S9(4) COMP-5 VALUE 108.
+       78 SQLM-ELM-EVENT-DBHEADER VALUE 108.
 
-       77 SQLM-ELM-EVENT-START
-           PIC S9(4) COMP-5 VALUE 109.
+       78 SQLM-ELM-EVENT-START VALUE 109.
 
-       77 SQLM-ELM-EVENT-CONNHEADER
-           PIC S9(4) COMP-5 VALUE 110.
+       78 SQLM-ELM-EVENT-CONNHEADER VALUE 110.
 
-       77 SQLM-ELM-EVENT-OVERFLOW
-           PIC S9(4) COMP-5 VALUE 111.
+       78 SQLM-ELM-EVENT-OVERFLOW VALUE 111.
 
-       77 SQLM-ELM-EVENT-BUFFERPOOL
-           PIC S9(4) COMP-5 VALUE 112.
+       78 SQLM-ELM-EVENT-BUFFERPOOL VALUE 112.
 
-       77 SQLM-ELM-EVENT-SUBSECTION
-           PIC S9(4) COMP-5 VALUE 113.
+       78 SQLM-ELM-EVENT-SUBSECTION VALUE 113.
 
-       77 SQLM-ELM-EVENT-LOG-HEADER
-           PIC S9(4) COMP-5 VALUE 114.
+       78 SQLM-ELM-EVENT-LOG-HEADER VALUE 114.
 
-       77 SQLM-ELM-EVENT-CONTROL
-           PIC S9(4) COMP-5 VALUE 115.
+       78 SQLM-ELM-EVENT-CONTROL VALUE 115.
 
-       77 SQLM-ELM-EVENT-LOCK-LIST
-           PIC S9(4) COMP-5 VALUE 116.
+       78 SQLM-ELM-EVENT-LOCK-LIST VALUE 116.
 
-       77 SQLM-ELM-EVENT-DETAILED-DLCONN
-           PIC S9(4) COMP-5 VALUE 117.
+       78 SQLM-ELM-EVENT-DETAILED-DLCONN VALUE 117.
 
-       77 SQLM-ELM-EVENT-CONNMEMUSE
-           PIC S9(4) COMP-5 VALUE 118.
+       78 SQLM-ELM-EVENT-CONNMEMUSE VALUE 118.
 
-       77 SQLM-ELM-EVENT-DBMEMUSE
-           PIC S9(4) COMP-5 VALUE 119.
+       78 SQLM-ELM-EVENT-DBMEMUSE VALUE 119.
 
-       77 SQLM-ELM-EVENT-STMT-HISTORY
-           PIC S9(4) COMP-5 VALUE 120.
+       78 SQLM-ELM-EVENT-STMT-HISTORY VALUE 120.
 
-       77 SQLM-ELM-EVENT-DATA-VALUE
-           PIC S9(4) COMP-5 VALUE 121.
+       78 SQLM-ELM-EVENT-DATA-VALUE VALUE 121.
 
 
       *****************************************************************************
       * Timestamps are returned as logic data elements with seconds and            *
       * microseconds returned in seperate base elements                            *
       *****************************************************************************
-       77 SQLM-MIN-TIME-STAMP
-           PIC S9(4) COMP-5 VALUE 200.
+       78 SQLM-MIN-TIME-STAMP VALUE 200.
 
 
-       77 SQLM-ELM-TIME-STAMP
-           PIC S9(4) COMP-5 VALUE 200.
+       78 SQLM-ELM-TIME-STAMP VALUE 200.
 
-       77 SQLM-ELM-STATUS-CHANGE-TIME
-           PIC S9(4) COMP-5 VALUE 201.
+       78 SQLM-ELM-STATUS-CHANGE-TIME VALUE 201.
 
-       77 SQLM-ELM-GW-CON-TIME
-           PIC S9(4) COMP-5 VALUE 202.
+       78 SQLM-ELM-GW-CON-TIME VALUE 202.
 
-       77 SQLM-ELM-PREV-UOW-STOP-TIME
-           PIC S9(4) COMP-5 VALUE 203.
+       78 SQLM-ELM-PREV-UOW-STOP-TIME VALUE 203.
 
-       77 SQLM-ELM-UOW-START-TIME
-           PIC S9(4) COMP-5 VALUE 204.
+       78 SQLM-ELM-UOW-START-TIME VALUE 204.
 
-       77 SQLM-ELM-UOW-STOP-TIME
-           PIC S9(4) COMP-5 VALUE 205.
+       78 SQLM-ELM-UOW-STOP-TIME VALUE 205.
 
-       77 SQLM-ELM-STMT-START
-           PIC S9(4) COMP-5 VALUE 206.
+       78 SQLM-ELM-STMT-START VALUE 206.
 
-       77 SQLM-ELM-STMT-STOP
-           PIC S9(4) COMP-5 VALUE 207.
+       78 SQLM-ELM-STMT-STOP VALUE 207.
 
-       77 SQLM-ELM-LAST-RESET
-           PIC S9(4) COMP-5 VALUE 208.
+       78 SQLM-ELM-LAST-RESET VALUE 208.
 
-       77 SQLM-ELM-DB2START-TIME
-           PIC S9(4) COMP-5 VALUE 209.
+       78 SQLM-ELM-DB2START-TIME VALUE 209.
 
-       77 SQLM-ELM-DB-CONN-TIME
-           PIC S9(4) COMP-5 VALUE 210.
+       78 SQLM-ELM-DB-CONN-TIME VALUE 210.
 
-       77 SQLM-ELM-LAST-BACKUP
-           PIC S9(4) COMP-5 VALUE 211.
+       78 SQLM-ELM-LAST-BACKUP VALUE 211.
 
-       77 SQLM-ELM-LOCK-WAIT-START-TIME
-           PIC S9(4) COMP-5 VALUE 212.
+       78 SQLM-ELM-LOCK-WAIT-START-TIME VALUE 212.
 
-       77 SQLM-ELM-APPL-CON-TIME
-           PIC S9(4) COMP-5 VALUE 213.
+       78 SQLM-ELM-APPL-CON-TIME VALUE 213.
 
-       77 SQLM-ELM-CONN-COMPLETE-TIME
-           PIC S9(4) COMP-5 VALUE 214.
+       78 SQLM-ELM-CONN-COMPLETE-TIME VALUE 214.
 
-       77 SQLM-ELM-DISCONN-TIME
-           PIC S9(4) COMP-5 VALUE 215.
+       78 SQLM-ELM-DISCONN-TIME VALUE 215.
 
-       77 SQLM-ELM-EVENT-TIME
-           PIC S9(4) COMP-5 VALUE 216.
+       78 SQLM-ELM-EVENT-TIME VALUE 216.
 
-       77 SQLM-ELM-START-TIME
-           PIC S9(4) COMP-5 VALUE 217.
+       78 SQLM-ELM-START-TIME VALUE 217.
 
-       77 SQLM-ELM-STOP-TIME
-           PIC S9(4) COMP-5 VALUE 218.
+       78 SQLM-ELM-STOP-TIME VALUE 218.
 
-       77 SQLM-ELM-RF-TIMESTAMP
-           PIC S9(4) COMP-5 VALUE 219.
+       78 SQLM-ELM-RF-TIMESTAMP VALUE 219.
 
-       77 SQLM-ELM-CONN-TIME
-           PIC S9(4) COMP-5 VALUE 220.
+       78 SQLM-ELM-CONN-TIME VALUE 220.
 
-       77 SQLM-ELM-FIRST-OVERFLOW-TIME
-           PIC S9(4) COMP-5 VALUE 221.
+       78 SQLM-ELM-FIRST-OVERFLOW-TIME VALUE 221.
 
-       77 SQLM-ELM-LAST-OVERFLOW-TIME
-           PIC S9(4) COMP-5 VALUE 222.
+       78 SQLM-ELM-LAST-OVERFLOW-TIME VALUE 222.
 
-       77 SQLM-ELM-GW-EXEC-TIME
-           PIC S9(4) COMP-5 VALUE 223.
+       78 SQLM-ELM-GW-EXEC-TIME VALUE 223.
 
-       77 SQLM-ELM-AGENT-USR-CPU-TIME
-           PIC S9(4) COMP-5 VALUE 224.
+       78 SQLM-ELM-AGENT-USR-CPU-TIME VALUE 224.
 
-       77 SQLM-ELM-AGENT-SYS-CPU-TIME
-           PIC S9(4) COMP-5 VALUE 225.
+       78 SQLM-ELM-AGENT-SYS-CPU-TIME VALUE 225.
 
-       77 SQLM-ELM-SS-USR-CPU-TIME
-           PIC S9(4) COMP-5 VALUE 226.
+       78 SQLM-ELM-SS-USR-CPU-TIME VALUE 226.
 
-       77 SQLM-ELM-SS-SYS-CPU-TIME
-           PIC S9(4) COMP-5 VALUE 227.
+       78 SQLM-ELM-SS-SYS-CPU-TIME VALUE 227.
 
-       77 SQLM-ELM-USER-CPU-TIME
-           PIC S9(4) COMP-5 VALUE 228.
+       78 SQLM-ELM-USER-CPU-TIME VALUE 228.
 
-       77 SQLM-ELM-TOTAL-EXEC-TIME
-           PIC S9(4) COMP-5 VALUE 229.
+       78 SQLM-ELM-TOTAL-EXEC-TIME VALUE 229.
 
-       77 SQLM-ELM-SWITCH-SET-TIME
-           PIC S9(4) COMP-5 VALUE 230.
+       78 SQLM-ELM-SWITCH-SET-TIME VALUE 230.
 
-       77 SQLM-ELM-ELAPSED-EXEC-TIME
-           PIC S9(4) COMP-5 VALUE 231.
+       78 SQLM-ELM-ELAPSED-EXEC-TIME VALUE 231.
 
-       77 SQLM-ELM-SELECT-TIME
-           PIC S9(4) COMP-5 VALUE 232.
+       78 SQLM-ELM-SELECT-TIME VALUE 232.
 
-       77 SQLM-ELM-INSERT-TIME
-           PIC S9(4) COMP-5 VALUE 233.
+       78 SQLM-ELM-INSERT-TIME VALUE 233.
 
-       77 SQLM-ELM-UPDATE-TIME
-           PIC S9(4) COMP-5 VALUE 234.
+       78 SQLM-ELM-UPDATE-TIME VALUE 234.
 
-       77 SQLM-ELM-DELETE-TIME
-           PIC S9(4) COMP-5 VALUE 235.
+       78 SQLM-ELM-DELETE-TIME VALUE 235.
 
-       77 SQLM-ELM-CREATE-NICKNAME-TIME
-           PIC S9(4) COMP-5 VALUE 236.
+       78 SQLM-ELM-CREATE-NICKNAME-TIME VALUE 236.
 
-       77 SQLM-ELM-PASSTHRU-TIME
-           PIC S9(4) COMP-5 VALUE 237.
+       78 SQLM-ELM-PASSTHRU-TIME VALUE 237.
 
-       77 SQLM-ELM-STORED-PROC-TIME
-           PIC S9(4) COMP-5 VALUE 238.
+       78 SQLM-ELM-STORED-PROC-TIME VALUE 238.
 
-       77 SQLM-ELM-REMOTE-LOCK-TIME
-           PIC S9(4) COMP-5 VALUE 239.
+       78 SQLM-ELM-REMOTE-LOCK-TIME VALUE 239.
 
-       77 SQLM-ELM-NETWORK-TIME-TOP
-           PIC S9(4) COMP-5 VALUE 240.
+       78 SQLM-ELM-NETWORK-TIME-TOP VALUE 240.
 
-       77 SQLM-ELM-NETWORK-TIME-BOTTOM
-           PIC S9(4) COMP-5 VALUE 241.
+       78 SQLM-ELM-NETWORK-TIME-BOTTOM VALUE 241.
 
       * The full name of the monitor element is SQLM_ELM_TABLESPACE_REBALANCER_START_TIME
-       77 SQLM-ELM-TBSP-REB-START-TIME
-           PIC S9(4) COMP-5 VALUE 242.
+       78 SQLM-ELM-TBSP-REB-START-TIME VALUE 242.
 
       * The full name of the monitor element is SQLM_ELM_TABLESPACE_REBALANCER_RESTART_TIME
-       77 SQLM-ELM-TBSP-REB-RESTART-TIME
-           PIC S9(4) COMP-5 VALUE 243.
+       78 SQLM-ELM-TBSP-REB-RESTART-TIME VALUE 243.
 
       * The full name of the monitor element is SQLM_ELM_TABLESPACE_MIN_RECOVERY_TIME
-       77 SQLM-ELM-TBSP-MIN-RCVRY-TIME
-           PIC S9(4) COMP-5 VALUE 244.
+       78 SQLM-ELM-TBSP-MIN-RCVRY-TIME VALUE 244.
 
-       77 SQLM-ELM-HI-TIMESTAMP
-           PIC S9(4) COMP-5 VALUE 245.
+       78 SQLM-ELM-HI-TIMESTAMP VALUE 245.
 
-       77 SQLM-MAX-TIME-STAMP
-           PIC S9(4) COMP-5 VALUE 245.
+       78 SQLM-MAX-TIME-STAMP VALUE 245.
 
 
       *****************************************************************************
       * Actual database monitor elements                                           *
       *****************************************************************************
-       77 SQLM-ELM-SECONDS
-           PIC S9(4) COMP-5 VALUE 300.
+       78 SQLM-ELM-SECONDS VALUE 300.
 
-       77 SQLM-ELM-MICROSEC
-           PIC S9(4) COMP-5 VALUE 301.
+       78 SQLM-ELM-MICROSEC VALUE 301.
 
-       77 SQLM-ELM-AGENT-ID
-           PIC S9(4) COMP-5 VALUE 302.
+       78 SQLM-ELM-AGENT-ID VALUE 302.
 
-       77 SQLM-ELM-SERVER-DB2-TYPE
-           PIC S9(4) COMP-5 VALUE 303.
+       78 SQLM-ELM-SERVER-DB2-TYPE VALUE 303.
 
-       77 SQLM-ELM-SERVER-PRDID
-           PIC S9(4) COMP-5 VALUE 304.
+       78 SQLM-ELM-SERVER-PRDID VALUE 304.
 
-       77 SQLM-ELM-SERVER-NNAME
-           PIC S9(4) COMP-5 VALUE 305.
+       78 SQLM-ELM-SERVER-NNAME VALUE 305.
 
-       77 SQLM-ELM-SERVER-INSTANCE-NAME
-           PIC S9(4) COMP-5 VALUE 306.
+       78 SQLM-ELM-SERVER-INSTANCE-NAME VALUE 306.
 
-       77 SQLM-ELM-NODE-NUMBER
-           PIC S9(4) COMP-5 VALUE 307.
+       78 SQLM-ELM-NODE-NUMBER VALUE 307.
 
-       77 SQLM-ELM-TIME-ZONE-DISP
-           PIC S9(4) COMP-5 VALUE 308.
+       78 SQLM-ELM-TIME-ZONE-DISP VALUE 308.
 
-       77 SQLM-ELM-SERVER-VERSION
-           PIC S9(4) COMP-5 VALUE 309.
+       78 SQLM-ELM-SERVER-VERSION VALUE 309.
 
-       77 SQLM-ELM-APPL-STATUS
-           PIC S9(4) COMP-5 VALUE 310.
+       78 SQLM-ELM-APPL-STATUS VALUE 310.
 
-       77 SQLM-ELM-CODEPAGE-ID
-           PIC S9(4) COMP-5 VALUE 311.
+       78 SQLM-ELM-CODEPAGE-ID VALUE 311.
 
-       77 SQLM-ELM-STMT-TEXT
-           PIC S9(4) COMP-5 VALUE 312.
+       78 SQLM-ELM-STMT-TEXT VALUE 312.
 
-       77 SQLM-ELM-APPL-NAME
-           PIC S9(4) COMP-5 VALUE 313.
+       78 SQLM-ELM-APPL-NAME VALUE 313.
 
-       77 SQLM-ELM-APPL-ID
-           PIC S9(4) COMP-5 VALUE 314.
+       78 SQLM-ELM-APPL-ID VALUE 314.
 
-       77 SQLM-ELM-SEQUENCE-NO
-           PIC S9(4) COMP-5 VALUE 315.
+       78 SQLM-ELM-SEQUENCE-NO VALUE 315.
 
-       77 SQLM-ELM-AUTH-ID
-           PIC S9(4) COMP-5 VALUE 316.
+       78 SQLM-ELM-AUTH-ID VALUE 316.
 
-       77 SQLM-ELM-PRIMARY-AUTH-ID
-           PIC S9(4) COMP-5 VALUE 316.
+       78 SQLM-ELM-PRIMARY-AUTH-ID VALUE 316.
 
-       77 SQLM-ELM-CLIENT-NNAME
-           PIC S9(4) COMP-5 VALUE 317.
+       78 SQLM-ELM-CLIENT-NNAME VALUE 317.
 
-       77 SQLM-ELM-CLIENT-PRDID
-           PIC S9(4) COMP-5 VALUE 318.
+       78 SQLM-ELM-CLIENT-PRDID VALUE 318.
 
-       77 SQLM-ELM-INPUT-DB-ALIAS
-           PIC S9(4) COMP-5 VALUE 319.
+       78 SQLM-ELM-INPUT-DB-ALIAS VALUE 319.
 
-       77 SQLM-ELM-CLIENT-DB-ALIAS
-           PIC S9(4) COMP-5 VALUE 320.
+       78 SQLM-ELM-CLIENT-DB-ALIAS VALUE 320.
 
-       77 SQLM-ELM-DB-NAME
-           PIC S9(4) COMP-5 VALUE 321.
+       78 SQLM-ELM-DB-NAME VALUE 321.
 
-       77 SQLM-ELM-DB-PATH
-           PIC S9(4) COMP-5 VALUE 322.
+       78 SQLM-ELM-DB-PATH VALUE 322.
 
-       77 SQLM-ELM-NUM-ASSOC-AGENTS
-           PIC S9(4) COMP-5 VALUE 323.
+       78 SQLM-ELM-NUM-ASSOC-AGENTS VALUE 323.
 
-       77 SQLM-ELM-COORD-NODE-NUM
-           PIC S9(4) COMP-5 VALUE 324.
+       78 SQLM-ELM-COORD-NODE-NUM VALUE 324.
 
-       77 SQLM-ELM-AUTHORITY-LVL
-           PIC S9(4) COMP-5 VALUE 325.
+       78 SQLM-ELM-AUTHORITY-LVL VALUE 325.
 
-       77 SQLM-ELM-EXECUTION-ID
-           PIC S9(4) COMP-5 VALUE 326.
+       78 SQLM-ELM-EXECUTION-ID VALUE 326.
 
-       77 SQLM-ELM-CORR-TOKEN
-           PIC S9(4) COMP-5 VALUE 327.
+       78 SQLM-ELM-CORR-TOKEN VALUE 327.
 
-       77 SQLM-ELM-CLIENT-PID
-           PIC S9(4) COMP-5 VALUE 328.
+       78 SQLM-ELM-CLIENT-PID VALUE 328.
 
-       77 SQLM-ELM-CLIENT-PLATFORM
-           PIC S9(4) COMP-5 VALUE 329.
+       78 SQLM-ELM-CLIENT-PLATFORM VALUE 329.
 
-       77 SQLM-ELM-CLIENT-PROTOCOL
-           PIC S9(4) COMP-5 VALUE 330.
+       78 SQLM-ELM-CLIENT-PROTOCOL VALUE 330.
 
-       77 SQLM-ELM-COUNTRY-CODE
-           PIC S9(4) COMP-5 VALUE 331.
+       78 SQLM-ELM-COUNTRY-CODE VALUE 331.
 
-       77 SQLM-ELM-TERRITORY-CODE
-           PIC S9(4) COMP-5 VALUE 331.
+       78 SQLM-ELM-TERRITORY-CODE VALUE 331.
 
-       77 SQLM-ELM-COORD-AGENT-PID
-           PIC S9(4) COMP-5 VALUE 332.
+       78 SQLM-ELM-COORD-AGENT-PID VALUE 332.
 
-       77 SQLM-ELM-GW-DB-ALIAS
-           PIC S9(4) COMP-5 VALUE 333.
+       78 SQLM-ELM-GW-DB-ALIAS VALUE 333.
 
-       77 SQLM-ELM-OUTBOUND-COMM-ADDRESS
-           PIC S9(4) COMP-5 VALUE 334.
+       78 SQLM-ELM-OUTBOUND-COMM-ADDRESS VALUE 334.
 
-       77 SQLM-ELM-INBOUND-COMM-ADDRESS
-           PIC S9(4) COMP-5 VALUE 335.
+       78 SQLM-ELM-INBOUND-COMM-ADDRESS VALUE 335.
 
       * The full name of the monitor element is SQLM_ELM_OUTBOUND_COMM_PROTOCOL
-       77 SQLM-ELM-OUTB-COMM-PROTO
-           PIC S9(4) COMP-5 VALUE 336.
+       78 SQLM-ELM-OUTB-COMM-PROTO VALUE 336.
 
-       77 SQLM-ELM-DCS-DB-NAME
-           PIC S9(4) COMP-5 VALUE 337.
+       78 SQLM-ELM-DCS-DB-NAME VALUE 337.
 
-       77 SQLM-ELM-HOST-DB-NAME
-           PIC S9(4) COMP-5 VALUE 338.
+       78 SQLM-ELM-HOST-DB-NAME VALUE 338.
 
-       77 SQLM-ELM-HOST-PRDID
-           PIC S9(4) COMP-5 VALUE 339.
+       78 SQLM-ELM-HOST-PRDID VALUE 339.
 
-       77 SQLM-ELM-OUTBOUND-APPL-ID
-           PIC S9(4) COMP-5 VALUE 340.
+       78 SQLM-ELM-OUTBOUND-APPL-ID VALUE 340.
 
-       77 SQLM-ELM-OUTBOUND-SEQUENCE-NO
-           PIC S9(4) COMP-5 VALUE 341.
+       78 SQLM-ELM-OUTBOUND-SEQUENCE-NO VALUE 341.
 
-       77 SQLM-ELM-DCS-APPL-STATUS
-           PIC S9(4) COMP-5 VALUE 342.
+       78 SQLM-ELM-DCS-APPL-STATUS VALUE 342.
 
-       77 SQLM-ELM-HOST-CCSID
-           PIC S9(4) COMP-5 VALUE 343.
+       78 SQLM-ELM-HOST-CCSID VALUE 343.
 
-       77 SQLM-ELM-OUTPUT-STATE
-           PIC S9(4) COMP-5 VALUE 344.
+       78 SQLM-ELM-OUTPUT-STATE VALUE 344.
 
-       77 SQLM-ELM-COUNT
-           PIC S9(4) COMP-5 VALUE 345.
+       78 SQLM-ELM-COUNT VALUE 345.
 
-       77 SQLM-ELM-ROWS-SELECTED
-           PIC S9(4) COMP-5 VALUE 346.
+       78 SQLM-ELM-ROWS-SELECTED VALUE 346.
 
-       77 SQLM-ELM-SQL-STMTS
-           PIC S9(4) COMP-5 VALUE 347.
+       78 SQLM-ELM-SQL-STMTS VALUE 347.
 
-       77 SQLM-ELM-FAILED-SQL-STMTS
-           PIC S9(4) COMP-5 VALUE 348.
+       78 SQLM-ELM-FAILED-SQL-STMTS VALUE 348.
 
-       77 SQLM-ELM-COMMIT-SQL-STMTS
-           PIC S9(4) COMP-5 VALUE 349.
+       78 SQLM-ELM-COMMIT-SQL-STMTS VALUE 349.
 
-       77 SQLM-ELM-ROLLBACK-SQL-STMTS
-           PIC S9(4) COMP-5 VALUE 350.
+       78 SQLM-ELM-ROLLBACK-SQL-STMTS VALUE 350.
 
       * The full name of the monitor element is SQLM_ELM_INBOUND_BYTES_RECEIVED
-       77 SQLM-ELM-INBOUND-BYT-RECV
-           PIC S9(4) COMP-5 VALUE 351.
+       78 SQLM-ELM-INBOUND-BYT-RECV VALUE 351.
 
-       77 SQLM-ELM-OUTBOUND-BYTES-SENT
-           PIC S9(4) COMP-5 VALUE 352.
+       78 SQLM-ELM-OUTBOUND-BYTES-SENT VALUE 352.
 
       * The full name of the monitor element is SQLM_ELM_OUTBOUND_BYTES_RECEIVED
-       77 SQLM-ELM-OUTB-BYT-RECV
-           PIC S9(4) COMP-5 VALUE 353.
+       78 SQLM-ELM-OUTB-BYT-RECV VALUE 353.
 
-       77 SQLM-ELM-INBOUND-BYTES-SENT
-           PIC S9(4) COMP-5 VALUE 354.
+       78 SQLM-ELM-INBOUND-BYTES-SENT VALUE 354.
 
-       77 SQLM-ELM-STMT-OPERATION
-           PIC S9(4) COMP-5 VALUE 355.
+       78 SQLM-ELM-STMT-OPERATION VALUE 355.
 
-       77 SQLM-ELM-SECTION-NUMBER
-           PIC S9(4) COMP-5 VALUE 356.
+       78 SQLM-ELM-SECTION-NUMBER VALUE 356.
 
-       77 SQLM-ELM-LOCK-NODE
-           PIC S9(4) COMP-5 VALUE 357.
+       78 SQLM-ELM-LOCK-NODE VALUE 357.
 
-       77 SQLM-ELM-CREATOR
-           PIC S9(4) COMP-5 VALUE 358.
+       78 SQLM-ELM-CREATOR VALUE 358.
 
-       77 SQLM-ELM-PACKAGE-NAME
-           PIC S9(4) COMP-5 VALUE 359.
+       78 SQLM-ELM-PACKAGE-NAME VALUE 359.
 
-       77 SQLM-ELM-APPL-IDLE-TIME
-           PIC S9(4) COMP-5 VALUE 360.
+       78 SQLM-ELM-APPL-IDLE-TIME VALUE 360.
 
-       77 SQLM-ELM-OPEN-CURSORS
-           PIC S9(4) COMP-5 VALUE 361.
+       78 SQLM-ELM-OPEN-CURSORS VALUE 361.
 
-       77 SQLM-ELM-UOW-COMP-STATUS
-           PIC S9(4) COMP-5 VALUE 362.
+       78 SQLM-ELM-UOW-COMP-STATUS VALUE 362.
 
       * The full name of the monitor element is SQLM_ELM_SEQUENCE_NO_HOLDING_LK
-       77 SQLM-ELM-SEQ-NO-HOLDING-LK
-           PIC S9(4) COMP-5 VALUE 363.
+       78 SQLM-ELM-SEQ-NO-HOLDING-LK VALUE 363.
 
-       77 SQLM-ELM-ROLLED-BACK-AGENT-ID
-           PIC S9(4) COMP-5 VALUE 364.
+       78 SQLM-ELM-ROLLED-BACK-AGENT-ID VALUE 364.
 
-       77 SQLM-ELM-ROLLED-BACK-APPL-ID
-           PIC S9(4) COMP-5 VALUE 365.
+       78 SQLM-ELM-ROLLED-BACK-APPL-ID VALUE 365.
 
       * The full name of the monitor element is SQLM_ELM_ROLLED_BACK_SEQUENCE_NO
-       77 SQLM-ELM-R0L-BACK-SEQ-NO
-           PIC S9(4) COMP-5 VALUE 366.
+       78 SQLM-ELM-R0L-BACK-SEQ-NO VALUE 366.
 
-       77 SQLM-ELM-XID
-           PIC S9(4) COMP-5 VALUE 367.
+       78 SQLM-ELM-XID VALUE 367.
 
-       77 SQLM-ELM-TPMON-CLIENT-USERID
-           PIC S9(4) COMP-5 VALUE 368.
+       78 SQLM-ELM-TPMON-CLIENT-USERID VALUE 368.
 
-       77 SQLM-ELM-TPMON-CLIENT-WKSTN
-           PIC S9(4) COMP-5 VALUE 369.
+       78 SQLM-ELM-TPMON-CLIENT-WKSTN VALUE 369.
 
-       77 SQLM-ELM-TPMON-CLIENT-APP
-           PIC S9(4) COMP-5 VALUE 370.
+       78 SQLM-ELM-TPMON-CLIENT-APP VALUE 370.
 
-       77 SQLM-ELM-TPMON-ACC-STR
-           PIC S9(4) COMP-5 VALUE 371.
+       78 SQLM-ELM-TPMON-ACC-STR VALUE 371.
 
-       77 SQLM-ELM-QUERY-COST-ESTIMATE
-           PIC S9(4) COMP-5 VALUE 372.
+       78 SQLM-ELM-QUERY-COST-ESTIMATE VALUE 372.
 
-       77 SQLM-ELM-QUERY-CARD-ESTIMATE
-           PIC S9(4) COMP-5 VALUE 373.
+       78 SQLM-ELM-QUERY-CARD-ESTIMATE VALUE 373.
 
-       77 SQLM-ELM-FETCH-COUNT
-           PIC S9(4) COMP-5 VALUE 374.
+       78 SQLM-ELM-FETCH-COUNT VALUE 374.
 
-       77 SQLM-ELM-GW-TOTAL-CONS
-           PIC S9(4) COMP-5 VALUE 375.
+       78 SQLM-ELM-GW-TOTAL-CONS VALUE 375.
 
-       77 SQLM-ELM-GW-CUR-CONS
-           PIC S9(4) COMP-5 VALUE 376.
+       78 SQLM-ELM-GW-CUR-CONS VALUE 376.
 
-       77 SQLM-ELM-GW-CONS-WAIT-HOST
-           PIC S9(4) COMP-5 VALUE 377.
+       78 SQLM-ELM-GW-CONS-WAIT-HOST VALUE 377.
 
-       77 SQLM-ELM-GW-CONS-WAIT-CLIENT
-           PIC S9(4) COMP-5 VALUE 378.
+       78 SQLM-ELM-GW-CONS-WAIT-CLIENT VALUE 378.
 
-       77 SQLM-ELM-GW-CONNECTIONS-TOP
-           PIC S9(4) COMP-5 VALUE 379.
+       78 SQLM-ELM-GW-CONNECTIONS-TOP VALUE 379.
 
-       77 SQLM-ELM-SORT-HEAP-ALLOCATED
-           PIC S9(4) COMP-5 VALUE 380.
+       78 SQLM-ELM-SORT-HEAP-ALLOCATED VALUE 380.
 
-       77 SQLM-ELM-POST-THRESHOLD-SORTS
-           PIC S9(4) COMP-5 VALUE 381.
+       78 SQLM-ELM-POST-THRESHOLD-SORTS VALUE 381.
 
-       77 SQLM-ELM-PIPED-SORTS-REQUESTED
-           PIC S9(4) COMP-5 VALUE 382.
+       78 SQLM-ELM-PIPED-SORTS-REQUESTED VALUE 382.
 
-       77 SQLM-ELM-PIPED-SORTS-ACCEPTED
-           PIC S9(4) COMP-5 VALUE 383.
+       78 SQLM-ELM-PIPED-SORTS-ACCEPTED VALUE 383.
 
-       77 SQLM-ELM-DL-CONNS
-           PIC S9(4) COMP-5 VALUE 384.
+       78 SQLM-ELM-DL-CONNS VALUE 384.
 
-       77 SQLM-ELM-REM-CONS-IN
-           PIC S9(4) COMP-5 VALUE 385.
+       78 SQLM-ELM-REM-CONS-IN VALUE 385.
 
-       77 SQLM-ELM-REM-CONS-IN-EXEC
-           PIC S9(4) COMP-5 VALUE 386.
+       78 SQLM-ELM-REM-CONS-IN-EXEC VALUE 386.
 
-       77 SQLM-ELM-LOCAL-CONS
-           PIC S9(4) COMP-5 VALUE 387.
+       78 SQLM-ELM-LOCAL-CONS VALUE 387.
 
-       77 SQLM-ELM-LOCAL-CONS-IN-EXEC
-           PIC S9(4) COMP-5 VALUE 388.
+       78 SQLM-ELM-LOCAL-CONS-IN-EXEC VALUE 388.
 
-       77 SQLM-ELM-CON-LOCAL-DBASES
-           PIC S9(4) COMP-5 VALUE 389.
+       78 SQLM-ELM-CON-LOCAL-DBASES VALUE 389.
 
-       77 SQLM-ELM-AGENTS-REGISTERED
-           PIC S9(4) COMP-5 VALUE 390.
+       78 SQLM-ELM-AGENTS-REGISTERED VALUE 390.
 
       * The full name of the monitor element is SQLM_ELM_AGENTS_WAITING_ON_TOKEN
-       77 SQLM-ELM-AGNT-WAIT-ON-TOKEN
-           PIC S9(4) COMP-5 VALUE 391.
+       78 SQLM-ELM-AGNT-WAIT-ON-TOKEN VALUE 391.
 
-       77 SQLM-ELM-DB2-STATUS
-           PIC S9(4) COMP-5 VALUE 392.
+       78 SQLM-ELM-DB2-STATUS VALUE 392.
 
-       77 SQLM-ELM-AGENTS-REGISTERED-TOP
-           PIC S9(4) COMP-5 VALUE 393.
+       78 SQLM-ELM-AGENTS-REGISTERED-TOP VALUE 393.
 
-       77 SQLM-ELM-AGENTS-WAITING-TOP
-           PIC S9(4) COMP-5 VALUE 394.
+       78 SQLM-ELM-AGENTS-WAITING-TOP VALUE 394.
 
-       77 SQLM-ELM-COMM-PRIVATE-MEM
-           PIC S9(4) COMP-5 VALUE 395.
+       78 SQLM-ELM-COMM-PRIVATE-MEM VALUE 395.
 
-       77 SQLM-ELM-IDLE-AGENTS
-           PIC S9(4) COMP-5 VALUE 396.
+       78 SQLM-ELM-IDLE-AGENTS VALUE 396.
 
-       77 SQLM-ELM-AGENTS-FROM-POOL
-           PIC S9(4) COMP-5 VALUE 397.
+       78 SQLM-ELM-AGENTS-FROM-POOL VALUE 397.
 
       * The full name of the monitor element is SQLM_ELM_AGENTS_CREATED_EMPTY_POOL
-       77 SQLM-ELM-AGNT-CREATED-EMPTY-PL
-           PIC S9(4) COMP-5 VALUE 398.
+       78 SQLM-ELM-AGNT-CREATED-EMPTY-PL VALUE 398.
 
-       77 SQLM-ELM-AGENTS-TOP
-           PIC S9(4) COMP-5 VALUE 399.
+       78 SQLM-ELM-AGENTS-TOP VALUE 399.
 
-       77 SQLM-ELM-COORD-AGENTS-TOP
-           PIC S9(4) COMP-5 VALUE 400.
+       78 SQLM-ELM-COORD-AGENTS-TOP VALUE 400.
 
-       77 SQLM-ELM-MAX-AGENT-OVERFLOWS
-           PIC S9(4) COMP-5 VALUE 401.
+       78 SQLM-ELM-MAX-AGENT-OVERFLOWS VALUE 401.
 
-       77 SQLM-ELM-AGENTS-STOLEN
-           PIC S9(4) COMP-5 VALUE 402.
+       78 SQLM-ELM-AGENTS-STOLEN VALUE 402.
 
-       77 SQLM-ELM-PRODUCT-NAME
-           PIC S9(4) COMP-5 VALUE 403.
+       78 SQLM-ELM-PRODUCT-NAME VALUE 403.
 
-       77 SQLM-ELM-COMPONENT-ID
-           PIC S9(4) COMP-5 VALUE 404.
+       78 SQLM-ELM-COMPONENT-ID VALUE 404.
 
-       77 SQLM-ELM-SERVICE-LEVEL
-           PIC S9(4) COMP-5 VALUE 405.
+       78 SQLM-ELM-SERVICE-LEVEL VALUE 405.
 
       * The full name of the monitor element is SQLM_ELM_POST_THRESHOLD_HASH_JOINS
-       77 SQLM-ELM-POST-THRE-HASH-JOINS
-           PIC S9(4) COMP-5 VALUE 406.
+       78 SQLM-ELM-POST-THRE-HASH-JOINS VALUE 406.
 
-       77 SQLM-ELM-BUFF-FREE
-           PIC S9(4) COMP-5 VALUE 407.
+       78 SQLM-ELM-BUFF-FREE VALUE 407.
 
-       77 SQLM-ELM-BUFF-FREE-BOTTOM
-           PIC S9(4) COMP-5 VALUE 408.
+       78 SQLM-ELM-BUFF-FREE-BOTTOM VALUE 408.
 
-       77 SQLM-ELM-MA-FREE
-           PIC S9(4) COMP-5 VALUE 409.
+       78 SQLM-ELM-MA-FREE VALUE 409.
 
-       77 SQLM-ELM-MA-FREE-BOTTOM
-           PIC S9(4) COMP-5 VALUE 410.
+       78 SQLM-ELM-MA-FREE-BOTTOM VALUE 410.
 
-       77 SQLM-ELM-CE-FREE
-           PIC S9(4) COMP-5 VALUE 411.
+       78 SQLM-ELM-CE-FREE VALUE 411.
 
-       77 SQLM-ELM-CE-FREE-BOTTOM
-           PIC S9(4) COMP-5 VALUE 412.
+       78 SQLM-ELM-CE-FREE-BOTTOM VALUE 412.
 
-       77 SQLM-ELM-RB-FREE
-           PIC S9(4) COMP-5 VALUE 413.
+       78 SQLM-ELM-RB-FREE VALUE 413.
 
-       77 SQLM-ELM-RB-FREE-BOTTOM
-           PIC S9(4) COMP-5 VALUE 414.
+       78 SQLM-ELM-RB-FREE-BOTTOM VALUE 414.
 
-       77 SQLM-ELM-CONNECTION-STATUS
-           PIC S9(4) COMP-5 VALUE 416.
+       78 SQLM-ELM-CONNECTION-STATUS VALUE 416.
 
-       77 SQLM-ELM-TOTAL-BUFFERS-SENT
-           PIC S9(4) COMP-5 VALUE 417.
+       78 SQLM-ELM-TOTAL-BUFFERS-SENT VALUE 417.
 
-       77 SQLM-ELM-TOTAL-BUFFERS-RCVD
-           PIC S9(4) COMP-5 VALUE 418.
+       78 SQLM-ELM-TOTAL-BUFFERS-RCVD VALUE 418.
 
-       77 SQLM-ELM-LOCKS-HELD
-           PIC S9(4) COMP-5 VALUE 419.
+       78 SQLM-ELM-LOCKS-HELD VALUE 419.
 
-       77 SQLM-ELM-LOCK-WAITS
-           PIC S9(4) COMP-5 VALUE 420.
+       78 SQLM-ELM-LOCK-WAITS VALUE 420.
 
-       77 SQLM-ELM-LOCK-WAIT-TIME
-           PIC S9(4) COMP-5 VALUE 421.
+       78 SQLM-ELM-LOCK-WAIT-TIME VALUE 421.
 
-       77 SQLM-ELM-LOCK-LIST-IN-USE
-           PIC S9(4) COMP-5 VALUE 422.
+       78 SQLM-ELM-LOCK-LIST-IN-USE VALUE 422.
 
-       77 SQLM-ELM-DEADLOCKS
-           PIC S9(4) COMP-5 VALUE 423.
+       78 SQLM-ELM-DEADLOCKS VALUE 423.
 
-       77 SQLM-ELM-LOCK-ESCALS
-           PIC S9(4) COMP-5 VALUE 424.
+       78 SQLM-ELM-LOCK-ESCALS VALUE 424.
 
-       77 SQLM-ELM-X-LOCK-ESCALS
-           PIC S9(4) COMP-5 VALUE 425.
+       78 SQLM-ELM-X-LOCK-ESCALS VALUE 425.
 
-       77 SQLM-ELM-LOCKS-WAITING
-           PIC S9(4) COMP-5 VALUE 426.
+       78 SQLM-ELM-LOCKS-WAITING VALUE 426.
 
-       77 SQLM-ELM-TOTAL-SORTS
-           PIC S9(4) COMP-5 VALUE 427.
+       78 SQLM-ELM-TOTAL-SORTS VALUE 427.
 
-       77 SQLM-ELM-TOTAL-SORT-TIME
-           PIC S9(4) COMP-5 VALUE 428.
+       78 SQLM-ELM-TOTAL-SORT-TIME VALUE 428.
 
-       77 SQLM-ELM-SORT-OVERFLOWS
-           PIC S9(4) COMP-5 VALUE 429.
+       78 SQLM-ELM-SORT-OVERFLOWS VALUE 429.
 
-       77 SQLM-ELM-ACTIVE-SORTS
-           PIC S9(4) COMP-5 VALUE 430.
+       78 SQLM-ELM-ACTIVE-SORTS VALUE 430.
 
-       77 SQLM-ELM-POOL-DATA-L-READS
-           PIC S9(4) COMP-5 VALUE 431.
+       78 SQLM-ELM-POOL-DATA-L-READS VALUE 431.
 
-       77 SQLM-ELM-POOL-DATA-P-READS
-           PIC S9(4) COMP-5 VALUE 432.
+       78 SQLM-ELM-POOL-DATA-P-READS VALUE 432.
 
-       77 SQLM-ELM-POOL-DATA-WRITES
-           PIC S9(4) COMP-5 VALUE 433.
+       78 SQLM-ELM-POOL-DATA-WRITES VALUE 433.
 
-       77 SQLM-ELM-POOL-INDEX-L-READS
-           PIC S9(4) COMP-5 VALUE 434.
+       78 SQLM-ELM-POOL-INDEX-L-READS VALUE 434.
 
-       77 SQLM-ELM-POOL-INDEX-P-READS
-           PIC S9(4) COMP-5 VALUE 435.
+       78 SQLM-ELM-POOL-INDEX-P-READS VALUE 435.
 
-       77 SQLM-ELM-POOL-INDEX-WRITES
-           PIC S9(4) COMP-5 VALUE 436.
+       78 SQLM-ELM-POOL-INDEX-WRITES VALUE 436.
 
-       77 SQLM-ELM-POOL-READ-TIME
-           PIC S9(4) COMP-5 VALUE 437.
+       78 SQLM-ELM-POOL-READ-TIME VALUE 437.
 
-       77 SQLM-ELM-POOL-WRITE-TIME
-           PIC S9(4) COMP-5 VALUE 438.
+       78 SQLM-ELM-POOL-WRITE-TIME VALUE 438.
 
-       77 SQLM-ELM-FILES-CLOSED
-           PIC S9(4) COMP-5 VALUE 439.
+       78 SQLM-ELM-FILES-CLOSED VALUE 439.
 
-       77 SQLM-ELM-DYNAMIC-SQL-STMTS
-           PIC S9(4) COMP-5 VALUE 440.
+       78 SQLM-ELM-DYNAMIC-SQL-STMTS VALUE 440.
 
-       77 SQLM-ELM-STATIC-SQL-STMTS
-           PIC S9(4) COMP-5 VALUE 441.
+       78 SQLM-ELM-STATIC-SQL-STMTS VALUE 441.
 
-       77 SQLM-ELM-SELECT-SQL-STMTS
-           PIC S9(4) COMP-5 VALUE 442.
+       78 SQLM-ELM-SELECT-SQL-STMTS VALUE 442.
 
-       77 SQLM-ELM-DDL-SQL-STMTS
-           PIC S9(4) COMP-5 VALUE 443.
+       78 SQLM-ELM-DDL-SQL-STMTS VALUE 443.
 
-       77 SQLM-ELM-UID-SQL-STMTS
-           PIC S9(4) COMP-5 VALUE 444.
+       78 SQLM-ELM-UID-SQL-STMTS VALUE 444.
 
-       77 SQLM-ELM-INT-AUTO-REBINDS
-           PIC S9(4) COMP-5 VALUE 445.
+       78 SQLM-ELM-INT-AUTO-REBINDS VALUE 445.
 
-       77 SQLM-ELM-INT-ROWS-DELETED
-           PIC S9(4) COMP-5 VALUE 446.
+       78 SQLM-ELM-INT-ROWS-DELETED VALUE 446.
 
-       77 SQLM-ELM-INT-ROWS-UPDATED
-           PIC S9(4) COMP-5 VALUE 447.
+       78 SQLM-ELM-INT-ROWS-UPDATED VALUE 447.
 
-       77 SQLM-ELM-INT-COMMITS
-           PIC S9(4) COMP-5 VALUE 448.
+       78 SQLM-ELM-INT-COMMITS VALUE 448.
 
-       77 SQLM-ELM-INT-ROLLBACKS
-           PIC S9(4) COMP-5 VALUE 449.
+       78 SQLM-ELM-INT-ROLLBACKS VALUE 449.
 
       * The full name of the monitor element is SQLM_ELM_INT_DEADLOCK_ROLLBACKS
-       77 SQLM-ELM-INT-DEADLOCK-RBCK
-           PIC S9(4) COMP-5 VALUE 450.
+       78 SQLM-ELM-INT-DEADLOCK-RBCK VALUE 450.
 
-       77 SQLM-ELM-ROWS-DELETED
-           PIC S9(4) COMP-5 VALUE 451.
+       78 SQLM-ELM-ROWS-DELETED VALUE 451.
 
-       77 SQLM-ELM-ROWS-INSERTED
-           PIC S9(4) COMP-5 VALUE 452.
+       78 SQLM-ELM-ROWS-INSERTED VALUE 452.
 
-       77 SQLM-ELM-ROWS-UPDATED
-           PIC S9(4) COMP-5 VALUE 453.
+       78 SQLM-ELM-ROWS-UPDATED VALUE 453.
 
-       77 SQLM-ELM-BINDS-PRECOMPILES
-           PIC S9(4) COMP-5 VALUE 454.
+       78 SQLM-ELM-BINDS-PRECOMPILES VALUE 454.
 
-       77 SQLM-ELM-LOCKS-HELD-TOP
-           PIC S9(4) COMP-5 VALUE 455.
+       78 SQLM-ELM-LOCKS-HELD-TOP VALUE 455.
 
       * The full name of the monitor element is SQLM_ELM_NUM_NODES_IN_DB2_INSTANCE
-       77 SQLM-ELM-NUM-NODE-IN-DB2-INST
-           PIC S9(4) COMP-5 VALUE 456.
+       78 SQLM-ELM-NUM-NODE-IN-DB2-INST VALUE 456.
 
-       77 SQLM-ELM-TOTAL-CONS
-           PIC S9(4) COMP-5 VALUE 457.
+       78 SQLM-ELM-TOTAL-CONS VALUE 457.
 
-       77 SQLM-ELM-APPLS-CUR-CONS
-           PIC S9(4) COMP-5 VALUE 458.
+       78 SQLM-ELM-APPLS-CUR-CONS VALUE 458.
 
-       77 SQLM-ELM-APPLS-IN-DB2
-           PIC S9(4) COMP-5 VALUE 459.
+       78 SQLM-ELM-APPLS-IN-DB2 VALUE 459.
 
-       77 SQLM-ELM-SEC-LOG-USED-TOP
-           PIC S9(4) COMP-5 VALUE 460.
+       78 SQLM-ELM-SEC-LOG-USED-TOP VALUE 460.
 
-       77 SQLM-ELM-TOT-LOG-USED-TOP
-           PIC S9(4) COMP-5 VALUE 461.
+       78 SQLM-ELM-TOT-LOG-USED-TOP VALUE 461.
 
-       77 SQLM-ELM-SEC-LOGS-ALLOCATED
-           PIC S9(4) COMP-5 VALUE 462.
+       78 SQLM-ELM-SEC-LOGS-ALLOCATED VALUE 462.
 
       * The full name of the monitor element is SQLM_ELM_POOL_ASYNC_INDEX_READS
-       77 SQLM-ELM-PL-ASYNC-IDX-RD
-           PIC S9(4) COMP-5 VALUE 463.
+       78 SQLM-ELM-PL-ASYNC-IDX-RD VALUE 463.
 
-       77 SQLM-ELM-POOL-DATA-TO-ESTORE
-           PIC S9(4) COMP-5 VALUE 464.
+       78 SQLM-ELM-POOL-DATA-TO-ESTORE VALUE 464.
 
-       77 SQLM-ELM-POOL-INDEX-TO-ESTORE
-           PIC S9(4) COMP-5 VALUE 465.
+       78 SQLM-ELM-POOL-INDEX-TO-ESTORE VALUE 465.
 
       * The full name of the monitor element is SQLM_ELM_POOL_INDEX_FROM_ESTORE
-       77 SQLM-ELM-PL-IDX-FROM-ESTORE
-           PIC S9(4) COMP-5 VALUE 466.
+       78 SQLM-ELM-PL-IDX-FROM-ESTORE VALUE 466.
 
-       77 SQLM-ELM-POOL-DATA-FROM-ESTORE
-           PIC S9(4) COMP-5 VALUE 467.
+       78 SQLM-ELM-POOL-DATA-FROM-ESTORE VALUE 467.
 
-       77 SQLM-ELM-DB-STATUS
-           PIC S9(4) COMP-5 VALUE 468.
+       78 SQLM-ELM-DB-STATUS VALUE 468.
 
-       77 SQLM-ELM-LOCK-TIMEOUTS
-           PIC S9(4) COMP-5 VALUE 469.
+       78 SQLM-ELM-LOCK-TIMEOUTS VALUE 469.
 
-       77 SQLM-ELM-CONNECTIONS-TOP
-           PIC S9(4) COMP-5 VALUE 470.
+       78 SQLM-ELM-CONNECTIONS-TOP VALUE 470.
 
-       77 SQLM-ELM-DB-HEAP-TOP
-           PIC S9(4) COMP-5 VALUE 471.
+       78 SQLM-ELM-DB-HEAP-TOP VALUE 471.
 
-       77 SQLM-ELM-POOL-ASYNC-DATA-READS
-           PIC S9(4) COMP-5 VALUE 472.
+       78 SQLM-ELM-POOL-ASYNC-DATA-READS VALUE 472.
 
       * The full name of the monitor element is SQLM_ELM_POOL_ASYNC_DATA_WRITES
-       77 SQLM-ELM-PL-ASYNC-DATA-WR
-           PIC S9(4) COMP-5 VALUE 473.
+       78 SQLM-ELM-PL-ASYNC-DATA-WR VALUE 473.
 
       * The full name of the monitor element is SQLM_ELM_POOL_ASYNC_INDEX_WRITES
-       77 SQLM-ELM-PL-ASYNC-IDX-WR
-           PIC S9(4) COMP-5 VALUE 474.
+       78 SQLM-ELM-PL-ASYNC-IDX-WR VALUE 474.
 
-       77 SQLM-ELM-POOL-ASYNC-READ-TIME
-           PIC S9(4) COMP-5 VALUE 475.
+       78 SQLM-ELM-POOL-ASYNC-READ-TIME VALUE 475.
 
-       77 SQLM-ELM-POOL-ASYNC-WRITE-TIME
-           PIC S9(4) COMP-5 VALUE 476.
+       78 SQLM-ELM-POOL-ASYNC-WRITE-TIME VALUE 476.
 
       * The full name of the monitor element is SQLM_ELM_POOL_ASYNC_DATA_READ_REQS
-       77 SQLM-ELM-PL-ASYNC-DATA-RD-REQS
-           PIC S9(4) COMP-5 VALUE 477.
+       78 SQLM-ELM-PL-ASYNC-DATA-RD-REQS VALUE 477.
 
-       77 SQLM-ELM-POOL-LSN-GAP-CLNS
-           PIC S9(4) COMP-5 VALUE 478.
+       78 SQLM-ELM-POOL-LSN-GAP-CLNS VALUE 478.
 
       * The full name of the monitor element is SQLM_ELM_POOL_DRTY_PG_STEAL_CLNS
-       77 SQLM-ELM-PL-DRTY-PG-STEAL-CLNS
-           PIC S9(4) COMP-5 VALUE 479.
+       78 SQLM-ELM-PL-DRTY-PG-STEAL-CLNS VALUE 479.
 
       * The full name of the monitor element is SQLM_ELM_POOL_DRTY_PG_THRSH_CLNS
-       77 SQLM-ELM-PL-DRTY-PG-THRSH-CLNS
-           PIC S9(4) COMP-5 VALUE 480.
+       78 SQLM-ELM-PL-DRTY-PG-THRSH-CLNS VALUE 480.
 
-       77 SQLM-ELM-DIRECT-READS
-           PIC S9(4) COMP-5 VALUE 481.
+       78 SQLM-ELM-DIRECT-READS VALUE 481.
 
-       77 SQLM-ELM-DIRECT-WRITES
-           PIC S9(4) COMP-5 VALUE 482.
+       78 SQLM-ELM-DIRECT-WRITES VALUE 482.
 
-       77 SQLM-ELM-DIRECT-READ-REQS
-           PIC S9(4) COMP-5 VALUE 483.
+       78 SQLM-ELM-DIRECT-READ-REQS VALUE 483.
 
-       77 SQLM-ELM-DIRECT-WRITE-REQS
-           PIC S9(4) COMP-5 VALUE 484.
+       78 SQLM-ELM-DIRECT-WRITE-REQS VALUE 484.
 
-       77 SQLM-ELM-DIRECT-READ-TIME
-           PIC S9(4) COMP-5 VALUE 485.
+       78 SQLM-ELM-DIRECT-READ-TIME VALUE 485.
 
-       77 SQLM-ELM-DIRECT-WRITE-TIME
-           PIC S9(4) COMP-5 VALUE 486.
+       78 SQLM-ELM-DIRECT-WRITE-TIME VALUE 486.
 
-       77 SQLM-ELM-INT-ROWS-INSERTED
-           PIC S9(4) COMP-5 VALUE 487.
+       78 SQLM-ELM-INT-ROWS-INSERTED VALUE 487.
 
-       77 SQLM-ELM-LOG-READS
-           PIC S9(4) COMP-5 VALUE 488.
+       78 SQLM-ELM-LOG-READS VALUE 488.
 
-       77 SQLM-ELM-LOG-WRITES
-           PIC S9(4) COMP-5 VALUE 489.
+       78 SQLM-ELM-LOG-WRITES VALUE 489.
 
-       77 SQLM-ELM-PKG-CACHE-LOOKUPS
-           PIC S9(4) COMP-5 VALUE 490.
+       78 SQLM-ELM-PKG-CACHE-LOOKUPS VALUE 490.
 
-       77 SQLM-ELM-PKG-CACHE-INSERTS
-           PIC S9(4) COMP-5 VALUE 491.
+       78 SQLM-ELM-PKG-CACHE-INSERTS VALUE 491.
 
-       77 SQLM-ELM-CAT-CACHE-LOOKUPS
-           PIC S9(4) COMP-5 VALUE 492.
+       78 SQLM-ELM-CAT-CACHE-LOOKUPS VALUE 492.
 
-       77 SQLM-ELM-CAT-CACHE-INSERTS
-           PIC S9(4) COMP-5 VALUE 493.
+       78 SQLM-ELM-CAT-CACHE-INSERTS VALUE 493.
 
-       77 SQLM-ELM-CAT-CACHE-OVERFLOWS
-           PIC S9(4) COMP-5 VALUE 494.
+       78 SQLM-ELM-CAT-CACHE-OVERFLOWS VALUE 494.
 
-       77 SQLM-ELM-CAT-CACHE-HEAP-FULL
-           PIC S9(4) COMP-5 VALUE 495.
+       78 SQLM-ELM-CAT-CACHE-HEAP-FULL VALUE 495.
 
-       77 SQLM-ELM-CATALOG-NODE
-           PIC S9(4) COMP-5 VALUE 496.
+       78 SQLM-ELM-CATALOG-NODE VALUE 496.
 
-       77 SQLM-ELM-TOTAL-SEC-CONS
-           PIC S9(4) COMP-5 VALUE 497.
+       78 SQLM-ELM-TOTAL-SEC-CONS VALUE 497.
 
-       77 SQLM-ELM-DB-LOCATION
-           PIC S9(4) COMP-5 VALUE 498.
+       78 SQLM-ELM-DB-LOCATION VALUE 498.
 
-       77 SQLM-ELM-SERVER-PLATFORM
-           PIC S9(4) COMP-5 VALUE 499.
+       78 SQLM-ELM-SERVER-PLATFORM VALUE 499.
 
-       77 SQLM-ELM-CATALOG-NODE-NAME
-           PIC S9(4) COMP-5 VALUE 500.
+       78 SQLM-ELM-CATALOG-NODE-NAME VALUE 500.
 
-       77 SQLM-ELM-PREFETCH-WAIT-TIME
-           PIC S9(4) COMP-5 VALUE 501.
+       78 SQLM-ELM-PREFETCH-WAIT-TIME VALUE 501.
 
-       77 SQLM-ELM-APPL-SECTION-LOOKUPS
-           PIC S9(4) COMP-5 VALUE 502.
+       78 SQLM-ELM-APPL-SECTION-LOOKUPS VALUE 502.
 
-       77 SQLM-ELM-APPL-SECTION-INSERTS
-           PIC S9(4) COMP-5 VALUE 503.
+       78 SQLM-ELM-APPL-SECTION-INSERTS VALUE 503.
 
-       77 SQLM-ELM-TOTAL-HASH-JOINS
-           PIC S9(4) COMP-5 VALUE 504.
+       78 SQLM-ELM-TOTAL-HASH-JOINS VALUE 504.
 
-       77 SQLM-ELM-TOTAL-HASH-LOOPS
-           PIC S9(4) COMP-5 VALUE 505.
+       78 SQLM-ELM-TOTAL-HASH-LOOPS VALUE 505.
 
-       77 SQLM-ELM-HASH-JOIN-OVERFLOWS
-           PIC S9(4) COMP-5 VALUE 506.
+       78 SQLM-ELM-HASH-JOIN-OVERFLOWS VALUE 506.
 
       * The full name of the monitor element is SQLM_ELM_HASH_JOIN_SMALL_OVERFLOWS
-       77 SQLM-ELM-HASH-JOIN-SMALL-OWFLW
-           PIC S9(4) COMP-5 VALUE 507.
+       78 SQLM-ELM-HASH-JOIN-SMALL-OWFLW VALUE 507.
 
-       77 SQLM-ELM-UOW-LOCK-WAIT-TIME
-           PIC S9(4) COMP-5 VALUE 508.
+       78 SQLM-ELM-UOW-LOCK-WAIT-TIME VALUE 508.
 
-       77 SQLM-ELM-STMT-TYPE
-           PIC S9(4) COMP-5 VALUE 509.
+       78 SQLM-ELM-STMT-TYPE VALUE 509.
 
-       77 SQLM-ELM-CURSOR-NAME
-           PIC S9(4) COMP-5 VALUE 510.
+       78 SQLM-ELM-CURSOR-NAME VALUE 510.
 
-       77 SQLM-ELM-UOW-LOG-SPACE-USED
-           PIC S9(4) COMP-5 VALUE 511.
+       78 SQLM-ELM-UOW-LOG-SPACE-USED VALUE 511.
 
-       77 SQLM-ELM-OPEN-REM-CURS
-           PIC S9(4) COMP-5 VALUE 512.
+       78 SQLM-ELM-OPEN-REM-CURS VALUE 512.
 
-       77 SQLM-ELM-OPEN-REM-CURS-BLK
-           PIC S9(4) COMP-5 VALUE 513.
+       78 SQLM-ELM-OPEN-REM-CURS-BLK VALUE 513.
 
-       77 SQLM-ELM-REJ-CURS-BLK
-           PIC S9(4) COMP-5 VALUE 514.
+       78 SQLM-ELM-REJ-CURS-BLK VALUE 514.
 
-       77 SQLM-ELM-ACC-CURS-BLK
-           PIC S9(4) COMP-5 VALUE 515.
+       78 SQLM-ELM-ACC-CURS-BLK VALUE 515.
 
-       77 SQLM-ELM-VERSION
-           PIC S9(4) COMP-5 VALUE 516.
+       78 SQLM-ELM-VERSION VALUE 516.
 
-       77 SQLM-ELM-EVENT-MONITOR-NAME
-           PIC S9(4) COMP-5 VALUE 517.
+       78 SQLM-ELM-EVENT-MONITOR-NAME VALUE 517.
 
-       77 SQLM-ELM-SQL-REQS-SINCE-COMMIT
-           PIC S9(4) COMP-5 VALUE 518.
+       78 SQLM-ELM-SQL-REQS-SINCE-COMMIT VALUE 518.
 
-       77 SQLM-ELM-BYTE-ORDER
-           PIC S9(4) COMP-5 VALUE 520.
+       78 SQLM-ELM-BYTE-ORDER VALUE 520.
 
-       77 SQLM-ELM-PREP-TIME-WORST
-           PIC S9(4) COMP-5 VALUE 521.
+       78 SQLM-ELM-PREP-TIME-WORST VALUE 521.
 
-       77 SQLM-ELM-ROWS-READ
-           PIC S9(4) COMP-5 VALUE 522.
+       78 SQLM-ELM-ROWS-READ VALUE 522.
 
-       77 SQLM-ELM-ROWS-WRITTEN
-           PIC S9(4) COMP-5 VALUE 523.
+       78 SQLM-ELM-ROWS-WRITTEN VALUE 523.
 
-       77 SQLM-ELM-OPEN-LOC-CURS
-           PIC S9(4) COMP-5 VALUE 524.
+       78 SQLM-ELM-OPEN-LOC-CURS VALUE 524.
 
-       77 SQLM-ELM-OPEN-LOC-CURS-BLK
-           PIC S9(4) COMP-5 VALUE 525.
+       78 SQLM-ELM-OPEN-LOC-CURS-BLK VALUE 525.
 
-       77 SQLM-ELM-COORD-NODE
-           PIC S9(4) COMP-5 VALUE 526.
+       78 SQLM-ELM-COORD-NODE VALUE 526.
 
-       77 SQLM-ELM-NUM-AGENTS
-           PIC S9(4) COMP-5 VALUE 527.
+       78 SQLM-ELM-NUM-AGENTS VALUE 527.
 
-       77 SQLM-ELM-ASSOCIATED-AGENTS-TOP
-           PIC S9(4) COMP-5 VALUE 528.
+       78 SQLM-ELM-ASSOCIATED-AGENTS-TOP VALUE 528.
 
-       77 SQLM-ELM-APPL-PRIORITY
-           PIC S9(4) COMP-5 VALUE 529.
+       78 SQLM-ELM-APPL-PRIORITY VALUE 529.
 
-       77 SQLM-ELM-APPL-PRIORITY-TYPE
-           PIC S9(4) COMP-5 VALUE 530.
+       78 SQLM-ELM-APPL-PRIORITY-TYPE VALUE 530.
 
-       77 SQLM-ELM-DEGREE-PARALLELISM
-           PIC S9(4) COMP-5 VALUE 531.
+       78 SQLM-ELM-DEGREE-PARALLELISM VALUE 531.
 
-       77 SQLM-ELM-STMT-SORTS
-           PIC S9(4) COMP-5 VALUE 532.
+       78 SQLM-ELM-STMT-SORTS VALUE 532.
 
-       77 SQLM-ELM-STMT-USR-CPU-TIME
-           PIC S9(4) COMP-5 VALUE 533.
+       78 SQLM-ELM-STMT-USR-CPU-TIME VALUE 533.
 
-       77 SQLM-ELM-STMT-SYS-CPU-TIME
-           PIC S9(4) COMP-5 VALUE 534.
+       78 SQLM-ELM-STMT-SYS-CPU-TIME VALUE 534.
 
-       77 SQLM-ELM-SS-NUMBER
-           PIC S9(4) COMP-5 VALUE 535.
+       78 SQLM-ELM-SS-NUMBER VALUE 535.
 
-       77 SQLM-ELM-SS-STATUS
-           PIC S9(4) COMP-5 VALUE 536.
+       78 SQLM-ELM-SS-STATUS VALUE 536.
 
-       77 SQLM-ELM-SS-NODE-NUMBER
-           PIC S9(4) COMP-5 VALUE 537.
+       78 SQLM-ELM-SS-NODE-NUMBER VALUE 537.
 
-       77 SQLM-ELM-SS-EXEC-TIME
-           PIC S9(4) COMP-5 VALUE 538.
+       78 SQLM-ELM-SS-EXEC-TIME VALUE 538.
 
-       77 SQLM-ELM-PREP-TIME-BEST
-           PIC S9(4) COMP-5 VALUE 539.
+       78 SQLM-ELM-PREP-TIME-BEST VALUE 539.
 
-       77 SQLM-ELM-NUM-COMPILATIONS
-           PIC S9(4) COMP-5 VALUE 540.
+       78 SQLM-ELM-NUM-COMPILATIONS VALUE 540.
 
-       77 SQLM-ELM-TQ-NODE-WAITED-FOR
-           PIC S9(4) COMP-5 VALUE 541.
+       78 SQLM-ELM-TQ-NODE-WAITED-FOR VALUE 541.
 
-       77 SQLM-ELM-TQ-WAIT-FOR-ANY
-           PIC S9(4) COMP-5 VALUE 542.
+       78 SQLM-ELM-TQ-WAIT-FOR-ANY VALUE 542.
 
-       77 SQLM-ELM-TQ-ID-WAITING-ON
-           PIC S9(4) COMP-5 VALUE 543.
+       78 SQLM-ELM-TQ-ID-WAITING-ON VALUE 543.
 
-       77 SQLM-ELM-TQ-TOT-SEND-SPILLS
-           PIC S9(4) COMP-5 VALUE 544.
+       78 SQLM-ELM-TQ-TOT-SEND-SPILLS VALUE 544.
 
-       77 SQLM-ELM-TQ-CUR-SEND-SPILLS
-           PIC S9(4) COMP-5 VALUE 545.
+       78 SQLM-ELM-TQ-CUR-SEND-SPILLS VALUE 545.
 
-       77 SQLM-ELM-TQ-MAX-SEND-SPILLS
-           PIC S9(4) COMP-5 VALUE 546.
+       78 SQLM-ELM-TQ-MAX-SEND-SPILLS VALUE 546.
 
-       77 SQLM-ELM-TQ-ROWS-READ
-           PIC S9(4) COMP-5 VALUE 547.
+       78 SQLM-ELM-TQ-ROWS-READ VALUE 547.
 
-       77 SQLM-ELM-TQ-ROWS-WRITTEN
-           PIC S9(4) COMP-5 VALUE 548.
+       78 SQLM-ELM-TQ-ROWS-WRITTEN VALUE 548.
 
-       77 SQLM-ELM-AGENT-PID
-           PIC S9(4) COMP-5 VALUE 549.
+       78 SQLM-ELM-AGENT-PID VALUE 549.
 
-       77 SQLM-ELM-LOCK-ESCALATION
-           PIC S9(4) COMP-5 VALUE 550.
+       78 SQLM-ELM-LOCK-ESCALATION VALUE 550.
 
-       77 SQLM-ELM-SUBSECTION-NUMBER
-           PIC S9(4) COMP-5 VALUE 551.
+       78 SQLM-ELM-SUBSECTION-NUMBER VALUE 551.
 
-       77 SQLM-ELM-LOCK-MODE
-           PIC S9(4) COMP-5 VALUE 552.
+       78 SQLM-ELM-LOCK-MODE VALUE 552.
 
-       77 SQLM-ELM-LOCK-OBJECT-TYPE
-           PIC S9(4) COMP-5 VALUE 553.
+       78 SQLM-ELM-LOCK-OBJECT-TYPE VALUE 553.
 
-       77 SQLM-ELM-NUM-EXECUTIONS
-           PIC S9(4) COMP-5 VALUE 554.
+       78 SQLM-ELM-NUM-EXECUTIONS VALUE 554.
 
-       77 SQLM-ELM-TABLE-NAME
-           PIC S9(4) COMP-5 VALUE 555.
+       78 SQLM-ELM-TABLE-NAME VALUE 555.
 
-       77 SQLM-ELM-TABLE-SCHEMA
-           PIC S9(4) COMP-5 VALUE 556.
+       78 SQLM-ELM-TABLE-SCHEMA VALUE 556.
 
-       77 SQLM-ELM-TABLESPACE-NAME
-           PIC S9(4) COMP-5 VALUE 557.
+       78 SQLM-ELM-TABLESPACE-NAME VALUE 557.
 
-       77 SQLM-ELM-AGENT-ID-HOLDING-LK
-           PIC S9(4) COMP-5 VALUE 558.
+       78 SQLM-ELM-AGENT-ID-HOLDING-LK VALUE 558.
 
-       77 SQLM-ELM-APPL-ID-HOLDING-LK
-           PIC S9(4) COMP-5 VALUE 559.
+       78 SQLM-ELM-APPL-ID-HOLDING-LK VALUE 559.
 
-       77 SQLM-ELM-TABLE-FILE-ID
-           PIC S9(4) COMP-5 VALUE 561.
+       78 SQLM-ELM-TABLE-FILE-ID VALUE 561.
 
-       77 SQLM-ELM-TABLE-TYPE
-           PIC S9(4) COMP-5 VALUE 562.
+       78 SQLM-ELM-TABLE-TYPE VALUE 562.
 
-       77 SQLM-ELM-OVERFLOW-ACCESSES
-           PIC S9(4) COMP-5 VALUE 563.
+       78 SQLM-ELM-OVERFLOW-ACCESSES VALUE 563.
 
-       77 SQLM-ELM-PAGE-REORGS
-           PIC S9(4) COMP-5 VALUE 564.
+       78 SQLM-ELM-PAGE-REORGS VALUE 564.
 
-       77 SQLM-ELM-SQLCABC
-           PIC S9(4) COMP-5 VALUE 565.
+       78 SQLM-ELM-SQLCABC VALUE 565.
 
-       77 SQLM-ELM-LOCK-STATUS
-           PIC S9(4) COMP-5 VALUE 566.
+       78 SQLM-ELM-LOCK-STATUS VALUE 566.
 
-       77 SQLM-ELM-LOCK-OBJECT-NAME
-           PIC S9(4) COMP-5 VALUE 567.
+       78 SQLM-ELM-LOCK-OBJECT-NAME VALUE 567.
 
-       77 SQLM-ELM-RF-TYPE
-           PIC S9(4) COMP-5 VALUE 568.
+       78 SQLM-ELM-RF-TYPE VALUE 568.
 
-       77 SQLM-ELM-RF-LOG-NUM
-           PIC S9(4) COMP-5 VALUE 569.
+       78 SQLM-ELM-RF-LOG-NUM VALUE 569.
 
-       77 SQLM-ELM-RF-STATUS
-           PIC S9(4) COMP-5 VALUE 570.
+       78 SQLM-ELM-RF-STATUS VALUE 570.
 
-       77 SQLM-ELM-TS-NAME
-           PIC S9(4) COMP-5 VALUE 571.
+       78 SQLM-ELM-TS-NAME VALUE 571.
 
-       77 SQLM-ELM-BP-NAME
-           PIC S9(4) COMP-5 VALUE 572.
+       78 SQLM-ELM-BP-NAME VALUE 572.
 
-       77 SQLM-ELM-STMT-NODE-NUMBER
-           PIC S9(4) COMP-5 VALUE 573.
+       78 SQLM-ELM-STMT-NODE-NUMBER VALUE 573.
 
-       77 SQLM-ELM-PARTIAL-RECORD
-           PIC S9(4) COMP-5 VALUE 574.
+       78 SQLM-ELM-PARTIAL-RECORD VALUE 574.
 
-       77 SQLM-ELM-SYSTEM-CPU-TIME
-           PIC S9(4) COMP-5 VALUE 575.
+       78 SQLM-ELM-SYSTEM-CPU-TIME VALUE 575.
 
-       77 SQLM-ELM-SQLCA
-           PIC S9(4) COMP-5 VALUE 576.
+       78 SQLM-ELM-SQLCA VALUE 576.
 
-       77 SQLM-ELM-SQLCODE
-           PIC S9(4) COMP-5 VALUE 577.
+       78 SQLM-ELM-SQLCODE VALUE 577.
 
-       77 SQLM-ELM-SQLERRML
-           PIC S9(4) COMP-5 VALUE 578.
+       78 SQLM-ELM-SQLERRML VALUE 578.
 
-       77 SQLM-ELM-SQLERRMC
-           PIC S9(4) COMP-5 VALUE 579.
+       78 SQLM-ELM-SQLERRMC VALUE 579.
 
-       77 SQLM-ELM-SQLERRP
-           PIC S9(4) COMP-5 VALUE 580.
+       78 SQLM-ELM-SQLERRP VALUE 580.
 
-       77 SQLM-ELM-SQLERRD
-           PIC S9(4) COMP-5 VALUE 581.
+       78 SQLM-ELM-SQLERRD VALUE 581.
 
-       77 SQLM-ELM-SQLWARN
-           PIC S9(4) COMP-5 VALUE 582.
+       78 SQLM-ELM-SQLWARN VALUE 582.
 
-       77 SQLM-ELM-SQLSTATE
-           PIC S9(4) COMP-5 VALUE 583.
+       78 SQLM-ELM-SQLSTATE VALUE 583.
 
-       77 SQLM-ELM-UOW-STATUS
-           PIC S9(4) COMP-5 VALUE 584.
+       78 SQLM-ELM-UOW-STATUS VALUE 584.
 
-       77 SQLM-ELM-TOTAL-SYS-CPU-TIME
-           PIC S9(4) COMP-5 VALUE 585.
+       78 SQLM-ELM-TOTAL-SYS-CPU-TIME VALUE 585.
 
-       77 SQLM-ELM-TOTAL-USR-CPU-TIME
-           PIC S9(4) COMP-5 VALUE 586.
+       78 SQLM-ELM-TOTAL-USR-CPU-TIME VALUE 586.
 
-       77 SQLM-ELM-LOCK-MODE-REQUESTED
-           PIC S9(4) COMP-5 VALUE 587.
+       78 SQLM-ELM-LOCK-MODE-REQUESTED VALUE 587.
 
-       77 SQLM-ELM-INACTIVE-GW-AGENTS
-           PIC S9(4) COMP-5 VALUE 588.
+       78 SQLM-ELM-INACTIVE-GW-AGENTS VALUE 588.
 
-       77 SQLM-ELM-NUM-GW-CONN-SWITCHES
-           PIC S9(4) COMP-5 VALUE 589.
+       78 SQLM-ELM-NUM-GW-CONN-SWITCHES VALUE 589.
 
-       77 SQLM-ELM-GW-COMM-ERRORS
-           PIC S9(4) COMP-5 VALUE 590.
+       78 SQLM-ELM-GW-COMM-ERRORS VALUE 590.
 
-       77 SQLM-ELM-GW-COMM-ERROR-TIME
-           PIC S9(4) COMP-5 VALUE 591.
+       78 SQLM-ELM-GW-COMM-ERROR-TIME VALUE 591.
 
-       77 SQLM-ELM-GW-CON-START-TIME
-           PIC S9(4) COMP-5 VALUE 592.
+       78 SQLM-ELM-GW-CON-START-TIME VALUE 592.
 
-       77 SQLM-ELM-CON-RESPONSE-TIME
-           PIC S9(4) COMP-5 VALUE 593.
+       78 SQLM-ELM-CON-RESPONSE-TIME VALUE 593.
 
-       77 SQLM-ELM-CON-ELAPSED-TIME
-           PIC S9(4) COMP-5 VALUE 594.
+       78 SQLM-ELM-CON-ELAPSED-TIME VALUE 594.
 
-       77 SQLM-ELM-HOST-RESPONSE-TIME
-           PIC S9(4) COMP-5 VALUE 595.
+       78 SQLM-ELM-HOST-RESPONSE-TIME VALUE 595.
 
       * The full name of the monitor element is SQLM_ELM_PKG_CACHE_NUM_OVERFLOWS
-       77 SQLM-ELM-PKG-CACHE-NUM-OWFLW
-           PIC S9(4) COMP-5 VALUE 596.
+       78 SQLM-ELM-PKG-CACHE-NUM-OWFLW VALUE 596.
 
-       77 SQLM-ELM-PKG-CACHE-SIZE-TOP
-           PIC S9(4) COMP-5 VALUE 597.
+       78 SQLM-ELM-PKG-CACHE-SIZE-TOP VALUE 597.
 
-       77 SQLM-ELM-APPL-ID-OLDEST-XACT
-           PIC S9(4) COMP-5 VALUE 598.
+       78 SQLM-ELM-APPL-ID-OLDEST-XACT VALUE 598.
 
-       77 SQLM-ELM-TOTAL-LOG-USED
-           PIC S9(4) COMP-5 VALUE 599.
+       78 SQLM-ELM-TOTAL-LOG-USED VALUE 599.
 
-       77 SQLM-ELM-TOTAL-LOG-AVAILABLE
-           PIC S9(4) COMP-5 VALUE 600.
+       78 SQLM-ELM-TOTAL-LOG-AVAILABLE VALUE 600.
 
-       77 SQLM-ELM-STMT-ELAPSED-TIME
-           PIC S9(4) COMP-5 VALUE 601.
+       78 SQLM-ELM-STMT-ELAPSED-TIME VALUE 601.
 
-       77 SQLM-ELM-UOW-ELAPSED-TIME
-           PIC S9(4) COMP-5 VALUE 602.
+       78 SQLM-ELM-UOW-ELAPSED-TIME VALUE 602.
 
-       77 SQLM-ELM-SQLCAID
-           PIC S9(4) COMP-5 VALUE 603.
+       78 SQLM-ELM-SQLCAID VALUE 603.
 
       * The full name of the monitor element is SQLM_ELM_SMALLEST_LOG_AVAIL_NODE
-       77 SQLM-ELM-SMALLEST-LOG-AVL-NODE
-           PIC S9(4) COMP-5 VALUE 604.
+       78 SQLM-ELM-SMALLEST-LOG-AVL-NODE VALUE 604.
 
-       77 SQLM-ELM-DISCONNECTS
-           PIC S9(4) COMP-5 VALUE 605.
+       78 SQLM-ELM-DISCONNECTS VALUE 605.
 
-       77 SQLM-ELM-CREATE-NICKNAME
-           PIC S9(4) COMP-5 VALUE 606.
+       78 SQLM-ELM-CREATE-NICKNAME VALUE 606.
 
-       77 SQLM-ELM-PASSTHRUS
-           PIC S9(4) COMP-5 VALUE 607.
+       78 SQLM-ELM-PASSTHRUS VALUE 607.
 
-       77 SQLM-ELM-STORED-PROCS
-           PIC S9(4) COMP-5 VALUE 608.
+       78 SQLM-ELM-STORED-PROCS VALUE 608.
 
-       77 SQLM-ELM-SP-ROWS-SELECTED
-           PIC S9(4) COMP-5 VALUE 609.
+       78 SQLM-ELM-SP-ROWS-SELECTED VALUE 609.
 
-       77 SQLM-ELM-DATASOURCE-NAME
-           PIC S9(4) COMP-5 VALUE 610.
+       78 SQLM-ELM-DATASOURCE-NAME VALUE 610.
 
-       77 SQLM-ELM-REMOTE-LOCKS
-           PIC S9(4) COMP-5 VALUE 611.
+       78 SQLM-ELM-REMOTE-LOCKS VALUE 611.
 
-       77 SQLM-ELM-BLOCKING-CURSOR
-           PIC S9(4) COMP-5 VALUE 612.
+       78 SQLM-ELM-BLOCKING-CURSOR VALUE 612.
 
       * The full name of the monitor element is SQLM_ELM_OUTBOUND_BLOCKING_CURSOR
-       77 SQLM-ELM-OUTB-BLOCKING-CURSOR
-           PIC S9(4) COMP-5 VALUE 613.
+       78 SQLM-ELM-OUTB-BLOCKING-CURSOR VALUE 613.
 
-       77 SQLM-ELM-INSERT-SQL-STMTS
-           PIC S9(4) COMP-5 VALUE 614.
+       78 SQLM-ELM-INSERT-SQL-STMTS VALUE 614.
 
-       77 SQLM-ELM-UPDATE-SQL-STMTS
-           PIC S9(4) COMP-5 VALUE 615.
+       78 SQLM-ELM-UPDATE-SQL-STMTS VALUE 615.
 
-       77 SQLM-ELM-DELETE-SQL-STMTS
-           PIC S9(4) COMP-5 VALUE 616.
+       78 SQLM-ELM-DELETE-SQL-STMTS VALUE 616.
 
-       77 SQLM-ELM-UNREAD-PREFETCH-PAGES
-           PIC S9(4) COMP-5 VALUE 617.
+       78 SQLM-ELM-UNREAD-PREFETCH-PAGES VALUE 617.
 
-       77 SQLM-ELM-AGENT-STATUS
-           PIC S9(4) COMP-5 VALUE 618.
+       78 SQLM-ELM-AGENT-STATUS VALUE 618.
 
-       77 SQLM-ELM-NUM-TRANSMISSIONS
-           PIC S9(4) COMP-5 VALUE 619.
+       78 SQLM-ELM-NUM-TRANSMISSIONS VALUE 619.
 
       * The full name of the monitor element is SQLM_ELM_OUTBOUND_BYTES_SENT_TOP
-       77 SQLM-ELM-OUTB-BYT-SENT-TOP
-           PIC S9(4) COMP-5 VALUE 620.
+       78 SQLM-ELM-OUTB-BYT-SENT-TOP VALUE 620.
 
       * The full name of the monitor element is SQLM_ELM_OUTBOUND_BYTES_RECEIVED_TOP
-       77 SQLM-ELM-OUTB-BYT-RECV-TOP
-           PIC S9(4) COMP-5 VALUE 621.
+       78 SQLM-ELM-OUTB-BYT-RECV-TOP VALUE 621.
 
       * The full name of the monitor element is SQLM_ELM_OUTBOUND_BYTES_SENT_BOTTOM
-       77 SQLM-ELM-OUTB-BYT-SENT-BOT
-           PIC S9(4) COMP-5 VALUE 622.
+       78 SQLM-ELM-OUTB-BYT-SENT-BOT VALUE 622.
 
       * The full name of the monitor element is SQLM_ELM_OUTBOUND_BYTES_RECEIVED_BOTTOM
-       77 SQLM-ELM-OUTB-BYT-RECV-BOT
-           PIC S9(4) COMP-5 VALUE 623.
+       78 SQLM-ELM-OUTB-BYT-RECV-BOT VALUE 623.
 
 
       *  The following elements represent counts of the number of transmissions    *
       *  whose size in bytes is less than or equal to the number in the name.      *
-       77 SQLM-ELM-MAX-DATA-SENT-128
-           PIC S9(4) COMP-5 VALUE 624.
+       78 SQLM-ELM-MAX-DATA-SENT-128 VALUE 624.
 
-       77 SQLM-ELM-MAX-DATA-SENT-256
-           PIC S9(4) COMP-5 VALUE 625.
+       78 SQLM-ELM-MAX-DATA-SENT-256 VALUE 625.
 
-       77 SQLM-ELM-MAX-DATA-SENT-512
-           PIC S9(4) COMP-5 VALUE 626.
+       78 SQLM-ELM-MAX-DATA-SENT-512 VALUE 626.
 
-       77 SQLM-ELM-MAX-DATA-SENT-1024
-           PIC S9(4) COMP-5 VALUE 627.
+       78 SQLM-ELM-MAX-DATA-SENT-1024 VALUE 627.
 
-       77 SQLM-ELM-MAX-DATA-SENT-2048
-           PIC S9(4) COMP-5 VALUE 628.
+       78 SQLM-ELM-MAX-DATA-SENT-2048 VALUE 628.
 
-       77 SQLM-ELM-MAX-DATA-SENT-4096
-           PIC S9(4) COMP-5 VALUE 629.
+       78 SQLM-ELM-MAX-DATA-SENT-4096 VALUE 629.
 
-       77 SQLM-ELM-MAX-DATA-SENT-8192
-           PIC S9(4) COMP-5 VALUE 630.
+       78 SQLM-ELM-MAX-DATA-SENT-8192 VALUE 630.
 
-       77 SQLM-ELM-MAX-DATA-SENT-16384
-           PIC S9(4) COMP-5 VALUE 631.
+       78 SQLM-ELM-MAX-DATA-SENT-16384 VALUE 631.
 
-       77 SQLM-ELM-MAX-DATA-SENT-31999
-           PIC S9(4) COMP-5 VALUE 632.
+       78 SQLM-ELM-MAX-DATA-SENT-31999 VALUE 632.
 
-       77 SQLM-ELM-MAX-DATA-SENT-64000
-           PIC S9(4) COMP-5 VALUE 633.
+       78 SQLM-ELM-MAX-DATA-SENT-64000 VALUE 633.
 
-       77 SQLM-ELM-MAX-DATA-SENT-GT64000
-           PIC S9(4) COMP-5 VALUE 634.
+       78 SQLM-ELM-MAX-DATA-SENT-GT64000 VALUE 634.
 
-       77 SQLM-ELM-MAX-DATA-RECEIVED-128
-           PIC S9(4) COMP-5 VALUE 635.
+       78 SQLM-ELM-MAX-DATA-RECEIVED-128 VALUE 635.
 
-       77 SQLM-ELM-MAX-DATA-RECEIVED-256
-           PIC S9(4) COMP-5 VALUE 636.
+       78 SQLM-ELM-MAX-DATA-RECEIVED-256 VALUE 636.
 
-       77 SQLM-ELM-MAX-DATA-RECEIVED-512
-           PIC S9(4) COMP-5 VALUE 637.
+       78 SQLM-ELM-MAX-DATA-RECEIVED-512 VALUE 637.
 
       * The full name of the monitor element is SQLM_ELM_MAX_DATA_RECEIVED_1024
-       77 SQLM-ELM-MAX-DATA-RECV-1024
-           PIC S9(4) COMP-5 VALUE 638.
+       78 SQLM-ELM-MAX-DATA-RECV-1024 VALUE 638.
 
       * The full name of the monitor element is SQLM_ELM_MAX_DATA_RECEIVED_2048
-       77 SQLM-ELM-MAX-DATA-RECV-2048
-           PIC S9(4) COMP-5 VALUE 639.
+       78 SQLM-ELM-MAX-DATA-RECV-2048 VALUE 639.
 
       * The full name of the monitor element is SQLM_ELM_MAX_DATA_RECEIVED_4096
-       77 SQLM-ELM-MAX-DATA-RECV-4096
-           PIC S9(4) COMP-5 VALUE 640.
+       78 SQLM-ELM-MAX-DATA-RECV-4096 VALUE 640.
 
       * The full name of the monitor element is SQLM_ELM_MAX_DATA_RECEIVED_8192
-       77 SQLM-ELM-MAX-DATA-RECV-8192
-           PIC S9(4) COMP-5 VALUE 641.
+       78 SQLM-ELM-MAX-DATA-RECV-8192 VALUE 641.
 
       * The full name of the monitor element is SQLM_ELM_MAX_DATA_RECEIVED_16384
-       77 SQLM-ELM-MAX-DATA-RECV-16384
-           PIC S9(4) COMP-5 VALUE 642.
+       78 SQLM-ELM-MAX-DATA-RECV-16384 VALUE 642.
 
       * The full name of the monitor element is SQLM_ELM_MAX_DATA_RECEIVED_31999
-       77 SQLM-ELM-MAX-DATA-RECV-31999
-           PIC S9(4) COMP-5 VALUE 643.
+       78 SQLM-ELM-MAX-DATA-RECV-31999 VALUE 643.
 
       * The full name of the monitor element is SQLM_ELM_MAX_DATA_RECEIVED_64000
-       77 SQLM-ELM-MAX-DATA-RECV-64000
-           PIC S9(4) COMP-5 VALUE 644.
+       78 SQLM-ELM-MAX-DATA-RECV-64000 VALUE 644.
 
       * The full name of the monitor element is SQLM_ELM_MAX_DATA_RECEIVED_GT64000
-       77 SQLM-ELM-MAX-DATA-RECV-GT64000
-           PIC S9(4) COMP-5 VALUE 645.
+       78 SQLM-ELM-MAX-DATA-RECV-GT64000 VALUE 645.
 
 
       *  The following elements represent counts of the number of transmissions    *
       *  whose network transmission time is less than the time (in milliseconds)   *
       *  in the name.                                                              *
-       77 SQLM-ELM-MAX-TIME-2-MS
-           PIC S9(4) COMP-5 VALUE 646.
+       78 SQLM-ELM-MAX-TIME-2-MS VALUE 646.
 
-       77 SQLM-ELM-MAX-TIME-4-MS
-           PIC S9(4) COMP-5 VALUE 647.
+       78 SQLM-ELM-MAX-TIME-4-MS VALUE 647.
 
-       77 SQLM-ELM-MAX-TIME-8-MS
-           PIC S9(4) COMP-5 VALUE 648.
+       78 SQLM-ELM-MAX-TIME-8-MS VALUE 648.
 
-       77 SQLM-ELM-MAX-TIME-16-MS
-           PIC S9(4) COMP-5 VALUE 649.
+       78 SQLM-ELM-MAX-TIME-16-MS VALUE 649.
 
-       77 SQLM-ELM-MAX-TIME-32-MS
-           PIC S9(4) COMP-5 VALUE 650.
+       78 SQLM-ELM-MAX-TIME-32-MS VALUE 650.
 
-       77 SQLM-ELM-MAX-TIME-GT32-MS
-           PIC S9(4) COMP-5 VALUE 651.
+       78 SQLM-ELM-MAX-TIME-GT32-MS VALUE 651.
 
 
       * Deadlock Identification elements.                                          *
-       77 SQLM-ELM-DEADLOCK-ID
-           PIC S9(4) COMP-5 VALUE 652.
+       78 SQLM-ELM-DEADLOCK-ID VALUE 652.
 
-       77 SQLM-ELM-DEADLOCK-NODE
-           PIC S9(4) COMP-5 VALUE 653.
+       78 SQLM-ELM-DEADLOCK-NODE VALUE 653.
 
 
       * Deadlock Participant numbers                                               *
-       77 SQLM-ELM-PARTICIPANT-NO
-           PIC S9(4) COMP-5 VALUE 654.
+       78 SQLM-ELM-PARTICIPANT-NO VALUE 654.
 
       * The full name of the monitor element is SQLM_ELM_PARTICIPANT_NO_HOLDING_LK
-       77 SQLM-ELM-PARTCP-NO-HOLDING-LK
-           PIC S9(4) COMP-5 VALUE 655.
+       78 SQLM-ELM-PARTCP-NO-HOLDING-LK VALUE 655.
 
       * The full name of the monitor element is SQLM_ELM_ROLLED_BACK_PARTICIPANT_NO
-       77 SQLM-ELM-R0L-BACK-PARTCP-NO
-           PIC S9(4) COMP-5 VALUE 656.
+       78 SQLM-ELM-R0L-BACK-PARTCP-NO VALUE 656.
 
 
       * Please make these 6 element always consecutive, sqlmetart.C relys on this  *
-       77 SQLM-ELM-SQLERRD1
-           PIC S9(4) COMP-5 VALUE 657.
+       78 SQLM-ELM-SQLERRD1 VALUE 657.
 
-       77 SQLM-ELM-SQLERRD2
-           PIC S9(4) COMP-5 VALUE 658.
+       78 SQLM-ELM-SQLERRD2 VALUE 658.
 
-       77 SQLM-ELM-SQLERRD3
-           PIC S9(4) COMP-5 VALUE 659.
+       78 SQLM-ELM-SQLERRD3 VALUE 659.
 
-       77 SQLM-ELM-SQLERRD4
-           PIC S9(4) COMP-5 VALUE 660.
+       78 SQLM-ELM-SQLERRD4 VALUE 660.
 
-       77 SQLM-ELM-SQLERRD5
-           PIC S9(4) COMP-5 VALUE 661.
+       78 SQLM-ELM-SQLERRD5 VALUE 661.
 
-       77 SQLM-ELM-SQLERRD6
-           PIC S9(4) COMP-5 VALUE 662.
+       78 SQLM-ELM-SQLERRD6 VALUE 662.
 
 
       * Event monitor new elements added  *
-       77 SQLM-ELM-EVMON-ACTIVATES
-           PIC S9(4) COMP-5 VALUE 663.
+       78 SQLM-ELM-EVMON-ACTIVATES VALUE 663.
 
-       77 SQLM-ELM-EVMON-FLUSHES
-           PIC S9(4) COMP-5 VALUE 664.
+       78 SQLM-ELM-EVMON-FLUSHES VALUE 664.
 
-       77 SQLM-ELM-SQL-REQ-ID
-           PIC S9(4) COMP-5 VALUE 665.
+       78 SQLM-ELM-SQL-REQ-ID VALUE 665.
 
 
       * New elements added for WTT control table                                    *
-       77 SQLM-ELM-MESSAGE
-           PIC S9(4) COMP-5 VALUE 666.
+       78 SQLM-ELM-MESSAGE VALUE 666.
 
-       77 SQLM-ELM-MESSAGE-TIME
-           PIC S9(4) COMP-5 VALUE 667.
+       78 SQLM-ELM-MESSAGE-TIME VALUE 667.
 
 
       * Elements for dynamic bufferpool                                            *
-       77 SQLM-ELM-VECTORED-IOS
-           PIC S9(4) COMP-5 VALUE 668.
+       78 SQLM-ELM-VECTORED-IOS VALUE 668.
 
       * The full name of the monitor element is SQLM_ELM_PAGES_FROM_VECTORED_IOS
-       77 SQLM-ELM-PG-FROM-VECT-IOS
-           PIC S9(4) COMP-5 VALUE 669.
+       78 SQLM-ELM-PG-FROM-VECT-IOS VALUE 669.
 
-       77 SQLM-ELM-BLOCK-IOS
-           PIC S9(4) COMP-5 VALUE 670.
+       78 SQLM-ELM-BLOCK-IOS VALUE 670.
 
-       77 SQLM-ELM-PAGES-FROM-BLOCK-IOS
-           PIC S9(4) COMP-5 VALUE 671.
+       78 SQLM-ELM-PAGES-FROM-BLOCK-IOS VALUE 671.
 
-       77 SQLM-ELM-PHYSICAL-PAGE-MAPS
-           PIC S9(4) COMP-5 VALUE 672.
+       78 SQLM-ELM-PHYSICAL-PAGE-MAPS VALUE 672.
 
 
       * Specifies the number of locks in the detailed dlconn lock list             *
-       77 SQLM-ELM-LOCKS-IN-LIST
-           PIC S9(4) COMP-5 VALUE 673.
+       78 SQLM-ELM-LOCKS-IN-LIST VALUE 673.
 
 
       * Elements for table reorg                                                   *
-       77 SQLM-ELM-REORG-PHASE
-           PIC S9(4) COMP-5 VALUE 674.
+       78 SQLM-ELM-REORG-PHASE VALUE 674.
 
-       77 SQLM-ELM-REORG-MAX-PHASE
-           PIC S9(4) COMP-5 VALUE 675.
+       78 SQLM-ELM-REORG-MAX-PHASE VALUE 675.
 
-       77 SQLM-ELM-REORG-CURRENT-COUNTER
-           PIC S9(4) COMP-5 VALUE 676.
+       78 SQLM-ELM-REORG-CURRENT-COUNTER VALUE 676.
 
-       77 SQLM-ELM-REORG-MAX-COUNTER
-           PIC S9(4) COMP-5 VALUE 677.
+       78 SQLM-ELM-REORG-MAX-COUNTER VALUE 677.
 
-       77 SQLM-ELM-REORG-TYPE
-           PIC S9(4) COMP-5 VALUE 678.
+       78 SQLM-ELM-REORG-TYPE VALUE 678.
 
-       77 SQLM-ELM-REORG-STATUS
-           PIC S9(4) COMP-5 VALUE 679.
+       78 SQLM-ELM-REORG-STATUS VALUE 679.
 
-       77 SQLM-ELM-REORG-COMPLETION
-           PIC S9(4) COMP-5 VALUE 680.
+       78 SQLM-ELM-REORG-COMPLETION VALUE 680.
 
-       77 SQLM-ELM-REORG-START
-           PIC S9(4) COMP-5 VALUE 681.
+       78 SQLM-ELM-REORG-START VALUE 681.
 
-       77 SQLM-ELM-REORG-END
-           PIC S9(4) COMP-5 VALUE 682.
+       78 SQLM-ELM-REORG-END VALUE 682.
 
-       77 SQLM-ELM-REORG-PHASE-START
-           PIC S9(4) COMP-5 VALUE 683.
+       78 SQLM-ELM-REORG-PHASE-START VALUE 683.
 
-       77 SQLM-ELM-REORG-INDEX-ID
-           PIC S9(4) COMP-5 VALUE 684.
+       78 SQLM-ELM-REORG-INDEX-ID VALUE 684.
 
-       77 SQLM-ELM-REORG-TBSPC-ID
-           PIC S9(4) COMP-5 VALUE 685.
+       78 SQLM-ELM-REORG-TBSPC-ID VALUE 685.
 
 
       * Pool memory elements                                                        *
-       77 SQLM-ELM-POOL-ID
-           PIC S9(4) COMP-5 VALUE 686.
+       78 SQLM-ELM-POOL-ID VALUE 686.
 
-       77 SQLM-ELM-POOL-CUR-SIZE
-           PIC S9(4) COMP-5 VALUE 687.
+       78 SQLM-ELM-POOL-CUR-SIZE VALUE 687.
 
-       77 SQLM-ELM-POOL-CONFIG-SIZE
-           PIC S9(4) COMP-5 VALUE 688.
+       78 SQLM-ELM-POOL-CONFIG-SIZE VALUE 688.
 
-       77 SQLM-ELM-POOL-MAX-SIZE
-           PIC S9(4) COMP-5 VALUE 688.
+       78 SQLM-ELM-POOL-MAX-SIZE VALUE 688.
 
-       77 SQLM-ELM-POOL-WATERMARK
-           PIC S9(4) COMP-5 VALUE 689.
+       78 SQLM-ELM-POOL-WATERMARK VALUE 689.
 
 
       * Elements for tablespace containers                                         *
-       77 SQLM-ELM-TABLESPACE-ID
-           PIC S9(4) COMP-5 VALUE 690.
+       78 SQLM-ELM-TABLESPACE-ID VALUE 690.
 
-       77 SQLM-ELM-TABLESPACE-TYPE
-           PIC S9(4) COMP-5 VALUE 691.
+       78 SQLM-ELM-TABLESPACE-TYPE VALUE 691.
 
       * The full name of the monitor element is SQLM_ELM_TABLESPACE_CONTENT_TYPE
-       77 SQLM-ELM-TBSP-CONTENT-TYPE
-           PIC S9(4) COMP-5 VALUE 692.
+       78 SQLM-ELM-TBSP-CONTENT-TYPE VALUE 692.
 
-       77 SQLM-ELM-TABLESPACE-STATE
-           PIC S9(4) COMP-5 VALUE 693.
+       78 SQLM-ELM-TABLESPACE-STATE VALUE 693.
 
-       77 SQLM-ELM-TABLESPACE-PAGE-SIZE
-           PIC S9(4) COMP-5 VALUE 694.
+       78 SQLM-ELM-TABLESPACE-PAGE-SIZE VALUE 694.
 
       * The full name of the monitor element is SQLM_ELM_TABLESPACE_EXTENT_SIZE
-       77 SQLM-ELM-TBSP-EXT-SIZE
-           PIC S9(4) COMP-5 VALUE 695.
+       78 SQLM-ELM-TBSP-EXT-SIZE VALUE 695.
 
       * The full name of the monitor element is SQLM_ELM_TABLESPACE_PREFETCH_SIZE
-       77 SQLM-ELM-TBSP-PREFETCH-SIZE
-           PIC S9(4) COMP-5 VALUE 696.
+       78 SQLM-ELM-TBSP-PREFETCH-SIZE VALUE 696.
 
       * The full name of the monitor element is SQLM_ELM_TABLESPACE_CUR_POOL_ID
-       77 SQLM-ELM-TBSP-CUR-PL-ID
-           PIC S9(4) COMP-5 VALUE 697.
+       78 SQLM-ELM-TBSP-CUR-PL-ID VALUE 697.
 
       * The full name of the monitor element is SQLM_ELM_TABLESPACE_NEXT_POOL_ID
-       77 SQLM-ELM-TBSP-NEXT-PL-ID
-           PIC S9(4) COMP-5 VALUE 698.
+       78 SQLM-ELM-TBSP-NEXT-PL-ID VALUE 698.
 
       * The full name of the monitor element is SQLM_ELM_TABLESPACE_TOTAL_PAGES
-       77 SQLM-ELM-TBSP-TOTAL-PG
-           PIC S9(4) COMP-5 VALUE 699.
+       78 SQLM-ELM-TBSP-TOTAL-PG VALUE 699.
 
       * The full name of the monitor element is SQLM_ELM_TABLESPACE_USABLE_PAGES
-       77 SQLM-ELM-TBSP-USABLE-PG
-           PIC S9(4) COMP-5 VALUE 700.
+       78 SQLM-ELM-TBSP-USABLE-PG VALUE 700.
 
-       77 SQLM-ELM-TABLESPACE-USED-PAGES
-           PIC S9(4) COMP-5 VALUE 701.
+       78 SQLM-ELM-TABLESPACE-USED-PAGES VALUE 701.
 
-       77 SQLM-ELM-TABLESPACE-FREE-PAGES
-           PIC S9(4) COMP-5 VALUE 702.
+       78 SQLM-ELM-TABLESPACE-FREE-PAGES VALUE 702.
 
-       77 SQLM-ELM-TABLESPACE-PAGE-TOP
-           PIC S9(4) COMP-5 VALUE 703.
+       78 SQLM-ELM-TABLESPACE-PAGE-TOP VALUE 703.
 
       * The full name of the monitor element is SQLM_ELM_TABLESPACE_PENDING_FREE_PAGES
-       77 SQLM-ELM-TBSP-PENDING-FREE-PG
-           PIC S9(4) COMP-5 VALUE 704.
+       78 SQLM-ELM-TBSP-PENDING-FREE-PG VALUE 704.
 
       * The full name of the monitor element is SQLM_ELM_TABLESPACE_REBALANCER_MODE
-       77 SQLM-ELM-TBSP-REB-MODE
-           PIC S9(4) COMP-5 VALUE 705.
+       78 SQLM-ELM-TBSP-REB-MODE VALUE 705.
 
       * The full name of the monitor element is SQLM_ELM_TABLESPACE_REBALANCER_EXTENTS_REMAINING
-       77 SQLM-ELM-TBSP-REB-EXT-REM
-           PIC S9(4) COMP-5 VALUE 706.
+       78 SQLM-ELM-TBSP-REB-EXT-REM VALUE 706.
 
       * The full name of the monitor element is SQLM_ELM_TABLESPACE_REBALANCER_EXTENTS_PROCESSED
-       77 SQLM-ELM-TBSP-REB-EXT-PRO
-           PIC S9(4) COMP-5 VALUE 707.
+       78 SQLM-ELM-TBSP-REB-EXT-PRO VALUE 707.
 
       * The full name of the monitor element is SQLM_ELM_TABLESPACE_REBALANCER_LAST_EXTENT_MOVED
-       77 SQLM-ELM-TBSP-REB-LAST-EXT-MVD
-           PIC S9(4) COMP-5 VALUE 708.
+       78 SQLM-ELM-TBSP-REB-LAST-EXT-MVD VALUE 708.
 
       * The full name of the monitor element is SQLM_ELM_TABLESPACE_REBALANCER_PRIORITY
-       77 SQLM-ELM-TBSP-REB-PRIORITY
-           PIC S9(4) COMP-5 VALUE 709.
+       78 SQLM-ELM-TBSP-REB-PRIORITY VALUE 709.
 
       * The full name of the monitor element is SQLM_ELM_TABLESPACE_NUM_QUIESCERS
-       77 SQLM-ELM-TBSP-NUM-QUIESCERS
-           PIC S9(4) COMP-5 VALUE 710.
+       78 SQLM-ELM-TBSP-NUM-QUIESCERS VALUE 710.
 
       * The full name of the monitor element is SQLM_ELM_TABLESPACE_STATE_CHANGE_OBJECT_ID
-       77 SQLM-ELM-TBSP-ST-CHG-OBJ-ID
-           PIC S9(4) COMP-5 VALUE 711.
+       78 SQLM-ELM-TBSP-ST-CHG-OBJ-ID VALUE 711.
 
       * The full name of the monitor element is SQLM_ELM_TABLESPACE_STATE_CHANGE_TS_ID
-       77 SQLM-ELM-TBSP-ST-CHG-TS-ID
-           PIC S9(4) COMP-5 VALUE 712.
+       78 SQLM-ELM-TBSP-ST-CHG-TS-ID VALUE 712.
 
       * The full name of the monitor element is SQLM_ELM_TABLESPACE_NUM_CONTAINERS
-       77 SQLM-ELM-TBSP-NUM-CONTAINERS
-           PIC S9(4) COMP-5 VALUE 713.
+       78 SQLM-ELM-TBSP-NUM-CONTAINERS VALUE 713.
 
-       77 SQLM-ELM-TABLESPACE-NUM-RANGES
-           PIC S9(4) COMP-5 VALUE 714.
+       78 SQLM-ELM-TABLESPACE-NUM-RANGES VALUE 714.
 
-       77 SQLM-ELM-QUIESCER-STATE
-           PIC S9(4) COMP-5 VALUE 715.
+       78 SQLM-ELM-QUIESCER-STATE VALUE 715.
 
-       77 SQLM-ELM-QUIESCER-AGENT-ID
-           PIC S9(4) COMP-5 VALUE 716.
+       78 SQLM-ELM-QUIESCER-AGENT-ID VALUE 716.
 
-       77 SQLM-ELM-QUIESCER-TS-ID
-           PIC S9(4) COMP-5 VALUE 717.
+       78 SQLM-ELM-QUIESCER-TS-ID VALUE 717.
 
-       77 SQLM-ELM-QUIESCER-OBJ-ID
-           PIC S9(4) COMP-5 VALUE 718.
+       78 SQLM-ELM-QUIESCER-OBJ-ID VALUE 718.
 
-       77 SQLM-ELM-QUIESCER-AUTH-ID
-           PIC S9(4) COMP-5 VALUE 719.
+       78 SQLM-ELM-QUIESCER-AUTH-ID VALUE 719.
 
-       77 SQLM-ELM-CONTAINER-ID
-           PIC S9(4) COMP-5 VALUE 720.
+       78 SQLM-ELM-CONTAINER-ID VALUE 720.
 
-       77 SQLM-ELM-CONTAINER-TYPE
-           PIC S9(4) COMP-5 VALUE 721.
+       78 SQLM-ELM-CONTAINER-TYPE VALUE 721.
 
-       77 SQLM-ELM-CONTAINER-TOTAL-PAGES
-           PIC S9(4) COMP-5 VALUE 722.
+       78 SQLM-ELM-CONTAINER-TOTAL-PAGES VALUE 722.
 
       * The full name of the monitor element is SQLM_ELM_CONTAINER_USABLE_PAGES
-       77 SQLM-ELM-CONT-USABLE-PG
-           PIC S9(4) COMP-5 VALUE 723.
+       78 SQLM-ELM-CONT-USABLE-PG VALUE 723.
 
-       77 SQLM-ELM-CONTAINER-STRIPE-SET
-           PIC S9(4) COMP-5 VALUE 724.
+       78 SQLM-ELM-CONTAINER-STRIPE-SET VALUE 724.
 
-       77 SQLM-ELM-CONTAINER-ACCESSIBLE
-           PIC S9(4) COMP-5 VALUE 725.
+       78 SQLM-ELM-CONTAINER-ACCESSIBLE VALUE 725.
 
-       77 SQLM-ELM-CONTAINER-NAME
-           PIC S9(4) COMP-5 VALUE 726.
+       78 SQLM-ELM-CONTAINER-NAME VALUE 726.
 
       * The full name of the monitor element is SQLM_ELM_RANGE_STRIPE_SET_NUMBER
-       77 SQLM-ELM-RANGE-STRIPE-SET-NUM
-           PIC S9(4) COMP-5 VALUE 727.
+       78 SQLM-ELM-RANGE-STRIPE-SET-NUM VALUE 727.
 
-       77 SQLM-ELM-RANGE-NUMBER
-           PIC S9(4) COMP-5 VALUE 728.
+       78 SQLM-ELM-RANGE-NUMBER VALUE 728.
 
-       77 SQLM-ELM-RANGE-OFFSET
-           PIC S9(4) COMP-5 VALUE 729.
+       78 SQLM-ELM-RANGE-OFFSET VALUE 729.
 
-       77 SQLM-ELM-RANGE-MAX-PAGE-NUMBER
-           PIC S9(4) COMP-5 VALUE 730.
+       78 SQLM-ELM-RANGE-MAX-PAGE-NUMBER VALUE 730.
 
-       77 SQLM-ELM-RANGE-MAX-EXTENT
-           PIC S9(4) COMP-5 VALUE 731.
+       78 SQLM-ELM-RANGE-MAX-EXTENT VALUE 731.
 
-       77 SQLM-ELM-RANGE-START-STRIPE
-           PIC S9(4) COMP-5 VALUE 732.
+       78 SQLM-ELM-RANGE-START-STRIPE VALUE 732.
 
-       77 SQLM-ELM-RANGE-END-STRIPE
-           PIC S9(4) COMP-5 VALUE 733.
+       78 SQLM-ELM-RANGE-END-STRIPE VALUE 733.
 
-       77 SQLM-ELM-RANGE-ADJUSTMENT
-           PIC S9(4) COMP-5 VALUE 734.
+       78 SQLM-ELM-RANGE-ADJUSTMENT VALUE 734.
 
-       77 SQLM-ELM-RANGE-NUM-CONTAINERS
-           PIC S9(4) COMP-5 VALUE 735.
+       78 SQLM-ELM-RANGE-NUM-CONTAINERS VALUE 735.
 
-       77 SQLM-ELM-RANGE-CONTAINER-ID
-           PIC S9(4) COMP-5 VALUE 736.
+       78 SQLM-ELM-RANGE-CONTAINER-ID VALUE 736.
 
 
-       77 SQLM-ELM-CONSISTENCY-TOKEN
-           PIC S9(4) COMP-5 VALUE 737.
+       78 SQLM-ELM-CONSISTENCY-TOKEN VALUE 737.
 
-       77 SQLM-ELM-PACKAGE-VERSION-ID
-           PIC S9(4) COMP-5 VALUE 738.
+       78 SQLM-ELM-PACKAGE-VERSION-ID VALUE 738.
 
 
-       77 SQLM-ELM-LOCK-NAME
-           PIC S9(4) COMP-5 VALUE 739.
+       78 SQLM-ELM-LOCK-NAME VALUE 739.
 
-       77 SQLM-ELM-LOCK-COUNT
-           PIC S9(4) COMP-5 VALUE 740.
+       78 SQLM-ELM-LOCK-COUNT VALUE 740.
 
-       77 SQLM-ELM-LOCK-HOLD-COUNT
-           PIC S9(4) COMP-5 VALUE 741.
+       78 SQLM-ELM-LOCK-HOLD-COUNT VALUE 741.
 
-       77 SQLM-ELM-LOCK-ATTRIBUTES
-           PIC S9(4) COMP-5 VALUE 742.
+       78 SQLM-ELM-LOCK-ATTRIBUTES VALUE 742.
 
-       77 SQLM-ELM-LOCK-RELEASE-FLAGS
-           PIC S9(4) COMP-5 VALUE 743.
+       78 SQLM-ELM-LOCK-RELEASE-FLAGS VALUE 743.
 
-       77 SQLM-ELM-LOCK-CURRENT-MODE
-           PIC S9(4) COMP-5 VALUE 744.
+       78 SQLM-ELM-LOCK-CURRENT-MODE VALUE 744.
 
-       77 SQLM-ELM-TABLESPACE-FS-CACHING
-           PIC S9(4) COMP-5 VALUE 745.
+       78 SQLM-ELM-TABLESPACE-FS-CACHING VALUE 745.
 
 
       *****************************************************************************
       * Dynamic Bufferpool                                                         *
       *****************************************************************************
-       77 SQLM-ELM-BP-TBSP-USE-COUNT
-           PIC S9(4) COMP-5 VALUE 751.
+       78 SQLM-ELM-BP-TBSP-USE-COUNT VALUE 751.
 
       * The full name of the monitor element is SQLM_ELM_BP_PAGES_LEFT_TO_REMOVE
-       77 SQLM-ELM-BP-PG-LEFT-TO-REMOVE
-           PIC S9(4) COMP-5 VALUE 752.
+       78 SQLM-ELM-BP-PG-LEFT-TO-REMOVE VALUE 752.
 
-       77 SQLM-ELM-BP-CUR-BUFFSZ
-           PIC S9(4) COMP-5 VALUE 753.
+       78 SQLM-ELM-BP-CUR-BUFFSZ VALUE 753.
 
-       77 SQLM-ELM-BP-NEW-BUFFSZ
-           PIC S9(4) COMP-5 VALUE 754.
+       78 SQLM-ELM-BP-NEW-BUFFSZ VALUE 754.
 
 
-       77 SQLM-ELM-SORT-HEAP-TOP
-           PIC S9(4) COMP-5 VALUE 755.
+       78 SQLM-ELM-SORT-HEAP-TOP VALUE 755.
 
       * The full name of the monitor element is SQLM_ELM_SORT_SHRHEAP_ALLOCATED
-       77 SQLM-ELM-SRT-SHRHEAP-ALLC
-           PIC S9(4) COMP-5 VALUE 756.
+       78 SQLM-ELM-SRT-SHRHEAP-ALLC VALUE 756.
 
-       77 SQLM-ELM-SORT-SHRHEAP-TOP
-           PIC S9(4) COMP-5 VALUE 757.
+       78 SQLM-ELM-SORT-SHRHEAP-TOP VALUE 757.
 
 
       *****************************************************************************
       * APM Interaction                                                            *
       *****************************************************************************
       * The full name of the monitor element is SQLM_ELM_SHR_WORKSPACE_SIZE_TOP
-       77 SQLM-ELM-SHR-WKSPC-SIZE-TOP
-           PIC S9(4) COMP-5 VALUE 758.
+       78 SQLM-ELM-SHR-WKSPC-SIZE-TOP VALUE 758.
 
       * The full name of the monitor element is SQLM_ELM_SHR_WORKSPACE_NUM_OVERFLOWS
-       77 SQLM-ELM-SHR-WKSPC-NUM-OWFLW
-           PIC S9(4) COMP-5 VALUE 759.
+       78 SQLM-ELM-SHR-WKSPC-NUM-OWFLW VALUE 759.
 
       * The full name of the monitor element is SQLM_ELM_SHR_WORKSPACE_SECTION_LOOKUPS
-       77 SQLM-ELM-SHR-WKSPC-SEC-LKP
-           PIC S9(4) COMP-5 VALUE 760.
+       78 SQLM-ELM-SHR-WKSPC-SEC-LKP VALUE 760.
 
       * The full name of the monitor element is SQLM_ELM_SHR_WORKSPACE_SECTION_INSERTS
-       77 SQLM-ELM-SHR-WKSPC-SEC-INS
-           PIC S9(4) COMP-5 VALUE 761.
+       78 SQLM-ELM-SHR-WKSPC-SEC-INS VALUE 761.
 
       * The full name of the monitor element is SQLM_ELM_PRIV_WORKSPACE_SIZE_TOP
-       77 SQLM-ELM-PRIV-WKSPC-SIZE-TOP
-           PIC S9(4) COMP-5 VALUE 762.
+       78 SQLM-ELM-PRIV-WKSPC-SIZE-TOP VALUE 762.
 
       * The full name of the monitor element is SQLM_ELM_PRIV_WORKSPACE_NUM_OVERFLOWS
-       77 SQLM-ELM-PRIV-WKSPC-NUM-OWFLW
-           PIC S9(4) COMP-5 VALUE 763.
+       78 SQLM-ELM-PRIV-WKSPC-NUM-OWFLW VALUE 763.
 
       * The full name of the monitor element is SQLM_ELM_PRIV_WORKSPACE_SECTION_LOOKUPS
-       77 SQLM-ELM-PRIV-WKSPC-SEC-LKP
-           PIC S9(4) COMP-5 VALUE 764.
+       78 SQLM-ELM-PRIV-WKSPC-SEC-LKP VALUE 764.
 
       * The full name of the monitor element is SQLM_ELM_PRIV_WORKSPACE_SECTION_INSERTS
-       77 SQLM-ELM-PRIV-WKSPC-SEC-INS
-           PIC S9(4) COMP-5 VALUE 765.
+       78 SQLM-ELM-PRIV-WKSPC-SEC-INS VALUE 765.
 
 
       *****************************************************************************
       * Catalog Cache                                                              *
       *****************************************************************************
-       77 SQLM-ELM-CAT-CACHE-SIZE-TOP
-           PIC S9(4) COMP-5 VALUE 766.
+       78 SQLM-ELM-CAT-CACHE-SIZE-TOP VALUE 766.
 
 
       *****************************************************************************
       * Partition Number for EEE WTT evmon                                         *
       *****************************************************************************
-       77 SQLM-ELM-PARTITION-NUMBER
-           PIC S9(4) COMP-5 VALUE 767.
+       78 SQLM-ELM-PARTITION-NUMBER VALUE 767.
 
       * The full name of the monitor element is SQLM_ELM_NUM_TRANSMISSIONS_GROUP
-       77 SQLM-ELM-NUM-TRMS-GROUP
-           PIC S9(4) COMP-5 VALUE 768.
+       78 SQLM-ELM-NUM-TRMS-GROUP VALUE 768.
 
-       77 SQLM-ELM-NUM-INDOUBT-TRANS
-           PIC S9(4) COMP-5 VALUE 769.
+       78 SQLM-ELM-NUM-INDOUBT-TRANS VALUE 769.
 
 
       *****************************************************************************
       * Information for active utilities                                           *
       *****************************************************************************
-       77 SQLM-ELM-UTILITY-DBNAME
-           PIC S9(4) COMP-5 VALUE 770.
+       78 SQLM-ELM-UTILITY-DBNAME VALUE 770.
 
-       77 SQLM-ELM-UTILITY-ID
-           PIC S9(4) COMP-5 VALUE 771.
+       78 SQLM-ELM-UTILITY-ID VALUE 771.
 
-       77 SQLM-ELM-UTILITY-TYPE
-           PIC S9(4) COMP-5 VALUE 772.
+       78 SQLM-ELM-UTILITY-TYPE VALUE 772.
 
-       77 SQLM-ELM-UTILITY-PRIORITY
-           PIC S9(4) COMP-5 VALUE 773.
+       78 SQLM-ELM-UTILITY-PRIORITY VALUE 773.
 
-       77 SQLM-ELM-UTILITY-START-TIME
-           PIC S9(4) COMP-5 VALUE 774.
+       78 SQLM-ELM-UTILITY-START-TIME VALUE 774.
 
-       77 SQLM-ELM-UTILITY-DESCRIPTION
-           PIC S9(4) COMP-5 VALUE 775.
+       78 SQLM-ELM-UTILITY-DESCRIPTION VALUE 775.
 
 
       * The full name of the monitor element is SQLM_ELM_POOL_ASYNC_INDEX_READ_REQS
-       77 SQLM-ELM-PL-ASYNC-IDX-RD-REQS
-           PIC S9(4) COMP-5 VALUE 776.
+       78 SQLM-ELM-PL-ASYNC-IDX-RD-REQS VALUE 776.
 
-       77 SQLM-ELM-SESSION-AUTH-ID
-           PIC S9(4) COMP-5 VALUE 777.
+       78 SQLM-ELM-SESSION-AUTH-ID VALUE 777.
 
 
-       77 SQLM-ELM-SQL-CHAINS
-           PIC S9(4) COMP-5 VALUE 778.
+       78 SQLM-ELM-SQL-CHAINS VALUE 778.
 
 
       * The full name of the monitor element is SQLM_ELM_POOL_TEMP_DATA_L_READS
-       77 SQLM-ELM-PL-TMP-DATA-L-RD
-           PIC S9(4) COMP-5 VALUE 779.
+       78 SQLM-ELM-PL-TMP-DATA-L-RD VALUE 779.
 
       * The full name of the monitor element is SQLM_ELM_POOL_TEMP_DATA_P_READS
-       77 SQLM-ELM-PL-TMP-DATA-P-RD
-           PIC S9(4) COMP-5 VALUE 780.
+       78 SQLM-ELM-PL-TMP-DATA-P-RD VALUE 780.
 
       * The full name of the monitor element is SQLM_ELM_POOL_TEMP_INDEX_L_READS
-       77 SQLM-ELM-PL-TMP-IDX-L-RD
-           PIC S9(4) COMP-5 VALUE 781.
+       78 SQLM-ELM-PL-TMP-IDX-L-RD VALUE 781.
 
       * The full name of the monitor element is SQLM_ELM_POOL_TEMP_INDEX_P_READS
-       77 SQLM-ELM-PL-TMP-IDX-P-RD
-           PIC S9(4) COMP-5 VALUE 782.
+       78 SQLM-ELM-PL-TMP-IDX-P-RD VALUE 782.
 
 
-       77 SQLM-ELM-MAX-TIME-1-MS
-           PIC S9(4) COMP-5 VALUE 783.
+       78 SQLM-ELM-MAX-TIME-1-MS VALUE 783.
 
-       77 SQLM-ELM-MAX-TIME-100-MS
-           PIC S9(4) COMP-5 VALUE 784.
+       78 SQLM-ELM-MAX-TIME-100-MS VALUE 784.
 
-       77 SQLM-ELM-MAX-TIME-500-MS
-           PIC S9(4) COMP-5 VALUE 785.
+       78 SQLM-ELM-MAX-TIME-500-MS VALUE 785.
 
-       77 SQLM-ELM-MAX-TIME-GT500-MS
-           PIC S9(4) COMP-5 VALUE 786.
+       78 SQLM-ELM-MAX-TIME-GT500-MS VALUE 786.
 
 
       * The full name of the monitor element is SQLM_ELM_LOG_TO_REDO_FOR_RECOVERY
-       77 SQLM-ELM-LOG-TO-REDO-FOR-RCVRY
-           PIC S9(4) COMP-5 VALUE 787.
+       78 SQLM-ELM-LOG-TO-REDO-FOR-RCVRY VALUE 787.
 
       * redone during recovery       *
-       77 SQLM-ELM-POOL-NO-VICTIM-BUFFER
-           PIC S9(4) COMP-5 VALUE 788.
+       78 SQLM-ELM-POOL-NO-VICTIM-BUFFER VALUE 788.
 
       * buffer available from hate   *
       * list                         *
       * The full name of the monitor element is SQLM_ELM_LOG_HELD_BY_DIRTY_PAGES
-       77 SQLM-ELM-LOG-HELD-BY-DIRTY-PG
-           PIC S9(4) COMP-5 VALUE 789.
+       78 SQLM-ELM-LOG-HELD-BY-DIRTY-PG VALUE 789.
 
       * by minbuf                    *
 
       *****************************************************************************
       *   Information for the progress of utilities                                *
       *****************************************************************************
-       77 SQLM-ELM-PROGRESS-DESCRIPTION
-           PIC S9(4) COMP-5 VALUE 790.
+       78 SQLM-ELM-PROGRESS-DESCRIPTION VALUE 790.
 
-       77 SQLM-ELM-PROGRESS-START-TIME
-           PIC S9(4) COMP-5 VALUE 791.
+       78 SQLM-ELM-PROGRESS-START-TIME VALUE 791.
 
-       77 SQLM-ELM-PROGRESS-WORK-METRIC
-           PIC S9(4) COMP-5 VALUE 792.
+       78 SQLM-ELM-PROGRESS-WORK-METRIC VALUE 792.
 
-       77 SQLM-ELM-PROGRESS-TOTAL-UNITS
-           PIC S9(4) COMP-5 VALUE 793.
+       78 SQLM-ELM-PROGRESS-TOTAL-UNITS VALUE 793.
 
       * The full name of the monitor element is SQLM_ELM_PROGRESS_COMPLETED_UNITS
-       77 SQLM-ELM-PROG-COMP-UNIT
-           PIC S9(4) COMP-5 VALUE 794.
+       78 SQLM-ELM-PROG-COMP-UNIT VALUE 794.
 
-       77 SQLM-ELM-PROGRESS-SEQ-NUM
-           PIC S9(4) COMP-5 VALUE 795.
+       78 SQLM-ELM-PROGRESS-SEQ-NUM VALUE 795.
 
       * The full name of the monitor element is SQLM_ELM_PROGRESS_LIST_CUR_SEQ_NUM
-       77 SQLM-PROG-LST-CUR-SEQN
-           PIC S9(4) COMP-5 VALUE 796.
+       78 SQLM-PROG-LST-CUR-SEQN VALUE 796.
 
 
       *****************************************************************************
       * Information for HADR                                                       *
       *****************************************************************************
-       77 SQLM-ELM-HADR-ROLE
-           PIC S9(4) COMP-5 VALUE 797.
+       78 SQLM-ELM-HADR-ROLE VALUE 797.
 
-       77 SQLM-ELM-HADR-STATE
-           PIC S9(4) COMP-5 VALUE 798.
+       78 SQLM-ELM-HADR-STATE VALUE 798.
 
-       77 SQLM-ELM-HADR-SYNCMODE
-           PIC S9(4) COMP-5 VALUE 799.
+       78 SQLM-ELM-HADR-SYNCMODE VALUE 799.
 
-       77 SQLM-ELM-HADR-CONNECT-STATUS
-           PIC S9(4) COMP-5 VALUE 800.
+       78 SQLM-ELM-HADR-CONNECT-STATUS VALUE 800.
 
-       77 SQLM-ELM-HADR-CONNECT-TIME
-           PIC S9(4) COMP-5 VALUE 801.
+       78 SQLM-ELM-HADR-CONNECT-TIME VALUE 801.
 
-       77 SQLM-ELM-HADR-HEARTBEAT
-           PIC S9(4) COMP-5 VALUE 802.
+       78 SQLM-ELM-HADR-HEARTBEAT VALUE 802.
 
-       77 SQLM-ELM-HADR-LOCAL-HOST
-           PIC S9(4) COMP-5 VALUE 803.
+       78 SQLM-ELM-HADR-LOCAL-HOST VALUE 803.
 
-       77 SQLM-ELM-HADR-LOCAL-SERVICE
-           PIC S9(4) COMP-5 VALUE 804.
+       78 SQLM-ELM-HADR-LOCAL-SERVICE VALUE 804.
 
-       77 SQLM-ELM-HADR-REMOTE-HOST
-           PIC S9(4) COMP-5 VALUE 805.
+       78 SQLM-ELM-HADR-REMOTE-HOST VALUE 805.
 
-       77 SQLM-ELM-HADR-REMOTE-SERVICE
-           PIC S9(4) COMP-5 VALUE 806.
+       78 SQLM-ELM-HADR-REMOTE-SERVICE VALUE 806.
 
-       77 SQLM-ELM-HADR-TIMEOUT
-           PIC S9(4) COMP-5 VALUE 807.
+       78 SQLM-ELM-HADR-TIMEOUT VALUE 807.
 
-       77 SQLM-ELM-HADR-PRIMARY-LOG-FILE
-           PIC S9(4) COMP-5 VALUE 808.
+       78 SQLM-ELM-HADR-PRIMARY-LOG-FILE VALUE 808.
 
-       77 SQLM-ELM-HADR-PRIMARY-LOG-PAGE
-           PIC S9(4) COMP-5 VALUE 809.
+       78 SQLM-ELM-HADR-PRIMARY-LOG-PAGE VALUE 809.
 
-       77 SQLM-ELM-HADR-PRIMARY-LOG-LSN
-           PIC S9(4) COMP-5 VALUE 810.
+       78 SQLM-ELM-HADR-PRIMARY-LOG-LSN VALUE 810.
 
-       77 SQLM-ELM-HADR-STANDBY-LOG-FILE
-           PIC S9(4) COMP-5 VALUE 811.
+       78 SQLM-ELM-HADR-STANDBY-LOG-FILE VALUE 811.
 
-       77 SQLM-ELM-HADR-STANDBY-LOG-PAGE
-           PIC S9(4) COMP-5 VALUE 812.
+       78 SQLM-ELM-HADR-STANDBY-LOG-PAGE VALUE 812.
 
-       77 SQLM-ELM-HADR-STANDBY-LOG-LSN
-           PIC S9(4) COMP-5 VALUE 813.
+       78 SQLM-ELM-HADR-STANDBY-LOG-LSN VALUE 813.
 
-       77 SQLM-ELM-HADR-LOG-GAP
-           PIC S9(4) COMP-5 VALUE 814.
+       78 SQLM-ELM-HADR-LOG-GAP VALUE 814.
 
-       77 SQLM-ELM-HADR-REMOTE-INSTANCE
-           PIC S9(4) COMP-5 VALUE 815.
+       78 SQLM-ELM-HADR-REMOTE-INSTANCE VALUE 815.
 
 
       *****************************************************************************
       * Additional elements added in 8.2                                           *
       *****************************************************************************
-       77 SQLM-ELM-DATA-OBJECT-PAGES
-           PIC S9(4) COMP-5 VALUE 816.
+       78 SQLM-ELM-DATA-OBJECT-PAGES VALUE 816.
 
       * base data                   *
-       77 SQLM-ELM-INDEX-OBJECT-PAGES
-           PIC S9(4) COMP-5 VALUE 817.
+       78 SQLM-ELM-INDEX-OBJECT-PAGES VALUE 817.
 
       * base data                   *
-       77 SQLM-ELM-LOB-OBJECT-PAGES
-           PIC S9(4) COMP-5 VALUE 818.
+       78 SQLM-ELM-LOB-OBJECT-PAGES VALUE 818.
 
-       77 SQLM-ELM-LONG-OBJECT-PAGES
-           PIC S9(4) COMP-5 VALUE 819.
+       78 SQLM-ELM-LONG-OBJECT-PAGES VALUE 819.
 
       * data                        *
 
-       77 SQLM-ELM-LOCK-TIMEOUT-VAL
-           PIC S9(4) COMP-5 VALUE 820.
+       78 SQLM-ELM-LOCK-TIMEOUT-VAL VALUE 820.
 
 
       *****************************************************************************
       *  Log elements v8.2                                                         *
       *****************************************************************************
-       77 SQLM-ELM-LOG-WRITE-TIME
-           PIC S9(4) COMP-5 VALUE 821.
+       78 SQLM-ELM-LOG-WRITE-TIME VALUE 821.
 
-       77 SQLM-ELM-LOG-READ-TIME
-           PIC S9(4) COMP-5 VALUE 822.
+       78 SQLM-ELM-LOG-READ-TIME VALUE 822.
 
-       77 SQLM-ELM-NUM-LOG-WRITE-IO
-           PIC S9(4) COMP-5 VALUE 823.
+       78 SQLM-ELM-NUM-LOG-WRITE-IO VALUE 823.
 
-       77 SQLM-ELM-NUM-LOG-READ-IO
-           PIC S9(4) COMP-5 VALUE 824.
+       78 SQLM-ELM-NUM-LOG-READ-IO VALUE 824.
 
-       77 SQLM-ELM-NUM-LOG-PART-PAGE-IO
-           PIC S9(4) COMP-5 VALUE 825.
+       78 SQLM-ELM-NUM-LOG-PART-PAGE-IO VALUE 825.
 
-       77 SQLM-ELM-NUM-LOG-BUFF-FULL
-           PIC S9(4) COMP-5 VALUE 826.
+       78 SQLM-ELM-NUM-LOG-BUFF-FULL VALUE 826.
 
-       77 SQLM-ELM-NUM-LOG-DATA-IN-BUFF
-           PIC S9(4) COMP-5 VALUE 827.
+       78 SQLM-ELM-NUM-LOG-DATA-IN-BUFF VALUE 827.
 
-       77 SQLM-ELM-LOG-FILE-NUM-FIRST
-           PIC S9(4) COMP-5 VALUE 828.
+       78 SQLM-ELM-LOG-FILE-NUM-FIRST VALUE 828.
 
-       77 SQLM-ELM-LOG-FILE-NUM-LAST
-           PIC S9(4) COMP-5 VALUE 829.
+       78 SQLM-ELM-LOG-FILE-NUM-LAST VALUE 829.
 
-       77 SQLM-ELM-LOG-FILE-NUM-CURR
-           PIC S9(4) COMP-5 VALUE 830.
+       78 SQLM-ELM-LOG-FILE-NUM-CURR VALUE 830.
 
-       77 SQLM-ELM-LOG-FILE-ARCHIVE
-           PIC S9(4) COMP-5 VALUE 831.
+       78 SQLM-ELM-LOG-FILE-ARCHIVE VALUE 831.
 
 
-       77 SQLM-ELM-NANOSEC
-           PIC S9(4) COMP-5 VALUE 832.
+       78 SQLM-ELM-NANOSEC VALUE 832.
 
 
       *****************************************************************************
       *  New elements for enhanced deadlock event monitor with statement history   *
       *****************************************************************************
-       77 SQLM-ELM-STMT-HISTORY-ID
-           PIC S9(4) COMP-5 VALUE 833.
+       78 SQLM-ELM-STMT-HISTORY-ID VALUE 833.
 
-       77 SQLM-ELM-STMT-LOCK-TIMEOUT
-           PIC S9(4) COMP-5 VALUE 834.
+       78 SQLM-ELM-STMT-LOCK-TIMEOUT VALUE 834.
 
-       77 SQLM-ELM-STMT-ISOLATION
-           PIC S9(4) COMP-5 VALUE 835.
+       78 SQLM-ELM-STMT-ISOLATION VALUE 835.
 
-       77 SQLM-ELM-COMP-ENV-DESC
-           PIC S9(4) COMP-5 VALUE 836.
+       78 SQLM-ELM-COMP-ENV-DESC VALUE 836.
 
       * compilation environment     *
-       77 SQLM-ELM-STMT-VALUE-TYPE
-           PIC S9(4) COMP-5 VALUE 837.
+       78 SQLM-ELM-STMT-VALUE-TYPE VALUE 837.
 
-       77 SQLM-ELM-STMT-VALUE-ISREOPT
-           PIC S9(4) COMP-5 VALUE 838.
+       78 SQLM-ELM-STMT-VALUE-ISREOPT VALUE 838.
 
-       77 SQLM-ELM-STMT-VALUE-ISNULL
-           PIC S9(4) COMP-5 VALUE 839.
+       78 SQLM-ELM-STMT-VALUE-ISNULL VALUE 839.
 
-       77 SQLM-ELM-STMT-VALUE-DATA
-           PIC S9(4) COMP-5 VALUE 840.
+       78 SQLM-ELM-STMT-VALUE-DATA VALUE 840.
 
-       77 SQLM-ELM-STMT-VALUE-INDEX
-           PIC S9(4) COMP-5 VALUE 841.
+       78 SQLM-ELM-STMT-VALUE-INDEX VALUE 841.
 
-       77 SQLM-ELM-STMT-FIRST-USE-TIME
-           PIC S9(4) COMP-5 VALUE 842.
+       78 SQLM-ELM-STMT-FIRST-USE-TIME VALUE 842.
 
-       77 SQLM-ELM-STMT-LAST-USE-TIME
-           PIC S9(4) COMP-5 VALUE 843.
+       78 SQLM-ELM-STMT-LAST-USE-TIME VALUE 843.
 
-       77 SQLM-ELM-STMT-NEST-LEVEL
-           PIC S9(4) COMP-5 VALUE 844.
+       78 SQLM-ELM-STMT-NEST-LEVEL VALUE 844.
 
-       77 SQLM-ELM-STMT-INVOCATION-ID
-           PIC S9(4) COMP-5 VALUE 845.
+       78 SQLM-ELM-STMT-INVOCATION-ID VALUE 845.
 
-       77 SQLM-ELM-STMT-QUERY-ID
-           PIC S9(4) COMP-5 VALUE 846.
+       78 SQLM-ELM-STMT-QUERY-ID VALUE 846.
 
-       77 SQLM-ELM-STMT-SOURCE-ID
-           PIC S9(4) COMP-5 VALUE 847.
+       78 SQLM-ELM-STMT-SOURCE-ID VALUE 847.
 
-       77 SQLM-ELM-STMT-PKGCACHE-ID
-           PIC S9(4) COMP-5 VALUE 848.
+       78 SQLM-ELM-STMT-PKGCACHE-ID VALUE 848.
 
-       77 SQLM-ELM-INACT-STMTHIST-SZ
-           PIC S9(4) COMP-5 VALUE 849.
+       78 SQLM-ELM-INACT-STMTHIST-SZ VALUE 849.
 
 
       *****************************************************************************
       * New elements for Single point of storage management                        *
       *****************************************************************************
-       77 SQLM-ELM-NUM-DB-STORAGE-PATHS
-           PIC S9(4) COMP-5 VALUE 850.
+       78 SQLM-ELM-NUM-DB-STORAGE-PATHS VALUE 850.
 
-       77 SQLM-ELM-DB-STORAGE-PATH
-           PIC S9(4) COMP-5 VALUE 851.
+       78 SQLM-ELM-DB-STORAGE-PATH VALUE 851.
 
       * The full name of the monitor element is SQLM_ELM_TABLESPACE_INITIAL_SIZE
-       77 SQLM-ELM-TBSP-INITIAL-SIZE
-           PIC S9(4) COMP-5 VALUE 852.
+       78 SQLM-ELM-TBSP-INITIAL-SIZE VALUE 852.
 
       * The full name of the monitor element is SQLM_ELM_TABLESPACE_CURRENT_SIZE
-       77 SQLM-ELM-TBSP-CURRENT-SIZE
-           PIC S9(4) COMP-5 VALUE 853.
+       78 SQLM-ELM-TBSP-CURRENT-SIZE VALUE 853.
 
-       77 SQLM-ELM-TABLESPACE-MAX-SIZE
-           PIC S9(4) COMP-5 VALUE 854.
+       78 SQLM-ELM-TABLESPACE-MAX-SIZE VALUE 854.
 
       * The full name of the monitor element is SQLM_ELM_TABLESPACE_INCREASE_SIZE_PERCENT
-       77 SQLM-ELM-TBSP-INCR-SIZE-PCT
-           PIC S9(4) COMP-5 VALUE 855.
+       78 SQLM-ELM-TBSP-INCR-SIZE-PCT VALUE 855.
 
       * The full name of the monitor element is SQLM_ELM_TABLESPACE_INCREASE_SIZE
-       77 SQLM-ELM-TBSP-INCR-SIZE
-           PIC S9(4) COMP-5 VALUE 856.
+       78 SQLM-ELM-TBSP-INCR-SIZE VALUE 856.
 
       * The full name of the monitor element is SQLM_ELM_TABLESPACE_LAST_RESIZE_TIME
-       77 SQLM-ELM-TBSP-LAST-RESIZE-TIME
-           PIC S9(4) COMP-5 VALUE 857.
+       78 SQLM-ELM-TBSP-LAST-RESIZE-TIME VALUE 857.
 
       * The full name of the monitor element is SQLM_ELM_TABLESPACE_USING_AUTO_STORAGE
-       77 SQLM-ELM-TBSP-USE-AUTO-STORAGE
-           PIC S9(4) COMP-5 VALUE 858.
+       78 SQLM-ELM-TBSP-USE-AUTO-STORAGE VALUE 858.
 
       * The full name of the monitor element is SQLM_ELM_TABLESPACE_AUTO_RESIZE_ENABLED
-       77 SQLM-ELM-TBSP-AUTO-RSZ-ENABLED
-           PIC S9(4) COMP-5 VALUE 859.
+       78 SQLM-ELM-TBSP-AUTO-RSZ-ENABLED VALUE 859.
 
       * The full name of the monitor element is SQLM_ELM_TABLESPACE_LAST_RESIZE_FAILED
-       77 SQLM-ELM-TBSP-LAST-RESIZE-FAIL
-           PIC S9(4) COMP-5 VALUE 860.
+       78 SQLM-ELM-TBSP-LAST-RESIZE-FAIL VALUE 860.
 
 
-       77 SQLM-ELM-BP-ID
-           PIC S9(4) COMP-5 VALUE 861.
+       78 SQLM-ELM-BP-ID VALUE 861.
 
 
       *****************************************************************************
@@ -4028,47 +2927,35 @@
       * snapshots but can be present in snapshot with and without details.         *
       * Used under SQLM_ELM_HEALTH INDICATOR and SQLM_ELM_HEALTH_INDICATOR_HIST    *
       * logical group.                                                             *
-       77 SQLM-ELM-HI-ID
-           PIC S9(5) COMP-5 VALUE 55001.
+       78 SQLM-ELM-HI-ID VALUE 55001.
 
-       77 SQLM-ELM-HI-VALUE
-           PIC S9(5) COMP-5 VALUE 55002.
+       78 SQLM-ELM-HI-VALUE VALUE 55002.
 
-       77 SQLM-ELM-HI-ALERT-STATE
-           PIC S9(5) COMP-5 VALUE 55003.
+       78 SQLM-ELM-HI-ALERT-STATE VALUE 55003.
 
       * The full name of the monitor element is SQLM_ELM_DB2_ROLLED_UP_ALERT_STATE
-       77 SQLM-ELM-DB2-R0L-UP-ALRT-ST
-           PIC S9(5) COMP-5 VALUE 55004.
+       78 SQLM-ELM-DB2-R0L-UP-ALRT-ST VALUE 55004.
 
       * The full name of the monitor element is SQLM_ELM_DATABASE_ROLLED_UP_ALERT_STATE
-       77 SQLM-ELM-DB-R0L-UP-ALRT-ST
-           PIC S9(5) COMP-5 VALUE 55005.
+       78 SQLM-ELM-DB-R0L-UP-ALRT-ST VALUE 55005.
 
       * The full name of the monitor element is SQLM_ELM_TABLESPACE_ROLLED_UP_ALERT_STATE
-       77 SQLM-ELM-TBSP-R0L-UP-ALRT-ST
-           PIC S9(5) COMP-5 VALUE 55006.
+       78 SQLM-ELM-TBSP-R0L-UP-ALRT-ST VALUE 55006.
 
       * The full name of the monitor element is SQLM_ELM_CONTAINER_ROLLED_UP_ALERT_STATE
-       77 SQLM-ELM-CONT-R0L-UP-ALRT-ST
-           PIC S9(5) COMP-5 VALUE 55007.
+       78 SQLM-ELM-CONT-R0L-UP-ALRT-ST VALUE 55007.
 
-       77 SQLM-ELM-HI-OBJ-NAME
-           PIC S9(5) COMP-5 VALUE 55008.
+       78 SQLM-ELM-HI-OBJ-NAME VALUE 55008.
 
-       77 SQLM-ELM-HI-OBJ-DETAIL
-           PIC S9(5) COMP-5 VALUE 55009.
+       78 SQLM-ELM-HI-OBJ-DETAIL VALUE 55009.
 
-       77 SQLM-ELM-HI-OBJ-STATE
-           PIC S9(5) COMP-5 VALUE 55010.
+       78 SQLM-ELM-HI-OBJ-STATE VALUE 55010.
 
 
       * the following are for health snapshot with detail only                     *
-       77 SQLM-ELM-HI-FORMULA
-           PIC S9(5) COMP-5 VALUE 55101.
+       78 SQLM-ELM-HI-FORMULA VALUE 55101.
 
-       77 SQLM-ELM-HI-ADDITIONAL-INFO
-           PIC S9(5) COMP-5 VALUE 55102.
+       78 SQLM-ELM-HI-ADDITIONAL-INFO VALUE 55102.
 
 
       *****************************************************************************
@@ -4091,20 +2978,16 @@
 
       * these are possible values for SQLM_ELM_HEALTH_INDICATOR -- SQLM_ELM_HI_ID  *
       * under the SQLM_ELM_DB2 logical group                                       *
-       77 SQLM-HI-DB2-STATE
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-HI-DB2-STATE VALUE 1.
 
       * The full name of the monitor element is SQLM_HI_DB2_PRIVATE_SORT_MEM_UTILIZATION
-       77 SQLM-HI-DB2-PRV-SRT-M-UTL
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-HI-DB2-PRV-SRT-M-UTL VALUE 2.
 
       * The full name of the monitor element is SQLM_HI_DB2_MAX_PRIVATE_SORT_MEM_UTILIZATION
-       77 SQLM-HI-DB2-MAX-PRV-SRT-M-UTL
-           PIC S9(4) COMP-5 VALUE 3.
+       78 SQLM-HI-DB2-MAX-PRV-SRT-M-UTL VALUE 3.
 
       * The full name of the monitor element is SQLM_HI_DB2_MON_HEAP_UTILIZATION
-       77 SQLM-HI-DB2-MON-HEAP-UTL
-           PIC S9(4) COMP-5 VALUE 4.
+       78 SQLM-HI-DB2-MON-HEAP-UTL VALUE 4.
 
 
       *****************************************************************************
@@ -4124,86 +3007,64 @@
 
       * these are possible values for SQLM_ELM_HEALTH_INDICATOR -- SQLM_ELM_HI_ID  *
       * under the SQLM_ELM_DATABASE logical group                                  *
-       77 SQLM-HI-DATABASE-STATE
-           PIC S9(4) COMP-5 VALUE 1001.
+       78 SQLM-HI-DATABASE-STATE VALUE 1001.
 
       * The full name of the monitor element is SQLM_HI_DATABASE_SHARED_SORT_MEM_UTILIZATION
-       77 SQLM-HI-DB-SHR-SRT-M-UTL
-           PIC S9(4) COMP-5 VALUE 1002.
+       78 SQLM-HI-DB-SHR-SRT-M-UTL VALUE 1002.
 
-       77 SQLM-HI-DATABASE-SPILLED-SORTS
-           PIC S9(4) COMP-5 VALUE 1003.
+       78 SQLM-HI-DATABASE-SPILLED-SORTS VALUE 1003.
 
       * The full name of the monitor element is SQLM_HI_DATABASE_MAX_SHARED_SORT_MEM_UTILIZATION
-       77 SQLM-HI-DB-MAX-SHR-SRT-M-UTL
-           PIC S9(4) COMP-5 VALUE 1004.
+       78 SQLM-HI-DB-MAX-SHR-SRT-M-UTL VALUE 1004.
 
       * The full name of the monitor element is SQLM_HI_DATABASE_LOG_UTILIZATION
-       77 SQLM-HI-DB-LOG-UTL
-           PIC S9(4) COMP-5 VALUE 1005.
+       78 SQLM-HI-DB-LOG-UTL VALUE 1005.
 
       * The full name of the monitor element is SQLM_HI_DATABASE_LOG_FILESYSTEM_UTILIZATION
-       77 SQLM-HI-DB-LOG-FILESYSTEM-UTL
-           PIC S9(4) COMP-5 VALUE 1006.
+       78 SQLM-HI-DB-LOG-FILESYSTEM-UTL VALUE 1006.
 
-       77 SQLM-HI-DATABASE-DEADLOCK-RATE
-           PIC S9(4) COMP-5 VALUE 1007.
+       78 SQLM-HI-DATABASE-DEADLOCK-RATE VALUE 1007.
 
       * The full name of the monitor element is SQLM_HI_DATABASE_LOCKLIST_UTILIZATION
-       77 SQLM-HI-DB-LOCKLIST-UTL
-           PIC S9(4) COMP-5 VALUE 1008.
+       78 SQLM-HI-DB-LOCKLIST-UTL VALUE 1008.
 
       * The full name of the monitor element is SQLM_HI_DATABASE_LOCK_ESCALATION_RATE
-       77 SQLM-HI-DB-LOCK-ESCL-RATE
-           PIC S9(4) COMP-5 VALUE 1009.
+       78 SQLM-HI-DB-LOCK-ESCL-RATE VALUE 1009.
 
       * The full name of the monitor element is SQLM_HI_DATABASE_APPS_WAITING_ON_LOCKS
-       77 SQLM-HI-DB-APPS-WAIT-ON-LOCKS
-           PIC S9(4) COMP-5 VALUE 1010.
+       78 SQLM-HI-DB-APPS-WAIT-ON-LOCKS VALUE 1010.
 
       * The full name of the monitor element is SQLM_HI_DATABASE_PKGCACHE_HITRATIO
-       77 SQLM-HI-DB-PKGCACHE-HITRATIO
-           PIC S9(4) COMP-5 VALUE 1011.
+       78 SQLM-HI-DB-PKGCACHE-HITRATIO VALUE 1011.
 
       * The full name of the monitor element is SQLM_HI_DATABASE_CATCACHE_HITRATIO
-       77 SQLM-HI-DB-CATCACHE-HITRATIO
-           PIC S9(4) COMP-5 VALUE 1012.
+       78 SQLM-HI-DB-CATCACHE-HITRATIO VALUE 1012.
 
       * The full name of the monitor element is SQLM_HI_DATABASE_SHRWORKSPACE_HITRATIO
-       77 SQLM-HI-DB-SHRWKSPC-HITRATIO
-           PIC S9(4) COMP-5 VALUE 1013.
+       78 SQLM-HI-DB-SHRWKSPC-HITRATIO VALUE 1013.
 
       * The full name of the monitor element is SQLM_HI_DATABASE_HEAP_UTILIZATION
-       77 SQLM-HI-DB-HEAP-UTL
-           PIC S9(4) COMP-5 VALUE 1014.
+       78 SQLM-HI-DB-HEAP-UTL VALUE 1014.
 
-       77 SQLM-HI-DATABASE-TB-REORG-REQ
-           PIC S9(4) COMP-5 VALUE 1015.
+       78 SQLM-HI-DATABASE-TB-REORG-REQ VALUE 1015.
 
       * The full name of the monitor element is SQLM_HI_DATABASE_HADR_OP_STATUS
-       77 SQLM-HI-DATABASE-HADR-OPSTATUS
-           PIC S9(4) COMP-5 VALUE 1016.
+       78 SQLM-HI-DATABASE-HADR-OPSTATUS VALUE 1016.
 
-       77 SQLM-HI-DATABASE-HADR-DELAY
-           PIC S9(4) COMP-5 VALUE 1017.
+       78 SQLM-HI-DATABASE-HADR-DELAY VALUE 1017.
 
-       77 SQLM-HI-DATABASE-BACKUP-REQ
-           PIC S9(4) COMP-5 VALUE 1018.
+       78 SQLM-HI-DATABASE-BACKUP-REQ VALUE 1018.
 
       * The full name of the monitor element is SQLM_HI_DATABASE_FED_NICKNAME_STATUS
-       77 SQLM-HI-DB-FED-NICKNAME-STATUS
-           PIC S9(4) COMP-5 VALUE 1019.
+       78 SQLM-HI-DB-FED-NICKNAME-STATUS VALUE 1019.
 
       * The full name of the monitor element is SQLM_HI_DATABASE_FED_SERVER_STATUS
-       77 SQLM-HI-DB-FED-SERVER-STATUS
-           PIC S9(4) COMP-5 VALUE 1020.
+       78 SQLM-HI-DB-FED-SERVER-STATUS VALUE 1020.
 
-       77 SQLM-HI-DATABASE-TB-STATS-REQ
-           PIC S9(4) COMP-5 VALUE 1022.
+       78 SQLM-HI-DATABASE-TB-STATS-REQ VALUE 1022.
 
       * The full name of the monitor element is SQLM_HI_DATABASE_AUTO_STORAGE_UTILIZATION
-       77 SQLM-HI-DB-AUTO-STG-UTIL
-           PIC S9(4) COMP-5 VALUE 1023.
+       78 SQLM-HI-DB-AUTO-STG-UTIL VALUE 1023.
 
 
       *****************************************************************************
@@ -4231,19 +3092,15 @@
 
       * these are possible values for SQLM_ELM_HEALTH_INDICATOR -- SQLM_ELM_HI_ID  *
       * under the SQLM_ELM_TABLESPACE logical group                                *
-       77 SQLM-HI-TABLESPACE-STATE
-           PIC S9(4) COMP-5 VALUE 2001.
+       78 SQLM-HI-TABLESPACE-STATE VALUE 2001.
 
-       77 SQLM-HI-TABLESPACE-UTILIZATION
-           PIC S9(4) COMP-5 VALUE 2002.
+       78 SQLM-HI-TABLESPACE-UTILIZATION VALUE 2002.
 
       * The full name of the monitor element is SQLM_HI_TABLESPACE_AUTO_RESIZE_STATUS
-       77 SQLM-HI-TBSP-AUTO-RESIZE-ST
-           PIC S9(4) COMP-5 VALUE 2003.
+       78 SQLM-HI-TBSP-AUTO-RESIZE-ST VALUE 2003.
 
       * The full name of the monitor element is SQLM_HI_AUTO_RESIZE_TABLESPACE_UTILIZATION
-       77 SQLM-HI-AUTO-RS-TBSP-UTIL
-           PIC S9(4) COMP-5 VALUE 2004.
+       78 SQLM-HI-AUTO-RS-TBSP-UTIL VALUE 2004.
 
 
       *****************************************************************************
@@ -4259,12 +3116,10 @@
       * these are possible values for SQLM_ELM_HEALTH_INDICATOR -- SQLM_ELM_HI_ID  *
       * under the SQLM_ELM_TABLESPACE_CONTAINER logical group                      *
       * The full name of the monitor element is SQLM_HI_TABLESPACE_CONTAINER_STATE
-       77 SQLM-HI-TBSP-CONT-ST
-           PIC S9(4) COMP-5 VALUE 3001.
+       78 SQLM-HI-TBSP-CONT-ST VALUE 3001.
 
       * The full name of the monitor element is SQLM_HI_TABLESPACE_CONTAINER_UTILIZATION
-       77 SQLM-HI-TBSP-CONT-UTL
-           PIC S9(4) COMP-5 VALUE 3002.
+       78 SQLM-HI-TBSP-CONT-UTL VALUE 3002.
 
 
       *****************************************************************************
@@ -4287,27 +3142,20 @@
       *                                                                            *
       *****************************************************************************
 
-       77 SQLM-HI-ALERT-STATE-UNKNOWN
-           PIC S9(4) COMP-5 VALUE 0.
+       78 SQLM-HI-ALERT-STATE-UNKNOWN VALUE 0.
 
-       77 SQLM-HI-ALERT-STATE-NORMAL
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-HI-ALERT-STATE-NORMAL VALUE 1.
 
-       77 SQLM-HI-ALERT-STATE-ATTENTION
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-HI-ALERT-STATE-ATTENTION VALUE 2.
 
-       77 SQLM-HI-ALERT-STATE-WARNING
-           PIC S9(4) COMP-5 VALUE 3.
+       78 SQLM-HI-ALERT-STATE-WARNING VALUE 3.
 
-       77 SQLM-HI-ALERT-STATE-ALARM
-           PIC S9(4) COMP-5 VALUE 4.
+       78 SQLM-HI-ALERT-STATE-ALARM VALUE 4.
 
-       77 SQLM-HI-ALERT-STATE-AUTOMATED
-           PIC S9(4) COMP-5 VALUE 5.
+       78 SQLM-HI-ALERT-STATE-AUTOMATED VALUE 5.
 
       * The full name of the monitor element is SQLM_HI_ALERT_STATE_AUTOMATE_FAILED
-       77 SQLM-HIALRT-STATE-AUTO-FAIL
-           PIC S9(4) COMP-5 VALUE 6.
+       78 SQLM-HIALRT-STATE-AUTO-FAIL VALUE 6.
 
 
       *****************************************************************************
@@ -4315,47 +3163,36 @@
       *****************************************************************************
 
       * these are possible values for SQLM_HI_DATABASE_BACKUP_REQ                  *
-       77 SQLM-HI-VAL-NO-DB-BACKUP-REQ
-           PIC S9(4) COMP-5 VALUE 0.
+       78 SQLM-HI-VAL-NO-DB-BACKUP-REQ VALUE 0.
 
-       77 SQLM-HI-VAL-DB-BACKUP-REQ
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-HI-VAL-DB-BACKUP-REQ VALUE 1.
 
       * The full name of the monitor element is SQLM_HI_VAL_AUTO_DB_BACKUP_FAILED
-       77 SQLM-HIVAL-AUTO-DBBCKP-FAIL
-           PIC S9(4) COMP-5 VALUE 2.
+       78 SQLM-HIVAL-AUTO-DBBCKP-FAIL VALUE 2.
 
 
       * these are the possible values for SQLM_HI_DATABASE_TB_REORG_REQ            *
-       77 SQLM-HI-VAL-NO-REORG-REQ
-           PIC S9(4) COMP-5 VALUE 0.
+       78 SQLM-HI-VAL-NO-REORG-REQ VALUE 0.
 
-       77 SQLM-HI-VAL-REORG-REQ
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-HI-VAL-REORG-REQ VALUE 1.
 
 
       * these are the possible values for SQLM_HI_DATABASE_TB_STATS_REQ            *
-       77 SQLM-HI-VAL-NO-STATS-REQ
-           PIC S9(4) COMP-5 VALUE 0.
+       78 SQLM-HI-VAL-NO-STATS-REQ VALUE 0.
 
-       77 SQLM-HI-VAL-STATS-REQ
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-HI-VAL-STATS-REQ VALUE 1.
 
 
       * nickname status (fed_nickname_status)                                      *
-       77 SQLM-FED-NN-VALID
-           PIC S9(4) COMP-5 VALUE 0.
+       78 SQLM-FED-NN-VALID VALUE 0.
 
-       77 SQLM-FED-NN-INVALID
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-FED-NN-INVALID VALUE 1.
 
 
       * federated server status (fed_server_status)                                *
-       77 SQLM-FED-SERVER-AVAILABLE
-           PIC S9(4) COMP-5 VALUE 0.
+       78 SQLM-FED-SERVER-AVAILABLE VALUE 0.
 
-       77 SQLM-FED-SERVER-UNAVAILABLE
-           PIC S9(4) COMP-5 VALUE 1.
+       78 SQLM-FED-SERVER-UNAVAILABLE VALUE 1.
 
 
       *****************************************************************************
@@ -4366,8 +3203,7 @@
       * information to return in the snapshot stream                               *
       *****************************************************************************
 
-       77 SQLM-HMON-OPT-COLL-FULL
-           PIC S9(4) COMP-5 VALUE   00000001 .
+       78 SQLM-HMON-OPT-COLL-FULL VALUE   00000001 .
 
 
       *****************************************************************************
@@ -4381,52 +3217,52 @@
       * DON'T USE THESE CONSTANTS. THEY ARE PROVIDED FOR COMPATIBILITY ONLY
       **********************************************************************
 
-       77 SQLM-DB2-SZ                PIC S9(4) COMP-5 VALUE 100.
+       78 SQLM-DB2-SZ                VALUE 100.
       *structure SQLM-DB2
 
-       77 SQLM-DBASE-SZ              PIC S9(4) COMP-5 VALUE 548.
+       78 SQLM-DBASE-SZ              VALUE 548.
       *structure SQLM-DBASE
 
-       77 SQLM-APPL-SZ               PIC S9(4) COMP-5 VALUE 880.
+       78 SQLM-APPL-SZ               VALUE 880.
       *structure SQLM-APPL
 
-       77 SQLM-APPLINFO-SZ           PIC S9(4) COMP-5 VALUE 492.
+       78 SQLM-APPLINFO-SZ           VALUE 492.
       *structure SQLM-APPLINFO
 
-       77 SQLM-DCS-APPLINFO-SZ       PIC S9(4) COMP-5 VALUE 260.
+       78 SQLM-DCS-APPLINFO-SZ       VALUE 260.
       *structure SQLM-DCS-APPLINFO
 
-       77 SQLM-TABLE-HEADER-SZ       PIC S9(4) COMP-5 VALUE 356.
+       78 SQLM-TABLE-HEADER-SZ       VALUE 356.
       *structure SQLM-TABLE-HEADER
 
-       77 SQLM-TABLE-SZ              PIC S9(4) COMP-5 VALUE 60.
+       78 SQLM-TABLE-SZ              VALUE 60.
       *structure SQLM-TABLE
 
-       77 SQLM-DBASE-LOCK-SZ         PIC S9(4) COMP-5 VALUE 352.
+       78 SQLM-DBASE-LOCK-SZ         VALUE 352.
       *structure SQLM-DBASE-LOCK
 
-       77 SQLM-APPL-LOCK-SZ          PIC S9(4) COMP-5 VALUE 216.
+       78 SQLM-APPL-LOCK-SZ          VALUE 216.
       *structure SQLM-APPL-LOCK
 
-       77 SQLM-LOCK-SZ               PIC S9(4) COMP-5 VALUE 60.
+       78 SQLM-LOCK-SZ               VALUE 60.
       *structure SQLM-LOCK
 
-       77 SQLM-TIMESTAMP-SZ          PIC S9(4) COMP-5 VALUE 8.
+       78 SQLM-TIMESTAMP-SZ          VALUE 8.
       *structure SQLM-TIMESTAMP
 
-       77 SQLM-COLLECTED-SZ          PIC S9(4) COMP-5 VALUE 232.
+       78 SQLM-COLLECTED-SZ          VALUE 232.
       *structure SQLM-COLLECTED
 
-      ******************************************************************
+      **********************************************************************
       * Database Monitor Data Structures
-      ******************************************************************
+      **********************************************************************
 
       **********************************************************************
       *  Dynamic (V6) Monitor Stream structures
       **********************************************************************
        01 SQLM-HEADER-INFO.
           05 SQLM-SIZE              PIC 9(9) COMP-5.
-          05 SQLM-TYPE              PIC 9(4) COMP-5.
+          05 SQLM-TYPE                   PIC 9(4) COMP-5.
           05 ELEMENT                PIC 9(4) COMP-5.
         
        01 SQLM-HEADER-DATA.
@@ -4434,11 +3270,11 @@
              10 SQLM-SIZE           PIC 9(9) COMP-5.
              10 SQLM-TYPE           PIC 9(4) COMP-5.
              10 ELEMENT             PIC 9(4) COMP-5.
-          05 SQLM-DATA                   PIC X(1).
+          05 SQLM-DATA              PIC X(1).
 
-      ******************************************************************
+      **********************************************************************
       *  SQL Monitor Area
-      ******************************************************************
+      **********************************************************************
 
        01 SQLMA.
           05 OBJ-NUM                 PIC 9(9) COMP-5.
@@ -4447,37 +3283,36 @@
              10 OBJ-TYPE             PIC 9(9) COMP-5.
              10 SQLMA-OBJECT         PIC X(36).
 
-      ******************************************************************
+      **********************************************************************
       * time stamp data structure
-      ******************************************************************
+      **********************************************************************
 
        01 SQLM-TIMESTAMP.
           05 SECONDS                 PIC 9(9) COMP-5.
           05 MICROSEC                PIC 9(9) COMP-5.
 
-      ******************************************************************
+      **********************************************************************
       * Elpased time data structure  (For CPU times)
-      ******************************************************************
+      **********************************************************************
 
        01 SQLM-TIME.
           05 SECONDS                 PIC 9(9) COMP-5.
           05 MICROSEC                PIC 9(9) COMP-5.
 
-      ******************************************************************
+      **********************************************************************
       * State information for each monitor group
-      ******************************************************************
+      **********************************************************************
 
-       01 SQLM-RECORDING-GROUP.
-          05 SQLM-RECORDING-GROUP-STATES OCCURS 7 TIMES.
-             10 INPUT-STATE          PIC 9(9) COMP-5.
-             10 OUTPUT-STATE         PIC 9(9) COMP-5.
-             10 START-TIME.
-                15 SECONDS           PIC 9(9) COMP-5.
-                15 MICROSEC          PIC 9(9) COMP-5.
+       01 SQLM-RECORDING-GROUP OCCURS 7 TIMES.
+          05 INPUT-STATE             PIC 9(9) COMP-5.
+          05 OUTPUT-STATE            PIC 9(9) COMP-5.
+          05 START-TIME.
+             10 SECONDS              PIC 9(9) COMP-5.
+             10 MICROSEC             PIC 9(9) COMP-5.
 
-      ******************************************************************
+      **********************************************************************
       * collection count data structure returned from get monitor info
-      ******************************************************************
+      **********************************************************************
 
        01 SQLM-COLLECTED.
           05 SQLM-SIZE               PIC 9(9) COMP-5.

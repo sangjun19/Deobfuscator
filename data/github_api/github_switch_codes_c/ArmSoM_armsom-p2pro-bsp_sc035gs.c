@@ -1,6 +1,3 @@
-// Repository: ArmSoM/armsom-p2pro-bsp
-// File: kernel/drivers/media/i2c/sc035gs.c
-
 // SPDX-License-Identifier: GPL-2.0
 /*
  * sc035gs driver

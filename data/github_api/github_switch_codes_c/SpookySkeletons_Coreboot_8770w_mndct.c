@@ -1,6 +1,3 @@
-// Repository: SpookySkeletons/Coreboot_8770w
-// File: src/vendorcode/amd/agesa/f14/Proc/Mem/NB/mndct.c
-
 /* $NoKeywords:$ */
 /**
  * @file

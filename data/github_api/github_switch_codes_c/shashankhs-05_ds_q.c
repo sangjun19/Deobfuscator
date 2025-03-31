@@ -1,6 +1,3 @@
-// Repository: shashankhs-05/ds
-// File: q.c
-
 
 #include <stdio.h>
 #include<stdlib.h>

@@ -1,6 +1,3 @@
-// Repository: liudonghua123/srelay
-// File: get-bind.c
-
 /*
   get-bind.c:
   $Id: get-bind.c,v 1.11 2017/08/16 13:00:01 bulkstream Exp $

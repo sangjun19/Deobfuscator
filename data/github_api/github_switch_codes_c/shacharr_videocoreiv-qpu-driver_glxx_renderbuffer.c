@@ -1,6 +1,3 @@
-// Repository: shacharr/videocoreiv-qpu-driver
-// File: brcm_usrlib/dag/vmcsx/middleware/khronos/glxx/glxx_renderbuffer.c
-
 /* ============================================================================
 Copyright (c) 2008-2014, Broadcom Corporation
 All rights reserved.

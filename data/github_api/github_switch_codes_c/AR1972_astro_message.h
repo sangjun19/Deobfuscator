@@ -1,6 +1,3 @@
-// Repository: AR1972/astro
-// File: lang/usa/cmd/setver/message.h
-
 #pragma pack(2)
 char SuccessMsg[] = "\r\nVersion table successfully updated";
 char SuccessMsg2[] = "The version change will take effect the next time you restart your system";

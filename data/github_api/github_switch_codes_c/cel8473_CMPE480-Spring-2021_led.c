@@ -1,6 +1,3 @@
-// Repository: cel8473/CMPE480-Spring-2021
-// File: Lab5_Part1/led.c
-
 /* 
 Title: Led.c
 Purpose: 

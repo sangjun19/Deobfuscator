@@ -1,6 +1,3 @@
-// Repository: scenario-extraction/scenarios_in_CarMaker
-// File: MA_Jiawei/01_CarMaker/src/CM_Main.c
-
 /*
 ******************************************************************************
 **  CarMaker - Version 7.0

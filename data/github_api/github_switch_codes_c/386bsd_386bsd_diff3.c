@@ -1,6 +1,3 @@
-// Repository: 386bsd/386bsd
-// File: usr/src/usr.bin/diff3/diff3.c
-
 /* Three way file comparison program (diff3) for Project GNU.
    Copyright (C) 1988, 1989, 1992 Free Software Foundation, Inc.
 

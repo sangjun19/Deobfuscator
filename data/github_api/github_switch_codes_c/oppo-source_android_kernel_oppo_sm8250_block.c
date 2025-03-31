@@ -1,6 +1,3 @@
-// Repository: oppo-source/android_kernel_oppo_sm8250
-// File: drivers/mmc/core/block.c
-
 /*
  * Block driver for media (i.e., flash cards)
  *

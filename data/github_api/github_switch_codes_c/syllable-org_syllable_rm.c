@@ -1,6 +1,3 @@
-// Repository: syllable-org/syllable
-// File: system/apps/gnu/fileutils-4.1/src/rm.c
-
 /* `rm' file deletion utility for GNU.
    Copyright (C) 88, 90, 91, 1994-2001 Free Software Foundation, Inc.
 

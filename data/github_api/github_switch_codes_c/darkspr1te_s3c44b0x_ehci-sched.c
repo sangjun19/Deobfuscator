@@ -1,6 +1,3 @@
-// Repository: darkspr1te/s3c44b0x
-// File: uClinux-dist/linux-2.6.x/drivers/usb/host/ehci-sched.c
-
 /*
  * Copyright (c) 2001-2003 by David Brownell
  * Copyright (c) 2003 Michal Sojka, for high-speed iso transfers

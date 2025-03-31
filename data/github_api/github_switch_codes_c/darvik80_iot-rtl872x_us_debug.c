@@ -1,6 +1,3 @@
-// Repository: darvik80/iot-rtl872x
-// File: component/common/drivers/usb/host_old/msc/src/us_debug.c
-
 #include <platform_opts.h>
 
 #ifdef CONFIG_USBH_MSC

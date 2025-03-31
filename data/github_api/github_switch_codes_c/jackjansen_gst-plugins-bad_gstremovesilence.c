@@ -1,6 +1,3 @@
-// Repository: jackjansen/gst-plugins-bad
-// File: gst/removesilence/gstremovesilence.c
-
 /* GStreamer
  * Copyright (C) 2011 Tiago Katcipis <tiagokatcipis@gmail.com>
  * Copyright (C) 2011 Paulo Pizarro  <paulo.pizarro@gmail.com>

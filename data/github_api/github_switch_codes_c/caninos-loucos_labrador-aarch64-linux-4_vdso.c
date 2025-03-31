@@ -1,6 +1,3 @@
-// Repository: caninos-loucos/labrador-aarch64-linux-4
-// File: linux-source-4.19/tools/perf/util/vdso.c
-
 // SPDX-License-Identifier: GPL-2.0
 #include <errno.h>
 #include <unistd.h>

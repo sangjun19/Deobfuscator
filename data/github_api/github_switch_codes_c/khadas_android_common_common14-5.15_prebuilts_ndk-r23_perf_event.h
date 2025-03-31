@@ -1,6 +1,3 @@
-// Repository: khadas/android_common_common14-5.15_prebuilts_ndk-r23
-// File: toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/perf_event.h
-
 /****************************************************************************
  ****************************************************************************
  ***

@@ -1,6 +1,3 @@
-// Repository: OpenSCAP/openscap
-// File: src/OVAL/oval_parser.c
-
 /**
  * @file oval_parser.c
  * \brief Open Vulnerability and Assessment Language

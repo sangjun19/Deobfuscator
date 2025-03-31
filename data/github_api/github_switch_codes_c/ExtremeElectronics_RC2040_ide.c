@@ -1,6 +1,3 @@
-// Repository: ExtremeElectronics/RC2040
-// File: ide.c
-
 /*
  *	IDE Emulation Layer for retro-style PIO interfaces
  *

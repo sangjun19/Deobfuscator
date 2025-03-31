@@ -1,6 +1,3 @@
-// Repository: berenm/gdk-pixbuf-loader-apng
-// File: src/io-apng-animation.c
-
 #include "io-apng-animation.h"
 
 #include <errno.h>

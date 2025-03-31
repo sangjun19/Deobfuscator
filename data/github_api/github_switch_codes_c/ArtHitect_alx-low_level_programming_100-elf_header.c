@@ -1,6 +1,3 @@
-// Repository: ArtHitect/alx-low_level_programming
-// File: 0x15-file_io/100-elf_header.c
-
 #include <elf.h>
 #include <sys/types.h>
 #include <sys/stat.h>

@@ -1,6 +1,3 @@
-// Repository: aaron201912/ffmpeg
-// File: uacplayer/src/video.c
-
 #include "video.h"
 #include "packet.h"
 #include "frame.h"

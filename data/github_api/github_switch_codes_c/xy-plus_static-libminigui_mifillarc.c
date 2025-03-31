@@ -1,6 +1,3 @@
-// Repository: xy-plus/static-libminigui
-// File: minigui/src/newgdi/mifillarc.c
-
 ///////////////////////////////////////////////////////////////////////////////
 //
 //                          IMPORTANT NOTICE

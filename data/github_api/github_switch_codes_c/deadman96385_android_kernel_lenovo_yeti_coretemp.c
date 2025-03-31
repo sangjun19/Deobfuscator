@@ -1,6 +1,3 @@
-// Repository: deadman96385/android_kernel_lenovo_yeti
-// File: drivers/hwmon/coretemp.c
-
 /*
  * coretemp.c - Linux kernel module for hardware monitoring
  *

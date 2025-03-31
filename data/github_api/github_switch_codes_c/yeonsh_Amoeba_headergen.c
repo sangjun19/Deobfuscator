@@ -1,6 +1,3 @@
-// Repository: yeonsh/Amoeba
-// File: src/util/ail/headergen.c
-
 /*	@(#)headergen.c	1.2	94/04/07 14:33:07 */
 /*
  * Copyright 1994 Vrije Universiteit and Stichting Mathematisch Centrum,

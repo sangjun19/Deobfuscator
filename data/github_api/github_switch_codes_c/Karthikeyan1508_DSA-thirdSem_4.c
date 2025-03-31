@@ -1,6 +1,3 @@
-// Repository: Karthikeyan1508/DSA-thirdSem
-// File: 4.c
-
 #include <stdio.h>
 #include <conio.h>
 #include <stdlib.h>

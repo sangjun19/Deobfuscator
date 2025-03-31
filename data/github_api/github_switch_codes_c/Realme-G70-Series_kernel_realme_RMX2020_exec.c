@@ -1,6 +1,3 @@
-// Repository: Realme-G70-Series/kernel_realme_RMX2020
-// File: fs/exec.c
-
 /*
  *  linux/fs/exec.c
  *

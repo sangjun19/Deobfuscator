@@ -1,6 +1,3 @@
-// Repository: gnensis/linux-2.6.15
-// File: drivers/md/raid6main.c
-
 /*
  * raid6main.c : Multiple Devices driver for Linux
  *	   Copyright (C) 1996, 1997 Ingo Molnar, Miguel de Icaza, Gadi Oxman

@@ -1,6 +1,3 @@
-// Repository: bianca-bezerra/EstruturaDeDados1-ADS
-// File: 9.c
-
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>

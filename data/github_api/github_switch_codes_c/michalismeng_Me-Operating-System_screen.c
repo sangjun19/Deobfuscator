@@ -1,6 +1,3 @@
-// Repository: michalismeng/Me-Operating-System
-// File: MeOSLDR/screen.c
-
 #include "screen.h"
 
 uint16 cursorX = 0;

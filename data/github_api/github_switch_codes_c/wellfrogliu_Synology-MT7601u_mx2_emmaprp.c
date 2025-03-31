@@ -1,6 +1,3 @@
-// Repository: wellfrogliu/Synology-MT7601u
-// File: kernel/linux-4.4.x/drivers/media/platform/mx2_emmaprp.c
-
 /*
  * Support eMMa-PrP through mem2mem framework.
  *

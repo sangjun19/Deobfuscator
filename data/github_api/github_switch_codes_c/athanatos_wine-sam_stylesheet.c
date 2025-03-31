@@ -1,6 +1,3 @@
-// Repository: athanatos/wine-sam
-// File: dlls/msxml3/stylesheet.c
-
 /*
  *    XSLTemplate/XSLProcessor support
  *

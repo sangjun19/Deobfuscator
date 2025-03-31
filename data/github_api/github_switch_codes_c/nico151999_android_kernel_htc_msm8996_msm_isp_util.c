@@ -1,6 +1,3 @@
-// Repository: nico151999/android_kernel_htc_msm8996
-// File: drivers/media/platform/msm/camera_v2/isp/msm_isp_util.c
-
 /* Copyright (c) 2013-2017, The Linux Foundation. All rights reserved.
  *
  * This program is free software; you can redistribute it and/or modify

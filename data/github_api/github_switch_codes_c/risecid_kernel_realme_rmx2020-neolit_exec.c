@@ -1,6 +1,3 @@
-// Repository: risecid/kernel_realme_rmx2020-neolit
-// File: fs/exec.c
-
 /*
  *  linux/fs/exec.c
  *

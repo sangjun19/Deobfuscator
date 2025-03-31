@@ -1,6 +1,3 @@
-// Repository: exaithrg/riscv_tests_collection
-// File: riscv_programming_practice/chapter_17/lab17-4/benos/src/trap.c
-
 #include "asm/csr.h"
 #include "asm/ptregs.h"
 #include "printk.h"

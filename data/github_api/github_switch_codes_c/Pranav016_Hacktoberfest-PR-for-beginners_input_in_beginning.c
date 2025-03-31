@@ -1,6 +1,3 @@
-// Repository: Pranav016/Hacktoberfest-PR-for-beginners
-// File: input_in_beginning.c
-
 #include <stdio.h>
 #include <stdlib.h>
 struct node

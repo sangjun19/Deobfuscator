@@ -1,6 +1,3 @@
-// Repository: vm03/coreboot
-// File: src/vendorcode/amd/agesa/f14/Proc/Mem/NB/mndct.c
-
 /* $NoKeywords:$ */
 /**
  * @file

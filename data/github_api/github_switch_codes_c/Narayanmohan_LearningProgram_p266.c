@@ -1,6 +1,3 @@
-// Repository: Narayanmohan/LearningProgram
-// File: p266.c
-
 /*Program No-p266.c
 dt-2-28-2022
 Concept-Function

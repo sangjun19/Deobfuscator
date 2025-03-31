@@ -1,6 +1,3 @@
-// Repository: ARM-software/EndpointAI
-// File: Kernels/ARM-Optimized/DSP/Source/FilteringFunctions/arm_fir_q31/arm_fir_q31.c
-
 /* ----------------------------------------------------------------------
  * Project:      CMSIS DSP Library
  * Title:        arm_fir_q31.c

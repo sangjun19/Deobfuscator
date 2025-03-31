@@ -1,6 +1,3 @@
-// Repository: miettal/armadillo420_standard
-// File: linux-2.6.26-at22/arch/powerpc/kvm/emulate.c
-
 /*
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License, version 2, as

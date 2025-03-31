@@ -1,6 +1,3 @@
-// Repository: killvxk/rk3588-hinlink-h88k
-// File: kernel/drivers/media/i2c/sc035gs.c
-
 // SPDX-License-Identifier: GPL-2.0
 /*
  * sc035gs driver

@@ -1,6 +1,3 @@
-// Repository: c475/tlpi-homework-notes
-// File: 44-pipes-and-fifos/pipes/pipe_sync.c
-
 #include "../../lib/tlpi_hdr.h"
 
 

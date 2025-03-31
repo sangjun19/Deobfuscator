@@ -1,6 +1,3 @@
-// Repository: duxinglang-1/KJX_K7
-// File: plutommi/MtkApp/mmiapi/src/mmiapi_main.c
-
 /*****************************************************************************
 *  Copyright Statement:
 *  --------------------

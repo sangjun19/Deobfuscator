@@ -1,6 +1,3 @@
-// Repository: OLIMEX/LoRa-STM32WL-DevKIT
-// File: SOFTWARE/cmsis-dap/src/USB/cdc.c
-
 /*
  * Copyright (c) 2015, Devan Lai
  *

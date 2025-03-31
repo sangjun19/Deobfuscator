@@ -1,6 +1,3 @@
-// Repository: ndoo/route10-gpl-1.3v
-// File: binutils-2.35.1/bfd/tekhex.c
-
 /* BFD backend for Extended Tektronix Hex Format  objects.
    Copyright (C) 1992-2020 Free Software Foundation, Inc.
    Written by Steve Chamberlain of Cygnus Support <sac@cygnus.com>.

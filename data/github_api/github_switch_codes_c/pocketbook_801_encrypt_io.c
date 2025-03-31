@@ -1,6 +1,3 @@
-// Repository: pocketbook/801
-// File: kernel/drivers/hwmon/encrypt_io/encrypt_io.c
-
 //#include <linux/config.h>
 #include <linux/module.h>
 #include <linux/version.h>

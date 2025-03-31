@@ -1,6 +1,3 @@
-// Repository: osen/bg
-// File: bg_analytics.c
-
 #include "bg_analytics.h"
 #ifndef AMALGAMATION
   #include "palloc.h"

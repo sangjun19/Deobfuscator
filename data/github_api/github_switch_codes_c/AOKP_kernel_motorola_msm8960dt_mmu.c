@@ -1,6 +1,3 @@
-// Repository: AOKP/kernel_motorola_msm8960dt
-// File: arch/arm/mm/mmu.c
-
 /*
  *  linux/arch/arm/mm/mmu.c
  *

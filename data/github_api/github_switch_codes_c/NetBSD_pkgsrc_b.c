@@ -1,6 +1,3 @@
-// Repository: NetBSD/pkgsrc
-// File: lang/nawk/files/b.c
-
 /****************************************************************
 Copyright (C) Lucent Technologies 1997
 All Rights Reserved

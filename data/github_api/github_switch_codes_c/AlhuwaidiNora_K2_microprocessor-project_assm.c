@@ -1,6 +1,3 @@
-// Repository: AlhuwaidiNora/K2_microprocessor-project
-// File: assm.c
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

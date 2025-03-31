@@ -1,6 +1,3 @@
-// Repository: leoxtc/ssmping
-// File: ssmpngcl.c
-
 /*
  * Copyright (C) 2005, 2006  Stig Venaas <venaas@uninett.no>
  * $Id:$

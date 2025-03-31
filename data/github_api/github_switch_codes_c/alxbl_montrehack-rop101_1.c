@@ -1,6 +1,3 @@
-// Repository: alxbl/montrehack-rop101
-// File: 1.c
-
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>

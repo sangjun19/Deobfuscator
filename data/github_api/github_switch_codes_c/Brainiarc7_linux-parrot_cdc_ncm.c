@@ -1,6 +1,3 @@
-// Repository: Brainiarc7/linux-parrot
-// File: drivers/net/usb/cdc_ncm.c
-
 /*
  * cdc_ncm.c
  *

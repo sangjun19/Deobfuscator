@@ -1,6 +1,3 @@
-// Repository: yard/yet-another-ruby-database
-// File: yard/include/db.h
-
 /* DO NOT EDIT: automatically built by dist/s_windows. */
 /*
  * See the file LICENSE for redistribution information.

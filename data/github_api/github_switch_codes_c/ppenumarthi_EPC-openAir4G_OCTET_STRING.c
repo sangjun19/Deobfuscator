@@ -1,6 +1,3 @@
-// Repository: ppenumarthi/EPC-openAir4G
-// File: oEPC/trunk/openair-cn/S1AP/MESSAGES/OCTET_STRING.c
-
 /*-
  * Copyright (c) 2003, 2004, 2005, 2006 Lev Walkin <vlm@lionet.info>.
  * All rights reserved.

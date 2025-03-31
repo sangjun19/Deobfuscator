@@ -1,6 +1,3 @@
-// Repository: AzenkChina/VirtualMeter
-// File: Libraries/Check/Src/ecc.c
-
 #include "ecc.h"
 
 /*

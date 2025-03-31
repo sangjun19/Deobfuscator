@@ -1,6 +1,3 @@
-// Repository: Chomenor/ioef-cmod
-// File: code/sdl/sdl_glimp.c
-
 /*
 ===========================================================================
 Copyright (C) 1999-2005 Id Software, Inc.

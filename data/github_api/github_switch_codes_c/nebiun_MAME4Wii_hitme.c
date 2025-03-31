@@ -1,6 +1,3 @@
-// Repository: nebiun/MAME4Wii
-// File: src/mame/drivers/hitme.c
-
 /* Hit Me driver by the EMUL8, led by Dan Boris */
 
 /*

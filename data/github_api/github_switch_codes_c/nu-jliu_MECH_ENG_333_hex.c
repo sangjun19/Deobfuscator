@@ -1,6 +1,3 @@
-// Repository: nu-jliu/MECH_ENG_333
-// File: Class/EXTRA_Bootloader/common/hex.c
-
 #ifndef  HEX_FILE_H
 #include "hex.h"
 #endif

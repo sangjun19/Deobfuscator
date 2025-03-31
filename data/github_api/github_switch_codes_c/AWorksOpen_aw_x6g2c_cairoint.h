@@ -1,6 +1,3 @@
-// Repository: AWorksOpen/aw_x6g2c
-// File: aworks_awtk_imx6ul/awtk-sdk/awtk/3rd/cairo/cairo/cairoint.h
-
 /* cairo - a vector graphics library with display and print output
  *
  * Copyright © 2002 University of Southern California

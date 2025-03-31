@@ -1,6 +1,3 @@
-// Repository: agroce/cs362w16core
-// File: dominion/killed/mutant100721_dominion.c
-
 #include "dominion.h"
 #include "dominion_helpers.h"
 #include "rngs.h"

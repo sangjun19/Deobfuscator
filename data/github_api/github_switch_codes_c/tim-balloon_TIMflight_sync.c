@@ -1,6 +1,3 @@
-// Repository: tim-balloon/TIMflight
-// File: external_libs/ethercat/master/sync.c
-
 /******************************************************************************
  *
  *  $Id$

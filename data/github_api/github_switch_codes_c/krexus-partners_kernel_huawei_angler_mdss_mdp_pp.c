@@ -1,6 +1,3 @@
-// Repository: krexus-partners/kernel_huawei_angler
-// File: drivers/video/msm/mdss/mdss_mdp_pp.c
-
 /*
  * Copyright (c) 2012-2015, The Linux Foundation. All rights reserved.
  *

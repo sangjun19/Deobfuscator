@@ -1,6 +1,3 @@
-// Repository: scale-snu/IDT
-// File: linux/drivers/media/platform/rockchip/rkisp1/rkisp1-isp.c
-
 // SPDX-License-Identifier: (GPL-2.0+ OR MIT)
 /*
  * Rockchip ISP1 Driver - ISP Subdevice

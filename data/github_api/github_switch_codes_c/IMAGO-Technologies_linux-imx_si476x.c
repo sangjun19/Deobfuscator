@@ -1,6 +1,3 @@
-// Repository: IMAGO-Technologies/linux-imx
-// File: sound/soc/codecs/si476x.c
-
 /*
  * sound/soc/codecs/si476x.c -- Codec driver for SI476X chips
  *

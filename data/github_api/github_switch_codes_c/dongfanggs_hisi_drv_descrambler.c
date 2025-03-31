@@ -1,6 +1,3 @@
-// Repository: dongfanggs/hisi
-// File: source/msp/drv/desc/drv_descrambler.c
-
 /*********************************************************************************
 *
 *  Copyright (C) 2014 Hisilicon Technologies Co., Ltd.  All rights reserved. 

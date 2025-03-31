@@ -1,6 +1,3 @@
-// Repository: Helco/ffmpeg
-// File: libavfilter/f_drawgraph.c
-
 /*
  * Copyright (c) 2015 Paul B Mahol
  *

@@ -1,6 +1,3 @@
-// Repository: Jhoncena1127/AsteriskAvanzado2024
-// File: main/utf8.c
-
 /*
  * Asterisk -- An open source telephony toolkit.
  *

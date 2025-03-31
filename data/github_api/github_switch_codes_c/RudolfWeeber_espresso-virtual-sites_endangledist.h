@@ -1,6 +1,3 @@
-// Repository: RudolfWeeber/espresso-virtual-sites
-// File: endangledist.h
-
 // This file is part of the ESPResSo distribution (http://www.espresso.mpg.de).
 // It is therefore subject to the ESPResSo license agreement which you accepted upon receiving the distribution
 // and by which you are legally bound while utilizing this file in any form or way.

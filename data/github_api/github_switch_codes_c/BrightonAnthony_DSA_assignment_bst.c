@@ -1,6 +1,3 @@
-// Repository: BrightonAnthony/DSA_assignment
-// File: bst.c
-
 # include <stdio.h>
 #include <stdlib.h>
 // #include <conio.h>

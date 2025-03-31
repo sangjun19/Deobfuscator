@@ -1,6 +1,3 @@
-// Repository: dhawansolanki/c
-// File: 1.c
-
 //Simple Calculator
 #include <stdio.h>
 void main(){

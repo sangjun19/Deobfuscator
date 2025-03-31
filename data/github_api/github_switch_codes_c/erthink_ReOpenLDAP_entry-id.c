@@ -1,6 +1,3 @@
-// Repository: erthink/ReOpenLDAP
-// File: servers/slapd/back-sql/entry-id.c
-
 /* $ReOpenLDAP$ */
 /* Copyright 1999-2018 ReOpenLDAP AUTHORS: please see AUTHORS file.
  * All rights reserved.

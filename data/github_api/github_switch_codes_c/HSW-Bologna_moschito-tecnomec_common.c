@@ -1,6 +1,3 @@
-// Repository: HSW-Bologna/moschito-tecnomec
-// File: main/view/common.c
-
 #include "view/view.h"
 #include "common.h"
 #include "theme/style.h"

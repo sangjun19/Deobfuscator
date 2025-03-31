@@ -1,6 +1,3 @@
-// Repository: jbkim/WiFi_EMW3162
-// File: MICO/MICOConfigServer.c
-
 /**
 ******************************************************************************
 * @file    MICOConfigServer.c 

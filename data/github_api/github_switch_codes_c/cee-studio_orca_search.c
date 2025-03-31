@@ -1,6 +1,3 @@
-// Repository: cee-studio/orca
-// File: specs-code/reddit/search.c
-
 /* This file is generated from reddit/search.json, Please don't edit it. */
 /**
  * @file specs-code/reddit/search.c

@@ -1,6 +1,3 @@
-// Repository: vsfteam/awtk_vsf
-// File: awtk/3rd/cairo/cairo/cairoint.h
-
 /* cairo - a vector graphics library with display and print output
  *
  * Copyright © 2002 University of Southern California

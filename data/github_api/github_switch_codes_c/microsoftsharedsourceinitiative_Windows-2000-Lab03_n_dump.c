@@ -1,6 +1,3 @@
-// Repository: microsoftsharedsourceinitiative/Windows-2000-Lab03_n
-// File: src/shell/lib/dump.c
-
 //
 // Debug dump functions for common ADTs
 //

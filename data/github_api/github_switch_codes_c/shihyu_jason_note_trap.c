@@ -1,6 +1,3 @@
-// Repository: shihyu/jason_note
-// File: src/linux_system/data/riscv_programming_practice/chapter_17/lab17-4/benos/src/trap.c
-
 #include "asm/csr.h"
 #include "asm/ptregs.h"
 #include "printk.h"

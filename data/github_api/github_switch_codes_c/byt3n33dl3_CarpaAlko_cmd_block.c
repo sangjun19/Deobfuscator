@@ -1,6 +1,3 @@
-// Repository: byt3n33dl3/CarpaAlko
-// File: RSE/librz/core/cmd/cmd_block.c
-
 // SPDX-FileCopyrightText: 2021 Anton Kochkov <anton.kochkov@gmail.com>
 // SPDX-License-Identifier: LGPL-3.0-only
 

@@ -1,6 +1,3 @@
-// Repository: minghuadev/chromeos-kernel-3-8-work
-// File: chromeos-kernel-3-8/drivers/mtd/nand/omap2.c
-
 /*
  * Copyright © 2004 Texas Instruments, Jian Zhang <jzhang@ti.com>
  * Copyright © 2004 Micron Technology Inc.

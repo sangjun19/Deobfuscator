@@ -1,6 +1,3 @@
-// Repository: 001ryu-ryu/C-learning
-// File: conditions/switch.c
-
 // Syntax
 #include <stdio.h>
 int main(){

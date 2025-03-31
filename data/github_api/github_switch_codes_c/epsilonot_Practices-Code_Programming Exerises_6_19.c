@@ -1,6 +1,3 @@
-// Repository: epsilonot/Practices-Code
-// File: Programming Exerises_6_19.c
-
 #include <stdio.h>
 #include <string.h>
 

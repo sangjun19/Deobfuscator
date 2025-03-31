@@ -1,6 +1,3 @@
-// Repository: seradya/Labs
-// File: toolchain/OpenOCD/openocd-master/src/target/arm_opcodes.h
-
 /*
  * Copyright (C) 2005 by Dominic Rath
  * Dominic.Rath@gmx.de

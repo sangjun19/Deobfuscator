@@ -1,6 +1,3 @@
-// Repository: danya2271/kernel_huawei_msm8917
-// File: net/packet/af_packet.c
-
 /*
  * INET		An implementation of the TCP/IP protocol suite for the LINUX
  *		operating system.  INET is implemented using the  BSD Socket

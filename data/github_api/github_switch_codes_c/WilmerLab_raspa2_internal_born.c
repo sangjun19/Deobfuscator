@@ -1,6 +1,3 @@
-// Repository: WilmerLab/raspa2
-// File: src/internal_born.c
-
 /*************************************************************************************************************
     RASPA: a molecular-dynamics, monte-carlo and optimization code for nanoporous materials
     Copyright (C) 2006-2015 David Dubbeldam, Sofia Calero, Thijs Vlugt, Donald E. Ellis, and Randall Q. Snurr.

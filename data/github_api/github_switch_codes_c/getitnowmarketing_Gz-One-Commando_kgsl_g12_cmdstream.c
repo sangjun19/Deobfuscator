@@ -1,6 +1,3 @@
-// Repository: getitnowmarketing/Gz-One-Commando
-// File: drivers/gpu/msm/kgsl_g12_cmdstream.c
-
 /* Copyright (c) 2002,2007-2010, Code Aurora Forum. All rights reserved.
  *
  * This program is free software; you can redistribute it and/or modify

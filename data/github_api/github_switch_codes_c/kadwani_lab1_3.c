@@ -1,6 +1,3 @@
-// Repository: kadwani/lab1
-// File: 31/3.c
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

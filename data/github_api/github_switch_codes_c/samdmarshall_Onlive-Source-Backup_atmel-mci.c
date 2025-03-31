@@ -1,6 +1,3 @@
-// Repository: samdmarshall/Onlive-Source-Backup
-// File: linux_kernel_release/linux-2.6.27.12/drivers/mmc/host/atmel-mci.c
-
 /*
  * Atmel MultiMedia Card Interface driver
  *

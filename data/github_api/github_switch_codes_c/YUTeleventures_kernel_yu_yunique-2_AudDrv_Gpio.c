@@ -1,6 +1,3 @@
-// Repository: YUTeleventures/kernel_yu_yunique-2
-// File: sound/soc/mediatek/mt_soc_audio_8163/AudDrv_Gpio.c
-
 /*
  * Copyright (C) 2015 MediaTek Inc.
  *

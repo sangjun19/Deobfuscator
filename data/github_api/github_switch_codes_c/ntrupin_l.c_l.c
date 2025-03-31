@@ -1,6 +1,3 @@
-// Repository: ntrupin/l.c
-// File: l.c
-
 /**
  * l.c
  * Lambda Calculus Interpreter

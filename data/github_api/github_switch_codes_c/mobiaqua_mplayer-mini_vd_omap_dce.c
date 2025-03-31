@@ -1,6 +1,3 @@
-// Repository: mobiaqua/mplayer-mini
-// File: src/libmpcodecs/vd_omap_dce.c
-
 /*
  * OMAP DCE hardware decoding for following video codecs:
  * h264, MPEG4, DivX 5, XviD, MPEG1, MPEG2, WMV9, VC-1

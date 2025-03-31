@@ -1,6 +1,3 @@
-// Repository: regulusleow/buildObjc4SourceCode
-// File: xnu-xnu-8792.81.2/bsd/netinet/ip_output.c
-
 /*
  * Copyright (c) 2000-2021 Apple Inc. All rights reserved.
  *

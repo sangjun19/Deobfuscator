@@ -1,6 +1,3 @@
-// Repository: galaris/avalanche
-// File: valgrind/mpi/libmpiwrap.c
-
 
 /*---------------------------------------------------------------*/
 /*---                                                         ---*/

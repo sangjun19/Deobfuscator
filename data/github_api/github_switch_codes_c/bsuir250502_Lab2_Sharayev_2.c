@@ -1,6 +1,3 @@
-// Repository: bsuir250502/Lab2_Sharayev
-// File: 2.c
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

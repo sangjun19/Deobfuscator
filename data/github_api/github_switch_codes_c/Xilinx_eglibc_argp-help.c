@@ -1,6 +1,3 @@
-// Repository: Xilinx/eglibc
-// File: argp/argp-help.c
-
 /* Hierarchial argument parsing help output
    Copyright (C) 1995-2013 Free Software Foundation, Inc.
    This file is part of the GNU C Library.

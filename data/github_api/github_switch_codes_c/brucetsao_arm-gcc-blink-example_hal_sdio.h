@@ -1,6 +1,3 @@
-// Repository: brucetsao/arm-gcc-blink-example
-// File: src/targets/hal/target_rtk/target_8195a/hal_sdio.h
-
 /*
  *  Routines to access hardware
  *

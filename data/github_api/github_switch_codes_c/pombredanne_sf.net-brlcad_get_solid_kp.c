@@ -1,6 +1,3 @@
-// Repository: pombredanne/sf.net-brlcad
-// File: src/libged/get_solid_kp.c
-
 /*                    G E T _ S O L I D _ K P . C
  * BRL-CAD
  *

@@ -1,6 +1,3 @@
-// Repository: eljefedelrodeodeljefe/BIND
-// File: bin/named/main.c
-
 /*
  * Copyright (C) 1999-2016  Internet Systems Consortium, Inc. ("ISC")
  *

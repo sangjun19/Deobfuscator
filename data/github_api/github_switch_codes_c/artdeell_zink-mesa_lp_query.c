@@ -1,6 +1,3 @@
-// Repository: artdeell/zink-mesa
-// File: src/gallium/drivers/llvmpipe/lp_query.c
-
 /**************************************************************************
  *
  * Copyright 2007 VMware, Inc.

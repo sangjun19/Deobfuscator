@@ -1,6 +1,3 @@
-// Repository: ECCC-ASTD-MRD/SPI-External
-// File: mesa-13.0.6/src/gallium/drivers/swr/swr_resource.h
-
 /****************************************************************************
  * Copyright (C) 2015 Intel Corporation.   All Rights Reserved.
  *

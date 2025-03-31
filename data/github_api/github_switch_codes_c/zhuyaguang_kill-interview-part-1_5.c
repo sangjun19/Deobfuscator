@@ -1,6 +1,3 @@
-// Repository: zhuyaguang/kill-interview-part-1
-// File: 5.c
-
 #include <stdio.h>
 
 int main(void)

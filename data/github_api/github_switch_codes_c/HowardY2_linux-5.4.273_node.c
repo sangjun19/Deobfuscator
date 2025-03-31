@@ -1,6 +1,3 @@
-// Repository: HowardY2/linux-5.4.273
-// File: fs/f2fs/node.c
-
 // SPDX-License-Identifier: GPL-2.0
 /*
  * fs/f2fs/node.c

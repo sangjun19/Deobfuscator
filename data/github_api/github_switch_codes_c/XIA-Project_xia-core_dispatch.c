@@ -1,6 +1,3 @@
-// Repository: XIA-Project/xia-core
-// File: experiments/DNS/bind-9.8.1/lib/dns/dispatch.c
-
 /*
  * Copyright (C) 2004-2009, 2011  Internet Systems Consortium, Inc. ("ISC")
  * Copyright (C) 1999-2003  Internet Software Consortium.

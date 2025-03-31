@@ -1,6 +1,3 @@
-// Repository: wuxianlin/android_device_oppo_r11s
-// File: audio-caf/post_proc/bundle.c
-
 /*
  * Copyright (c) 2013-2017, The Linux Foundation. All rights reserved.
  * Not a Contribution.

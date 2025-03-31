@@ -1,6 +1,3 @@
-// Repository: geocar/qlua
-// File: k.c
-
 #include <lauxlib.h>
 
 #include "kx/k.h"

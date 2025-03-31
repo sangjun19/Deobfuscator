@@ -1,6 +1,3 @@
-// Repository: scs/uclinux
-// File: user/mysql/client/mysqlmanagerc.c
-
 /* Copyright (C) 2000 MySQL AB
 
    This program is free software; you can redistribute it and/or modify

@@ -1,6 +1,3 @@
-// Repository: cleverior/Brcm_Android_ICS_Graphics_Stack
-// File: brcm_usrlib/dag/vmcsx/middleware/khronos/glxx/glxx_renderbuffer.c
-
 /* ============================================================================
 Copyright (c) 2008-2014, Broadcom Corporation
 All rights reserved.

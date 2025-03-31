@@ -1,6 +1,3 @@
-// Repository: hbdhj/c
-// File: ipc/socket/UDP/LoginClient.C
-
 #include <stdlib.h>
 #include <stdio.h>
 #include <arpa/inet.h>

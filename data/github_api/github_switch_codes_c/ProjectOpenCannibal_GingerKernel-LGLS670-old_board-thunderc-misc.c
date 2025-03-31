@@ -1,6 +1,3 @@
-// Repository: ProjectOpenCannibal/GingerKernel-LGLS670-old
-// File: arch/arm/mach-msm/lge/board-thunderc-misc.c
-
 /* arch/arm/mach-msm/lge/board-thunderc-misc.c
  * Copyright (C) 2009 LGE, Inc.
  *

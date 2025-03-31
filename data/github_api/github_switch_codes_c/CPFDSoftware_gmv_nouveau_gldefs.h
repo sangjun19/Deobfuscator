@@ -1,6 +1,3 @@
-// Repository: CPFDSoftware/gmv
-// File: utils/Mesa/Mesa-7.8.2/src/mesa/drivers/dri/nouveau/nouveau_gldefs.h
-
 /*
  * Copyright (C) 2007-2010 The Nouveau Project.
  * All Rights Reserved.

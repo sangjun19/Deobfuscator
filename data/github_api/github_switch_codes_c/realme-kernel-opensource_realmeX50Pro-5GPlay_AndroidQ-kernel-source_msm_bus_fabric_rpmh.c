@@ -1,6 +1,3 @@
-// Repository: realme-kernel-opensource/realmeX50Pro-5GPlay_AndroidQ-kernel-source
-// File: drivers/soc/qcom/msm_bus/msm_bus_fabric_rpmh.c
-
 // SPDX-License-Identifier: GPL-2.0-only
 /*
  * Copyright (c) 2014-2019, The Linux Foundation. All rights reserved.

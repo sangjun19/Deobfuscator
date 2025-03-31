@@ -1,6 +1,3 @@
-// Repository: LeStahL/endeavor
-// File: e.c
-
 /* Endeavor by Team210 - 64k intro by Team210 at Revision 2k19
  * Copyright (C) 2018 Alexander Kraus <nr4@z10.info>
  *

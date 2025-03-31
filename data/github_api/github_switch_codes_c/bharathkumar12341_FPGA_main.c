@@ -1,6 +1,3 @@
-// Repository: bharathkumar12341/FPGA
-// File: main.c
-
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>

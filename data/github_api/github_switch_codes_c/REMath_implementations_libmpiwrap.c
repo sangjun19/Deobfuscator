@@ -1,6 +1,3 @@
-// Repository: REMath/implementations
-// File: avalanche/valgrind/mpi/libmpiwrap.c
-
 
 /*---------------------------------------------------------------*/
 /*---                                                         ---*/

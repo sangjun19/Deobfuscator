@@ -1,6 +1,3 @@
-// Repository: AdrielVelazquez/Moto_XT1058
-// File: arch/arm/mm/mmu.c
-
 /*
  *  linux/arch/arm/mm/mmu.c
  *

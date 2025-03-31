@@ -1,6 +1,3 @@
-// Repository: omni-zuk/audio
-// File: post_proc/bundle.c
-
 /*
  * Copyright (c) 2013-2017, The Linux Foundation. All rights reserved.
  * Not a Contribution.

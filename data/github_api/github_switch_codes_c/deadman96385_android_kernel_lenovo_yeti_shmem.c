@@ -1,6 +1,3 @@
-// Repository: deadman96385/android_kernel_lenovo_yeti
-// File: mm/shmem.c
-
 /*
  * Resizable virtual memory filesystem for Linux.
  *

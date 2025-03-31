@@ -1,6 +1,3 @@
-// Repository: the-grue/OpenDOS
-// File: COMMAND/DOSIF.H
-
 /*
 ;    File              : $Workfile$
 ;

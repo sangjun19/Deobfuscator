@@ -1,6 +1,3 @@
-// Repository: realme-kernel-opensource/realme_Smart_TV_80CM-kernel-source
-// File: drivers/gpu/drm/nouveau/nvkm/subdev/mmu/vmmgf100.c
-
 /*
  * Copyright 2017 Red Hat Inc.
  *

@@ -1,6 +1,3 @@
-// Repository: aicjofs/android_kernel_lge_v500_stock
-// File: sound/soc/sh/hac.c
-
 /*
  * Hitachi Audio Controller (AC97) support for SH7760/SH7780
  *

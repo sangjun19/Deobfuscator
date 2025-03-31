@@ -1,6 +1,3 @@
-// Repository: MIPS/kernel-common
-// File: drivers/mmc/host/atmel-mci.c
-
 /*
  * Atmel MultiMedia Card Interface driver
  *

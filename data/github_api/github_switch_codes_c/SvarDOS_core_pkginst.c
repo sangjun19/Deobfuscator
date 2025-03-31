@@ -1,6 +1,3 @@
-// Repository: SvarDOS/core
-// File: pkg/tags/20240118/pkginst.c
-
 /*
  * This file is part of pkg (SvarDOS)
  * Copyright (C) 2012-2023 Mateusz Viste

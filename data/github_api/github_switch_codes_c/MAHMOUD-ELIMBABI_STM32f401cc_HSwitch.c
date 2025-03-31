@@ -1,6 +1,3 @@
-// Repository: MAHMOUD-ELIMBABI/STM32f401cc
-// File: STM32f401cc_Drivers/HAL/HSwitch/HSwitch.c
-
 /*
  * HSwitch.c
  *

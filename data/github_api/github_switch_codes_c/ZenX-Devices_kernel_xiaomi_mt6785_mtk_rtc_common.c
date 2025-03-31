@@ -1,6 +1,3 @@
-// Repository: ZenX-Devices/kernel_xiaomi_mt6785
-// File: drivers/misc/mediatek/rtc/mtk_rtc_common.c
-
 /*
  * Copyright (C) 2010 MediaTek, Inc.
  *

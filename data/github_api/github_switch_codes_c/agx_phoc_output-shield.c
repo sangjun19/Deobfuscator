@@ -1,6 +1,3 @@
-// Repository: agx/phoc
-// File: src/output-shield.c
-
 /*
  * Copyright (C) 2022 Purism SPC
  *

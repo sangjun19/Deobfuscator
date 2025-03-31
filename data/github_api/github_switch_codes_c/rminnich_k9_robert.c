@@ -1,6 +1,3 @@
-// Repository: rminnich/k9
-// File: sys/src/cmd/dict/robert.c
-
 /* 
  * This file is part of the UCB release of Plan 9. It is subject to the license
  * terms in the LICENSE file found in the top-level directory of this

@@ -1,6 +1,3 @@
-// Repository: brunodev85/mesa3d-custom
-// File: turnip-25.0.0/src/gallium/frontends/va/context.c
-
 /**************************************************************************
  *
  * Copyright 2010 Thomas Balling Sørensen & Orasanu Lucian.

@@ -1,6 +1,3 @@
-// Repository: cd-Crypton/android_kernel_realme_sm6225
-// File: techpack/audio/dsp/q6voice.c
-
 // SPDX-License-Identifier: GPL-2.0-only
 /*
  * Copyright (c) 2012-2019, The Linux Foundation. All rights reserved.

@@ -1,6 +1,3 @@
-// Repository: Byterset/n64brew
-// File: src/audio/audiomgr.c
-
 
 #include <assert.h>
 #include "audio.h"

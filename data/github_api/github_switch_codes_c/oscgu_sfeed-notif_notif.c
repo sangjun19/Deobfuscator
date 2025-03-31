@@ -1,6 +1,3 @@
-// Repository: oscgu/sfeed-notif
-// File: notif.c
-
 #include <X11/X.h>
 #include <X11/Xlib.h>
 #include <bits/types/__FILE.h>

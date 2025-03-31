@@ -1,6 +1,3 @@
-// Repository: lac-dcc/jotai-benchmarks
-// File: benchmarks/anghaLeaves/extr_linuxdriversmediai2cadv7511.c_hdmi_infoframe_checksum_Final.c
-
 // ========================================================================= //
 
 // includes

@@ -1,6 +1,3 @@
-// Repository: guileschool/BEAGLEBONE-tutorials
-// File: BBB-firmware/u-boot-v2018.05-rc2/cmd/binop.c
-
 /*
  * SPDX-License-Identifier:	GPL-2.0+
  */

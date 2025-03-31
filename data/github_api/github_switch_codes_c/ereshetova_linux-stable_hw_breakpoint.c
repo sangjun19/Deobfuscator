@@ -1,6 +1,3 @@
-// Repository: ereshetova/linux-stable
-// File: arch/powerpc/kernel/hw_breakpoint.c
-
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
  * HW_breakpoint: a unified kernel/user-space hardware breakpoint facility,

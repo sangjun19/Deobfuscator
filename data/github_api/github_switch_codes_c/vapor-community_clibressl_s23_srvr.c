@@ -1,6 +1,3 @@
-// Repository: vapor-community/clibressl
-// File: Sources/CLibreSSL/s23_srvr.c
-
 /* $OpenBSD: s23_srvr.c,v 1.46 2015/10/25 15:49:04 doug Exp $ */
 /* Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)
  * All rights reserved.

@@ -1,6 +1,3 @@
-// Repository: toumubaoqiong/ffmpeg-windows
-// File: ffmpeg0.7-CKW/ffmpeg-git/libavcodec/mdct_float.c
-
 /*
  * This file is part of FFmpeg.
  *

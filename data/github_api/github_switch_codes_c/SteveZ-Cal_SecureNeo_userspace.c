@@ -1,6 +1,3 @@
-// Repository: SteveZ-Cal/SecureNeo
-// File: zephyrproject/zephyr/kernel/userspace.c
-
 /*
  * Copyright (c) 2017 Intel Corporation
  *

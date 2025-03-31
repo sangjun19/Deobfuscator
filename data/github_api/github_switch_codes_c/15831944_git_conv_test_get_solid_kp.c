@@ -1,6 +1,3 @@
-// Repository: 15831944/git_conv_test
-// File: src/libged/get_solid_kp.c
-
 /*                    G E T _ S O L I D _ K P . C
  * BRL-CAD
  *

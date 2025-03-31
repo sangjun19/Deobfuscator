@@ -1,6 +1,3 @@
-// Repository: jeapostrophe/mic1
-// File: masm/masm.c
-
 #define _POSIX_C_SOURCE 2
 #include <stdio.h>
 #include <stdlib.h>

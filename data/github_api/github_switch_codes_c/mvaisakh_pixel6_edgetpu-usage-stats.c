@@ -1,6 +1,3 @@
-// Repository: mvaisakh/pixel6
-// File: drivers/google/edgetpu/drivers/edgetpu/edgetpu-usage-stats.c
-
 // SPDX-License-Identifier: GPL-2.0
 /*
  * EdgeTPU usage stats

@@ -1,6 +1,3 @@
-// Repository: Abdul99Aleem/C
-// File: projects/proj1.c
-
 #include <stdio.h>
 #include <stdlib.h>
 

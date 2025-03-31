@@ -1,6 +1,3 @@
-// Repository: markluo0311/nrf52832_bt_mesh
-// File: mesh/src/prov/nrf_mesh_prov.c
-
 /* Copyright (c) 2010 - 2017, Nordic Semiconductor ASA
  * All rights reserved.
  *

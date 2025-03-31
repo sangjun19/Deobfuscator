@@ -1,6 +1,3 @@
-// Repository: invisiblek/android_kernel_hp_tenderloin
-// File: arch/arm/mach-msm/htc/m7/display/mipi_m7.c
-
 /* Copyright (c) 2012-2013, The Linux Foundation. All rights reserved.
  *
  * This program is free software; you can redistribute it and/or modify

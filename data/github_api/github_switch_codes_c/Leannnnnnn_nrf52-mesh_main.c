@@ -1,6 +1,3 @@
-// Repository: Leannnnnnn/nrf52-mesh
-// File: nrf5_sdk_for_mesh_v5.0.0_src/examples/light_switch/hx_client/src/main.c
-
 /* Copyright (c) 2010 - 2020, Nordic Semiconductor ASA
  * All rights reserved.
  *

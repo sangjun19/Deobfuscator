@@ -1,6 +1,3 @@
-// Repository: raxod502/juniper-linux
-// File: fs/afs/cmservice.c
-
 // SPDX-License-Identifier: GPL-2.0-or-later
 /* AFS Cache Manager Service
  *

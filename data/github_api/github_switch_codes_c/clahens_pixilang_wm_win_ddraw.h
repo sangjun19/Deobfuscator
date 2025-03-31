@@ -1,6 +1,3 @@
-// Repository: clahens/pixilang
-// File: lib_sundog/window_manager/code/wm_win_ddraw.h
-
 /*
     wm_win_ddraw.h. Platform-dependent module : DirectDraw
     This file is part of the SunDog engine.

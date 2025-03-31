@@ -1,6 +1,3 @@
-// Repository: obiwac/freebsd-s0ix
-// File: sys/crypto/sha2/sha512c_arm64.c
-
 /*-
  * Copyright (c) 2021 The FreeBSD Foundation
  *

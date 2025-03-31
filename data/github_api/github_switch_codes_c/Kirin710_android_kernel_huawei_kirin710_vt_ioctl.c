@@ -1,6 +1,3 @@
-// Repository: Kirin710/android_kernel_huawei_kirin710
-// File: drivers/tty/vt/vt_ioctl.c
-
 // SPDX-License-Identifier: GPL-2.0
 /*
  *  Copyright (C) 1992 obz under the linux copyright

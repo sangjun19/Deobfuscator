@@ -1,6 +1,3 @@
-// Repository: fkolacek/FIT-VUT
-// File: mess/IZP/projekt3/proj3matrix.c
-
 #include "proj3matrix.h"
 
 MATRIX* addMatrix(MATRIX* first, MATRIX* second){

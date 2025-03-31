@@ -1,6 +1,3 @@
-// Repository: ArrowElectronics/Vital-Signs-Monitoring
-// File: adi_study_watch/nrf5_sdk_15.2.0/adi_study_watch/app/nRF52840_app/display/page/low_voltage_protect/page_low_voltage_alarm.c
-
 /**
 ****************************************************************************
 * @file     page_low_voltage_alarm.c

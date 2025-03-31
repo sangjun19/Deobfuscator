@@ -1,6 +1,3 @@
-// Repository: rgnwall/FreeBSD-src
-// File: usr.sbin/bhyve/task_switch.c
-
 /*-
  * Copyright (c) 2014 Neel Natu <neel@freebsd.org>
  * All rights reserved.

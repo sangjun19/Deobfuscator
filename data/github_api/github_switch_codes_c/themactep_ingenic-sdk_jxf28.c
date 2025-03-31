@@ -1,6 +1,3 @@
-// Repository: themactep/ingenic-sdk
-// File: 3.10/sensor-src/t20/jxf28.c
-
 // SPDX-License-Identifier: GPL-2.0+
 /*
  * jxf28.c

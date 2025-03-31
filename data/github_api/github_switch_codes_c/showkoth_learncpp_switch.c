@@ -1,6 +1,3 @@
-// Repository: showkoth/learncpp
-// File: switch.c
-
 // Program to create a simple calculator
 #include <stdio.h>
 

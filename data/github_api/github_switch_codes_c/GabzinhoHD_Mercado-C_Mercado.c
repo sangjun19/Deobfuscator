@@ -1,6 +1,3 @@
-// Repository: GabzinhoHD/Mercado-C
-// File: Mercado.c
-
 #include <stdio.h>
 #include <string.h>
 

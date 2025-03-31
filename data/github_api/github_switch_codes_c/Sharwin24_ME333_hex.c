@@ -1,6 +1,3 @@
-// Repository: Sharwin24/ME333
-// File: embedded_computing_code/EXTRA_Bootloader/common/hex.c
-
 #ifndef  HEX_FILE_H
 #include "hex.h"
 #endif

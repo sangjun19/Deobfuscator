@@ -1,6 +1,3 @@
-// Repository: calamity-inc/GTA-V-Decompiled-Scripts
-// File: decompiled_scripts/gpb_zombie.c
-
 #region Local Var
 	var uLocal_0 = 0;
 	var uLocal_1 = 0;

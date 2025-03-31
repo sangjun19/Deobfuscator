@@ -1,6 +1,3 @@
-// Repository: dtzWill/xserver_webos
-// File: hw/xfree86/dixmods/extmod/xf86vmode.c
-
 
 /*
 

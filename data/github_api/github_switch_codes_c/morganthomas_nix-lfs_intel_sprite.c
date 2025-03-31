@@ -1,6 +1,3 @@
-// Repository: morganthomas/nix-lfs
-// File: src/linux-5.8.3/drivers/gpu/drm/i915/display/intel_sprite.c
-
 /*
  * Copyright © 2011 Intel Corporation
  *

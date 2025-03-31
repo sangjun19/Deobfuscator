@@ -1,6 +1,3 @@
-// Repository: mattn/C-win32
-// File: C.c
-
 /* 
  * $Id: C.c,v 1.21 2006/05/19 05:18:41 labskazuho Exp $
  * 

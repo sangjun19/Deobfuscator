@@ -1,6 +1,3 @@
-// Repository: xioTechnologies/x-IMU3-Thermometer
-// File: Firmware/src/x-io-PIC32-Library/I2C/I2C2.c
-
 /**
  * @file I2C2.c
  * @author Seb Madgwick

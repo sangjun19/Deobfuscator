@@ -1,6 +1,3 @@
-// Repository: aferrero2707/PhotoFlow
-// File: src/external/lensfun/libs/getopt/getopt.c
-
 /* Getopt for GNU.
    NOTE: getopt is now part of the C library, so if you don't know what
    "Keep this file name-space clean" means, talk to roland@gnu.ai.mit.edu

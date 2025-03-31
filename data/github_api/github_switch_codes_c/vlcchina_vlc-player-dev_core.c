@@ -1,6 +1,3 @@
-// Repository: vlcchina/vlc-player-dev
-// File: src/config/core.c
-
 /*****************************************************************************
  * core.c management of the modules configuration
  *****************************************************************************

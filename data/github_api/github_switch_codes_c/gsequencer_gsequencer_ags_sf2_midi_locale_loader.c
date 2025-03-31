@@ -1,6 +1,3 @@
-// Repository: gsequencer/gsequencer
-// File: ags/audio/thread/ags_sf2_midi_locale_loader.c
-
 /* GSequencer - Advanced GTK Sequencer
  * Copyright (C) 2005-2024 Joël Krähemann
  *

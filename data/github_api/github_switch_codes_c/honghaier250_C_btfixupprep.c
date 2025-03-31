@@ -1,6 +1,3 @@
-// Repository: honghaier250/C
-// File: net/tcp/linux-2.6.26/arch/sparc/boot/btfixupprep.c
-
 /*
    Simple utility to prepare vmlinux image for sparc.
    Resolves all BTFIXUP uses and settings and creates

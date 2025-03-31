@@ -1,6 +1,3 @@
-// Repository: Gstavo/LI3_GZT
-// File: avl.c
-
 #include <stdio.h>
 #include <string.h>
 #include <errno.h>

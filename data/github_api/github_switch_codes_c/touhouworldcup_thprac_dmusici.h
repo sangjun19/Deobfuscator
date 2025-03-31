@@ -1,6 +1,3 @@
-// Repository: touhouworldcup/thprac
-// File: thprac/src/3rdParties/d3d8/include/dmusici.h
-
 /************************************************************************
 *                                                                       *
 *   dmusici.h -- This module contains the API for the                   *

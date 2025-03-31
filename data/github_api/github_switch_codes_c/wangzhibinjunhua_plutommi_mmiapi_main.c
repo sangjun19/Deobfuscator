@@ -1,6 +1,3 @@
-// Repository: wangzhibinjunhua/plutommi
-// File: MtkApp/mmiapi/src/mmiapi_main.c
-
 /*****************************************************************************
 *  Copyright Statement:
 *  --------------------

@@ -1,6 +1,3 @@
-// Repository: latte-dev/android_kernel_xiaomi_latte
-// File: mm/shmem.c
-
 /*
  * Resizable virtual memory filesystem for Linux.
  *

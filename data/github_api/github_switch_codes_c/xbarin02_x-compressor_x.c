@@ -1,6 +1,3 @@
-// Repository: xbarin02/x-compressor
-// File: x.c
-
 #define _POSIX_C_SOURCE 2
 #include <stddef.h>
 #include <stdio.h>

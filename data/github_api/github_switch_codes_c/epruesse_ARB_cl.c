@@ -1,6 +1,3 @@
-// Repository: epruesse/ARB
-// File: GDE/PHYML20130708/phyml/src/cl.c
-
 /*
 
 PhyML:  a program that  computes maximum likelihood phyLOGenies from

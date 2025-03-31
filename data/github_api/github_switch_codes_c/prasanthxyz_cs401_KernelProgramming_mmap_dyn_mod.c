@@ -1,6 +1,3 @@
-// Repository: prasanthxyz/cs401_KernelProgramming
-// File: ex7_mmap_sharing/mmap_dyn_mod.c
-
 #include <linux/module.h>
 #include <linux/kernel.h>
 #include <linux/init.h> 

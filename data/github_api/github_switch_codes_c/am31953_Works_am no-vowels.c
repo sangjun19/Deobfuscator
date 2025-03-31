@@ -1,6 +1,3 @@
-// Repository: am31953/Works
-// File: am no-vowels.c
-
 // Write a function to replace vowels with numbers
 // Get practice with strings
 // Get practice with command line

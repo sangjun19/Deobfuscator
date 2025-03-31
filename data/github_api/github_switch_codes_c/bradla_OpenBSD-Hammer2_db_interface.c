@@ -1,6 +1,3 @@
-// Repository: bradla/OpenBSD-Hammer2
-// File: sys/arch/arm/arm/db_interface.c
-
 /*	$OpenBSD: db_interface.c,v 1.7 2013/04/30 11:50:47 patrick Exp $	*/
 /*	$NetBSD: db_interface.c,v 1.34 2003/10/26 23:11:15 chris Exp $	*/
 

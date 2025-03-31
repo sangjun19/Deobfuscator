@@ -1,6 +1,3 @@
-// Repository: zhangdaiyan/my-allwinner-ics_linux-3.0
-// File: drivers/net/wireless/rtl8723as/hal/rtl8723a/usb/rtl8723au_led.c
-
 /******************************************************************************
  *
  * Copyright(c) 2007 - 2011 Realtek Corporation. All rights reserved.

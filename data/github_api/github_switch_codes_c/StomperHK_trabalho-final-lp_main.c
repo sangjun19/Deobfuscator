@@ -1,6 +1,3 @@
-// Repository: StomperHK/trabalho-final-lp
-// File: main.c
-
 /*
 Disciplina: Linguagem de Programação C
 

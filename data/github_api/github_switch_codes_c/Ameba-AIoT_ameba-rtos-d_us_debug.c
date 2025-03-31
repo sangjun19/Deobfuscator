@@ -1,6 +1,3 @@
-// Repository: Ameba-AIoT/ameba-rtos-d
-// File: component/common/drivers/usb/host_old/msc/src/us_debug.c
-
 #include <platform_opts.h>
 
 #ifdef CONFIG_USBH_MSC

@@ -1,6 +1,3 @@
-// Repository: UBERTC/binutils
-// File: gdb/frame.c
-
 /* Cache and manage frames for GDB, the GNU debugger.
 
    Copyright (C) 1986-2016 Free Software Foundation, Inc.

@@ -1,6 +1,3 @@
-// Repository: cloudius-systems/acpica
-// File: source/components/resources/rscreate.c
-
 /*******************************************************************************
  *
  * Module Name: rscreate - Create resource lists/tables

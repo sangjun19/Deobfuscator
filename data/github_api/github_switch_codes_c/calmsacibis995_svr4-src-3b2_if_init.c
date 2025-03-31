@@ -1,6 +1,3 @@
-// Repository: calmsacibis995/svr4-src-3b2
-// File: usr/src/cmd/fmli/oh/if_init.c
-
 /*	Copyright (c) 1984, 1986, 1987, 1988, 1989 AT&T	*/
 /*	  All Rights Reserved  	*/
 

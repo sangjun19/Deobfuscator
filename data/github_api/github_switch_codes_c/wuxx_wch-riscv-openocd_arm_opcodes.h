@@ -1,6 +1,3 @@
-// Repository: wuxx/wch-riscv-openocd
-// File: riscv-openocd/src/target/arm_opcodes.h
-
 /*
  * Copyright (C) 2005 by Dominic Rath
  * Dominic.Rath@gmx.de

@@ -1,6 +1,3 @@
-// Repository: Aqua-CAF/hardware_qcom_audio-caf-msm8996
-// File: post_proc/bundle.c
-
 /*
  * Copyright (c) 2013-2017, The Linux Foundation. All rights reserved.
  * Not a Contribution.

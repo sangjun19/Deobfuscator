@@ -1,6 +1,3 @@
-// Repository: SamWeeseCV/UDK2010_Search
-// File: MdePkg/Library/BaseLib/Math64.c
-
 /** @file
   Leaf math worker functions that require 64-bit arithmetic support from the
   compiler.

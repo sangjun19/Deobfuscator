@@ -1,6 +1,3 @@
-// Repository: rbernon/wine
-// File: dlls/user32/menu.c
-
 /*
  * Menu functions
  *

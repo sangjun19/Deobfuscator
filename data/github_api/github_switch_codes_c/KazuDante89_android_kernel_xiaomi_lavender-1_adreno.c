@@ -1,6 +1,3 @@
-// Repository: KazuDante89/android_kernel_xiaomi_lavender-1
-// File: drivers/gpu/msm/adreno.c
-
 /* Copyright (c) 2002,2007-2019, The Linux Foundation. All rights reserved.
  *
  * This program is free software; you can redistribute it and/or modify

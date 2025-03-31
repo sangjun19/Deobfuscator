@@ -1,6 +1,3 @@
-// Repository: James4Ever0/pyjom
-// File: .git-rewrite/t/externals/ffmpeg/libavfilter/f_drawgraph.c
-
 /*
  * Copyright (c) 2015 Paul B Mahol
  *

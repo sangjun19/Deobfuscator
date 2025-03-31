@@ -1,6 +1,3 @@
-// Repository: sirgatez/Android-Froyo-Kernel-Source-v2.6.32.9
-// File: arch/arm/mach-s5pv210/max8998_consumer.c
-
 /*
  *  linux/arch/arm/plat-s5pc11x/max8998_consumer.c
  *

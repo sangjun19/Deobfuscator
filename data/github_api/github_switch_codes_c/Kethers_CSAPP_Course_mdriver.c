@@ -1,6 +1,3 @@
-// Repository: Kethers/CSAPP_Course
-// File: Labs/8_MallocLab/malloclab-handout/mdriver.c
-
 /*
  * mdriver.c - CS:APP Malloc Lab Driver
  * 

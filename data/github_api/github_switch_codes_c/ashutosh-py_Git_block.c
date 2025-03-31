@@ -1,6 +1,3 @@
-// Repository: ashutosh-py/Git
-// File: reftable/block.c
-
 /*
 Copyright 2020 Google LLC
 

@@ -1,6 +1,3 @@
-// Repository: jcaesar/openclonk
-// File: planet/Decoration.ocd/Room.ocd/Switch.ocd/Script.c
-
 /*-- Switch --*/
 
 #include Library_Switch

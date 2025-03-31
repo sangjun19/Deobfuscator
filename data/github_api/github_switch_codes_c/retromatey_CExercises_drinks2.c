@@ -1,6 +1,3 @@
-// Repository: retromatey/CExercises
-// File: HeadFirstC/Chapter07/drinks2.c
-
 #include <stdio.h>
 #include <stdarg.h>
 

@@ -1,6 +1,3 @@
-// Repository: tremb1e/linux-3.10.0-1160.el7
-// File: drivers/usb/serial/usb_wwan.c
-
 // SPDX-License-Identifier: GPL-2.0
 /*
   USB Driver layer for GSM modems

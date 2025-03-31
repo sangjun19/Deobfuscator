@@ -1,6 +1,3 @@
-// Repository: jcadduono/android_kernel_lge_msm8996-caf
-// File: drivers/slimbus/slim-msm-ngd.c
-
 /* Copyright (c) 2011-2016, The Linux Foundation. All rights reserved.
  *
  * This program is free software; you can redistribute it and/or modify

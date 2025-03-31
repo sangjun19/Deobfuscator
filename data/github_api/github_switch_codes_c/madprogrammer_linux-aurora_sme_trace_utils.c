@@ -1,6 +1,3 @@
-// Repository: madprogrammer/linux-aurora
-// File: modules/wifi/apm/unifi-linux/lib_sme/common/sme_trace/sme_trace_utils.c
-
 /* Tag: noCheckHeader */
 
 /*    CONFIDENTIAL */

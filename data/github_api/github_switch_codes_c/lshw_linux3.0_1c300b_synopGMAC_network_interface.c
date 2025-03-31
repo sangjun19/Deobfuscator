@@ -1,6 +1,3 @@
-// Repository: lshw/linux3.0_1c300b
-// File: drivers/net/loongson/gmac/synopGMAC_network_interface.c
-
 /** \file
  * This is the network dependent layer to handle network related functionality.
  * This file is tightly coupled to neworking frame work of linux 2.6.xx kernel.

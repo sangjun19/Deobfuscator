@@ -1,6 +1,3 @@
-// Repository: mgregory22/tx81z-programmer
-// File: src/dlg/keynav.c
-
 /*
  * keynav.c - keyboard navigation routines
  *

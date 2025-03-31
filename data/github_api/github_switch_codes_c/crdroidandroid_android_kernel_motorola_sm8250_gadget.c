@@ -1,6 +1,3 @@
-// Repository: crdroidandroid/android_kernel_motorola_sm8250
-// File: drivers/usb/dwc3/gadget.c
-
 // SPDX-License-Identifier: GPL-2.0
 /*
  * gadget.c - DesignWare USB3 DRD Controller Gadget Framework Link

@@ -1,6 +1,3 @@
-// Repository: chriskmanx/qmole
-// File: QMOLEDEV/xterm-270/print.c
-
 /* $XTermId: print.c,v 1.123 2011/04/17 19:45:14 tom Exp $ */
 
 /************************************************************

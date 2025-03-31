@@ -1,6 +1,3 @@
-// Repository: mathiasvr/silabs-8051-sdk
-// File: examples/EFM8SB2_SLSTK2011A/PCA/Peripheral_Driver/Lib_FrequencyOutput/src/PCA_Lib_FrequencyOutput.c
-
 //-----------------------------------------------------------------------------
 // PCA_Lib_FrequencyOutput.c
 //-----------------------------------------------------------------------------

@@ -1,6 +1,3 @@
-// Repository: tuan-hoang1/s390-tools-old
-// File: libutil/util_file.c
-
 /*
  * util - Utility function library
  *

@@ -1,6 +1,3 @@
-// Repository: gitpan/Git-XS
-// File: xs/libgit2/src/win32/posix_w32.c
-
 /*
  * Copyright (C) 2009-2011 the libgit2 contributors
  *

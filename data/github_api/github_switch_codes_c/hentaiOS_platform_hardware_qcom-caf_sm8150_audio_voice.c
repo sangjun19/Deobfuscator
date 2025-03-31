@@ -1,6 +1,3 @@
-// Repository: hentaiOS/platform_hardware_qcom-caf_sm8150_audio
-// File: hal/voice.c
-
 /*
  * Copyright (c) 2013-2019, The Linux Foundation. All rights reserved.
  * Not a contribution.

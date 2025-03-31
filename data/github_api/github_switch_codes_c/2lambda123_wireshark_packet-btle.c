@@ -1,6 +1,3 @@
-// Repository: 2lambda123/wireshark
-// File: epan/dissectors/packet-btle.c
-
 /* packet-btle.c
  * Routines for Bluetooth Low Energy Link Layer dissection
  * https://www.bluetooth.org/Technical/Specifications/adopted.htm

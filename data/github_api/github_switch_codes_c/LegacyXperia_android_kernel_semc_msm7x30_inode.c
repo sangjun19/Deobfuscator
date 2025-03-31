@@ -1,6 +1,3 @@
-// Repository: LegacyXperia/android_kernel_semc_msm7x30
-// File: fs/ext4/inode.c
-
 /*
  *  linux/fs/ext4/inode.c
  *

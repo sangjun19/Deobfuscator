@@ -1,6 +1,3 @@
-// Repository: zfsrogue/freebsd-crypto
-// File: sys/dev/tws/tws_cam.c
-
 /*
  * Copyright (c) 2010 LSI Corp. 
  * All rights reserved.

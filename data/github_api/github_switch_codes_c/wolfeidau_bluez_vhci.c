@@ -1,6 +1,3 @@
-// Repository: wolfeidau/bluez
-// File: emulator/vhci.c
-
 /*
  *
  *  BlueZ - Bluetooth protocol stack for Linux

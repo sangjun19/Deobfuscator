@@ -1,6 +1,3 @@
-// Repository: Plan9-Archive/sysfromiso-ron
-// File: sys/src/games/life.c
-
 /*
  * life - john conways's game of life (and variations),
  * sci. am. 223, october 1970, pp. 120—123, or

@@ -1,6 +1,3 @@
-// Repository: bazzite-org/mesa
-// File: src/gallium/frontends/va/context.c
-
 /**************************************************************************
  *
  * Copyright 2010 Thomas Balling Sørensen & Orasanu Lucian.

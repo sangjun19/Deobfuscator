@@ -1,6 +1,3 @@
-// Repository: gdestuynder/OpenLDAP
-// File: libraries/libldap/schema.c
-
 /* $OpenLDAP$ */
 /* This work is part of OpenLDAP Software <http://www.openldap.org/>.
  *

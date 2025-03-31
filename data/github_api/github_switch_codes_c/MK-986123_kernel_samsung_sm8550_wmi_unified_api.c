@@ -1,6 +1,3 @@
-// Repository: MK-986123/kernel_samsung_sm8550
-// File: drivers/staging/qca-wifi-host-cmn/wmi/src/wmi_unified_api.c
-
 /*
  * Copyright (c) 2016-2021 The Linux Foundation. All rights reserved.
  * Copyright (c) 2021-2022 Qualcomm Innovation Center, Inc. All rights reserved.

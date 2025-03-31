@@ -1,6 +1,3 @@
-// Repository: kspalaiologos/aoc2024
-// File: a.h
-
 
 #ifndef _A_H
 #define _A_H

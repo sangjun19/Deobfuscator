@@ -1,6 +1,3 @@
-// Repository: nxp-qoriq/ls1043a-uefi
-// File: MdePkg/Library/BaseLib/Math64.c
-
 /** @file
   Leaf math worker functions that require 64-bit arithmetic support from the
   compiler.

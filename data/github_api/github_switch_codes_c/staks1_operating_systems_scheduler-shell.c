@@ -1,6 +1,3 @@
-// Repository: staks1/operating_systems
-// File: EX4_OS/A1.2/scheduler-shell.c
-
 #include <assert.h>
 #include <errno.h>
 #include <signal.h>

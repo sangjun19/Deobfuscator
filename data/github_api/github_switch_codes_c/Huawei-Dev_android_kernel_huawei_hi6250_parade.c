@@ -1,6 +1,3 @@
-// Repository: Huawei-Dev/android_kernel_huawei_hi6250
-// File: drivers/devkit/tpkit/panel/parade/parade.c
-
 #include <linux/kernel.h>
 #include <linux/module.h>
 #include <linux/slab.h>

@@ -1,6 +1,3 @@
-// Repository: deepin-community/git
-// File: reftable/block.c
-
 /*
 Copyright 2020 Google LLC
 

@@ -1,6 +1,3 @@
-// Repository: msruan/estrutura_2023.2
-// File: G_pilhas&filas/bianca/9.c
-
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>

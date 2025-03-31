@@ -1,6 +1,3 @@
-// Repository: RainbowMango/RediSearchComments
-// File: RediSearch-1.1.0/src/dep/snowball/src_c/stem_ISO_8859_1_danish.c
-
 /* This file was generated automatically by the Snowball to ISO C compiler */
 /* http://snowballstem.org/ */
 

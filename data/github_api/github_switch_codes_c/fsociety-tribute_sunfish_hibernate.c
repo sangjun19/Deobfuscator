@@ -1,6 +1,3 @@
-// Repository: fsociety-tribute/sunfish
-// File: kernel/power/hibernate.c
-
 /*
  * kernel/power/hibernate.c - Hibernation (a.k.a suspend-to-disk) support.
  *

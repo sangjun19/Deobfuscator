@@ -1,6 +1,3 @@
-// Repository: keboliu/sonic-linux-kernel-repo
-// File: tools/perf/util/vdso.c
-
 // SPDX-License-Identifier: GPL-2.0
 #include <errno.h>
 #include <unistd.h>

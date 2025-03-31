@@ -1,6 +1,3 @@
-// Repository: Hengle/windows_2000_source_code
-// File: windows_2000_source_code/win2k/private/shell/lib/dump.c
-
 //
 // Debug dump functions for common ADTs
 //

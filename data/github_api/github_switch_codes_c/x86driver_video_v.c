@@ -1,6 +1,3 @@
-// Repository: x86driver/video
-// File: v.c
-
 /*
  *  V4L2 video capture example
  *

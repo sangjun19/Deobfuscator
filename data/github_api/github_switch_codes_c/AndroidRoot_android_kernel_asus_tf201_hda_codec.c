@@ -1,6 +1,3 @@
-// Repository: AndroidRoot/android_kernel_asus_tf201
-// File: sound/pci/hda/hda_codec.c
-
 /*
  * Universal Interface for Intel High Definition Audio Codec
  *

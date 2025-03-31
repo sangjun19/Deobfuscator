@@ -1,6 +1,3 @@
-// Repository: Khalvat-M/kernel_samsung_msm8974
-// File: mm/migrate.c
-
 /*
  * Memory Migration functionality - linux/mm/migration.c
  *

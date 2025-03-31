@@ -1,6 +1,3 @@
-// Repository: sghiassy/Code-Reading-Book
-// File: netbsdsrc/usr.sbin/amd/amd/amq_svc.c
-
 /*
  * Copyright (c) 1997 Erez Zadok
  * Copyright (c) 1990 Jan-Simon Pendry

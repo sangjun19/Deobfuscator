@@ -1,6 +1,3 @@
-// Repository: yolanother/mupdf
-// File: pdf/base_object.c
-
 #include "fitz-internal.h"
 #include "mupdf-internal.h"
 

@@ -1,6 +1,3 @@
-// Repository: pgwipeout/xr500-firmware
-// File: src/git_home/linux.git/sourcecode/arch/arm/mm/mmu.c
-
 /*
  *  linux/arch/arm/mm/mmu.c
  *

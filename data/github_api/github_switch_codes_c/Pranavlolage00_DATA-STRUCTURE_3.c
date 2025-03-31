@@ -1,6 +1,3 @@
-// Repository: Pranavlolage00/DATA-STRUCTURE
-// File: 3.c
-
 #include<stdio.h>
 #include<stdlib.h>
 #include<ctype.h>

@@ -1,6 +1,3 @@
-// Repository: konrad-gajdus/donut
-// File: donut.c
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

@@ -1,6 +1,3 @@
-// Repository: xplodwild/android_kernel_asus_tf300t
-// File: sound/pci/hda/hda_codec.c
-
 /*
  * Universal Interface for Intel High Definition Audio Codec
  *

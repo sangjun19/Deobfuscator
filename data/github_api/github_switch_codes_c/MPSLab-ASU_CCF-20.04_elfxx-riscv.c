@@ -1,6 +1,3 @@
-// Repository: MPSLab-ASU/CCF-20.04
-// File: llvm-project/binutils/bfd/elfxx-riscv.c
-
 /* RISC-V-specific support for ELF.
    Copyright (C) 2011-2021 Free Software Foundation, Inc.
 

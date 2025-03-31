@@ -1,6 +1,3 @@
-// Repository: crash-python/gdb-python
-// File: bfd/coffgen.c
-
 /* Support for the generic parts of COFF, for BFD.
    Copyright (C) 1990-2019 Free Software Foundation, Inc.
    Written by Cygnus Support.

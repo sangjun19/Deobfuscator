@@ -1,6 +1,3 @@
-// Repository: quintanar401/q2c
-// File: k.h
-
 #ifndef KX
 #define KX
 typedef char*S,C;typedef unsigned char G;typedef short H;typedef int I;typedef long long J;typedef float E;typedef double F;typedef void V;

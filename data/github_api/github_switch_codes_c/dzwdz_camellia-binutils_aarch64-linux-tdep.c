@@ -1,6 +1,3 @@
-// Repository: dzwdz/camellia-binutils
-// File: gdb/aarch64-linux-tdep.c
-
 /* Target-dependent code for GNU/Linux AArch64.
 
    Copyright (C) 2009-2023 Free Software Foundation, Inc.

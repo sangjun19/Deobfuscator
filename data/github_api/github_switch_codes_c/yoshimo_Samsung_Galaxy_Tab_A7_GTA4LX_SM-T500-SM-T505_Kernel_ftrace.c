@@ -1,6 +1,3 @@
-// Repository: yoshimo/Samsung_Galaxy_Tab_A7_GTA4LX_SM-T500-SM-T505_Kernel
-// File: kernel/trace/ftrace.c
-
 // SPDX-License-Identifier: GPL-2.0
 /*
  * Infrastructure for profiling code inserted by 'gcc -pg'.

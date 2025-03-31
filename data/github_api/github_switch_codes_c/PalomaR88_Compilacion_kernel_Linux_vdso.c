@@ -1,6 +1,3 @@
-// Repository: PalomaR88/Compilacion_kernel_Linux
-// File: linux-source-4.19/tools/perf/util/vdso.c
-
 // SPDX-License-Identifier: GPL-2.0
 #include <errno.h>
 #include <unistd.h>

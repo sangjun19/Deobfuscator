@@ -1,6 +1,3 @@
-// Repository: Hengle/windows_nt_3_5_source_code
-// File: windows_nt_3_5_source_code/NT-782/PRIVATE/NTOS/VIDEO/CIRRUS/CIRRUS.H
-
 /*++
 
 Copyright (c) 1992  Microsoft Corporation

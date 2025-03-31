@@ -1,6 +1,3 @@
-// Repository: fallfish/zapraid
-// File: zapraid_spdk/lib/json/json_parse.c
-
 /*   SPDX-License-Identifier: BSD-3-Clause
  *   Copyright (c) Intel Corporation.
  *   All rights reserved.

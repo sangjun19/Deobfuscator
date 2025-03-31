@@ -1,6 +1,3 @@
-// Repository: AutFeng/ArmPro-Basic
-// File: toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/perf_event.h
-
 /****************************************************************************
  ****************************************************************************
  ***

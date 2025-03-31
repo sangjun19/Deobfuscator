@@ -1,6 +1,3 @@
-// Repository: JHRobotics/mesa9x
-// File: mesa-25.0.x/src/gallium/frontends/va/context.c
-
 /**************************************************************************
  *
  * Copyright 2010 Thomas Balling Sørensen & Orasanu Lucian.

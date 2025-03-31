@@ -1,6 +1,3 @@
-// Repository: mvaisakh/msm-4.9
-// File: drivers/iommu/arm-smmu.c
-
 /*
  * IOMMU API for ARM architected SMMU implementations.
  *

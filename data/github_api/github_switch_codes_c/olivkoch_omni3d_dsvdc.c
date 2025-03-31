@@ -1,6 +1,3 @@
-// Repository: olivkoch/omni3d
-// File: src/math/linear/dsvdc.c
-
 /* dsvdc.f -- translated by f2c (version of 23 January 1990  9:30:25).
    You must link the resulting object file with the libraries:
 	-lF77 -lI77 -lm -lc   (in that order)

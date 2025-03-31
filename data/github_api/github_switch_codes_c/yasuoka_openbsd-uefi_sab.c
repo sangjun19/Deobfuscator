@@ -1,6 +1,3 @@
-// Repository: yasuoka/openbsd-uefi
-// File: src/sys/arch/sparc64/dev/sab.c
-
 /*	$OpenBSD: sab.c,v 1.31 2013/05/30 16:15:01 deraadt Exp $	*/
 
 /*

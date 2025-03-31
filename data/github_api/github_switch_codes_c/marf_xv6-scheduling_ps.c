@@ -1,6 +1,3 @@
-// Repository: marf/xv6-scheduling
-// File: lab_scheduling/end/ps.c
-
 #include "types.h"
 #include "stat.h"
 #include "user.h"

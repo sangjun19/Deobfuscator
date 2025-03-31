@@ -1,6 +1,3 @@
-// Repository: Kron4ek/wine-tkg
-// File: dlls/user32/menu.c
-
 /*
  * Menu functions
  *

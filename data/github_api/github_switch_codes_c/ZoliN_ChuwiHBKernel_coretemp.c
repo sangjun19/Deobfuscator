@@ -1,6 +1,3 @@
-// Repository: ZoliN/ChuwiHBKernel
-// File: drivers/hwmon/coretemp.c
-
 /*
  * coretemp.c - Linux kernel module for hardware monitoring
  *

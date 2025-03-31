@@ -1,6 +1,3 @@
-// Repository: false-schemers/skint
-// File: n.c
-
 /* n.c -- generated via skint nsf2c.ssc n.sf */
 
 #include "s.h"

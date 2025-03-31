@@ -1,6 +1,3 @@
-// Repository: tianxiaofan/ffmpegLearn
-// File: ffmpegL/tools/ffmpeg/libavformat/mpc8.c
-
 /*
  * Musepack SV8 demuxer
  * Copyright (c) 2007 Konstantin Shishkov

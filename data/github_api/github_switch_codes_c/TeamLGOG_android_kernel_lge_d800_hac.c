@@ -1,6 +1,3 @@
-// Repository: TeamLGOG/android_kernel_lge_d800
-// File: sound/soc/sh/hac.c
-
 /*
  * Hitachi Audio Controller (AC97) support for SH7760/SH7780
  *

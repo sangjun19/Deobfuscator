@@ -1,6 +1,3 @@
-// Repository: thomhastings/linux-3.17.1-parrot
-// File: drivers/block/drbd/drbd_main.c
-
 /*
    drbd.c
 

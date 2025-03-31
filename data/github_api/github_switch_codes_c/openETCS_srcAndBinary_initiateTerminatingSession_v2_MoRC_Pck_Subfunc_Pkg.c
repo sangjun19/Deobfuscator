@@ -1,6 +1,3 @@
-// Repository: openETCS/srcAndBinary
-// File: GreenDemonstrator/src/OBU/Generated_Code/KCG-ERSA/initiateTerminatingSession_v2_MoRC_Pck_Subfunc_Pkg.c
-
 /* $**************** KCG Version 6.4 (build i21) ****************
 ** Command: kcg64.exe -config R:/Repositories/modeling/model/Scade/System/OBU_PreIntegrations/Demonstrators/ERSA_EVC_Testrunner/config.txt
 ** Generation date: 2015-12-10T15:16:02

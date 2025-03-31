@@ -1,6 +1,3 @@
-// Repository: AmineKhaldi/mbedtls-cleanup
-// File: dlls/msxml3/stylesheet.c
-
 /*
  *    XSLTemplate/XSLProcessor support
  *

@@ -1,6 +1,3 @@
-// Repository: tassiovale/spltrac
-// File: preprocessor_projects/xorg-server-1.19.3/source/hw/xfree86/dixmods/extmod/xf86vmode.c
-
 
 /*
 

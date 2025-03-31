@@ -1,6 +1,3 @@
-// Repository: jayeshbhandarkar/Data-Structures-and-Algorithms
-// File: q.c
-
 #include<stdio.h>
 #include<stdlib.h>
 #define max 5

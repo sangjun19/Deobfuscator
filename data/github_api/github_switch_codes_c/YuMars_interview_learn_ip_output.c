@@ -1,6 +1,3 @@
-// Repository: YuMars/interview_learn
-// File: 00-Interview-源码/xnu-xnu-8792.81.2(注释)/bsd/netinet/ip_output.c
-
 /*
  * Copyright (c) 2000-2021 Apple Inc. All rights reserved.
  *

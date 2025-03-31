@@ -1,6 +1,3 @@
-// Repository: architt12/CAL
-// File: CALCULATOR.C
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

@@ -1,6 +1,3 @@
-// Repository: lucasz93/WinOFED
-// File: ulp/opensm/user/opensm/st.c
-
 /*
  * Copyright (c) 2004-2006 Voltaire, Inc. All rights reserved.
  * Copyright (c) 2002-2006 Mellanox Technologies LTD. All rights reserved.

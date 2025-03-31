@@ -1,6 +1,3 @@
-// Repository: easion/os_sdk
-// File: ash-0.2/parser.c
-
 /*-
  * Copyright (c) 1991 The Regents of the University of California.
  * All rights reserved.

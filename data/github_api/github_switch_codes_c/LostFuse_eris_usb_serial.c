@@ -1,6 +1,3 @@
-// Repository: LostFuse/eris
-// File: usb_serial.c
-
 #include "usb_serial.h"
 
 #include "nrf_log.h"

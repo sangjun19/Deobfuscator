@@ -1,6 +1,3 @@
-// Repository: vidyav2/WorldModels_2.0
-// File: git/reftable/block.c
-
 /*
 Copyright 2020 Google LLC
 

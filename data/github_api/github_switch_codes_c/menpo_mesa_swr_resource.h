@@ -1,6 +1,3 @@
-// Repository: menpo/mesa
-// File: src/gallium/drivers/swr/swr_resource.h
-
 /****************************************************************************
  * Copyright (C) 2015 Intel Corporation.   All Rights Reserved.
  *

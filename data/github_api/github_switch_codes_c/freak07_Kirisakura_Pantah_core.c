@@ -1,6 +1,3 @@
-// Repository: freak07/Kirisakura_Pantah
-// File: drivers/usb/dwc3/core.c
-
 // SPDX-License-Identifier: GPL-2.0
 /*
  * core.c - DesignWare USB3 DRD Controller Core file

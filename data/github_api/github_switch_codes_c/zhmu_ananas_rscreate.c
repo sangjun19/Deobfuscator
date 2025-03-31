@@ -1,6 +1,3 @@
-// Repository: zhmu/ananas
-// File: kernel/dev/acpi/acpica/rscreate.c
-
 /*******************************************************************************
  *
  * Module Name: rscreate - Create resource lists/tables

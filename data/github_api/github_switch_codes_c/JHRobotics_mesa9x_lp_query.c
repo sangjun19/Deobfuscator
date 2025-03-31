@@ -1,6 +1,3 @@
-// Repository: JHRobotics/mesa9x
-// File: mesa-23.1.x/src/gallium/drivers/llvmpipe/lp_query.c
-
 /**************************************************************************
  *
  * Copyright 2007 VMware, Inc.

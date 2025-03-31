@@ -1,6 +1,3 @@
-// Repository: shmily1012/linux-zns
-// File: Linux_Kernel/linux-master/drivers/gpu/drm/i915/display/intel_sprite.c
-
 /*
  * Copyright © 2011 Intel Corporation
  *

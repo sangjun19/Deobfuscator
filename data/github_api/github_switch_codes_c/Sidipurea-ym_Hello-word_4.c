@@ -1,6 +1,3 @@
-// Repository: Sidipurea-ym/Hello-word
-// File: 4.c
-
 #include<stdio.h>
 #include<stdlib.h>
 int main()

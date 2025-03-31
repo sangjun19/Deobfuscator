@@ -1,6 +1,3 @@
-// Repository: openthos/oto_external_kernel-drivers
-// File: rtl8812au/hal/btc/halbtc8723b1ant.c
-
 /* ************************************************************
  * Description:
  *

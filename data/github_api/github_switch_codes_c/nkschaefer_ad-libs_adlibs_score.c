@@ -1,6 +1,3 @@
-// Repository: nkschaefer/ad-libs
-// File: src/adlibs_score.c
-
 /**
  Given FASTA files for ancestral population sequences and a "query" individual
  sequence, reads through the sequences in windows and computes scores to be used

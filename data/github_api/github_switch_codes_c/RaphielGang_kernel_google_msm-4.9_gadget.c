@@ -1,6 +1,3 @@
-// Repository: RaphielGang/kernel_google_msm-4.9
-// File: drivers/usb/dwc3/gadget.c
-
 /**
  * gadget.c - DesignWare USB3 DRD Controller Gadget Framework Link
  *

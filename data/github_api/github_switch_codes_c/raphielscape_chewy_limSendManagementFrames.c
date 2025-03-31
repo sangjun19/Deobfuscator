@@ -1,6 +1,3 @@
-// Repository: raphielscape/chewy
-// File: drivers/staging/prima/CORE/MAC/src/pe/lim/limSendManagementFrames.c
-
 /*
  * Copyright (c) 2011-2018 The Linux Foundation. All rights reserved.
  *

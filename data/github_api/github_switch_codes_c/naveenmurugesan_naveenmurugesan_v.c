@@ -1,6 +1,3 @@
-// Repository: naveenmurugesan/naveenmurugesan
-// File: v.c
-
 #include<stdio.h>
 #include<conio.h>
 void main()

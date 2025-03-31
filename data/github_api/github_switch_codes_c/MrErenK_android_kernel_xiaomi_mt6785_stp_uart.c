@@ -1,6 +1,3 @@
-// Repository: MrErenK/android_kernel_xiaomi_mt6785
-// File: drivers/misc/mediatek/connectivity/common/common_main/linux/stp_uart.c
-
 /*
  * Copyright (C) 2016 MediaTek Inc.
  *

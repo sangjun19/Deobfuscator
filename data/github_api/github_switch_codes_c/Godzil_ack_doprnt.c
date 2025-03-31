@@ -1,6 +1,3 @@
-// Repository: Godzil/ack
-// File: lang/cem/libcc/stdio/doprnt.c
-
 /* $Id$ */
 #include <stdio.h>
 #include <varargs.h>

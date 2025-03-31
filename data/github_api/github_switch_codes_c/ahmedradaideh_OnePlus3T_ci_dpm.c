@@ -1,6 +1,3 @@
-// Repository: ahmedradaideh/OnePlus3T
-// File: drivers/gpu/drm/radeon/ci_dpm.c
-
 /*
  * Copyright 2013 Advanced Micro Devices, Inc.
  *

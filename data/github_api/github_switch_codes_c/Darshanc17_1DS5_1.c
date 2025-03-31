@@ -1,6 +1,3 @@
-// Repository: Darshanc17/1DS5
-// File: 1.c
-
 #include <stdio.h>
 #include <conio.h>
  typedef struct distance 

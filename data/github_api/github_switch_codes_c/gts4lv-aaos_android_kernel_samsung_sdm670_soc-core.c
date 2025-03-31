@@ -1,6 +1,3 @@
-// Repository: gts4lv-aaos/android_kernel_samsung_sdm670
-// File: sound/soc/soc-core.c
-
 /*
  * soc-core.c  --  ALSA SoC Audio Layer
  *

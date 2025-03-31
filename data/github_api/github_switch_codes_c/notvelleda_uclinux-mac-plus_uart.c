@@ -1,6 +1,3 @@
-// Repository: notvelleda/uclinux-mac-plus
-// File: uClinux/linux-2.4.x/arch/ppc/8260_io/uart.c
-
 /*
  *  UART driver for MPC8260 CPM SCC or SMC
  *  Copyright (c) 1999 Dan Malek (dmalek@jlc.net)

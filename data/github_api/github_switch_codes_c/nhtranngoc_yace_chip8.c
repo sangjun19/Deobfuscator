@@ -1,6 +1,3 @@
-// Repository: nhtranngoc/yace
-// File: src/chip8.c
-
 #include "chip8.h"
 
 char STOP = 0;

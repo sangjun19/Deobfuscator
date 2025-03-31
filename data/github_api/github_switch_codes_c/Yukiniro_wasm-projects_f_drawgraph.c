@@ -1,6 +1,3 @@
-// Repository: Yukiniro/wasm-projects
-// File: ffmpeg-build-wasm/FFmpeg-n5.1.5/libavfilter/f_drawgraph.c
-
 /*
  * Copyright (c) 2015 Paul B Mahol
  *

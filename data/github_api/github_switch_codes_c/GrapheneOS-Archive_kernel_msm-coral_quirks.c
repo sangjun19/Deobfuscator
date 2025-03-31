@@ -1,6 +1,3 @@
-// Repository: GrapheneOS-Archive/kernel_msm-coral
-// File: drivers/pci/quirks.c
-
 // SPDX-License-Identifier: GPL-2.0
 /*
  *  This file contains work-arounds for many known PCI hardware

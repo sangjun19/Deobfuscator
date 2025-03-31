@@ -1,6 +1,3 @@
-// Repository: SealsPlayground/android_kernel_samsung_exynos9820
-// File: fs/f2fs/sysfs.c
-
 // SPDX-License-Identifier: GPL-2.0
 /*
  * f2fs sysfs interface

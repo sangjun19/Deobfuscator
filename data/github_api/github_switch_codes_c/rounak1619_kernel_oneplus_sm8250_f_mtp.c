@@ -1,6 +1,3 @@
-// Repository: rounak1619/kernel_oneplus_sm8250
-// File: drivers/usb/gadget/function/f_mtp.c
-
 /*
  * Gadget Function Driver for MTP
  *

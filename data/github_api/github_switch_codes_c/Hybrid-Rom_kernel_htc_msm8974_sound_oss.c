@@ -1,6 +1,3 @@
-// Repository: Hybrid-Rom/kernel_htc_msm8974
-// File: sound/core/sound_oss.c
-
 /*
  *  Advanced Linux Sound Architecture
  *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>

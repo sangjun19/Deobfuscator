@@ -1,6 +1,3 @@
-// Repository: morogoku/android_kernel_samsung_universal8890
-// File: net/wireless/reg.c
-
 /*
  * Copyright 2002-2005, Instant802 Networks, Inc.
  * Copyright 2005-2006, Devicescape Software, Inc.

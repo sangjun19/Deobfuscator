@@ -1,6 +1,3 @@
-// Repository: RuNuH/eViL-kernel
-// File: arch/arm/mach-msm/acpuclock-arm11.c
-
 /* arch/arm/mach-msm/acpuclock.c
  *
  * MSM architecture clock driver

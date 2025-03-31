@@ -1,6 +1,3 @@
-// Repository: CSE3320-Spring23/kernel-code
-// File: .backup_do_not_remove/arch/powerpc/kernel/hw_breakpoint.c
-
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
  * HW_breakpoint: a unified kernel/user-space hardware breakpoint facility,

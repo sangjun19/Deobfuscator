@@ -1,6 +1,3 @@
-// Repository: kubesail/linux-raspi-ubuntu-kernel-hirsute
-// File: drivers/gpu/drm/rockchip/dw-mipi-dsi-rockchip.c
-
 // SPDX-License-Identifier: GPL-2.0+
 /*
  * Copyright (C) Fuzhou Rockchip Electronics Co.Ltd

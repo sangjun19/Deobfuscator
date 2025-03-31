@@ -1,6 +1,3 @@
-// Repository: varchild/6dragons4.4
-// File: system/src/monk.c
-
 /****************************************************************************
 *Status: Incomplete.  Est: 95%                                              *
 *                                                                           *

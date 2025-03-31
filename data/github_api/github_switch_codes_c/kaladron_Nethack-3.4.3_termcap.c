@@ -1,6 +1,3 @@
-// Repository: kaladron/Nethack-3.4.3
-// File: win/tty/termcap.c
-
 /*	SCCS Id: @(#)termcap.c	3.4	2000/07/10	*/
 /* Copyright (c) Stichting Mathematisch Centrum, Amsterdam, 1985. */
 /* NetHack may be freely redistributed.  See license for details. */

@@ -1,6 +1,3 @@
-// Repository: moitreyacbx/CodingDsaSem2
-// File: 7.c
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>

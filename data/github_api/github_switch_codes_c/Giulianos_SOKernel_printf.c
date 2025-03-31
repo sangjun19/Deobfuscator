@@ -1,6 +1,3 @@
-// Repository: Giulianos/SOKernel
-// File: Userland/philosophers/stdlib/printf.c
-
 /*
  * Copyright (c) 2004,2012 Kustaa Nyholm / SpareTimeLabs
  *

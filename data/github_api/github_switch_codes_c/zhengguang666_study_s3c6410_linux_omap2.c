@@ -1,6 +1,3 @@
-// Repository: zhengguang666/study_s3c6410_linux
-// File: linux-3.8.3/drivers/mtd/nand/omap2.c
-
 /*
  * Copyright © 2004 Texas Instruments, Jian Zhang <jzhang@ti.com>
  * Copyright © 2004 Micron Technology Inc.

@@ -1,6 +1,3 @@
-// Repository: hoosierEE/b
-// File: c.h
-
 typedef unsigned char C,*S,*K;typedef int I;typedef long J;typedef double F;typedef void V;V*memcpy();J strlen(const char*);
 
 #define R return

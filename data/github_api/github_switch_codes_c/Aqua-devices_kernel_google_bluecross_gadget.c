@@ -1,6 +1,3 @@
-// Repository: Aqua-devices/kernel_google_bluecross
-// File: drivers/usb/dwc3/gadget.c
-
 /**
  * gadget.c - DesignWare USB3 DRD Controller Gadget Framework Link
  *

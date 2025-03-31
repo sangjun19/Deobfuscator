@@ -1,6 +1,3 @@
-// Repository: xBogas/imc-lite
-// File: src/Concurrency/Mutex.c
-
 // ****************************************************************
 // Copyright 2024 Universidade do Porto - Faculdade de Engenharia *
 // Laboratório de Sistemas e Tecnologia Subaquática (LSTS)        *

@@ -1,6 +1,3 @@
-// Repository: abhinav-kayastha/Learning_C
-// File: 3.c
-
 #include <stdio.h>
 
 int main()

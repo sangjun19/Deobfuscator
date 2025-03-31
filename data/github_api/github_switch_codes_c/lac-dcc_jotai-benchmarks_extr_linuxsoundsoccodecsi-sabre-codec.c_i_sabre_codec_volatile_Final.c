@@ -1,6 +1,3 @@
-// Repository: lac-dcc/jotai-benchmarks
-// File: benchmarks/anghaLeaves/extr_linuxsoundsoccodecsi-sabre-codec.c_i_sabre_codec_volatile_Final.c
-
 // ========================================================================= //
 
 // includes

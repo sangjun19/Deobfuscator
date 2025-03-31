@@ -1,6 +1,3 @@
-// Repository: RIAPS/app.IMCP
-// File: DSP_Code/Dg1_local_ram_3MVA/28377_common/driverlib/can.h
-
 //###########################################################################
 //
 // FILE:   can.h

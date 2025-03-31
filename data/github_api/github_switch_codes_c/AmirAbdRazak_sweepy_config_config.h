@@ -1,6 +1,3 @@
-// Repository: AmirAbdRazak/sweepy_config
-// File: keymaps/ryzle/config.h
-
 #pragma once
 // Set the mouse settings to a comfortable speed/accuracy trade-off,
 // assuming a screen refresh rate of 60 Htz or higher

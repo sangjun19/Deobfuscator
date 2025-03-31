@@ -1,6 +1,3 @@
-// Repository: DAAS69/k24-0997
-// File: lab10/Question6.c
-
 #include <stdio.h>
 
 typedef struct travel_packages {

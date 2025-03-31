@@ -1,6 +1,3 @@
-// Repository: PrincetonUniversity/MindPalace
-// File: qemu/hw/mips/jazz.c
-
 /*
  * QEMU MIPS Jazz support
  *

@@ -1,6 +1,3 @@
-// Repository: Microchip-MPLAB-Harmony/crypto_apps_pic32cz_ca9x
-// File: apps/examples/hash/md5/src/config/default/crypto/common_crypto/src/crypto_hash.c
-
 /*******************************************************************************
   MPLAB Harmony Application Source File
 

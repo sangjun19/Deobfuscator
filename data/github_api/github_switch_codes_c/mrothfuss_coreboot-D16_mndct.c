@@ -1,6 +1,3 @@
-// Repository: mrothfuss/coreboot-D16
-// File: coreboot-4.11/src/vendorcode/amd/agesa/f14/Proc/Mem/NB/mndct.c
-
 /* $NoKeywords:$ */
 /**
  * @file

@@ -1,6 +1,3 @@
-// Repository: broadcomCM/android_hardware_broadcom_brcm_usrlib
-// File: dag/vmcsx/middleware/khronos/glxx/glxx_renderbuffer.c
-
 /* ============================================================================
 Copyright (c) 2008-2014, Broadcom Corporation
 All rights reserved.

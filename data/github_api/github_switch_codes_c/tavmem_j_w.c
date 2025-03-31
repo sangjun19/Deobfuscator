@@ -1,6 +1,3 @@
-// Repository: tavmem/j
-// File: w.c
-
 /* Copyright 1990-2011, Jsoftware Inc.  All rights reserved. */
 /* License in license.txt.                                   */
 /*                                                                         */

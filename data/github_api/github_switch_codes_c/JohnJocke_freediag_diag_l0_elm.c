@@ -1,6 +1,3 @@
-// Repository: JohnJocke/freediag
-// File: scantool/diag_l0_elm.c
-
 /*
  *	freediag - Vehicle Diagnostic Utility
  *

@@ -1,6 +1,3 @@
-// Repository: DerTeufel/android_bootable_recovery
-// File: applypatch/applypatch.c
-
 /*
  * Copyright (C) 2008 The Android Open Source Project
  *

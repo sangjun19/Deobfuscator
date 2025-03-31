@@ -1,6 +1,3 @@
-// Repository: patmaddox/test-subtree
-// File: freebsd-src.git/b/main/sys/dev/aacraid/aacraid_debug.c
-
 /*-
  * SPDX-License-Identifier: BSD-2-Clause
  *

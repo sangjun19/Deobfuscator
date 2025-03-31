@@ -1,6 +1,3 @@
-// Repository: das-labor/legacy
-// File: microcontroller/src-atmel/lib/canlib/can.c
-
 #include <avr/io.h>
 #include <avr/interrupt.h>
 #include <util/delay.h>

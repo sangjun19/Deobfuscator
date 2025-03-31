@@ -1,6 +1,3 @@
-// Repository: IIJ-NetBSD/netbsd-src
-// File: sys/kern/subr_device.c
-
 /*	$NetBSD: subr_device.c,v 1.14 2024/08/27 13:44:55 thorpej Exp $	*/
 
 /*

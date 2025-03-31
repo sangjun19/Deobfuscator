@@ -1,6 +1,3 @@
-// Repository: PieterAp/magic-lantern-info
-// File: modules/silent/silent.c
-
 /** Silent pictures **/
 
 #include <module.h>

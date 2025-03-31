@@ -1,6 +1,3 @@
-// Repository: berserkin1337/xv6-public-lab_scheduling
-// File: ps.c
-
 #include "types.h"
 #include "stat.h"
 #include "user.h"

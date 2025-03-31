@@ -1,6 +1,3 @@
-// Repository: lorenz11/LoRaEvaluationProject
-// File: drivers/net/ppp.c
-
 /*
  * Copyright (c) 2019 Intel Corporation
  *

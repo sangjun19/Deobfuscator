@@ -1,6 +1,3 @@
-// Repository: rmnhg/android_sony_kernel
-// File: kernel/sched/fair.c
-
 /*
  * Completely Fair Scheduling (CFS) Class (SCHED_NORMAL/SCHED_BATCH)
  *

@@ -1,6 +1,3 @@
-// Repository: gpuci/mesa
-// File: src/egl/main/eglapi.c
-
 /**************************************************************************
  *
  * Copyright 2008 VMware, Inc.

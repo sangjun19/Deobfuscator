@@ -1,6 +1,3 @@
-// Repository: huawei-mediatek-devs/android_kernel_huawei_mt6765
-// File: drivers/devkit/tpkit/panel/parade/parade.c
-
 #include <linux/kernel.h>
 #include <linux/module.h>
 #include <linux/slab.h>

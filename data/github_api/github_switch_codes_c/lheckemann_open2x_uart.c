@@ -1,6 +1,3 @@
-// Repository: lheckemann/open2x
-// File: kernel/linux-GPH-2.4.25_FW1/arch/ppc/8260_io/uart.c
-
 /*
  *  UART driver for MPC8260 CPM SCC or SMC
  *  Copyright (c) 1999 Dan Malek (dmalek@jlc.net)

@@ -1,6 +1,3 @@
-// Repository: Synwit-Co-Ltd/SWM341_Lib
-// File: SWM341_StdPeriph_Driver/CSL/SWM341_StdPeriph_Driver/SWM341_can.c
-
 /*******************************************************************************************************************************
 * @brief	CAN driver
 *

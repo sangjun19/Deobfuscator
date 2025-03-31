@@ -1,6 +1,3 @@
-// Repository: polarfire-soc/zephyr-archive-Dec-2021
-// File: drivers/net/ppp.c
-
 /*
  * Copyright (c) 2019 Intel Corporation
  *

@@ -1,6 +1,3 @@
-// Repository: Jackeagle/android_kernel_sony_c2305
-// File: drivers/ssb/scan.c
-
 /*
  * Sonics Silicon Backplane
  * Bus scanning

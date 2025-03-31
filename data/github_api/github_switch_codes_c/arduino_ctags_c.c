@@ -1,6 +1,3 @@
-// Repository: arduino/ctags
-// File: c.c
-
 /*
 *   $Id: c.c 689 2008-12-13 21:17:36Z elliotth $
 *

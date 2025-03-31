@@ -1,6 +1,3 @@
-// Repository: GunterMueller/KiR_Kiel.Reduction.Language
-// File: reduma-0.7.0/red/src/rmessage.c
-
 /* $Log: rmessage.c,v $
  * Revision 1.56  1996/07/02  19:03:16  base
  * STORE=0 equivalent to NOSTORE

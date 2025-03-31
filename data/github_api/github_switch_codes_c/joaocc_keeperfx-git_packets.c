@@ -1,6 +1,3 @@
-// Repository: joaocc/keeperfx-git
-// File: keeperfx/src/packets.c
-
 /******************************************************************************/
 // Free implementation of Bullfrog's Dungeon Keeper strategy game.
 /******************************************************************************/

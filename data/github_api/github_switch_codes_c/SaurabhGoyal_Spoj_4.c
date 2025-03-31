@@ -1,6 +1,3 @@
-// Repository: SaurabhGoyal/Spoj
-// File: 4.c
-
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>

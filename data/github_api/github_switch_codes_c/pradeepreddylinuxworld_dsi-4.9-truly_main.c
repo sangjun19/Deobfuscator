@@ -1,6 +1,3 @@
-// Repository: pradeepreddylinuxworld/dsi-4.9-truly
-// File: drivers/net/wireless/ath/wcn36xx/main.c
-
 /*
  * Copyright (c) 2013 Eugene Krasnikov <k.eugene.e@gmail.com>
  *

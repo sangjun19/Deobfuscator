@@ -1,6 +1,3 @@
-// Repository: neomutt/folding
-// File: s.c
-
 /**
  * cb_format_str - Create the string to show in the sidebar
  * @dest:        Buffer in which to save string

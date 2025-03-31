@@ -1,6 +1,3 @@
-// Repository: nicferrier/virtualbox
-// File: src/VBox/Devices/EFI/Firmware/StdLib/EfiSocketLib/Tcp4.c
-
 /** @file
   Implement the TCP4 driver support for the socket layer.
 

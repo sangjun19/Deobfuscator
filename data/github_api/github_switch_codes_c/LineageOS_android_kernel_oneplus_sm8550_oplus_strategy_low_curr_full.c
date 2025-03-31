@@ -1,6 +1,3 @@
-// Repository: LineageOS/android_kernel_oneplus_sm8550
-// File: drivers/power/oplus/v2/strategy/oplus_strategy_low_curr_full.c
-
 // SPDX-License-Identifier: GPL-2.0-only
 /*
  * Copyright (C) 2023-2024 Oplus. All rights reserved.

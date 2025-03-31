@@ -1,6 +1,3 @@
-// Repository: dharamg3/2.6.37-Port
-// File: Kernel/arch/arm/kernel/signal.c
-
 
 /*
  *  linux/arch/arm/kernel/signal.c

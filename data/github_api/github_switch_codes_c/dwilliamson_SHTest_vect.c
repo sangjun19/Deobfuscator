@@ -1,6 +1,3 @@
-// Repository: dwilliamson/SHTest
-// File: Reference/radiance/src/cv/mgflib/vect.c
-
 #ifndef lint
 static const char	RCSid[] = "$Id: vect.c,v 1.3 2003/02/28 20:11:30 greg Exp $";
 #endif

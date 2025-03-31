@@ -1,6 +1,3 @@
-// Repository: SylvainMontagny/STM32L073
-// File: Src/gpio.c
-
 /*
  * peripheral.c
  *

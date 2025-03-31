@@ -1,6 +1,3 @@
-// Repository: fxsheep/cht_kernel
-// File: drivers/video/console/vgacon.c
-
 /*
  *  linux/drivers/video/vgacon.c -- Low level VGA based console driver
  *

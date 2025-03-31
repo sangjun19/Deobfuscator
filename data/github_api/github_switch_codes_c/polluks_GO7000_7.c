@@ -1,6 +1,3 @@
-// Repository: polluks/GO7000
-// File: 7.c
-
 /* $Id$
  * GO7000 Simulator
  * Dedicated to Doris

@@ -1,6 +1,3 @@
-// Repository: LouieHannen/m900_kernel_cupcake-SDX
-// File: linux-2.6.27/drivers/mmc/host/atmel-mci.c
-
 /*
  * Atmel MultiMedia Card Interface driver
  *

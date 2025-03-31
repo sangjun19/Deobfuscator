@@ -1,6 +1,3 @@
-// Repository: mthuurne/garglk
-// File: tads/osansi2.c
-
 /******************************************************************************
  *                                                                            *
  * Copyright (C) 2006-2009 by Tor Andersson.                                  *

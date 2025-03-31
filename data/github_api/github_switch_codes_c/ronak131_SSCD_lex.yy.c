@@ -1,6 +1,3 @@
-// Repository: ronak131/SSCD
-// File: Practical-2/3/lex.yy.c
-
 
 #line 2 "lex.yy.c"
 

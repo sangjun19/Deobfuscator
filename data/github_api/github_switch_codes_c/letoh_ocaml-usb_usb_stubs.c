@@ -1,6 +1,3 @@
-// Repository: letoh/ocaml-usb
-// File: src/usb_stubs.c
-
 /*
  * usb_stubs.c
  * -----------

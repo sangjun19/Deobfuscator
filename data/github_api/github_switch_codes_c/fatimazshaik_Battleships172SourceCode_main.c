@@ -1,6 +1,3 @@
-// Repository: fatimazshaik/Battleships172SourceCode
-// File: main.c
-
 //*****************************************************************************
 //
 // Copyright (C) 2014 Texas Instruments Incorporated - http://www.ti.com/ 

@@ -1,5 +1,5 @@
 // Repository: blueskycoco/embassy
-// File: examples/rp235x/src/bin/debounce.rs
+// File: examples/rp/src/bin/debounce.rs
 
 //! This example shows the ease of debouncing a button with async rust.
 //! Hook up a button or switch between pin 9 and ground.

@@ -1,6 +1,3 @@
-// Repository: srick/cs637-xv6
-// File: mp.c
-
 // Multiprocessor bootstrap.
 // Search memory for MP description structures.
 // http://developer.intel.com/design/pentium/datashts/24201606.pdf

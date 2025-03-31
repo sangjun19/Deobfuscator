@@ -1,6 +1,3 @@
-// Repository: ReaperRoms/kernel_lge_msm8996
-// File: drivers/video/msm/mdss/lge/lge_mdss_dsi_panel.c
-
 /*
  * Copyright(c) 2016, LG Electronics. All rights reserved.
  *

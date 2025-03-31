@@ -1,6 +1,3 @@
-// Repository: gebi/libowfat
-// File: t.c
-
 #include "fmt.h"
 #include "scan.h"
 #include "str.h"

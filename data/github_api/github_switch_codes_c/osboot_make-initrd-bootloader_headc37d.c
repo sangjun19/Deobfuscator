@@ -1,6 +1,3 @@
-// Repository: osboot/make-initrd-bootloader
-// File: linux/drivers/gpu/drm/nouveau/dispnv50/headc37d.c
-
 /*
  * Copyright 2018 Red Hat Inc.
  *

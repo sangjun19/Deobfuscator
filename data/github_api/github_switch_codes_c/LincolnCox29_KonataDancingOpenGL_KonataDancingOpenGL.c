@@ -1,6 +1,3 @@
-// Repository: LincolnCox29/KonataDancingOpenGL
-// File: KonataDancingOpenGL.c
-
 ﻿#define GLEW_STATIC
 #include <GL/glew.h>
 #define GLFW_EXPOSE_NATIVE_WIN32

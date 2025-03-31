@@ -1,6 +1,3 @@
-// Repository: EMGD-Community/xserver-xorg
-// File: hw/xfree86/dixmods/extmod/xf86vmode.c
-
 
 /*
 

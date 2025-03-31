@@ -1,6 +1,3 @@
-// Repository: wanghurui/magic-lantern
-// File: modules/silent/silent.c
-
 /** Silent pictures **/
 
 #include <module.h>

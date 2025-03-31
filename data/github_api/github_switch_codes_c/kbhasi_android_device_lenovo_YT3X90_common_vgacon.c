@@ -1,6 +1,3 @@
-// Repository: kbhasi/android_device_lenovo_YT3X90_common
-// File: kernel/cht/drivers/video/console/vgacon.c
-
 /*
  *  linux/drivers/video/vgacon.c -- Low level VGA based console driver
  *

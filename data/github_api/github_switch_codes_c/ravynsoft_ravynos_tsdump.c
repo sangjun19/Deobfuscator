@@ -1,6 +1,3 @@
-// Repository: ravynsoft/ravynos
-// File: secure/usr.bin/sudo/plugins/sudoers/tsdump.c
-
 /*
  * SPDX-License-Identifier: ISC
  *

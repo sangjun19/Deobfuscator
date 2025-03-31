@@ -1,6 +1,3 @@
-// Repository: ziyan-zhang/linux-5.15-LT
-// File: drivers/hwtracing/coresight/coresight-tmc-etr.c
-
 // SPDX-License-Identifier: GPL-2.0
 /*
  * Copyright(C) 2016 Linaro Limited. All rights reserved.

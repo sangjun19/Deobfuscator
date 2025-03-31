@@ -1,6 +1,3 @@
-// Repository: false-schemers/wcpl
-// File: p.h
-
 /* p.h (wcpl parser) -- esl */
 
 #pragma once

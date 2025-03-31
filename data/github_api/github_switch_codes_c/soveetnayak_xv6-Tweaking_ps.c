@@ -1,6 +1,3 @@
-// Repository: soveetnayak/xv6-Tweaking
-// File: xv6-riscv-spec2/lab_scheduling/end/ps.c
-
 #include "types.h"
 #include "stat.h"
 #include "user.h"

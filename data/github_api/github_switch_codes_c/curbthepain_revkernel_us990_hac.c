@@ -1,6 +1,3 @@
-// Repository: curbthepain/revkernel_us990
-// File: sound/soc/sh/hac.c
-
 /*
  * Hitachi Audio Controller (AC97) support for SH7760/SH7780
  *

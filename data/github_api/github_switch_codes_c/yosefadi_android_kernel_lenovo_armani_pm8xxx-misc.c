@@ -1,6 +1,3 @@
-// Repository: yosefadi/android_kernel_lenovo_armani
-// File: drivers/mfd/pm8xxx-misc.c
-
 /*
  * Copyright (c) 2011-2012, The Linux Foundation. All rights reserved.
  *

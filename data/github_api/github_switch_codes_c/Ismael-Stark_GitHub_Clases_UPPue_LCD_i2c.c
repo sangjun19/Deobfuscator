@@ -1,6 +1,3 @@
-// Repository: Ismael-Stark/GitHub_Clases_UPPue
-// File: Microcontroladores/2021/1_XpressBoard/i2c_LCD_temp_2A.X/LCD_i2c.c
-
 #include "LCD_i2c.h"
 
 void Write_PCF(char dato){

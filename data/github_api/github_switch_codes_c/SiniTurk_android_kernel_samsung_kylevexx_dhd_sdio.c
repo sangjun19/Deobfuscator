@@ -1,6 +1,3 @@
-// Repository: SiniTurk/android_kernel_samsung_kylevexx
-// File: drivers/net/wireless/bcmdhd_4330/dhd_sdio.c
-
 /*
  * DHD Bus Module for SDIO
  *

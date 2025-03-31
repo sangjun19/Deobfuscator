@@ -1,6 +1,3 @@
-// Repository: ewa/openairinterface5G-cicd
-// File: openair1/PHY/NR_TRANSPORT/nr_prach.c
-
 /*
  * Licensed to the OpenAirInterface (OAI) Software Alliance under one or more
  * contributor license agreements.  See the NOTICE file distributed with

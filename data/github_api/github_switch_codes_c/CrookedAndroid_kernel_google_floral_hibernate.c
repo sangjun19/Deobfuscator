@@ -1,6 +1,3 @@
-// Repository: CrookedAndroid/kernel_google_floral
-// File: kernel/power/hibernate.c
-
 /*
  * kernel/power/hibernate.c - Hibernation (a.k.a suspend-to-disk) support.
  *

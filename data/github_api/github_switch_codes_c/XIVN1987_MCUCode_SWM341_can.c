@@ -1,6 +1,3 @@
-// Repository: XIVN1987/MCUCode
-// File: board_SWM34/SWM341/src/CSL/SWM341_StdPeriph_Driver/SWM341_can.c
-
 /*******************************************************************************************************************************
 * @brief	CAN driver
 *

@@ -1,6 +1,3 @@
-// Repository: dank101/4.2BSD
-// File: ucb/pascal/src/func.c
-
 /* Copyright (c) 1979 Regents of the University of California */
 
 static char sccsid[] = "@(#)func.c 1.8 4/27/82";

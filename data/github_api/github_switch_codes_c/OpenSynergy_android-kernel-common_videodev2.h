@@ -1,6 +1,3 @@
-// Repository: OpenSynergy/android-kernel-common
-// File: include/uapi/linux/videodev2.h
-
 /* SPDX-License-Identifier: ((GPL-2.0+ WITH Linux-syscall-note) OR BSD-3-Clause) */
 /*
  *  Video for Linux Two header file

@@ -1,6 +1,3 @@
-// Repository: rebibabo/invisible_backdoor
-// File: Defect/dataset/c/ropgen/origin/1/5144.c
-
 static int gif_read_image(GifState *s)
 
 {

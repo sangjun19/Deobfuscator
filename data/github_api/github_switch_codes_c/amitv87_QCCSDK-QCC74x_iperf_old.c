@@ -1,6 +1,3 @@
-// Repository: amitv87/QCCSDK-QCC74x
-// File: components/iperf/iperf_old.c
-
 /**
 * iperf-liked network performance tool
 *

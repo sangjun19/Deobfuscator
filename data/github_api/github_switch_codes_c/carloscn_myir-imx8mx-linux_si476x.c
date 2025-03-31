@@ -1,6 +1,3 @@
-// Repository: carloscn/myir-imx8mx-linux
-// File: sound/soc/codecs/si476x.c
-
 /*
  * sound/soc/codecs/si476x.c -- Codec driver for SI476X chips
  *

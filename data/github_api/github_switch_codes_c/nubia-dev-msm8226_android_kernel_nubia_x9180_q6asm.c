@@ -1,6 +1,3 @@
-// Repository: nubia-dev-msm8226/android_kernel_nubia_x9180
-// File: sound/soc/msm/qdsp6v2/q6asm.c
-
 /*
  * Copyright (c) 2012-2015, The Linux Foundation. All rights reserved.
  * Author: Brian Swetland <swetland@google.com>

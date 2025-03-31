@@ -1,6 +1,3 @@
-// Repository: TheProjecter/qvm
-// File: q.c
-
 /*
  * Copyright (c) 2004-2007 Sergey Lyubka <valenok@gmail.com>
  * All rights reserved

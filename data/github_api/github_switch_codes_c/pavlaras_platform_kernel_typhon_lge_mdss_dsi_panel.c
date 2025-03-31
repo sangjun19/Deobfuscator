@@ -1,6 +1,3 @@
-// Repository: pavlaras/platform_kernel_typhon
-// File: drivers/video/msm/mdss/lge/lge_mdss_dsi_panel.c
-
 /*
  * Copyright(c) 2016, LG Electronics. All rights reserved.
  *

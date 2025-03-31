@@ -1,6 +1,3 @@
-// Repository: pixelodin/android_kernel_lenovo_moba
-// File: drivers/base/core.c
-
 // SPDX-License-Identifier: GPL-2.0
 /*
  * drivers/base/core.c - core driver model code (device registration, etc)

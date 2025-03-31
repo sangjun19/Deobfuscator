@@ -1,6 +1,3 @@
-// Repository: roytam1/SvarDOS
-// File: pkg/tags/20231124/pkginst.c
-
 /*
  * This file is part of pkg (SvarDOS)
  * Copyright (C) 2012-2023 Mateusz Viste

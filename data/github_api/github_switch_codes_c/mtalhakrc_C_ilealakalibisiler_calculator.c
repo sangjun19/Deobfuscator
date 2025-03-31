@@ -1,6 +1,3 @@
-// Repository: mtalhakrc/C_ilealakalibisiler
-// File: solutions/chapter_4/exercise_4_03/calculator.c
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>

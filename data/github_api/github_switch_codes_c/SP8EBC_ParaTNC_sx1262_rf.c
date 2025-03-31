@@ -1,6 +1,3 @@
-// Repository: SP8EBC/ParaTNC
-// File: system/src/drivers/sx1262/sx1262_rf.c
-
 /*
  * sx1262_rf.c
  *

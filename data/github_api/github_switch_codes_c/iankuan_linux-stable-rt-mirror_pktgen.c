@@ -1,6 +1,3 @@
-// Repository: iankuan/linux-stable-rt-mirror
-// File: net/core/pktgen.c
-
 /*
  * Authors:
  * Copyright 2001, 2002 by Robert Olsson <robert.olsson@its.uu.se>

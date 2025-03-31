@@ -1,6 +1,3 @@
-// Repository: HaikuArchives/OpenBeOS
-// File: applications/bin/gnu/rm.c
-
 /* `rm' file deletion utility for GNU.
    Copyright (C) 88, 90, 91, 1994-2001 Free Software Foundation, Inc.
 

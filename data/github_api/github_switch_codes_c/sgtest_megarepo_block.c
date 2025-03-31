@@ -1,6 +1,3 @@
-// Repository: sgtest/megarepo
-// File: git/reftable/block.c
-
 /*
 Copyright 2020 Google LLC
 

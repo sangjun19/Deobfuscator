@@ -1,6 +1,3 @@
-// Repository: touyou/os_practice
-// File: linux/linux-2.6.34.14/drivers/net/netxen/netxen_nic_init.c
-
 /*
  * Copyright (C) 2003 - 2009 NetXen, Inc.
  * Copyright (C) 2009 - QLogic Corporation.

@@ -1,6 +1,3 @@
-// Repository: swayam35/swayam111github.io
-// File: N.C
-
 #include <stdio.h>
 #include <string.h>
 

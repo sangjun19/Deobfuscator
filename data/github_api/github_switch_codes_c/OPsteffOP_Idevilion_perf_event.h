@@ -1,6 +1,3 @@
-// Repository: OPsteffOP/Idevilion
-// File: platforms/android_ndk/android-ndk-r23b/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/linux/perf_event.h
-
 /****************************************************************************
  ****************************************************************************
  ***

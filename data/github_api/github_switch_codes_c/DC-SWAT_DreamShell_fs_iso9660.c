@@ -1,6 +1,3 @@
-// Repository: DC-SWAT/DreamShell
-// File: modules/isofs/fs_iso9660.c
-
 /* DreamShell ##version##
 
    fs_iso9660.c - Virtual ISO9660 filesystem

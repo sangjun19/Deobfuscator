@@ -1,6 +1,3 @@
-// Repository: MatheusNogMoreira/CC-
-// File: C/TabelaHash/EnderecamentoAberto/HashingFechado/main.c
-
 #include<stdio.h>
 #include<stdlib.h>
  

@@ -1,6 +1,3 @@
-// Repository: 8evgeny/arm
-// File: OPENOCD/src/target/arm_opcodes.h
-
 /*
  * Copyright (C) 2005 by Dominic Rath
  * Dominic.Rath@gmx.de

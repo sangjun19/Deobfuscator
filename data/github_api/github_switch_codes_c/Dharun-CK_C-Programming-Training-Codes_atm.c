@@ -1,6 +1,3 @@
-// Repository: Dharun-CK/C-Programming-Training-Codes
-// File: atm.c
-
 #include<stdio.h>
 int main()
 {

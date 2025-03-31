@@ -1,6 +1,3 @@
-// Repository: Cybernetworksec/TFP-Kernel-2.6.39
-// File: sound/pci/hda/hda_codec.c
-
 /*
  * Universal Interface for Intel High Definition Audio Codec
  *

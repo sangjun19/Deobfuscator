@@ -1,6 +1,3 @@
-// Repository: ridon/ridon-kernel-mediatek-mt6582
-// File: drivers/misc/mediatek/combo/drv_wlan/mt6628/wlan/mgmt/p2p_func.c
-
 /*
 * Copyright (C) 2011-2014 MediaTek Inc.
 * 

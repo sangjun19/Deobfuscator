@@ -1,6 +1,3 @@
-// Repository: CyanCom/android_kernel_msm_caf
-// File: drivers/mfd/pm8xxx-misc.c
-
 /*
  * Copyright (c) 2011-2012, The Linux Foundation. All rights reserved.
  *

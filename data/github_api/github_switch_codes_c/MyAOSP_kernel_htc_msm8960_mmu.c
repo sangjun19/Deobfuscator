@@ -1,6 +1,3 @@
-// Repository: MyAOSP/kernel_htc_msm8960
-// File: arch/arm/mm/mmu.c
-
 /*
  *  linux/arch/arm/mm/mmu.c
  *

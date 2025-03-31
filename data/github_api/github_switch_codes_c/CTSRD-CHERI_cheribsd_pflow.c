@@ -1,6 +1,3 @@
-// Repository: CTSRD-CHERI/cheribsd
-// File: sys/netpfil/pf/pflow.c
-
 /*	$OpenBSD: if_pflow.c,v 1.100 2023/11/09 08:53:20 mvs Exp $	*/
 
 /*

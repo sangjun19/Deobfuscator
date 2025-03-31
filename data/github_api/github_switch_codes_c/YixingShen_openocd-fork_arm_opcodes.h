@@ -1,6 +1,3 @@
-// Repository: YixingShen/openocd-fork
-// File: openocd-src-latest-from-openocd-org/src/target/arm_opcodes.h
-
 /*
  * Copyright (C) 2005 by Dominic Rath
  * Dominic.Rath@gmx.de

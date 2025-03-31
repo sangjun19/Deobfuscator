@@ -1,6 +1,3 @@
-// Repository: soham-tries/lab1a
-// File: 3.c
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

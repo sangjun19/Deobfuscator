@@ -1,6 +1,3 @@
-// Repository: ANLAB-KAIST/adios
-// File: dilos/external/x64/acpica/source/components/resources/rscreate.c
-
 /*******************************************************************************
  *
  * Module Name: rscreate - Create resource lists/tables

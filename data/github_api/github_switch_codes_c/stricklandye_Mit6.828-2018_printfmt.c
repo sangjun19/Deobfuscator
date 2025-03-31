@@ -1,6 +1,3 @@
-// Repository: stricklandye/Mit6.828-2018
-// File: 6.828-lab/lab4/lib/printfmt.c
-
 // Stripped-down primitive printf-style formatting routines,
 // used in common by printf, sprintf, fprintf, etc.
 // This code is also used by both the kernel and user programs.

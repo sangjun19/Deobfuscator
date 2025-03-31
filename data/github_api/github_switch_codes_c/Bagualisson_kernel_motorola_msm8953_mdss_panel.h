@@ -1,6 +1,3 @@
-// Repository: Bagualisson/kernel_motorola_msm8953
-// File: drivers/video/msm/mdss/mdss_panel.h
-
 /* Copyright (c) 2008-2019, The Linux Foundation. All rights reserved.
  *
  * This program is free software; you can redistribute it and/or modify

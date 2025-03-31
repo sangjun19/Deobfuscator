@@ -1,6 +1,3 @@
-// Repository: AOSP-RaspberryPi-Dev/android_external_raspberrypi_mesa3d
-// File: src/gallium/drivers/llvmpipe/lp_query.c
-
 /**************************************************************************
  *
  * Copyright 2007 VMware, Inc.

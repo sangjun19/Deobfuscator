@@ -1,6 +1,3 @@
-// Repository: 1265578519/OpenTracker
-// File: libowfat-0.33/t.c
-
 #include "fmt.h"
 #include "scan.h"
 #include "str.h"

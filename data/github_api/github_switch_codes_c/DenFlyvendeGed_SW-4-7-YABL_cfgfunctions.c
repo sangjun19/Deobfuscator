@@ -1,6 +1,3 @@
-// Repository: DenFlyvendeGed/SW-4-7-YABL
-// File: cfg/cfgfunctions.c
-
 #include "cfg.h"
 #include "../data-structures/list.h"
 #include <stdlib.h>

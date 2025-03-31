@@ -1,6 +1,3 @@
-// Repository: MayaPosch/NymphCastAudio-ESP32
-// File: components/libavfilter/libavfilter/f_drawgraph.c
-
 /*
  * Copyright (c) 2015 Paul B Mahol
  *

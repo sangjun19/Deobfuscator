@@ -1,6 +1,3 @@
-// Repository: gzied/binutils-gdb
-// File: bfd/elfxx-riscv.c
-
 /* RISC-V-specific support for ELF.
    Copyright (C) 2011-2021 Free Software Foundation, Inc.
 

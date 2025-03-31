@@ -1,6 +1,3 @@
-// Repository: menglong21/metastack_dev
-// File: src/common/slurm_protocol_defs.c
-
 /*****************************************************************************\
  *  slurm_protocol_defs.c - functions for initializing and releasing
  *	storage for RPC data structures. these are the functions used by

@@ -1,6 +1,3 @@
-// Repository: TheXPerienceProject/android_kernel_realme_sm8250
-// File: drivers/mmc/core/block.c
-
 /*
  * Block driver for media (i.e., flash cards)
  *

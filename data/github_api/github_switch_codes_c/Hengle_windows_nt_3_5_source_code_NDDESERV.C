@@ -1,6 +1,3 @@
-// Repository: Hengle/windows_nt_3_5_source_code
-// File: windows_nt_3_5_source_code/NT-782/PRIVATE/WINDOWS/NETDDE/SRC/NETDDE/NDDESERV.C
-
 /* $Header: "%n;%v  %f  LastEdit=%w  Locker=%l" */
 /* "NDDESERV.C;1  16-Dec-92,10:16:44  LastEdit=IGOR  Locker=***_NOBODY_***" */
 /************************************************************************

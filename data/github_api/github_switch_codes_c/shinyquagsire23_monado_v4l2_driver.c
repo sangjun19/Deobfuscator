@@ -1,6 +1,3 @@
-// Repository: shinyquagsire23/monado
-// File: src/xrt/drivers/v4l2/v4l2_driver.c
-
 // Copyright 2019-2022, Collabora, Ltd.
 // SPDX-License-Identifier: BSL-1.0
 /*!

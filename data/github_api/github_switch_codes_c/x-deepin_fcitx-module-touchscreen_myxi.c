@@ -1,6 +1,3 @@
-// Repository: x-deepin/fcitx-module-touchscreen
-// File: src/myxi.c
-
 #include <X11/extensions/XInput2.h>
 #include <glib.h>
 #include <fcitx/module/x11/fcitx-x11.h>

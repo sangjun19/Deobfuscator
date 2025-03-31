@@ -1,6 +1,3 @@
-// Repository: svn2github/texstudio
-// File: tags/TeXstudio/2.5.2/synctex_parser_utils.c
-
 /* 
 Copyright (c) 2008, 2009, 2010 , 2011 jerome DOT laurens AT u-bourgogne DOT fr
 

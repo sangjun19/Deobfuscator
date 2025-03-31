@@ -1,6 +1,3 @@
-// Repository: jarnowek/mtve
-// File: e.c
-
 #include <ncurses.h>
 #include <signal.h>
 #include <string.h>

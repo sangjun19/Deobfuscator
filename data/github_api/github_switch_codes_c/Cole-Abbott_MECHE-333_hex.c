@@ -1,6 +1,3 @@
-// Repository: Cole-Abbott/MECHE-333
-// File: embedded_computing_code 3/EXTRA_Bootloader/common/hex.c
-
 #ifndef  HEX_FILE_H
 #include "hex.h"
 #endif

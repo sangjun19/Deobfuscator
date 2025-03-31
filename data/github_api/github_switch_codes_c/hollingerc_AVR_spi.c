@@ -1,6 +1,3 @@
-// Repository: hollingerc/AVR
-// File: SPI/spi.c
-
 /*
  * File:       spi.c
  * Date:       November 19, 2014

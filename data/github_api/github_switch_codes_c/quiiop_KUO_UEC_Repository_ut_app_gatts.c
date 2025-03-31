@@ -1,6 +1,3 @@
-// Repository: quiiop/KUO_UEC_Repository
-// File: project/mt7933_hdk/apps/lwip_socket_demo/src/bt_app_utility/ut_app_gatts.c
-
 /* Copyright Statement:
  *
  * (C) 2005-2016  MediaTek Inc. All rights reserved.

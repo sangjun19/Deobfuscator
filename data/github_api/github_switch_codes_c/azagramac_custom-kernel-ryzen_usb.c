@@ -1,6 +1,3 @@
-// Repository: azagramac/custom-kernel-ryzen
-// File: drivers/net/wireless/realtek/rtw88/usb.c
-
 // SPDX-License-Identifier: GPL-2.0 OR BSD-3-Clause
 /* Copyright(c) 2018-2019  Realtek Corporation
  */

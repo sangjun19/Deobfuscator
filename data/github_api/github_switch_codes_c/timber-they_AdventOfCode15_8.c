@@ -1,6 +1,3 @@
-// Repository: timber-they/AdventOfCode15
-// File: 8.c
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

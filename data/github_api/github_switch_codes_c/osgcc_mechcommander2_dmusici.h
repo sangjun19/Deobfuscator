@@ -1,6 +1,3 @@
-// Repository: osgcc/mechcommander2
-// File: DirectX8/include/dmusici.h
-
 /************************************************************************
 *                                                                       *
 *   dmusici.h -- This module contains the API for the                   *

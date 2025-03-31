@@ -1,6 +1,3 @@
-// Repository: synapticon/Etherlab_EtherCAT_Master
-// File: master/sync.c
-
 /******************************************************************************
  *
  *  $Id$

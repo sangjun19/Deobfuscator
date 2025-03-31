@@ -1,6 +1,3 @@
-// Repository: shioimm/til
-// File: sandbox/c/programming_class/fsnav0.c
-
 // 参照: 例解UNIX/Linuxプログラミング教室P249
 
 #include <limits.h>

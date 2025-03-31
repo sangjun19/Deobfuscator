@@ -1,6 +1,3 @@
-// Repository: tmobile/DevEdge-IoTDevKit-ZephyrRTOS
-// File: kernel/userspace.c
-
 /*
  * Copyright (c) 2017 Intel Corporation
  *

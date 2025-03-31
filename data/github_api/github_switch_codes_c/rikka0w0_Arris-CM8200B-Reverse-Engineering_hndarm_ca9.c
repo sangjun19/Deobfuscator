@@ -1,6 +1,3 @@
-// Repository: rikka0w0/Arris-CM8200B-Reverse-Engineering
-// File: docs/asuswrt-merlin.ng/release/src-rt-5.02hnd/bcmdrivers/broadcom/net/wl/impl51/main/src/shared/hndarm_ca9.c
-
 /*
  * BCM43XX Sonics SiliconBackplane ARM core routines
  *

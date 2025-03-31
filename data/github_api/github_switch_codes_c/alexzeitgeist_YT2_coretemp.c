@@ -1,6 +1,3 @@
-// Repository: alexzeitgeist/YT2
-// File: Lenovo YT3-X90(Row&China)Open Source/kernel/cht/drivers/hwmon/coretemp.c
-
 /*
  * coretemp.c - Linux kernel module for hardware monitoring
  *

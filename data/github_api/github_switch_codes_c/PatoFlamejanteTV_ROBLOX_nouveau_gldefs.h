@@ -1,6 +1,3 @@
-// Repository: PatoFlamejanteTV/ROBLOX
-// File: Library/Mesa/lib/src/mesa/drivers/dri/nouveau/nouveau_gldefs.h
-
 /*
  * Copyright (C) 2007-2010 The Nouveau Project.
  * All Rights Reserved.

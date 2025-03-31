@@ -1,6 +1,3 @@
-// Repository: lisiyuan656/linux-lab
-// File: drivers/usb/host/ehci-sched.c
-
 /*
  * Copyright (c) 2001-2003 by David Brownell
  * Copyright (c) 2003 Michal Sojka, for high-speed iso transfers

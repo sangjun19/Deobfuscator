@@ -1,6 +1,3 @@
-// Repository: openbsd/src
-// File: sys/dev/pci/drm/i915/gem/selftests/i915_gem_mman.c
-
 /*
  * SPDX-License-Identifier: MIT
  *

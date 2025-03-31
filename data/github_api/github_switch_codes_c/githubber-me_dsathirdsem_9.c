@@ -1,6 +1,3 @@
-// Repository: githubber-me/dsathirdsem
-// File: 9.c
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>

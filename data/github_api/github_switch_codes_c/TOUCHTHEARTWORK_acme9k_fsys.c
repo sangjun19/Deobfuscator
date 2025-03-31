@@ -1,6 +1,3 @@
-// Repository: TOUCHTHEARTWORK/acme9k
-// File: fsys.c
-
 #include <u.h>
 #include <libc.h>
 #include <draw.h>

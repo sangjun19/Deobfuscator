@@ -1,6 +1,3 @@
-// Repository: ardX/android_kernel_k-touch_msm8x25q
-// File: drivers/mfd/pm8xxx-misc.c
-
 /*
  * Copyright (c) 2011-2012, The Linux Foundation. All rights reserved.
  *

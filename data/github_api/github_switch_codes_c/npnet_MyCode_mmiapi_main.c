@@ -1,6 +1,3 @@
-// Repository: npnet/MyCode
-// File: plutommi/MtkApp/mmiapi/src/mmiapi_main.c
-
 /*****************************************************************************
 *  Copyright Statement:
 *  --------------------

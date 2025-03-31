@@ -1,6 +1,3 @@
-// Repository: alk3p/msm-4.14
-// File: kernel/power/hibernate.c
-
 /*
  * kernel/power/hibernate.c - Hibernation (a.k.a suspend-to-disk) support.
  *

@@ -1,6 +1,3 @@
-// Repository: BlastTNG/flight
-// File: external_libs/ethercat/master/sync.c
-
 /******************************************************************************
  *
  *  $Id$

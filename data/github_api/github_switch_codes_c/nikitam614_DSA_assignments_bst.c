@@ -1,6 +1,3 @@
-// Repository: nikitam614/DSA_assignments
-// File: bst.c
-
 # include <stdio.h>
 #include <stdlib.h>
 // #include <conio.h>

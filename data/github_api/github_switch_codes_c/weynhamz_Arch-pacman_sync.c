@@ -1,6 +1,3 @@
-// Repository: weynhamz/Arch-pacman
-// File: src/pacman/sync.c
-
 /*
  *  sync.c
  *
