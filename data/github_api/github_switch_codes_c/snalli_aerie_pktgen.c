@@ -1,6 +1,3 @@
-// Repository: snalli/aerie
-// File: kernelmode/linux-3.2.2/net/core/pktgen.c
-
 /*
  * Authors:
  * Copyright 2001, 2002 by Robert Olsson <robert.olsson@its.uu.se>

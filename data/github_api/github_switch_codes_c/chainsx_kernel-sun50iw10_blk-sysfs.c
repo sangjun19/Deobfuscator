@@ -1,6 +1,3 @@
-// Repository: chainsx/kernel-sun50iw10
-// File: block/blk-sysfs.c
-
 // SPDX-License-Identifier: GPL-2.0
 /*
  * Functions related to sysfs handling

@@ -1,6 +1,3 @@
-// Repository: rimjhimart/c-language
-// File: n.c
-
 #include<stdio.h>
 void main()
 {

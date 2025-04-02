@@ -1,6 +1,3 @@
-// Repository: FrameitMeZ/FirstMeetTeam
-// File: Marchuuuu/Exercise/area_choice.c
-
 #include<stdio.h>
 int main(){
     int a;

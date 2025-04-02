@@ -1,6 +1,3 @@
-// Repository: AndroidDeveloperAlliance/platform_hardware_ti_wlan
-// File: mac80211/compat_wl12xx/include/net/mac80211.h
-
 /*
  * mac80211 <-> driver interface
  *

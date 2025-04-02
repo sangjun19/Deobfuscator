@@ -1,6 +1,3 @@
-// Repository: zhcg/atheros-route
-// File: linux/kernels/mips-linux-2.6.15_2MB/drivers/md/raid6main.c
-
 /*
  * raid6main.c : Multiple Devices driver for Linux
  *	   Copyright (C) 1996, 1997 Ingo Molnar, Miguel de Icaza, Gadi Oxman

@@ -1,6 +1,3 @@
-// Repository: robots/Beagleboard-OSy2010
-// File: kernel-2.6.29/arch/arm/mach-omap1/serial.c
-
 /*
  * linux/arch/arm/mach-omap1/serial.c
  *

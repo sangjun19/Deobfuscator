@@ -1,6 +1,3 @@
-// Repository: cao-xx/plan-9
-// File: sys/src/cmd/spin/sym.c
-
 /***** spin: sym.c *****/
 
 /* Copyright (c) 1989-2003 by Lucent Technologies, Bell Laboratories.     */

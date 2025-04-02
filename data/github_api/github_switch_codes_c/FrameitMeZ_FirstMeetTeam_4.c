@@ -1,6 +1,3 @@
-// Repository: FrameitMeZ/FirstMeetTeam
-// File: Marchuuuu/4.c
-
 #include<stdio.h>
 int main(){
     int a;

@@ -1,6 +1,3 @@
-// Repository: xealea/kernel-ubuntu-lts-hwe
-// File: block/blk-sysfs.c
-
 // SPDX-License-Identifier: GPL-2.0
 /*
  * Functions related to sysfs handling

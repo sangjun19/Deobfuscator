@@ -1,6 +1,3 @@
-// Repository: jameshilliard/DD-WRT
-// File: src/linux/universal/linux-3.2/drivers/scsi/cxgbi/cxgb3i/cxgb3i.c
-
 /*
  * cxgb3i_offload.c: Chelsio S3xx iscsi offloaded tcp connection management
  *

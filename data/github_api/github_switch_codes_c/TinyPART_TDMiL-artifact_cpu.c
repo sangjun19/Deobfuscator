@@ -1,6 +1,3 @@
-// Repository: TinyPART/TDMiL-artifact
-// File: RIOT/cpu/samd5x/cpu.c
-
 /*
  * Copyright (C) 2019 ML!PA Consulting GmbH
  *

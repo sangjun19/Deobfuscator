@@ -1,6 +1,3 @@
-// Repository: ImMarchuuu/ACSFirstmeet_67
-// File: Exercise/area_choice.c
-
 #include<stdio.h>
 int main(){
     int a;

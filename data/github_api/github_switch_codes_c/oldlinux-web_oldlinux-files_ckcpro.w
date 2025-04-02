@@ -1,6 +1,3 @@
-// Repository: oldlinux-web/oldlinux-files
-// File: Linux-0.98/Yggdrasil-0.98.3/usr/src/usr.bin/kermit/ckcpro.w
-
 char *protv = "C-Kermit Protocol Module 5A(047), 24 Sep 92"; /* -*-C-*- */
 
 /* C K C P R O  -- C-Kermit Protocol Module, in Wart preprocessor notation. */

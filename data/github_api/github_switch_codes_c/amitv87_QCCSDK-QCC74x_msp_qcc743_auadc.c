@@ -1,6 +1,3 @@
-// Repository: amitv87/QCCSDK-QCC74x
-// File: components/multimedia/xcodec/src/qcc743/drv/msp_qcc743_auadc.c
-
 #include "msp_qcc743_platform.h"
 #include "msp_qcc743_auadc.h"
 
