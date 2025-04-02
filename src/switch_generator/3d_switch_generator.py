@@ -45,4 +45,8 @@ for i in range(1, num_files + 1):
     
 
 # 생성된 파일 목록 출력
+<<<<<<< HEAD
 [f"3d_switch_{i}.c" for i in range(1, num_files + 1)]
+=======
+[f"3d_switch_{i}.c" for i in range(1, num_files + 1)]
+>>>>>>> 5175742c82fb47275e31077cbfc274fefa466250

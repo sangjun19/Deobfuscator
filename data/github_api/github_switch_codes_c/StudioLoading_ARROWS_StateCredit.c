@@ -1,0 +1,138 @@
+#include "Banks/SetAutoBank.h"
+
+#include "SGB.h"
+#include "Palette.h"
+#include "ZGBMain.h"
+#include "Keys.h"
+#include "Palette.h"
+#include "Scroll.h"
+#include "SpriteManager.h"
+#include "string.h"
+#include "Print.h"
+#include "Fade.h"
+#include "Music.h"
+
+#include "TilesAnimations0.h"
+#include "sgb_palette.h"
+
+IMPORT_TILES(tilescredit);
+IMPORT_TILES(tilescredit2);
+IMPORT_TILES(tilescredit3);
+IMPORT_TILES(tilescredit4);
+
+IMPORT_MAP(mapcredit0);
+IMPORT_MAP(mapcredits1);
+IMPORT_MAP(mapcredits2);
+IMPORT_MAP(mapcredits3);
+IMPORT_MAP(mapcredits4);
+
+//DECLARE_MUSIC(bgm_credits);
+DECLARE_MUSIC(bgm_credits);
+IMPORT_MAP(border);
+
+extern UINT8 J_JUMP;
+extern UINT8 J_FIRE;
+extern UINT8 thunder_delay;
+
+const UINT8 collision_tiles_credits[] = {1,0};
+UINT8 updatecounter;
+UINT8 credit_step = 0u;
+UINT8 wait_time;
+UINT8 on_worldmap;
+UINT8 colliding_mother;
+
+void START() {
+	if(credit_step == 0u){
+		LOAD_SGB_BORDER(border);
+	}
+	wait_time = 0u;
+	on_worldmap = 0;
+	colliding_mother = 0u;
+	thunder_delay = 0;	
+	
+	//SOUND
+	NR52_REG = 0x80; //Enables sound, you should always setup this first
+	NR51_REG = 0xFF; //Enables all channels (left and right)
+	//NR50_REG = 0x44; //Max volume 0x77
+	PlayMusic(bgm_credits, 0);
+
+	//FadeIn();
+	//DISPLAY_OFF;
+	switch (credit_step){
+		case 0u:
+			if(sgb_check()){
+				set_sgb_palette01_WOLF();
+			}
+			InitScroll(BANK(mapcredit0), &mapcredit0, collision_tiles_credits, 0);
+		break;
+		case 1u:
+			if(sgb_check()){
+				set_sgb_palette01_MISTYHILLS();
+			}
+			InitScroll(BANK(mapcredits2), &mapcredits2, collision_tiles_credits, 0); // music of the Misty Hills
+		break;
+		case 2u:
+			if(sgb_check()){
+				set_sgb_palette01_COMUNEKO();
+			}
+			InitScroll(BANK(mapcredits4), &mapcredits4, collision_tiles_credits, 0); // comuneko
+		break;
+		case 3u:
+			if(sgb_check()){
+				set_sgb_palette01_2H();
+			}
+			InitScroll(BANK(mapcredits3), &mapcredits3, collision_tiles_credits, 0); // powered by ZGB
+		break;
+		case 4u:
+			if(sgb_check()){
+				set_sgb_palette01_1A();
+			}
+			InitScroll(BANK(mapcredits1), &mapcredits1, collision_tiles_credits, 0); //special thanks
+		break;
+	}
+	//DISPLAY_ON;
+	//FadeOut();
+
+	SHOW_BKG;
+	
+}
+
+void UPDATE() {
+	wait_time += 1u;
+	UINT8 cb = 0;
+	if(credit_step == 0){
+		switch(thunder_delay){
+			case 20u:
+				Anim_StudioLoading_1();
+			break;		
+			case 40u:
+				Anim_StudioLoading_0();
+				thunder_delay = 0;
+			break;
+		}
+		thunder_delay++;
+	}	
+	if(KEY_TICKED(J_START)){
+		StopMusic;
+		SetState(StateTitlescreen);
+		return;
+	}else if(KEY_TICKED(J_FIRE) || KEY_TICKED(J_JUMP) || wait_time == 106u){
+		wait_time = 0u;
+		credit_step += 1u;
+		if(credit_step == 5u){
+			StopMusic;
+			SetState(StateTitlescreen);
+			return;
+		}else{
+			SetState(StateCredit);
+		}
+		//FadeIn();
+		//DISPLAY_OFF;
+		//if(sgb_check()){
+		//	BGP_REG = OBP0_REG = OBP1_REG = PAL_DEF(0, 1, 2, 3);
+		//}
+		//DISPLAY_ON;
+		//FadeOut();
+	}
+		
+}

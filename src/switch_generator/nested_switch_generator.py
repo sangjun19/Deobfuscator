@@ -6,6 +6,7 @@ def generate_nested_switch(depth, num_cases):
             switch_code += f"            switch (sub_value) {{\n"
             for j in range(1, num_cases + 1):
                 switch_code += f"                case {j}:\n"
+<<<<<<< HEAD
                 switch_code += f"                    printf(\"{i}-{j} executed\\n\");\n"
                 switch_code += f"                    break;\n"
             switch_code += "            }\n"
@@ -14,6 +15,16 @@ def generate_nested_switch(depth, num_cases):
         switch_code += f"            break;\n"
     switch_code += "        default:\n"
     switch_code += "            printf(\"default executed\\n\");\n"
+=======
+                switch_code += f"                    printf(\"{i}-{j} 실행됨\\n\");\n"
+                switch_code += f"                    break;\n"
+            switch_code += "            }\n"
+        else:
+            switch_code += f"            printf(\"Case {i} 실행됨\\n\");\n"
+        switch_code += f"            break;\n"
+    switch_code += "        default:\n"
+    switch_code += "            printf(\"기본값 실행됨\\n\");\n"
+>>>>>>> 5175742c82fb47275e31077cbfc274fefa466250
     switch_code += "            break;\n"
     switch_code += "    }\n"
     return switch_code

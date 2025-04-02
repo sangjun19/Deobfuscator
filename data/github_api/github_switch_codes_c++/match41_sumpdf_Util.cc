@@ -1,0 +1,173 @@
+/***************************************************************************\
+ *   Copyright (C) 2006 by Nestal Wan                                      *
+ *   me@nestal.net                                                         *
+ *                                                                         *
+ *   This program is free software; you can redistribute it and/or modify  *
+ *   it under the terms of the GNU General Public License as published by  *
+ *   the Free Software Foundation; version 2.                              *
+ *                                                                         *
+ *   This program is distributed in the hope that it will be useful,       *
+ *   but WITHOUT ANY WARRANTY; without even the implied warranty of        *
+ *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         *
+ *   GNU General Public License for more details.                          *
+ *                                                                         *
+ *   You should have received a copy of the GNU General Public License     *
+ *   along with this program; if not, write to the                         *
+ *   Free Software Foundation, Inc.,                                       *
+ *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
+\***************************************************************************/
+
+/**	\file	Util.cc
+	\brief	implementation of the Util class
+	\date	Jan 24, 2010
+	\author	Nestal Wan
+*/
+
+#include "Util.hh"
+
+// libpdfdoc headers
+#include <graphics/Color.hh>
+#include <graphics/GraphicsState.hh>
+#include <util/Exception.hh>
+#include <util/Matrix.hh>
+#include <util/Rect.hh>
+#include <util/Debug.hh>
+
+// Qt headers
+#include <QBrush>
+#include <QColor>
+#include <QPen>
+#include <QString>
+#include <QTransform>
+#include <QTextCodec>
+
+// boost headers
+#include <boost/bind.hpp>
+
+// stdc++ headers
+#include <algorithm>
+#include <iterator>
+
+namespace pdf {
+
+QTransform ToQtMatrix( const Matrix& m )
+{
+	return QTransform( m.M11(), m.M12(), m.M21(), m.M22(), m.Dx(), m.Dy() ) ;
+}
+
+Matrix FromQtMatrix( const QTransform& m )
+{
+	return Matrix( m.m11(), m.m12(), m.m21(), m.m22(), m.dx(), m.dy() ) ;
+}
+
+QString FromWStr( const std::wstring& s )
+{
+	// gcc wchar_t has no problems
+	// msvc only when the /Zc:wchar_t- (i.e. _NATIVE_WCHAR_T_DEFINED is NOT defined)
+	// in these two cases we use std::wstring directly
+#if (defined __GNUC__ || (defined _MSC_VER && !defined _NATIVE_WCHAR_T_DEFINED) )
+	#ifndef QT_NO_STL
+		return QString::fromStdWString( s ) ;
+	#else
+		return QString::fromWCharArray( s.c_str(), s.size() ) ;
+	#endif
+#else
+	// msvc may not have the /Zc:wchar_t- option used, which Qt expects
+	// avoid using wchar_t related functions
+	QString result ;
+	for ( std::wstring::const_iterator i = s.begin() ; i != s.end() ; ++i )
+		result.push_back( QChar( *i ) ) ;
+	return result ;
+#endif
+}
+
+std::wstring ToWStr( const QString& s )
+{
+#if (defined __GNUC__ || (defined _MSC_VER && !defined _NATIVE_WCHAR_T_DEFINED) )
+	#ifndef QT_NO_STL
+		return s.toStdWString( ) ;
+	#else
+		std::wstring result( L' ', s.length() ) ;
+		s.toWCharArray( &result[0] ) ;
+		return result ;
+	#endif
+#else
+    std::wstring result ;
+    const ushort *utf16 = s.utf16() ;
+    while ( *utf16 )
+		result.push_back( *utf16++ ) ;
+	return result ;
+#endif
+}
+
+std::string ToStr( const QString& str )
+{
+	QByteArray qba = str.toUtf8() ;
+	PDF_ASSERT( qba.constData() != 0 ) ;
+	return std::string( qba.constData(), qba.size() ) ;
+}
+
+QString FromStr( const std::string& str )
+{
+	return QString::fromUtf8( str.c_str(), str.size() ) ;
+}
+
+Color FromQColor( const QColor& color )
+{
+	Color result ;
+	QColor c = color ;
+	if ( c.spec() != QColor::Rgb && c.spec() != QColor::Cmyk )
+		c = c.convertTo( QColor::Rgb ) ;
+	
+	switch ( c.spec() )
+	{
+		case QColor::Rgb:
+			result.AssignRGB( c.redF(), c.greenF(), c.blueF() ) ;
+			break;
+		case QColor::Cmyk:
+			result.AssignCMYK(
+				c.cyanF(), c.magentaF(), c.yellowF(), c.blackF() ) ;
+			break ;
+		default :
+			break ;
+	}
+	return result ;
+}
+
+QColor ToQColor( const Color& c )
+{
+	QColor result ;
+	switch ( c.Spec() )
+	{
+		case gfx::rgb :
+			result.setRgbF( c.Red(), c.Green(), c.Blue() ) ;
+			break ;
+		case gfx::cmyk :
+			result.setCmykF( c.Cyan(), c.Magenta(), c.Yellow(), c.Black() ) ;
+			break ;
+		case gfx::gray :
+			result.setRgbF( c.Gray(), c.Gray(), c.Gray() ) ;
+			break ;
+		default :
+			throw Exception() << expt::ErrMsg( "unsupported colour space" ) ;
+	}
+	return result ;
+}
+
+Rect FromQRectF( const QRectF& rect )
+{
+	return Rect( rect.left(),
+				rect.bottom(),
+				rect.right(),
+				rect.top() );
+}
+
+QRectF ToQRectF( const Rect& rect )
+{
+	return QRectF( rect.Left(),
+			rect.Bottom(),
+			rect.Right(),
+			rect.Top() );
+}
+
+} // end of namespace

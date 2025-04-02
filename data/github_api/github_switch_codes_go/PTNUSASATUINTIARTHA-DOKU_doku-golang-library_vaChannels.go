@@ -1,0 +1,84 @@
+// Repository: PTNUSASATUINTIARTHA-DOKU/doku-golang-library
+// File: commons/vaChannels.go
+
+package commons
+
+type VAChannel int
+
+const (
+	VIRTUAL_ACCOUNT_BCA VAChannel = iota + 1
+	VIRTUAL_ACCOUNT_BANK_MANDIRI
+	VIRTUAL_ACCOUNT_BRI
+	VIRTUAL_ACCOUNT_BNI
+	VIRTUAL_ACCOUNT_BANK_DANAMON
+	VIRTUAL_ACCOUNT_BANK_PERMATA
+	VIRTUAL_ACCOUNT_MAYBANK
+	VIRTUAL_ACCOUNT_BNC
+	VIRTUAL_ACCOUNT_BTN
+	VIRTUAL_ACCOUNT_BSI
+	VIRTUAL_ACCOUNT_BANK_CIMB
+	VIRTUAL_ACCOUNT_SINARMAS
+	VIRTUAL_ACCOUNT_DOKU
+	VIRTUAL_ACCOUNT_BSS
+)
+
+var VAChannelNames = map[VAChannel]string{
+	VIRTUAL_ACCOUNT_BCA:          "VIRTUAL_ACCOUNT_BCA",
+	VIRTUAL_ACCOUNT_BANK_MANDIRI: "VIRTUAL_ACCOUNT_BANK_MANDIRI",
+	VIRTUAL_ACCOUNT_BRI:          "VIRTUAL_ACCOUNT_BRI",
+	VIRTUAL_ACCOUNT_BNI:          "VIRTUAL_ACCOUNT_BNI",
+	VIRTUAL_ACCOUNT_BANK_DANAMON: "VIRTUAL_ACCOUNT_BANK_DANAMON",
+	VIRTUAL_ACCOUNT_BANK_PERMATA: "VIRTUAL_ACCOUNT_BANK_PERMATA",
+	VIRTUAL_ACCOUNT_MAYBANK:      "VIRTUAL_ACCOUNT_MAYBANK",
+	VIRTUAL_ACCOUNT_BNC:          "VIRTUAL_ACCOUNT_BNC",
+	VIRTUAL_ACCOUNT_BTN:          "VIRTUAL_ACCOUNT_BTN",
+	VIRTUAL_ACCOUNT_BSI:          "VIRTUAL_ACCOUNT_BSI",
+	VIRTUAL_ACCOUNT_BANK_CIMB:    "VIRTUAL_ACCOUNT_BANK_CIMB",
+	VIRTUAL_ACCOUNT_SINARMAS:     "VIRTUAL_ACCOUNT_SINARMAS",
+	VIRTUAL_ACCOUNT_DOKU:         "VIRTUAL_ACCOUNT_DOKU",
+	VIRTUAL_ACCOUNT_BSS:          "VIRTUAL_ACCOUNT_BSS",
+}
+
+func ValidateVAChannel(channel string) bool {
+	for _, validChannel := range VAChannelNames {
+		if channel == validChannel {
+			return true
+		}
+	}
+	return false
+}
+
+func GetVAChannelIdV1(channel string) string {
+	switch channel {
+	case VAChannelNames[VIRTUAL_ACCOUNT_BCA]:
+		return "29"
+	case VAChannelNames[VIRTUAL_ACCOUNT_BANK_MANDIRI]:
+		return "08"
+	case VAChannelNames[VIRTUAL_ACCOUNT_BRI]:
+		return "34"
+	case VAChannelNames[VIRTUAL_ACCOUNT_BNI]:
+		return "38"
+	case VAChannelNames[VIRTUAL_ACCOUNT_BANK_DANAMON]:
+		return "33"
+	case VAChannelNames[VIRTUAL_ACCOUNT_BANK_PERMATA]:
+		return "05"
+	case VAChannelNames[VIRTUAL_ACCOUNT_MAYBANK]:
+		return "44"
+	case VAChannelNames[VIRTUAL_ACCOUNT_BNC]:
+		return "-"
+	case VAChannelNames[VIRTUAL_ACCOUNT_BTN]:
+		return "43"
+	case VAChannelNames[VIRTUAL_ACCOUNT_BSI]:
+		return "-"
+	case VAChannelNames[VIRTUAL_ACCOUNT_BANK_CIMB]:
+		return "32"
+	case VAChannelNames[VIRTUAL_ACCOUNT_SINARMAS]:
+		return "21"
+	case VAChannelNames[VIRTUAL_ACCOUNT_DOKU]:
+		return "47"
+	case VAChannelNames[VIRTUAL_ACCOUNT_BSS]:
+		return "-"
+	default:
+		return ""
+	}
+}
