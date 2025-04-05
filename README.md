@@ -18,6 +18,15 @@
 
 - - -
 # 주차별 활동
+## 4주차
+활동 개요 : 문제 정의서
+
+발표 영상 링크 : [4주차 발표 영상](https://youtu.be/H-mpD-Et9gI)
+
+제출물 : 문제 정의서 문서, 발표 자료, 발표 영상
+
+PR : [4주차 issue](https://github.com/sangjun19/Deobfuscator/issues/31)
+
 ## 3주차
 활동 개요 : 브레인스토밍
 
