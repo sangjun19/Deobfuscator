@@ -1,9 +1,0 @@
-// Repository: gofreelee/lstm
-// File: experiments/lstm/kernels/adjust_compute_task_each_block/1W_1U_32blocks/wave_0.cu
-
-#include "LstmExperimentLib.h"
-__global__ void __launch_bounds__(256, 4) wave_compute_0(WaveInputParams *__restrict__ input, WaveModelParams *__restrict__ model,WaveOutputParams *__restrict__ output){switch (blockIdx.x >> 3) {
-case 0:call_onekernel_compute_wi_uh_0(0, 0);break;case 1:call_onekernel_compute_wi_uh_1(0, 0);break;case 2:call_onekernel_compute_wi_uh_2(0, 0);break;case 3:call_onekernel_compute_wi_uh_3(0, 0);break;}
-}__global__ void __launch_bounds__(256, 4) wave_solve_0(WaveInputParams *__restrict__ input, WaveModelParams *__restrict__ model,WaveOutputParams *__restrict__ output){switch (blockIdx.x >> 3) {
-case 0:call_onekernel_solve(0, 0);break;}
-}
