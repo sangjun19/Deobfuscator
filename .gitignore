@@ -1,2 +1,4 @@
 .env
 data/raw_code/switch/github_api/
+data/raw_code/non-switch/github_api/
+data/experiment_code/
