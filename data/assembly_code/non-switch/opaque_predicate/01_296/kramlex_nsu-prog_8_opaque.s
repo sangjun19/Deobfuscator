@@ -1,0 +1,592 @@
+	.file	"kramlex_nsu-prog_8_opaque.c"
+	.text
+	.globl	_TIG_iO_h3DT_1___bswap_32_1_opaque_list_2
+	.bss
+	.align 8
+	.type	_TIG_iO_h3DT_1___bswap_32_1_opaque_list_2, @object
+	.size	_TIG_iO_h3DT_1___bswap_32_1_opaque_list_2, 8
+_TIG_iO_h3DT_1___bswap_32_1_opaque_list_2:
+	.zero	8
+	.globl	_TIG_iO_h3DT_1___bswap_32_1_opaque_ptr_1
+	.align 8
+	.type	_TIG_iO_h3DT_1___bswap_32_1_opaque_ptr_1, @object
+	.size	_TIG_iO_h3DT_1___bswap_32_1_opaque_ptr_1, 8
+_TIG_iO_h3DT_1___bswap_32_1_opaque_ptr_1:
+	.zero	8
+	.globl	_TIG_iO_h3DT_1_words_counter_1_opaque_list_2
+	.align 8
+	.type	_TIG_iO_h3DT_1_words_counter_1_opaque_list_2, @object
+	.size	_TIG_iO_h3DT_1_words_counter_1_opaque_list_2, 8
+_TIG_iO_h3DT_1_words_counter_1_opaque_list_2:
+	.zero	8
+	.globl	_TIG_iO_h3DT_1___uint16_identity_1_opaque_list_1
+	.align 8
+	.type	_TIG_iO_h3DT_1___uint16_identity_1_opaque_list_1, @object
+	.size	_TIG_iO_h3DT_1___uint16_identity_1_opaque_list_1, 8
+_TIG_iO_h3DT_1___uint16_identity_1_opaque_list_1:
+	.zero	8
+	.globl	_TIG_iO_h3DT_1___bswap_64_1_opaque_list_1
+	.align 8
+	.type	_TIG_iO_h3DT_1___bswap_64_1_opaque_list_1, @object
+	.size	_TIG_iO_h3DT_1___bswap_64_1_opaque_list_1, 8
+_TIG_iO_h3DT_1___bswap_64_1_opaque_list_1:
+	.zero	8
+	.globl	_TIG_iO_h3DT_1_words_counter_1_opaque_ptr_1
+	.align 8
+	.type	_TIG_iO_h3DT_1_words_counter_1_opaque_ptr_1, @object
+	.size	_TIG_iO_h3DT_1_words_counter_1_opaque_ptr_1, 8
+_TIG_iO_h3DT_1_words_counter_1_opaque_ptr_1:
+	.zero	8
+	.globl	_TIG_iO_h3DT_1___bswap_64_1_opaque_ptr_1
+	.align 8
+	.type	_TIG_iO_h3DT_1___bswap_64_1_opaque_ptr_1, @object
+	.size	_TIG_iO_h3DT_1___bswap_64_1_opaque_ptr_1, 8
+_TIG_iO_h3DT_1___bswap_64_1_opaque_ptr_1:
+	.zero	8
+	.globl	_TIG_iO_h3DT_1___uint64_identity_1_opaque_list_1
+	.align 8
+	.type	_TIG_iO_h3DT_1___uint64_identity_1_opaque_list_1, @object
+	.size	_TIG_iO_h3DT_1___uint64_identity_1_opaque_list_1, 8
+_TIG_iO_h3DT_1___uint64_identity_1_opaque_list_1:
+	.zero	8
+	.globl	_TIG_iO_h3DT_1___uint32_identity_1_opaque_list_2
+	.align 8
+	.type	_TIG_iO_h3DT_1___uint32_identity_1_opaque_list_2, @object
+	.size	_TIG_iO_h3DT_1___uint32_identity_1_opaque_list_2, 8
+_TIG_iO_h3DT_1___uint32_identity_1_opaque_list_2:
+	.zero	8
+	.globl	_TIG_iO_h3DT_1___bswap_16_1_opaque_ptr_2
+	.align 8
+	.type	_TIG_iO_h3DT_1___bswap_16_1_opaque_ptr_2, @object
+	.size	_TIG_iO_h3DT_1___bswap_16_1_opaque_ptr_2, 8
+_TIG_iO_h3DT_1___bswap_16_1_opaque_ptr_2:
+	.zero	8
+	.globl	_TIG_IZ_h3DT_argc
+	.align 4
+	.type	_TIG_IZ_h3DT_argc, @object
+	.size	_TIG_IZ_h3DT_argc, 4
+_TIG_IZ_h3DT_argc:
+	.zero	4
+	.globl	_TIG_iO_h3DT_1_main_1_opaque_list_2
+	.align 8
+	.type	_TIG_iO_h3DT_1_main_1_opaque_list_2, @object
+	.size	_TIG_iO_h3DT_1_main_1_opaque_list_2, 8
+_TIG_iO_h3DT_1_main_1_opaque_list_2:
+	.zero	8
+	.globl	_TIG_iO_h3DT_1_main_1_opaque_list_1
+	.align 8
+	.type	_TIG_iO_h3DT_1_main_1_opaque_list_1, @object
+	.size	_TIG_iO_h3DT_1_main_1_opaque_list_1, 8
+_TIG_iO_h3DT_1_main_1_opaque_list_1:
+	.zero	8
+	.globl	_TIG_iO_h3DT_1___bswap_16_1_opaque_list_2
+	.align 8
+	.type	_TIG_iO_h3DT_1___bswap_16_1_opaque_list_2, @object
+	.size	_TIG_iO_h3DT_1___bswap_16_1_opaque_list_2, 8
+_TIG_iO_h3DT_1___bswap_16_1_opaque_list_2:
+	.zero	8
+	.globl	_TIG_iO_h3DT_1___uint32_identity_1_opaque_ptr_2
+	.align 8
+	.type	_TIG_iO_h3DT_1___uint32_identity_1_opaque_ptr_2, @object
+	.size	_TIG_iO_h3DT_1___uint32_identity_1_opaque_ptr_2, 8
+_TIG_iO_h3DT_1___uint32_identity_1_opaque_ptr_2:
+	.zero	8
+	.globl	_TIG_iO_h3DT_1___bswap_64_1_opaque_list_2
+	.align 8
+	.type	_TIG_iO_h3DT_1___bswap_64_1_opaque_list_2, @object
+	.size	_TIG_iO_h3DT_1___bswap_64_1_opaque_list_2, 8
+_TIG_iO_h3DT_1___bswap_64_1_opaque_list_2:
+	.zero	8
+	.globl	_TIG_iO_h3DT_1___bswap_32_1_opaque_ptr_2
+	.align 8
+	.type	_TIG_iO_h3DT_1___bswap_32_1_opaque_ptr_2, @object
+	.size	_TIG_iO_h3DT_1___bswap_32_1_opaque_ptr_2, 8
+_TIG_iO_h3DT_1___bswap_32_1_opaque_ptr_2:
+	.zero	8
+	.globl	_TIG_iO_h3DT_1___uint16_identity_1_opaque_ptr_2
+	.align 8
+	.type	_TIG_iO_h3DT_1___uint16_identity_1_opaque_ptr_2, @object
+	.size	_TIG_iO_h3DT_1___uint16_identity_1_opaque_ptr_2, 8
+_TIG_iO_h3DT_1___uint16_identity_1_opaque_ptr_2:
+	.zero	8
+	.globl	_TIG_iO_h3DT_1___uint64_identity_1_opaque_ptr_2
+	.align 8
+	.type	_TIG_iO_h3DT_1___uint64_identity_1_opaque_ptr_2, @object
+	.size	_TIG_iO_h3DT_1___uint64_identity_1_opaque_ptr_2, 8
+_TIG_iO_h3DT_1___uint64_identity_1_opaque_ptr_2:
+	.zero	8
+	.globl	_TIG_iO_h3DT_1_words_counter_1_opaque_list_1
+	.align 8
+	.type	_TIG_iO_h3DT_1_words_counter_1_opaque_list_1, @object
+	.size	_TIG_iO_h3DT_1_words_counter_1_opaque_list_1, 8
+_TIG_iO_h3DT_1_words_counter_1_opaque_list_1:
+	.zero	8
+	.globl	_TIG_iO_h3DT_1___uint64_identity_1_opaque_list_2
+	.align 8
+	.type	_TIG_iO_h3DT_1___uint64_identity_1_opaque_list_2, @object
+	.size	_TIG_iO_h3DT_1___uint64_identity_1_opaque_list_2, 8
+_TIG_iO_h3DT_1___uint64_identity_1_opaque_list_2:
+	.zero	8
+	.globl	_TIG_iO_h3DT_1_main_1_opaque_ptr_2
+	.align 8
+	.type	_TIG_iO_h3DT_1_main_1_opaque_ptr_2, @object
+	.size	_TIG_iO_h3DT_1_main_1_opaque_ptr_2, 8
+_TIG_iO_h3DT_1_main_1_opaque_ptr_2:
+	.zero	8
+	.globl	_TIG_iO_h3DT_1___uint64_identity_1_opaque_ptr_1
+	.align 8
+	.type	_TIG_iO_h3DT_1___uint64_identity_1_opaque_ptr_1, @object
+	.size	_TIG_iO_h3DT_1___uint64_identity_1_opaque_ptr_1, 8
+_TIG_iO_h3DT_1___uint64_identity_1_opaque_ptr_1:
+	.zero	8
+	.globl	_TIG_iO_h3DT_1___uint16_identity_1_opaque_list_2
+	.align 8
+	.type	_TIG_iO_h3DT_1___uint16_identity_1_opaque_list_2, @object
+	.size	_TIG_iO_h3DT_1___uint16_identity_1_opaque_list_2, 8
+_TIG_iO_h3DT_1___uint16_identity_1_opaque_list_2:
+	.zero	8
+	.globl	_TIG_iO_h3DT_1___bswap_32_1_opaque_list_1
+	.align 8
+	.type	_TIG_iO_h3DT_1___bswap_32_1_opaque_list_1, @object
+	.size	_TIG_iO_h3DT_1___bswap_32_1_opaque_list_1, 8
+_TIG_iO_h3DT_1___bswap_32_1_opaque_list_1:
+	.zero	8
+	.globl	_TIG_iO_h3DT_1___uint16_identity_1_opaque_ptr_1
+	.align 8
+	.type	_TIG_iO_h3DT_1___uint16_identity_1_opaque_ptr_1, @object
+	.size	_TIG_iO_h3DT_1___uint16_identity_1_opaque_ptr_1, 8
+_TIG_iO_h3DT_1___uint16_identity_1_opaque_ptr_1:
+	.zero	8
+	.globl	_TIG_IZ_h3DT_envp
+	.align 8
+	.type	_TIG_IZ_h3DT_envp, @object
+	.size	_TIG_IZ_h3DT_envp, 8
+_TIG_IZ_h3DT_envp:
+	.zero	8
+	.globl	_TIG_iO_h3DT_1_main_1_opaque_ptr_1
+	.align 8
+	.type	_TIG_iO_h3DT_1_main_1_opaque_ptr_1, @object
+	.size	_TIG_iO_h3DT_1_main_1_opaque_ptr_1, 8
+_TIG_iO_h3DT_1_main_1_opaque_ptr_1:
+	.zero	8
+	.globl	_TIG_iO_h3DT_1___bswap_16_1_opaque_list_1
+	.align 8
+	.type	_TIG_iO_h3DT_1___bswap_16_1_opaque_list_1, @object
+	.size	_TIG_iO_h3DT_1___bswap_16_1_opaque_list_1, 8
+_TIG_iO_h3DT_1___bswap_16_1_opaque_list_1:
+	.zero	8
+	.globl	_TIG_iO_h3DT_1___uint32_identity_1_opaque_ptr_1
+	.align 8
+	.type	_TIG_iO_h3DT_1___uint32_identity_1_opaque_ptr_1, @object
+	.size	_TIG_iO_h3DT_1___uint32_identity_1_opaque_ptr_1, 8
+_TIG_iO_h3DT_1___uint32_identity_1_opaque_ptr_1:
+	.zero	8
+	.globl	_TIG_iO_h3DT_1_words_counter_1_opaque_ptr_2
+	.align 8
+	.type	_TIG_iO_h3DT_1_words_counter_1_opaque_ptr_2, @object
+	.size	_TIG_iO_h3DT_1_words_counter_1_opaque_ptr_2, 8
+_TIG_iO_h3DT_1_words_counter_1_opaque_ptr_2:
+	.zero	8
+	.globl	_TIG_iO_h3DT_1___bswap_16_1_opaque_ptr_1
+	.align 8
+	.type	_TIG_iO_h3DT_1___bswap_16_1_opaque_ptr_1, @object
+	.size	_TIG_iO_h3DT_1___bswap_16_1_opaque_ptr_1, 8
+_TIG_iO_h3DT_1___bswap_16_1_opaque_ptr_1:
+	.zero	8
+	.globl	_TIG_iO_h3DT_1___bswap_64_1_opaque_ptr_2
+	.align 8
+	.type	_TIG_iO_h3DT_1___bswap_64_1_opaque_ptr_2, @object
+	.size	_TIG_iO_h3DT_1___bswap_64_1_opaque_ptr_2, 8
+_TIG_iO_h3DT_1___bswap_64_1_opaque_ptr_2:
+	.zero	8
+	.globl	_TIG_IZ_h3DT_argv
+	.align 8
+	.type	_TIG_IZ_h3DT_argv, @object
+	.size	_TIG_IZ_h3DT_argv, 8
+_TIG_IZ_h3DT_argv:
+	.zero	8
+	.globl	_TIG_iO_h3DT_1___uint32_identity_1_opaque_list_1
+	.align 8
+	.type	_TIG_iO_h3DT_1___uint32_identity_1_opaque_list_1, @object
+	.size	_TIG_iO_h3DT_1___uint32_identity_1_opaque_list_1, 8
+_TIG_iO_h3DT_1___uint32_identity_1_opaque_list_1:
+	.zero	8
+	.section	.rodata
+.LC0:
+	.string	"main"
+.LC1:
+	.string	"kramlex_nsu-prog_8.c"
+.LC2:
+	.string	"argc == 2"
+.LC3:
+	.string	"%llu"
+	.text
+	.globl	main
+	.type	main, @function
+main:
+.LFB4:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$96, %rsp
+	movl	%edi, -68(%rbp)
+	movq	%rsi, -80(%rbp)
+	movq	%rdx, -88(%rbp)
+	movq	$0, _TIG_IZ_h3DT_envp(%rip)
+	nop
+.L2:
+	movq	$0, _TIG_IZ_h3DT_argv(%rip)
+	nop
+.L3:
+	movl	$0, _TIG_IZ_h3DT_argc(%rip)
+	nop
+	nop
+.L4:
+.L5:
+#APP
+# 85 "/usr/include/x86_64-linux-gnu/bits/uintn-identity.h" 1
+	##_ANNOTATION_INITIALREGION_-TIG-IZ-h3DT--0
+# 0 "" 2
+#NO_APP
+	movl	-68(%rbp), %eax
+	movl	%eax, _TIG_IZ_h3DT_argc(%rip)
+	movq	-80(%rbp), %rax
+	movq	%rax, _TIG_IZ_h3DT_argv(%rip)
+	movq	-88(%rbp), %rax
+	movq	%rax, _TIG_IZ_h3DT_envp(%rip)
+#APP
+# 92 "/usr/include/x86_64-linux-gnu/bits/uintn-identity.h" 1
+	##_ANNOTATION_ATOMICREGION_-TIG-iO-h3DT-1-main--13
+# 0 "" 2
+#NO_APP
+	movl	$24, %edi
+	call	malloc@PLT
+	movq	%rax, -48(%rbp)
+	movq	-48(%rbp), %rax
+	movq	-48(%rbp), %rdx
+	movq	%rdx, (%rax)
+	movq	-48(%rbp), %rax
+	movq	-48(%rbp), %rdx
+	movq	%rdx, 8(%rax)
+	movq	-48(%rbp), %rax
+	movq	%rax, _TIG_iO_h3DT_1_main_1_opaque_list_1(%rip)
+	call	rand@PLT
+	movl	%eax, -64(%rbp)
+	movl	$24, %edi
+	call	malloc@PLT
+	movq	%rax, -40(%rbp)
+	movq	-40(%rbp), %rax
+	movl	$0, 16(%rax)
+	movq	_TIG_iO_h3DT_1_main_1_opaque_list_1(%rip), %rax
+	movq	(%rax), %rdx
+	movq	-40(%rbp), %rax
+	movq	%rdx, (%rax)
+	movq	_TIG_iO_h3DT_1_main_1_opaque_list_1(%rip), %rdx
+	movq	-40(%rbp), %rax
+	movq	%rdx, 8(%rax)
+	movq	_TIG_iO_h3DT_1_main_1_opaque_list_1(%rip), %rax
+	movq	(%rax), %rax
+	movq	-40(%rbp), %rdx
+	movq	%rdx, 8(%rax)
+	movq	_TIG_iO_h3DT_1_main_1_opaque_list_1(%rip), %rax
+	movq	-40(%rbp), %rdx
+	movq	%rdx, (%rax)
+	call	rand@PLT
+	movl	%eax, -60(%rbp)
+	movl	$24, %edi
+	call	malloc@PLT
+	movq	%rax, -32(%rbp)
+	movq	-32(%rbp), %rax
+	movl	-60(%rbp), %edx
+	movl	%edx, 16(%rax)
+	movq	_TIG_iO_h3DT_1_main_1_opaque_list_1(%rip), %rax
+	movq	(%rax), %rdx
+	movq	-32(%rbp), %rax
+	movq	%rdx, (%rax)
+	movq	_TIG_iO_h3DT_1_main_1_opaque_list_1(%rip), %rdx
+	movq	-32(%rbp), %rax
+	movq	%rdx, 8(%rax)
+	movq	_TIG_iO_h3DT_1_main_1_opaque_list_1(%rip), %rax
+	movq	(%rax), %rax
+	movq	-32(%rbp), %rdx
+	movq	%rdx, 8(%rax)
+	movq	_TIG_iO_h3DT_1_main_1_opaque_list_1(%rip), %rax
+	movq	-32(%rbp), %rdx
+	movq	%rdx, (%rax)
+	call	rand@PLT
+	movl	%eax, -56(%rbp)
+	movl	$24, %edi
+	call	malloc@PLT
+	movq	%rax, -24(%rbp)
+	movl	-56(%rbp), %eax
+	leal	(%rax,%rax), %edx
+	movq	-24(%rbp), %rax
+	movl	%edx, 16(%rax)
+	movq	_TIG_iO_h3DT_1_main_1_opaque_list_1(%rip), %rax
+	movq	(%rax), %rdx
+	movq	-24(%rbp), %rax
+	movq	%rdx, (%rax)
+	movq	_TIG_iO_h3DT_1_main_1_opaque_list_1(%rip), %rdx
+	movq	-24(%rbp), %rax
+	movq	%rdx, 8(%rax)
+	movq	_TIG_iO_h3DT_1_main_1_opaque_list_1(%rip), %rax
+	movq	(%rax), %rax
+	movq	-24(%rbp), %rdx
+	movq	%rdx, 8(%rax)
+	movq	_TIG_iO_h3DT_1_main_1_opaque_list_1(%rip), %rax
+	movq	-24(%rbp), %rdx
+	movq	%rdx, (%rax)
+	call	rand@PLT
+	movl	%eax, -52(%rbp)
+	movl	$24, %edi
+	call	malloc@PLT
+	movq	%rax, -16(%rbp)
+	movl	-52(%rbp), %edx
+	movl	%edx, %eax
+	addl	%eax, %eax
+	addl	%eax, %edx
+	movq	-16(%rbp), %rax
+	movl	%edx, 16(%rax)
+	movq	_TIG_iO_h3DT_1_main_1_opaque_list_1(%rip), %rax
+	movq	(%rax), %rdx
+	movq	-16(%rbp), %rax
+	movq	%rdx, (%rax)
+	movq	_TIG_iO_h3DT_1_main_1_opaque_list_1(%rip), %rdx
+	movq	-16(%rbp), %rax
+	movq	%rdx, 8(%rax)
+	movq	_TIG_iO_h3DT_1_main_1_opaque_list_1(%rip), %rax
+	movq	(%rax), %rax
+	movq	-16(%rbp), %rdx
+	movq	%rdx, 8(%rax)
+	movq	_TIG_iO_h3DT_1_main_1_opaque_list_1(%rip), %rax
+	movq	-16(%rbp), %rdx
+	movq	%rdx, (%rax)
+	movq	_TIG_iO_h3DT_1_main_1_opaque_list_1(%rip), %rax
+	movq	(%rax), %rax
+	movq	%rax, _TIG_iO_h3DT_1_main_1_opaque_ptr_1(%rip)
+	movq	_TIG_iO_h3DT_1_main_1_opaque_ptr_1(%rip), %rax
+	movq	%rax, _TIG_iO_h3DT_1_main_1_opaque_ptr_2(%rip)
+	movq	_TIG_iO_h3DT_1_main_1_opaque_ptr_2(%rip), %rax
+	movq	(%rax), %rax
+	movq	%rax, _TIG_iO_h3DT_1_main_1_opaque_ptr_2(%rip)
+	nop
+	nop
+	movq	_TIG_iO_h3DT_1_words_counter_1_opaque_ptr_1(%rip), %rdx
+	movq	_TIG_iO_h3DT_1_words_counter_1_opaque_ptr_2(%rip), %rax
+	cmpq	%rax, %rdx
+	jne	.L6
+	cmpl	$2, -68(%rbp)
+	je	.L6
+	leaq	.LC0(%rip), %rax
+	movq	%rax, %rcx
+	movl	$39, %edx
+	leaq	.LC1(%rip), %rax
+	movq	%rax, %rsi
+	leaq	.LC2(%rip), %rax
+	movq	%rax, %rdi
+	call	__assert_fail@PLT
+.L6:
+	movq	-80(%rbp), %rax
+	addq	$8, %rax
+	movq	(%rax), %rax
+	movq	%rax, %rdi
+	call	words_counter
+	movq	%rax, -8(%rbp)
+	movq	-8(%rbp), %rax
+	movq	%rax, %rsi
+	leaq	.LC3(%rip), %rax
+	movq	%rax, %rdi
+	movl	$0, %eax
+	call	printf@PLT
+	movl	$0, %eax
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE4:
+	.size	main, .-main
+	.section	.rodata
+.LC4:
+	.string	"r"
+	.text
+	.globl	words_counter
+	.type	words_counter, @function
+words_counter:
+.LFB6:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$96, %rsp
+	movq	%rdi, -88(%rbp)
+#APP
+# 76 "/usr/include/x86_64-linux-gnu/bits/byteswap.h" 1
+	##_ANNOTATION_INITIALREGION_-TIG-iO-h3DT-1-words-counter--16
+# 0 "" 2
+# 80 "/usr/include/x86_64-linux-gnu/bits/byteswap.h" 1
+	##_ANNOTATION_ATOMICREGION_-TIG-iO-h3DT-1-words-counter--15
+# 0 "" 2
+#NO_APP
+	movl	$24, %edi
+	call	malloc@PLT
+	movq	%rax, -48(%rbp)
+	movq	-48(%rbp), %rax
+	movq	-48(%rbp), %rdx
+	movq	%rdx, 16(%rax)
+	movq	-48(%rbp), %rax
+	movq	-48(%rbp), %rdx
+	movq	%rdx, 8(%rax)
+	movq	-48(%rbp), %rax
+	movq	%rax, _TIG_iO_h3DT_1_words_counter_1_opaque_list_1(%rip)
+	call	rand@PLT
+	movl	%eax, -72(%rbp)
+	movl	$24, %edi
+	call	malloc@PLT
+	movq	%rax, -40(%rbp)
+	movq	-40(%rbp), %rax
+	movl	$0, (%rax)
+	movq	_TIG_iO_h3DT_1_words_counter_1_opaque_list_1(%rip), %rax
+	movq	16(%rax), %rdx
+	movq	-40(%rbp), %rax
+	movq	%rdx, 16(%rax)
+	movq	_TIG_iO_h3DT_1_words_counter_1_opaque_list_1(%rip), %rdx
+	movq	-40(%rbp), %rax
+	movq	%rdx, 8(%rax)
+	movq	_TIG_iO_h3DT_1_words_counter_1_opaque_list_1(%rip), %rax
+	movq	16(%rax), %rax
+	movq	-40(%rbp), %rdx
+	movq	%rdx, 8(%rax)
+	movq	_TIG_iO_h3DT_1_words_counter_1_opaque_list_1(%rip), %rax
+	movq	-40(%rbp), %rdx
+	movq	%rdx, 16(%rax)
+	call	rand@PLT
+	movl	%eax, -68(%rbp)
+	movl	$24, %edi
+	call	malloc@PLT
+	movq	%rax, -32(%rbp)
+	movq	-32(%rbp), %rax
+	movl	-68(%rbp), %edx
+	movl	%edx, (%rax)
+	movq	_TIG_iO_h3DT_1_words_counter_1_opaque_list_1(%rip), %rax
+	movq	16(%rax), %rdx
+	movq	-32(%rbp), %rax
+	movq	%rdx, 16(%rax)
+	movq	_TIG_iO_h3DT_1_words_counter_1_opaque_list_1(%rip), %rdx
+	movq	-32(%rbp), %rax
+	movq	%rdx, 8(%rax)
+	movq	_TIG_iO_h3DT_1_words_counter_1_opaque_list_1(%rip), %rax
+	movq	16(%rax), %rax
+	movq	-32(%rbp), %rdx
+	movq	%rdx, 8(%rax)
+	movq	_TIG_iO_h3DT_1_words_counter_1_opaque_list_1(%rip), %rax
+	movq	-32(%rbp), %rdx
+	movq	%rdx, 16(%rax)
+	movq	_TIG_iO_h3DT_1_words_counter_1_opaque_list_1(%rip), %rax
+	movq	16(%rax), %rax
+	movq	%rax, _TIG_iO_h3DT_1_words_counter_1_opaque_ptr_1(%rip)
+	movq	_TIG_iO_h3DT_1_words_counter_1_opaque_ptr_1(%rip), %rax
+	movq	%rax, _TIG_iO_h3DT_1_words_counter_1_opaque_ptr_2(%rip)
+	nop
+	nop
+	movq	-88(%rbp), %rax
+	leaq	.LC4(%rip), %rdx
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	fopen@PLT
+	movq	%rax, -24(%rbp)
+	movq	-24(%rbp), %rax
+	movq	%rax, -16(%rbp)
+	cmpq	$0, -16(%rbp)
+	jne	.L9
+	movq	_TIG_iO_h3DT_1_words_counter_1_opaque_ptr_1(%rip), %rdx
+	movq	_TIG_iO_h3DT_1_words_counter_1_opaque_ptr_2(%rip), %rax
+	cmpq	%rax, %rdx
+	je	.L10
+#APP
+# 19 "kramlex_nsu-prog_8.c" 1
+	.byte 0x8b
+# 0 "" 2
+#NO_APP
+	jmp	.L9
+.L10:
+	movl	$1, %edi
+	call	exit@PLT
+.L9:
+	movq	$0, -56(%rbp)
+	movb	$1, -74(%rbp)
+.L17:
+	movq	-16(%rbp), %rax
+	movq	%rax, %rdi
+	call	feof@PLT
+	movl	%eax, -64(%rbp)
+	cmpl	$0, -64(%rbp)
+	jne	.L20
+	movq	-16(%rbp), %rax
+	movq	%rax, %rdi
+	call	fgetc@PLT
+	movl	%eax, -60(%rbp)
+	movl	-60(%rbp), %eax
+	movb	%al, -73(%rbp)
+	call	__ctype_b_loc@PLT
+	movq	%rax, -8(%rbp)
+	movq	-8(%rbp), %rax
+	movq	(%rax), %rdx
+	movsbq	-73(%rbp), %rax
+	addq	%rax, %rax
+	addq	%rdx, %rax
+	movzwl	(%rax), %eax
+	movzwl	%ax, %eax
+	andl	$8192, %eax
+	testl	%eax, %eax
+	je	.L13
+	movb	$1, -74(%rbp)
+	jmp	.L17
+.L13:
+	cmpb	$-1, -73(%rbp)
+	jne	.L15
+	movb	$1, -74(%rbp)
+	jmp	.L17
+.L15:
+	cmpb	$0, -74(%rbp)
+	je	.L16
+	addq	$1, -56(%rbp)
+.L16:
+	movb	$0, -74(%rbp)
+	jmp	.L17
+.L20:
+	nop
+	movq	-16(%rbp), %rax
+	movq	%rax, %rdi
+	call	fclose@PLT
+	movq	-56(%rbp), %rax
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE6:
+	.size	words_counter, .-words_counter
+	.ident	"GCC: (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0"
+	.section	.note.GNU-stack,"",@progbits
+	.section	.note.gnu.property,"a"
+	.align 8
+	.long	1f - 0f
+	.long	4f - 1f
+	.long	5
+0:
+	.string	"GNU"
+1:
+	.align 8
+	.long	0xc0000002
+	.long	3f - 2f
+2:
+	.long	0x3
+3:
+	.align 8
+4:
