@@ -41,6 +41,12 @@
 <br></br>
 # 주차별 활동
 
+## 5주차
+- 활동 개요 : 유스케이스 명세서
+- 발표 영상 링크 : [5주차 발표 영상](https://youtu.be/ZXJIGnuEcfQ)
+- 제출물 : 유스케이스 문서, 발표 자료, 발표 영상
+- PR : [5주차 issue](https://github.com/sangjun19/Deobfuscator/issues/52)
+
 ## 4주차
 - 활동 개요 : 문제 정의서
 - 발표 영상 링크 : [4주차 발표 영상](https://youtu.be/H-mpD-Et9gI)
