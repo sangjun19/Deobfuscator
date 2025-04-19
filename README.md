@@ -9,8 +9,8 @@
 - Obfuscation : Opaque predicate, Flattening, Virtualize
 - Tools
     - Obfuscator : Tigress, VMProtect, O-LLVM
-    - Analysis : gcc, clang, IDA
-- Language : C, Python, Assmebly
+    - Analysis : gcc, clang, IDA, LLVM Pass
+- Language : C, Python, Assmebly, LLVM
 
 ## Paper
 - LLM
