@@ -43,7 +43,7 @@
 
 ## 7주차
 - 활동 개요 : 시퀀스 다이어그램
-- 발표 영상 링크 : [7주차 발표 영상](https://youtu.be/UyHtc-7Wz8s)
+- 발표 영상 링크 : [7주차 발표 영상](https://youtu.be/ieKRZBKuw2U)
 - 제출물 : 시퀀스 다이어그램 문서, 발표 자료, 발표 영상
 - PR : [7주차 issue](https://github.com/sangjun19/Deobfuscator/issues/66)
 
