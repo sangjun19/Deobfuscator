@@ -40,12 +40,17 @@
 - - -
 <br></br>
 # 주차별 활동
+## 11주차
+- 활동 개요 : 테스트 계획서
+- 발표 영상 링크 : [11주차 발표 영상](https://youtu.be/FyQronpNaEg)
+- 제출물 : 테스트 계획서 문서, 발표 자료, 발표 영상
+- PR : [11주차 issue](https://github.com/sangjun19/Deobfuscator/issues/66)
 
 ## 7주차
 - 활동 개요 : 시퀀스 다이어그램
 - 발표 영상 링크 : [7주차 발표 영상](https://youtu.be/ieKRZBKuw2U)
 - 제출물 : 시퀀스 다이어그램 문서, 발표 자료, 발표 영상
-- PR : [7주차 issue](https://github.com/sangjun19/Deobfuscator/issues/66)
+- PR : [7주차 issue](https://github.com/sangjun19/Deobfuscator/issues/77)
 
 ## 5주차
 - 활동 개요 : 유스케이스 명세서
