@@ -61,10 +61,6 @@ def has_stdlib_include(content):
     return bool(re.search(pattern, content))
 
 def save_c_files_to_folder(file_list, source_path, destination_path, target_success=50):
-    # 폴더가 없으면 생성
-    if not os.path.exists(destination_path):
-        os.makedirs(destination_path)
-        print(f"저장 경로 '{destination_path}'를 생성했습니다.")
 
     total_processed = 0
     compile_success = 0
@@ -135,21 +131,24 @@ def save_c_files_to_folder(file_list, source_path, destination_path, target_succ
     }
 
 # 경로 설정
-# source_path = 'data/github_api/switch/github_switch_codes_c'
-# destination_path = 'data/compile/switch_c'
-source_path = 'data/github_api/non-switch/github_non_switch_codes_c'
-destination_path = 'data/compile/non-switch_c'
+source_path = 'data/raw_code/switch/github_api/github_switch_codes_c'
+destination_path = 'data/experiment_code/whole/switch_c'
+# source_path = 'data/raw_code/non-switch/github_api/github_non_switch_codes_c'
+# destination_path = 'data/experiment_code/whole/non-switch_c'
 
 # C 파일 가져오기
-c_files = verify_c_files(source_path)
+input_files = verify_c_files(source_path)
 
-if not c_files:
+if not input_files:
     print(f"경로 '{source_path}'에서 C 파일을 찾을 수 없습니다.")
+elif not os.path.exists(destination_path):
+    print(f"대상 경로 '{destination_path}'가 존재하지 않습니다.")
 else:
-    target_success = 50  # 목표로 하는 컴파일 성공 파일 수
+    
+    target_success = 9999999  # 목표로 하는 컴파일 성공 파일 수
     
     # C 파일 컴파일 및 저장
-    result = save_c_files_to_folder(c_files, source_path, destination_path, target_success)
+    result = save_c_files_to_folder(input_files, source_path, destination_path, target_success)
     
     print(f"\n===== 처리 결과 =====")
     print(f"처리된 C 파일: {result['total']}개")
