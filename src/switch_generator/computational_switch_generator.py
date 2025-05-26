@@ -29,12 +29,12 @@ def generate_computational_switch(num_cases=5):
     return switch_code
 
 # 여러 개의 computational switch 파일 생성
-num_files = 10  # 생성할 파일 개수
-switch_cases = 10  # 각 switch 문의 case 개수
+num_files = 100  # 생성할 파일 개수
+switch_cases = 100  # 각 switch 문의 case 개수
 
 for i in range(1, num_files + 1):
     for j in range(1, switch_cases + 1):
-        filename = f"./data/computational_switch/computational_switch_{i}_{j}.c"
+        filename = f"./data/raw_code/switch/computational_switch/computational_switch_{i}_{j}.c"
         with open(filename, "w") as f:
             f.write("#include <stdio.h>\n\n")
             f.write("int main() {\n")

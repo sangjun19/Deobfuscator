@@ -1,4 +1,4 @@
-def generate_3d_switch(num_cases, x, y, z):
+def generate_3d_switch(x, y, z):
     """ 3 nested switch-case generator """
     switch_code = "    switch (value_1) {\n"
     for i in range(1, x + 1):
@@ -20,7 +20,6 @@ def generate_3d_switch(num_cases, x, y, z):
 
 # 여러 개의 3중 중첩 switch문 C 코드 파일 생성
 num_files = 10  # 생성할 파일 개수 (10*10*10)
-num_cases = 3    # 각 switch 문의 case 개수
 num_cnt = 0;
 
 for i in range(1, num_files + 1):
@@ -33,11 +32,11 @@ for i in range(1, num_files + 1):
             c_code += f"    int value_1 = {i};\n"
             c_code += f"    int value_2 = {j};\n"
             c_code += f"    int value_3 = {k};\n"
-            c_code += generate_3d_switch(num_cases, i, j, k)
+            c_code += generate_3d_switch(i, j, k)
             c_code += "    return 0;\n}\n"
 
             # 파일에 저장
-            filename = f"./data/3d_switch/3d_switch_{num_cnt}.c"
+            filename = f"./data/raw_code/switch/3d_switch/3d_switch_{num_cnt}.c"
             with open(filename, "w") as f:
                 f.write(c_code)
 
@@ -45,8 +44,4 @@ for i in range(1, num_files + 1):
     
 
 # 생성된 파일 목록 출력
-<<<<<<< HEAD
 [f"3d_switch_{i}.c" for i in range(1, num_files + 1)]
-=======
-[f"3d_switch_{i}.c" for i in range(1, num_files + 1)]
->>>>>>> 5175742c82fb47275e31077cbfc274fefa466250

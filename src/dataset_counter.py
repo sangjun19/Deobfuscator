@@ -24,6 +24,7 @@ paths = [
     './data/github_api/github_switch_codes_Objective-C++',
     './data/github_api/github_switch_codes_opencl',
     './data/github_api/github_switch_codes_rust',
+    './data/rqw_code/temp/AtCoder/'
 ]
 
 # 각 경로의 파일 개수 세기
