@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BiSwert</title>
+  <link rel="stylesheet" href="color_palette.css" />
+  <link rel="stylesheet" href="main.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- 헤더 -->
+    <header class="header">
+        <h1>BiSwert</h1>
+    </header>
+
+    <!-- 출력창 -->
+    <section class="chat-container" id="chat-container">
+        <!-- 동적 메시지 출력 영역 -->
+    </section>
+
+    <!-- 입력창 -->
+    <div class="input-container">
+        <div class="input-outline">
+            <div class="input-section">
+                <!-- 파일 업로드 아이콘 (label + hidden input) -->
+                <label for="file-upload" class="icon-button" id="file-icon" title="파일 업로드">
+                    <span class="material-icons">attach_file</span>
+                </label>
+                <input type="file" id="file-upload" multiple style="display:none" />
+                <!-- 입력창 -->
+                <textarea id="chat-input" placeholder="메시지를 입력하세요..." ></textarea>
+                <!-- 보내기 아이콘 -->
+                <button type="submit" class="icon-button" id="send-button" title="전송">
+                    <span class="material-icons">send</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 파일 업로드 창 -->
+    <div id="file-floating-panel" class="file-floating-panel">
+        <h4>첨부파일</h4>
+        <hr>
+        <ul id="file-list">
+        </ul>
+    </div>
+    <script src="chat_process.js"></script>
+</body>
+</html>
