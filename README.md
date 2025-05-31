@@ -40,6 +40,12 @@
 - - -
 <br></br>
 # 주차별 활동
+## 12주차
+- 활동 개요 : 최종 발표
+- 발표 영상 링크 : [12주차 발표 영상](https://youtu.be/VVOBg1LKbHc)
+- 제출물 : 테스트 결과 문서, 최종발표 자료, 최종발표 영상
+- PR : [12주차 issue](https://github.com/sangjun19/Deobfuscator/issues/90)
+
 ## 11주차
 - 활동 개요 : 테스트 계획서
 - 발표 영상 링크 : [11주차 발표 영상](https://youtu.be/FyQronpNaEg)
